@@ -1,0 +1,18 @@
+/* Init Wisp
+if new wisp (if ravenmind is empty)
+    link to CC
+    init ravenmind - json is prob best
+        backup pattern - in case of critical error/watchdog
+            value - listen to incomming iotas and run them
+            necessary? wisp will always run same to patterns
+            usefull if we add watchdog timer - it will return to listen to iotas if it is not updated
+        executing pattern
+        reset flag - manually should be only set to true
+        passed safely flag - not sure if
+        // watchdog timer
+*/
+/* Reset patterns
+if watchdog timer passed
+    reset executing pattern using backup pattern
+    set reset flag to false
+*/
