@@ -5,7 +5,7 @@ Augur's Purification
     Hermes' Gambit
 }
 {
-    Bookkeeper's Gambit:v
+    @pattern(south_east,a)
     @pattern(north_west,edade)
     Huginn's Gambit
     Consideration: @vec(27, -58, 26)
