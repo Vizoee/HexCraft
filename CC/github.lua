@@ -1,13 +1,16 @@
-local function api(url)
+local github = {}
+
+function github.api(url)
     local apiurl = url
         :gsub("https://github.com/", "https://api.github.com/repos/")
         :gsub("https://raw.githubusercontent.com/", "https://api.github.com/repos/")
         :gsub("blob/main/", "contents/")
         :gsub("refs/heads/main/", "contents/")
     local response = http.get(apiurl)
+    local responsetext = response.readAll()
     local json = require("json")
-    local content = json.get(response, "content"):gsub("\\n", "\n")
-    local name = json.get(response, "name"):gsub(" ", "_")
+    local content = json.get(responsetext, "content"):gsub("\\n", "\n")
+    local name = json.get(responsetext, "name"):gsub(" ", "_")
     local base64 = require("base64")
     local data = base64.decode(content)
     local file = fs.open(name, "w")
@@ -15,11 +18,9 @@ local function api(url)
     file.close()
 end
 
-if ... == nil then
-    api(arg[1])
+if debug.getinfo(3) then
+    return github
 else
-    return {
-        api = api
-    }
+    github.api(arg[1])
 end
 
