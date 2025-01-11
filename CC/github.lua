@@ -23,7 +23,7 @@ function github.api(url, folder)
     folder = folder or "./"
     local response = github.api_response(url)
     local file = fs.open(folder..response.name, "w")
-    file.write(response.data)
+    file.write(response.content)
     file.close()
 end
 
