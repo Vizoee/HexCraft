@@ -21,6 +21,10 @@ end
 if debug.getinfo(3) then
     return github
 else
-    github.api(arg[1])
+    if #arg > 1 then
+        github.api(arg[1])
+    else
+        print("Usage: github <repository-file>")
+    end
 end
 
