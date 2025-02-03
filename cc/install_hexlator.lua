@@ -26,6 +26,7 @@ else
 end
 
 shell.execute("delete", install_path)
+shell.execute("delete", install_path_symbol)
 
 -- shell.execute("wget", raw_url.."hexlator.lua", install_path.."hexlator.lua")
 -- shell.execute("wget", raw_url.."hexget.lua", install_path.."hexget.lua")
