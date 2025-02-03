@@ -29,7 +29,7 @@ shell.execute("delete", install_path)
 
 -- shell.execute("wget", raw_url.."hexlator.lua", install_path.."hexlator.lua")
 -- shell.execute("wget", raw_url.."hexget.lua", install_path.."hexget.lua")
-shell.execute("wget", raw_url.."symbol-registry.json", install_path.."symbol-registry.json")
+shell.execute("wget", raw_url.."symbol-registry.json", install_path_symbol.."symbol-registry.json")
 -- shell.execute("wget", raw_url.."hexxyedit.lua", install_path.."hexxyedit.lua")
 
 
