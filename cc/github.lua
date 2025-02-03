@@ -1,6 +1,13 @@
 local github = {}
 
 function github.api_response(url)
+    -- Check if the URL is valid
+    local ok, err = http.checkURL(url)
+    if not ok then
+        printError(err or "Invalid URL.")
+        return
+    end
+
     local apiurl = url
         :gsub("https://github.com/", "https://api.github.com/repos/")
         :gsub("https://raw.githubusercontent.com/", "https://api.github.com/repos/")
