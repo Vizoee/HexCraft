@@ -24,7 +24,9 @@ Equality Distillation
     Huginn's Gambit
 }
 {
-
+    Muninn's Reflection
+    Reveal
+    Bookkeeper's Gambit(v)
 }
 Augur's Exaltation
 Hermes' Gambit
@@ -60,11 +62,6 @@ Huginn's Gambit
     Augur's Exaltation
     Hermes' Gambit
 
-    Flock's Reflection
-    Flock's Gambit
-    Reveal
-    Flock's Disintegration
-
     // if new wisp
     Gemini Decomposition
     Nullary Reflection
@@ -86,11 +83,6 @@ Huginn's Gambit
         Jester's Gambit
         Numerical Reflection(2)
         Flock's Gambit
-
-        Flock's Reflection
-        Flock's Gambit
-        Reveal
-        Flock's Disintegration
 
         Huginn's Gambit
     }
@@ -117,22 +109,10 @@ Huginn's Gambit
         Numerical Reflection(2)
         Flock's Gambit
 
-        Flock's Reflection
-        Flock's Gambit
-        Reveal
-        Flock's Disintegration
-
         Huginn's Gambit
     }
     Augur's Exaltation
     Hermes' Gambit
-    
-
-    Flock's Reflection
-    Flock's Gambit
-    Reveal
-    Flock's Disintegration
-
 }
 
 // get wisps
