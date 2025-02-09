@@ -93,13 +93,20 @@ Huginn's Gambit
         Equality Distillation
         {
             Bookkeeper's Gambit(v)
-            Reservoir Reflection
-            Reveal
-            Bookkeeper's Gambit(v)
             Consume Wisp
-            Reservoir Reflection
-            Reveal
-            Bookkeeper's Gambit(v)
+
+            Popularity Reflection
+            Augur's Purification
+            {
+                Numerical Reflection(0)
+                Reservoir Reflection
+                Reveal
+                Send Iota
+            }
+            {
+            }
+            Augur's Exaltation
+            Hermes' Gambit
         }
         {
             // get dict
