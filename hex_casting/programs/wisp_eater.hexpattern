@@ -37,6 +37,7 @@ Huginn's Gambit
 {
     Gemini Decomposition
     Rotation Gambit II
+
     // get value from dict
     Jester's Gambit
     Flock's Disintegration
@@ -55,7 +56,7 @@ Huginn's Gambit
     Augur's Exaltation
     Hermes' Gambit
 
-
+    Reveal
     // if new wisp
     Gemini Decomposition
     Nullary Reflection
@@ -88,6 +89,7 @@ Huginn's Gambit
         Reveal
         Bookkeeper's Gambit(v)
 
+        // get dict
         Muninn's Reflection
         Rotation Gambit II
         
@@ -117,7 +119,3 @@ Zone Distillation: Wisp
 Thoth's Gambit
 
 
-Flock's Reflection
-Flock's Gambit
-Reveal
-Flock's Disintegration
