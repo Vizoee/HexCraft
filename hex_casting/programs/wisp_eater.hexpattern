@@ -112,6 +112,7 @@ Huginn's Gambit
     Hermes' Gambit
     Rev_eal
 }
+Bookkeeper's Gambit(v)
 
 // get wisps
 @pattern(north_east, eeeee) // garbage
