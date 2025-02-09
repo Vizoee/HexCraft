@@ -3900,8 +3900,8 @@
             "height": 119,
             "width": 331
         },
-        "direction": "NORTH_WEST",
-        "pattern": "wawqwawwwewwwewwwawqwawwwewwwewdeaweewaqaweewaawwww",
+        "direction": "SOUTH_EAST",
+        "pattern": "wawqwawwwewwwewewewwwewdwqeeeeewaqaewqddaaeewawqwaw",
         "args": "entity \u2192",
         "url": "https://talia-12.github.io/Hexal/#patterns/great_spells/great_wisps@hexal:wisp/consume",
         "description": "Remove a wisp from the stack, and disassemble the wisp. The patterns contained are lost, but the media that it contained can be repurposed if this spell is cast by another wisp."
