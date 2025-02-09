@@ -40,6 +40,11 @@ Flock's Gambit
 Huginn's Gambit
 
 {
+    Flock's Reflection
+    Flock's Gambit
+    Reveal
+    Flock's Disintegration
+
     // get value from dict
     Gemini Decomposition
     Rotation Gambit II
@@ -114,7 +119,7 @@ Huginn's Gambit
 }
 
 // get wisps
-@pattern(north_east, eeeee)
+@pattern(north_east, eeeee) // garbage
 Numerical Reflection(1)
 Zone Distillation: Wisp
 
