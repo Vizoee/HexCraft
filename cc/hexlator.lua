@@ -203,7 +203,7 @@ local identRegistry = {
         }
         local str = getBalancedParens(s, token["start"])
         local angles = ""
-        if str == "v" then
+        if str == "v" or str:sub(0, 1) == "v" then
             angles = "a"
         else
             for i=1,#str-1 do
