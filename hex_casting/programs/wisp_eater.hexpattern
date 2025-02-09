@@ -112,7 +112,6 @@ Huginn's Gambit
     Hermes' Gambit
     Rev_eal
 }
-Bookkeeper's Gambit(v)
 
 // get wisps
 @pattern(north_east, eeeee) // garbage
@@ -120,6 +119,7 @@ Numerical Reflection(1)
 Zone Distillation: Wisp
 
 Thoth's Gambit
+Bookkeeper's Gambit(v)
 Bookkeeper's Gambit(v)
 Muninn's Reflection
 
