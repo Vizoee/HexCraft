@@ -7241,5 +7241,15 @@
         "pattern": "qdqdqdqdqdq",
         "args": "any \u2192 {any}",
         "description": "Pushes a Bubbled Iota."
+    },
+
+    "Reflecting Gambit": {
+        "name": "reverse_stack",
+        "modid": "hexdebug",
+        "modName": "HexDebug",
+        "direction": "NORTH_EAST",
+        "pattern": "ddwqaq",
+        "args": "any any any \u2192 any any any",
+        "description": "Reflects the order of the top three iota, turning A, B, C into C, B, A."
     }
 }
