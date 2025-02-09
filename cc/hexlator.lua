@@ -1,7 +1,7 @@
 local version = "0.9.3"
 
 --controls all print outputs
-local gVerb = true
+local gVerb = false
 
 local function vPrint(s)
     if gVerb == true then
