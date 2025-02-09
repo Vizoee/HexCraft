@@ -42,7 +42,6 @@ Flock's Gambit
 Huginn's Gambit
 
 {
-    Reveal
     // get value from dict
     Gemini Decomposition
 
@@ -64,13 +63,17 @@ Huginn's Gambit
     Augur's Exaltation
     Hermes' Gambit
 
+    Flock's Reflection
+    Flock's Gambit
+    Reveal
+    Flock's Disintegration
+
     // if new wisp
     Gemini Decomposition
     Nullary Reflection
     Equality Distillation
     {
         Bookkeeper's Gambit(v)
-        Reveal
         Muninn's Reflection
         Jester's Gambit
         Timekeeper's Reflection
