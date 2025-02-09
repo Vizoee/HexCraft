@@ -1,6 +1,6 @@
 /* Init Wisp
 if new wisp (if ravenmind is empty)
-    links to CC
+    link to CC
     init ravenmind - json is prob best
         backup pattern - in case of critical error/watchdog
             value - listen to incomming iotas and run them
@@ -16,22 +16,3 @@ if watchdog timer passed
     reset executing pattern using backup pattern
     set reset flag to false
 */
-
-Muninn's Reflection
-Augur's Purification
-{
-    Recitation Reflection
-    Hermes' Gambit
-}
-{
-    Bookkeeper's Gambit(v)
-    Vacant Reflection
-    Huginn's Gambit
-    
-    @pattern(north_east, eeeee)
-    Link
-}
-Augur's Exaltation
-Hermes' Gambit
-Listen
-
