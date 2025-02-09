@@ -24,13 +24,11 @@ Equality Distillation
     Huginn's Gambit
 }
 {
-    Muninn's Reflection
-    Reveal
-    Bookkeeper's Gambit(v)
 }
 Augur's Exaltation
 Hermes' Gambit
 
+Reveal
 
 Muninn's Reflection
 
@@ -42,6 +40,7 @@ Flock's Gambit
 Huginn's Gambit
 
 {
+
     // get value from dict
     Gemini Decomposition
 
@@ -63,10 +62,6 @@ Huginn's Gambit
     Augur's Exaltation
     Hermes' Gambit
 
-    Flock's Reflection
-    Flock's Gambit
-    Reveal
-    Flock's Disintegration
 
     // if new wisp
     Gemini Decomposition
