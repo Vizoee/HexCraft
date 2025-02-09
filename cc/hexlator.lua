@@ -1,7 +1,7 @@
 local version = "0.9.3"
 
 --controls all print outputs
-local gVerb = false
+local gVerb = true
 
 local function vPrint(s)
     if gVerb == true then
@@ -203,8 +203,7 @@ local identRegistry = {
         }
         local str = getBalancedParens(s, token["start"])
         local angles = ""
-        print(str:sub(1, 2))
-        if str == "v" then
+        if str == "v" or str:sub(1, 1) == "v" then
             angles = "a"
         else
             for i=1,#str-1 do
