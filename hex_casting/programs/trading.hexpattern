@@ -1,0 +1,21 @@
+/*
+requires list of availiable trades with priorities
+
+require program
+    takes list of villager trades and list of availiable tradas
+    returns best trade to do (in form of index)
+
+    trades with villager
+
+
+--preference list is sorted by priority
+inner join v list and preverence list
+for each of trades
+*/
+
+
+TODO: get trades
+
+stack: pref_trades, v_trades
+
+Conjunction Distillation
