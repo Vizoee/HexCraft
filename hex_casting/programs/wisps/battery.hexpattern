@@ -1,0 +1,14 @@
+{
+    @pattern(north_east, eeeee)
+    Entity Purification
+    Gemini Decomposition
+    Augur's Purification
+    {
+        Consume Wisp
+    }
+    {
+        Bookkeeper's Gambit(v)
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+}
