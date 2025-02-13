@@ -7,10 +7,14 @@ Offering Purification
 Conjunction Distillation
 
 stack: mote, villager, trades
-Bubbling Gambit
-stack: villager, mote, trades
 {
-    stack: villager, mote, trade
+    Prospector's Gambit
+    stack: mote, villager, trades, villager
+    Offering Purification
+    Jester's Gambit
+    Locator's Distillation
+    stack: mote, villager, trade_index
+    Bubbling Gambit
     Trade
     Augur's Purification
     {
