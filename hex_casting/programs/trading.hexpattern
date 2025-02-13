@@ -1,22 +1,28 @@
-/*
-requires list of availiable trades with priorities
 
-require program
-    takes list of villager trades and list of availiable tradas
-    returns best trade to do (in form of index)
+stack: mote, pref_trades, villager
 
-    trades with villager
-
-
---preference list is sorted by priority
-inner join v list and preverence list
-for each of trades
-*/
-
-
-TODO: get trades
-
-stack: pref_trades, v_trades
+Undertaker's Gambit
+Offering Purification
 
 Conjunction Distillation
+
+stack: mote, villager, trades
+Bubbling Gambit
+stack: villager, mote, trades
+{
+    stack: villager, mote, trade
+    Trade
+    Augur's Purification
+    {
+
+    }
+    {
+        Charon's Gambit
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+    Bookkeeper's Gambit(v)
+}
+Thoth's Gambit
+Bookkeeper's Gambit(v)
 
