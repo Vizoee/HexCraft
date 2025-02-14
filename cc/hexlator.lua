@@ -220,6 +220,23 @@ local identRegistry = {
         }
         return returnTable
     end,
+    ["Sekhmet's Gambit"] = function(s, token)
+        local str = getBalancedParens(s, token["start"])
+        local num = tonumber(str)
+        local angles = "qaqdd"
+        for i=1,num do
+            local dir = "q"
+            if i % 2 == 0 then
+                dir = "e"
+            end
+            angles = angles .. dir
+        end
+        local returnTable =  {
+            ["startDir"] = "WEST",
+            ["angles"] = angles,
+        }
+        return returnTable
+    end,
 }
 
 --Index of tokens that process the overall program string, and thus have to occur before other tokenization
