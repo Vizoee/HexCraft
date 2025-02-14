@@ -1,18 +1,26 @@
 Gemini Decomposition
-Stocktake Purification
-Prospector's Gambit
-Single's Purification
-Exclusion Distillation
-Gemini Decomposition
-Length Purification
 Augur's Purification
 {
-    Numerical Reflection(0)
-    Selection Distillation
-    Additive Distillation
+    Gemini Decomposition
+    Stocktake Purification
+    Prospector's Gambit
+    Single's Purification
+    Exclusion Distillation
+    Gemini Decomposition
+    Length Purification
+    Augur's Purification
+    {
+        Numerical Reflection(0)
+        Selection Distillation
+        Additive Distillation
+    }
+    {
+
+    }
 }
 {
 
 }
 Augur's Exaltation
 Hermes' Gambit
+
