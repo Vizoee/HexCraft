@@ -1,20 +1,22 @@
 
-stack: mote, pref_trades, villager
+stack: pref_trades, villager
 
 Undertaker's Gambit
+stack: villager, pref_trades, villager
 Offering Purification
+stack: villager, pref_trades, villager_trades
 
 Conjunction Distillation
 
-stack: mote, villager, trades
+stack: villager, trades
 {
-    Prospector's Gambit
-    stack: mote, villager, trades, villager
-    Offering Purification
-    Jester's Gambit
-    Locator's Distillation
-    stack: mote, villager, trade_index
-    Bubbling Gambit
+    Numerical Reflection(0)
+    Selection Distillation
+    Numerical Reflection(0)
+    Selection Distillation
+    Numerical Reflection(0)
+    Selection Distillation
+    Stocktake Purification
     Trade
     Augur's Purification
     {

@@ -236,7 +236,7 @@ local identRegistry = {
             ["angles"] = angles,
         }
         return returnTable
-    end,
+    end
 }
 
 --Index of tokens that process the overall program string, and thus have to occur before other tokenization
