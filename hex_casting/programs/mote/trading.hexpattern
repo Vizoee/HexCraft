@@ -20,9 +20,6 @@ stack: villager, trades
     Trade
     Augur's Purification
     {
-
-    }
-    {
         Gemini Decomposition
         Augur's Purification
         {
@@ -51,6 +48,8 @@ stack: villager, trades
         Augur's Exaltation
         Hermes' Gambit
         Charon's Gambit
+    }
+    {
     }
     Augur's Exaltation
     Hermes' Gambit
