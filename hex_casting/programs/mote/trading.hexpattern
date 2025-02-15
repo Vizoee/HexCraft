@@ -10,55 +10,63 @@ Conjunction Distillation
 
 stack: villager, trades
 {
-    Numerical Reflection(0)
-    Selection Distillation
-    Numerical Reflection(0)
-    Selection Distillation
-    Numerical Reflection(0)
-    Selection Distillation
-    Stocktake Purification
-    Gemini Decomposition
-    // if mote contains item
-    Augur's Purification
+    stack: villager, trades, jump
+    Rotation Gambit II
+    stack: jump, villager, trades
     {
-        Trade
+        Numerical Reflection(0)
+        Selection Distillation
+        Numerical Reflection(0)
+        Selection Distillation
+        Numerical Reflection(0)
+        Selection Distillation
+        Stocktake Purification
         Gemini Decomposition
-        // if tradeing was succesful
+        // if mote contains item
         Augur's Purification
         {
+            Trade
             Gemini Decomposition
+            // if tradeing was succesful
             Augur's Purification
             {
                 Gemini Decomposition
-                Stocktake Purification
-                Prospector's Gambit
-                Single's Purification
-                Exclusion Distillation
-                Gemini Decomposition
-                Length Purification
                 Augur's Purification
                 {
-                    Numerical Reflection(0)
-                    Selection Distillation
-                    Additive Distillation
+                    Gemini Decomposition
+                    Stocktake Purification
+                    Prospector's Gambit
+                    Single's Purification
+                    Exclusion Distillation
+                    Gemini Decomposition
+                    Length Purification
+                    Augur's Purification
+                    {
+                        Numerical Reflection(0)
+                        Selection Distillation
+                        Additive Distillation
+                    }
+                    {}
+                    Augur's Exaltation
+                    Hermes' Gambit
                 }
                 {}
                 Augur's Exaltation
+                Hermes' Gambit
+                Bookkeeper's Gambit(v)
+                Reveal
                 Hermes' Gambit
             }
             {}
             Augur's Exaltation
             Hermes' Gambit
-            Charon's Gambit
         }
         {}
         Augur's Exaltation
         Hermes' Gambit
     }
-    {}
-    Augur's Exaltation
-    Hermes' Gambit
+    Jester's Gambit
+    Thoth's Gambit
 }
-Jester's Gambit
-Thoth's Gambit
+Iris' Gambit
 
