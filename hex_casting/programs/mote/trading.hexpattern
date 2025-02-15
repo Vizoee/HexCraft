@@ -17,40 +17,44 @@ stack: villager, trades
     Numerical Reflection(0)
     Selection Distillation
     Stocktake Purification
-    Trade
+    Gemini Decomposition
+    // if mote contains item
     Augur's Purification
     {
-        Gemini Decomposition
+        Trade
+        // if tradeing was succesful
         Augur's Purification
         {
             Gemini Decomposition
-            Stocktake Purification
-            Prospector's Gambit
-            Single's Purification
-            Exclusion Distillation
-            Gemini Decomposition
-            Length Purification
             Augur's Purification
             {
-                Numerical Reflection(0)
-                Selection Distillation
-                Additive Distillation
+                Gemini Decomposition
+                Stocktake Purification
+                Prospector's Gambit
+                Single's Purification
+                Exclusion Distillation
+                Gemini Decomposition
+                Length Purification
+                Augur's Purification
+                {
+                    Numerical Reflection(0)
+                    Selection Distillation
+                    Additive Distillation
+                }
+                {}
+                Augur's Exaltation
+                Hermes' Gambit
             }
-            {
-
-            }
+            {}
             Augur's Exaltation
             Hermes' Gambit
+            Charon's Gambit
         }
-        {
-
-        }
+        {}
         Augur's Exaltation
         Hermes' Gambit
-        Charon's Gambit
     }
-    {
-    }
+    {}
     Augur's Exaltation
     Hermes' Gambit
 }
