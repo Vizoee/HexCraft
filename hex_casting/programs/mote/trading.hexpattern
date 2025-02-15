@@ -1,7 +1,12 @@
 
-stack: pref_trades, villager
+stack: villager
 
-Undertaker's Gambit
+@num(0)
+Observation Purification
+
+stack: villager, pref_trades
+
+Prospector's Gambit
 stack: villager, pref_trades, villager
 Offering Purification
 stack: villager, pref_trades, villager_trades
@@ -54,7 +59,6 @@ stack: villager, trades
                 Augur's Exaltation
                 Hermes' Gambit
                 Bookkeeper's Gambit(v)
-                Reveal
                 Hermes' Gambit
             }
             {}
