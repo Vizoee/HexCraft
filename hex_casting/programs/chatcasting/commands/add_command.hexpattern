@@ -6,11 +6,16 @@ Augur's Purification
 {
     stack: message_to_list_except_2_words, word
     Bookkeeper's Gambit(v-)
+    stack: word,
     @num(0)
     Gemini Decomposition
+    stack: word, prop, prop
     Observation Purification
+    stack: word, prop, dict
     Rotation Gambit
+    stack: prop, dict, word
     Scribe's Reflection
+    stack: prop, dict, word, patterns
     
     //add to dict
     Reflecting Gambit
@@ -48,13 +53,20 @@ Augur's Purification
     Augur's Exaltation
     Hermes' Gambit
 
+    stack: prop, dict
     Schrödinger's Gambit
+    Consideration
+    @str(Succesfully added command)
+    Reveal
+    Bookkeeper's Gambit(v)
 }
 {
     stack: message_to_list_except_2_words, word
     Bookkeeper's Gambit(vv)
     Consideration
     @str(Usage: add_command <name>)
+    Reveal
+    Bookkeeper's Gambit(v)
 
 }
 Augur's Exaltation
