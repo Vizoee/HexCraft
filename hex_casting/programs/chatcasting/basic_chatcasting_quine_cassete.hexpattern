@@ -49,11 +49,10 @@
         Gemini Decomposition
         Augur's Purification
         {
-            Consideration: Consideration
-            @str(running command)
+            Numerical Reflection(1)
             Reveal
             Bookkeeper's Gambit(v)
-            
+
             stack: message_to_list_except_first_word, command
             stack: message_to_list_except_first_word,
             Athena's Gambit
