@@ -1,16 +1,47 @@
-/*
-commands:
-tp
-lava
-lightning
-light
-water
-cad
-moted
 
-read message
-duplicate
-compare it to last message
-if different
-    
-*/
+stack: last_message,
+Whisper Reflection
+Equality Distillation
+{}
+{
+    @num(0)
+    Observation Purification
+    Whisper Reflection
+    Spacing Reflection
+    Separation Distillation
+    Undertaker's Gambit
+    Numerical Reflection(0)
+    Selection Distillation
+
+    stack: message_to_list, dict, message_first_word
+    // dict read command
+    Jester's Gambit
+    Flock's Disintegration
+    Reflecting Gambit
+    Locator's Distillation
+    Gemini Decomposition
+    Numerical Reflection(-1)
+    Equality Distillation
+    {
+        Bookkeeper's Gambit(vv)
+        Nullary Reflection
+    }
+    {
+        Selection Distillation
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+
+    stack: message_to_list, command
+    Athena's Gambit
+    {
+        Athena's Revelation
+    }
+    {}
+    Augur's Exaltation
+    Hermes' Gambit
+}
+Augur's Exaltation
+Hermes' Gambit
+Sekhmet's Gambit(0)
+Whisper Reflection

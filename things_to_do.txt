@@ -1,4 +1,5 @@
-villager trading/leveling spell
+~~villager trading/leveling spell~~
+    fix villager trading
 chatcasting
 wisp cad
 fix amethyst mote

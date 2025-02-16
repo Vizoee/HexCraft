@@ -1,0 +1,30 @@
+/*
+commands:
+tp
+lava
+lightning
+light
+water
+cad
+val
+iota
+moted
+pickup
+smelt
+volitile
+bonemeal
+-accelerate-
+flaymind
+breath
+
+read message
+compare it to last message
+if different
+{
+    read message
+    split by space
+    duplicate
+    get first element
+
+}
+*/
