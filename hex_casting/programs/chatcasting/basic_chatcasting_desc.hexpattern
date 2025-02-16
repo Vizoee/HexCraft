@@ -5,8 +5,8 @@ lava
 lightning
 light
 water
-cad
-val
+cad - can be run from cad
+val - returns value of 
 iota
 moted
 pickup
@@ -16,6 +16,13 @@ bonemeal
 -accelerate-
 flaymind
 breath
+area
+    create
+    select
+    copy
+    move
+    color
+    casting - shows where you need to stand so you can move area
 
 read message
 compare it to last message

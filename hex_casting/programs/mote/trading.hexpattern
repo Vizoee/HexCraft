@@ -1,5 +1,5 @@
 
-stack: villager
+stack: villager,
 
 @num(0)
 Observation Purification

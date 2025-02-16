@@ -3,3 +3,4 @@
 chatcasting
 wisp cad
 fix amethyst mote
+area selection with meshes
