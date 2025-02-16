@@ -35,9 +35,9 @@ Equality Distillation
     stack: value, index, dict
     Flock's Disintegration
     stack: value, index, dict_key, dict_val
-    Numerical Reflection(15)
+    Numerical Reflection(17)
     Swindler's Gambit
-    stack: dict_key, index, dict_val, value
+    stack: dict_key, dict_val, index, value
     Surgeon's Exaltation
     Numerical Reflection(2)
     Flock's Gambit
