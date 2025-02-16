@@ -1,5 +1,6 @@
 /*
 commands:
+add_command <name> - adds command to chat casting and 
 tp
 lava
 lightning

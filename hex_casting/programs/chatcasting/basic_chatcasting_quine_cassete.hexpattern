@@ -49,7 +49,8 @@
         Gemini Decomposition
         Augur's Purification
         {
-            stack: message_to_list, command
+            stack: message_to_list_except_first_word, command
+            stack: message_to_list_except_first_word,
             Athena's Gambit
             {
                 Athena's Revelation
