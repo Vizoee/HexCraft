@@ -1,5 +1,5 @@
 @num(0) // mote pos
-Bind Storage - Temporary
+@num(1) // bind
 {
     Mediafy Item
     Gemini Decomposition
@@ -30,7 +30,7 @@ Bind Storage - Temporary
     Augur's Exaltation
     Hermes' Gambit
 }
-@num(1) // items pos
+@num(2) // items pos
 Numerical Reflection(1)
 Zone Distillation: Item
 Thoth's Gambit

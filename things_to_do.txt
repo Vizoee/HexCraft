@@ -1,3 +1,4 @@
 villager trading/leveling spell
 chatcasting
 wisp cad
+fix amethyst mote

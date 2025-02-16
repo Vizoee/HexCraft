@@ -1,0 +1,38 @@
+{
+    Gemini Decomposition
+    @num(1)
+    Equality Distillation
+    {
+        @num(10)
+        Mediafy Item
+    }
+    {
+        @num(2)
+        Equality Distillation
+        {
+            @num(20)
+            Mediafy Item
+        }
+        {
+            @num(3)
+            Equality Distillation
+            {
+                @num(30)
+                Mediafy Item
+            }
+            {
+
+            }
+            Augur's Exaltation
+            Hermes' Gambit
+        }
+        Augur's Exaltation
+        Hermes' Gambit
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+}
+@num(0) // items pos
+Numerical Reflection(1)
+Zone Distillation: Item
+Thoth's Gambit
