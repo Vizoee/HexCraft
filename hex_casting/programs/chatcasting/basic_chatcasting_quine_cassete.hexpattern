@@ -5,10 +5,15 @@
     Prospector's Gambit
     Surgeon's Exaltation
 
-    Numerical Reflection(9)
+    Numerical Reflection(13)
     Whisper Reflection
     Bubbles' Purification
     Surgeon's Exaltation
+
+    Numerical Reflection(2)
+    Consideration: Consideration
+    @str(Chat Casting)
+    Enqueue
 
     Whisper Reflection
     
@@ -49,24 +54,6 @@
         Gemini Decomposition
         Augur's Purification
         {
-            Numerical Reflection(1)
-            Reveal
-            Bookkeeper's Gambit(v)
-
-            stack: message_to_list_except_first_word, command
-            stack: message_to_list_except_first_word,
-            Athena's Gambit
-            {
-                Athena's Revelation
-            }
-            {}
-            Numerical Reflection(3)
-            Flock's Reflection
-            Flock's Gambit
-            Reveal
-            Flock's Disintegration
-            Bookkeeper's Gambit(v)
-            Augur's Exaltation
             Hermes' Gambit
         }
         {}
@@ -75,16 +62,7 @@
     }
     Augur's Exaltation
     Hermes' Gambit
-    Flock's Reflection
-    Numerical Reflection(1)
-    Subtractive Distillation
-    Flock's Gambit
-    Bookkeeper's Gambit(v)
 
-    Numerical Reflection(2)
-    Consideration: Consideration
-    @str(Chat Casting)
-    Enqueue
 }
 Numerical Reflection(1)
 Prospector's Gambit
