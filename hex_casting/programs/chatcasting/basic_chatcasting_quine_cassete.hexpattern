@@ -23,11 +23,11 @@
         Whisper Reflection
         Spacing Reflection
         Separation Distillation
-        Undertaker's Gambit
-        Numerical Reflection(0)
-        Selection Distillation
+        
+        Speaker's Decomposition
+        Bubbling Gambit
 
-        stack: message_to_list, dict, message_first_word
+        stack: message_to_list_except_first_word, dict, message_first_word
         // dict read command
         Jester's Gambit
         Flock's Disintegration
