@@ -1,5 +1,6 @@
 {
     Gemini Decomposition
+    Detective's Purification
     @num(1)
     Equality Distillation
     {
@@ -7,6 +8,8 @@
         Mediafy Item
     }
     {
+        Gemini Decomposition
+        Detective's Purification
         @num(2)
         Equality Distillation
         {
@@ -14,6 +17,8 @@
             Mediafy Item
         }
         {
+            Gemini Decomposition
+            Detective's Purification
             @num(3)
             Equality Distillation
             {
