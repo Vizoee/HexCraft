@@ -50,6 +50,9 @@ Augur's Purification
         Numerical Reflection(2)
         Flock's Gambit
     }
+    Numerical Reflection(3)
+    Reveal
+    Bookkeeper's Gambit(v)
     Augur's Exaltation
     Hermes' Gambit
 
@@ -63,11 +66,13 @@ Augur's Purification
 {
     stack: message_to_list_except_2_words, word
     Bookkeeper's Gambit(vv)
-    Consideration
-    @str(Usage: add_command <name>)
+    @num(1)
     Reveal
     Bookkeeper's Gambit(v)
 
 }
+Numerical Reflection(2)
+Reveal
+Bookkeeper's Gambit(v)
 Augur's Exaltation
 Hermes' Gambit
