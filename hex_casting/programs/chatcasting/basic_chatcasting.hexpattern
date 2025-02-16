@@ -32,10 +32,17 @@ Equality Distillation
     Augur's Exaltation
     Hermes' Gambit
 
-    stack: message_to_list, command
-    Athena's Gambit
+    Gemini Decomposition
+    Augur's Purification
     {
-        Athena's Revelation
+        stack: message_to_list, command
+        Athena's Gambit
+        {
+            Athena's Revelation
+        }
+        {}
+        Augur's Exaltation
+        Hermes' Gambit
     }
     {}
     Augur's Exaltation
