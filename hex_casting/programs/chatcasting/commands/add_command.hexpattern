@@ -50,36 +50,22 @@ Augur's Purification
         Numerical Reflection(2)
         Flock's Gambit
     }
-    Numerical Reflection(3)
-    Flock's Reflection
-    Flock's Gambit
-    Reveal
-    Flock's Disintegration
-    Bookkeeper's Gambit(v)
     Augur's Exaltation
     Hermes' Gambit
 
     stack: prop, dict
     Schrödinger's Gambit
-    Consideration
-    @str(Succesfully added command)
+    @num(1)
     Reveal
     Bookkeeper's Gambit(v)
 }
 {
     stack: message_to_list_except_2_words, word
     Bookkeeper's Gambit(vv)
-    @num(1)
+    @num(2)
     Reveal
     Bookkeeper's Gambit(v)
 
 }
-Numerical Reflection(2)
-Flock's Reflection
-Flock's Gambit
-Reveal
-Flock's Disintegration
-Bookkeeper's Gambit(v)
-
 Augur's Exaltation
 Hermes' Gambit
