@@ -1,17 +1,18 @@
 /*
 commands:
 add_command <name> - adds command to chat casting and 
+remove_command <name> - removes command from chat casting
 tp
-lava
+lava - summons lava where you are looking
 lightning
 light
-water
+water - summons water where you are looking
 cad - can be run from cad
 val - returns value of 
 iota
 moted
 pickup
-smelt
+smelt - smelt item you are looking at
 volitile
 bonemeal
 -accelerate-

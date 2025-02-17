@@ -1,12 +1,9 @@
 stack: dict, key
 Jester's Gambit
 Flock's Disintegration
-stack: key, dict_key, dict_val
 Reflecting Gambit
-stack: dict_val, dict_key, key
 Dioscuri Gambit
 Locator's Distillation
-stack: dict_val, dict_key, key, index
 Gemini Decomposition
 Numerical Reflection(-1)
 Equality Distillation
@@ -17,7 +14,6 @@ Equality Distillation
 {
     Bookkeeper's Gambit(v-)
     Undertaker's Gambit
-    stack: dict_val, index, dict_key, index
     Excisor's Distillation
     Rotation Gambit II
     Excisor's Distillation
