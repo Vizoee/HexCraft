@@ -1,5 +1,13 @@
 local github = {}
 
+function github.convert_url(url)
+    return url
+        :gsub("https://github.com/", "https://api.github.com/repos/")
+        :gsub("https://raw.githubusercontent.com/", "https://api.github.com/repos/")
+        :gsub("blob/main/", "contents/")
+        :gsub("refs/heads/main/", "contents/")
+end
+
 function github.api_response(url)
     -- Check if the URL is valid
     local ok, err = http.checkURL(url)
@@ -8,11 +16,7 @@ function github.api_response(url)
         return
     end
 
-    local apiurl = url
-        :gsub("https://github.com/", "https://api.github.com/repos/")
-        :gsub("https://raw.githubusercontent.com/", "https://api.github.com/repos/")
-        :gsub("blob/main/", "contents/")
-        :gsub("refs/heads/main/", "contents/")
+    local apiurl = github.convert_url(url)
     local response = http.get(apiurl).readAll()
     local json = require("json")
     local content = json.get(response, "content"):gsub("\\n", "\n")
