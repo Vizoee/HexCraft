@@ -61,6 +61,7 @@ end
 
 local github = require("github")
 --local res = get(url)
+spell_url = url
 local res = github.api_response(url).content
 if not res then return end
 

@@ -3,16 +3,23 @@ commands:
 add_command <name> - adds command to chat casting and 
 remove_command <name> - removes command from chat casting
 tp
-lava - summons lava where you are looking
-lightning
-light
+lightning - summons lightning where you are looking
+light - summons light where you are looking
+
+drain - clears liquid where you are looking
 water - summons water where you are looking
+lava - summons lava where you are looking
+
+
+pickup
+smelt - smelt item you are looking at
+recharge - recharges holded item using amethyst you are looking at
+
 cad - can be run from cad
+
 val - returns value of 
 iota
 moted
-pickup
-smelt - smelt item you are looking at
 volitile
 bonemeal
 -accelerate-
@@ -26,14 +33,4 @@ area
     color
     casting - shows where you need to stand so you can move area
 
-read message
-compare it to last message
-if different
-{
-    read message
-    split by space
-    duplicate
-    get first element
-
-}
 */

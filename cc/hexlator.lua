@@ -3,6 +3,8 @@ local version = "0.9.3"
 --controls all print outputs
 local gVerb = true
 
+local github = require("github")
+
 local function vPrint(s)
     if gVerb == true then
         print(s)
@@ -71,6 +73,11 @@ strippedRegistry["Numerical_Reflection"] = nil
 local function getBalancedParens(s, startLoc)
     local firstC, lastC, str = string.find(s, "(%b())", startLoc)
     return string.sub(str, 2, -2), firstC, lastC
+end
+
+local function getColonParens(s, startLoc)
+    local firstC, lastC, str = string.find(s, ":%s*([A-Za-z0-9_]+)", startLoc)
+    return str, firstC, lastC
 end
 
 -- Given a string, returns a table of strings with commas as delim
@@ -201,7 +208,7 @@ local identRegistry = {
             ["vv"] = "da",
             ["v-"] = "e"
         }
-        local str = getBalancedParens(s, token["start"])
+        local str = getColonParens(s, token["start"])
         local angles = ""
         if str == "v" then
             angles = "a"
@@ -290,6 +297,26 @@ local stringProccessRegistry = {
         content = string.gsub(content, "// .-\n", "")
         file.close()
         
+        local out =  s:sub(1,token["start"]-1).."\n"..content.."\n"..s:sub(lastC2+1)
+
+        --local debug = fs.open(getRunningPath().."debug", "w")
+        --debug.write(out)
+       --debug.close()
+
+        return out
+    end,
+    ["#git"] = function(s, token)
+        local fileName = getBalancedParens(s, token["start"])
+        --strip out newlines
+        fileName = string.gsub(fileName,"\n","")
+        url = spell_url:match("(.*/)")
+
+        local file_url = url .. fileName
+        vPrint("Downloading "..file_url)
+        
+        local content = github.api_response(file_url).content
+
+        vPrint("Inserting "..fileName)
         local out =  s:sub(1,token["start"]-1).."\n"..content.."\n"..s:sub(lastC2+1)
 
         --local debug = fs.open(getRunningPath().."debug", "w")
