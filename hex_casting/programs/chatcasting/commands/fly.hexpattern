@@ -12,22 +12,22 @@ Augur's Purification
 
         @num(1)
         Reveal
-        Bookkeeper's Gambit(v)
+        Bookkeeper's Gambit: v
     }
     {
-        Bookkeeper's Gambit(vv)
+        Bookkeeper's Gambit: vv
         @num(2)
         Reveal
-        Bookkeeper's Gambit(v)
+        Bookkeeper's Gambit: v
     }
     Augur's Exaltation
     Hermes' Gambit
 }
 {
-    Bookkeeper's Gambit(vv)
+    Bookkeeper's Gambit: vv
     @num(2)
     Reveal
-    Bookkeeper's Gambit(v)
+    Bookkeeper's Gambit: v
 }
 Augur's Exaltation
 Hermes' Gambit

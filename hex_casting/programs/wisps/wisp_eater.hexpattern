@@ -14,10 +14,10 @@ Augur's Purification
 {
     // create dict
     Reveal
-    Bookkeeper's Gambit(v)
+    Bookkeeper's Gambit: v
     Vacant Reflection
     Vacant Reflection
-    Numerical Reflection(2)
+    Numerical Reflection: 2
     Flock's Gambit
     Huginn's Gambit
 }
@@ -33,7 +33,7 @@ Muninn's Reflection
 // create new dict
 Vacant Reflection
 Vacant Reflection
-Numerical Reflection(2)
+Numerical Reflection: 2
 Flock's Gambit
 
 Huginn's Gambit
@@ -48,10 +48,10 @@ Huginn's Gambit
     Reflecting Gambit
     Locator's Distillation
     Gemini Decomposition
-    Numerical Reflection(-1)
+    Numerical Reflection: -1
     Equality Distillation
     {
-        Bookkeeper's Gambit(vv)
+        Bookkeeper's Gambit: vv
         Nullary Reflection
     }
     {
@@ -65,7 +65,7 @@ Huginn's Gambit
     Nullary Reflection
     Equality Distillation
     {
-        Bookkeeper's Gambit(v)
+        Bookkeeper's Gambit: v
         Muninn's Reflection
         Jester's Gambit
         Timekeeper's Reflection
@@ -79,7 +79,7 @@ Huginn's Gambit
         Jester's Gambit
         Integration Distillation
         Jester's Gambit
-        Numerical Reflection(2)
+        Numerical Reflection: 2
         Flock's Gambit
 
         Huginn's Gambit
@@ -90,16 +90,16 @@ Huginn's Gambit
         Timekeeper's Reflection
         Subtractive Distillation
 
-        Numerical Reflection(-300)
+        Numerical Reflection: -300
         Equality Distillation
         {
-            Bookkeeper's Gambit(v)
+            Bookkeeper's Gambit: v
             Consume Wisp
 
             Popularity Reflection
             Augur's Purification
             {
-                Numerical Reflection(0)
+                Numerical Reflection: 0
                 Reservoir Reflection
                 Send Iota
             }
@@ -122,7 +122,7 @@ Huginn's Gambit
             Jester's Gambit
             Integration Distillation
             Jester's Gambit
-            Numerical Reflection(2)
+            Numerical Reflection: 2
             Flock's Gambit
 
             Huginn's Gambit
@@ -136,9 +136,9 @@ Huginn's Gambit
 
 // get wisps
 @pattern(north_east, eeeee) // garbage
-Numerical Reflection(1
+Numerical Reflection: 1
 Zone Distillation: Wisp
 
 Thoth's Gambit
-Bookkeeper's Gambit(v)
-Bookkeeper's Gambit(v)
+Bookkeeper's Gambit: v
+Bookkeeper's Gambit: v

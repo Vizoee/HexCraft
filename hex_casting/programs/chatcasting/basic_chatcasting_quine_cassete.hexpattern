@@ -1,16 +1,16 @@
 {
     Consideration: Consideration
-    Bookkeeper's Gambit(-)
-    Numerical Reflection(1)
+    Bookkeeper's Gambit: -
+    Numerical Reflection: 1
     Prospector's Gambit
     Surgeon's Exaltation
 
-    Numerical Reflection(13)
+    Numerical Reflection: 13
     Whisper Reflection
     Bubbles' Purification
     Surgeon's Exaltation
 
-    Numerical Reflection(2)
+    Numerical Reflection: 2
     Consideration: Consideration
     @str(Chat Casting)
     Enqueue
@@ -39,10 +39,10 @@
         Reflecting Gambit
         Locator's Distillation
         Gemini Decomposition
-        Numerical Reflection(-1)
+        Numerical Reflection: -1
         Equality Distillation
         {
-            Bookkeeper's Gambit(vv)
+            Bookkeeper's Gambit: vv
             Nullary Reflection
         }
         {
@@ -64,7 +64,7 @@
     Hermes' Gambit
 
 }
-Numerical Reflection(1)
+Numerical Reflection: 1
 Prospector's Gambit
 Surgeon's Exaltation
 Hermes' Gambit

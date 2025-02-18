@@ -10,7 +10,7 @@ Equality Distillation
     Spacing Reflection
     Separation Distillation
     Undertaker's Gambit
-    Numerical Reflection(0)
+    Numerical Reflection: 0
     Selection Distillation
 
     stack: message_to_list, dict, message_first_word
@@ -20,10 +20,10 @@ Equality Distillation
     Reflecting Gambit
     Locator's Distillation
     Gemini Decomposition
-    Numerical Reflection(-1)
+    Numerical Reflection: -1
     Equality Distillation
     {
-        Bookkeeper's Gambit(vv)
+        Bookkeeper's Gambit: vv
         Nullary Reflection
     }
     {
@@ -50,5 +50,5 @@ Equality Distillation
 }
 Augur's Exaltation
 Hermes' Gambit
-Sekhmet's Gambit(0)
+Sekhmet's Gambit: 0
 Whisper Reflection

@@ -14,7 +14,7 @@
         Length Purification
         Augur's Purification
         {
-            Numerical Reflection(0)
+            Numerical Reflection: 0
             Selection Distillation
             Additive Distillation
         }
@@ -31,6 +31,6 @@
     Hermes' Gambit
 }
 @num(2) // items pos
-Numerical Reflection(1)
+Numerical Reflection: 1
 Zone Distillation: Item
 Thoth's Gambit

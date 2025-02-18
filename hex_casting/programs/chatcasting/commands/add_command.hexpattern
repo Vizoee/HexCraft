@@ -5,7 +5,7 @@ Gemini Decomposition
 Augur's Purification
 {
     stack: message_to_list_except_2_words, word
-    Bookkeeper's Gambit(v-)
+    Bookkeeper's Gambit: v-
     stack: word,
     @num(0)
     Gemini Decomposition
@@ -21,14 +21,14 @@ Augur's Purification
     Reflecting Gambit
     Dioscuri Gambit
     Flock's Disintegration
-    Bookkeeper's Gambit(v)
+    Bookkeeper's Gambit: v
     Jester's Gambit
     Locator's Distillation
     Gemini Decomposition
-    Numerical Reflection(-1)
+    Numerical Reflection: -1
     Equality Distillation
     {
-        Bookkeeper's Gambit(v)
+        Bookkeeper's Gambit: v
         Bubbling Gambit
         Flock's Disintegration
         Rotation Gambit
@@ -37,17 +37,17 @@ Augur's Purification
         Jester's Gambit
         Integration Distillation
         Jester's Gambit
-        Numerical Reflection(2)
+        Numerical Reflection: 2
         Flock's Gambit
     }
     {
-        Bookkeeper's Gambit(v--)
+        Bookkeeper's Gambit: v--
         Jester's Gambit
         Flock's Disintegration
-        Numerical Reflection(17)
+        Numerical Reflection: 17
         Swindler's Gambit
         Surgeon's Exaltation
-        Numerical Reflection(2)
+        Numerical Reflection: 2
         Flock's Gambit
     }
     Augur's Exaltation
@@ -57,14 +57,14 @@ Augur's Purification
     Schrödinger's Gambit
     @num(1)
     Reveal
-    Bookkeeper's Gambit(v)
+    Bookkeeper's Gambit: v
 }
 {
     stack: message_to_list_except_2_words, word
-    Bookkeeper's Gambit(vv)
+    Bookkeeper's Gambit: vv
     @num(2)
     Reveal
-    Bookkeeper's Gambit(v)
+    Bookkeeper's Gambit: v
 
 }
 Augur's Exaltation

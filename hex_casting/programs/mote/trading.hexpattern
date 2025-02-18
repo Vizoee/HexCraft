@@ -19,11 +19,11 @@ stack: villager, trades
     Rotation Gambit II
     stack: jump, villager, trades
     {
-        Numerical Reflection(0)
+        Numerical Reflection: 0
         Selection Distillation
-        Numerical Reflection(0)
+        Numerical Reflection: 0
         Selection Distillation
-        Numerical Reflection(0)
+        Numerical Reflection: 0
         Selection Distillation
         Stocktake Purification
         Gemini Decomposition
@@ -47,7 +47,7 @@ stack: villager, trades
                     Length Purification
                     Augur's Purification
                     {
-                        Numerical Reflection(0)
+                        Numerical Reflection: 0
                         Selection Distillation
                         Additive Distillation
                     }
@@ -58,7 +58,7 @@ stack: villager, trades
                 {}
                 Augur's Exaltation
                 Hermes' Gambit
-                Bookkeeper's Gambit(v)
+                Bookkeeper's Gambit: v
                 Hermes' Gambit
             }
             {}

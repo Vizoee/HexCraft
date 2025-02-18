@@ -1,11 +1,11 @@
 {
     Consideration: Consideration
-    Bookkeeper's Gambit(-)
-    Numerical Reflection(1)
+    Bookkeeper's Gambit: -
+    Numerical Reflection: 1
     Prospector's Gambit
     Surgeon's Exaltation
 
-    Numerical Reflection(9)
+    Numerical Reflection: 9
     Whisper Reflection
     Bubbles' Purification
     Surgeon's Exaltation
@@ -24,7 +24,7 @@
         Spacing Reflection
         Separation Distillation
         Undertaker's Gambit
-        Numerical Reflection(0)
+        Numerical Reflection: 0
         Selection Distillation
 
         stack: message_to_list, dict, message_first_word
@@ -34,10 +34,10 @@
         Reflecting Gambit
         Locator's Distillation
         Gemini Decomposition
-        Numerical Reflection(-1)
+        Numerical Reflection: -1
         Equality Distillation
         {
-            Bookkeeper's Gambit(vv)
+            Bookkeeper's Gambit: vv
             Nullary Reflection
         }
         {
@@ -65,12 +65,12 @@
     Augur's Exaltation
     Hermes' Gambit
     Flock's Reflection
-    Numerical Reflection(1)
+    Numerical Reflection: 1
     Subtractive Distillation
     Flock's Gambit
-    Bookkeeper's Gambit(v)
+    Bookkeeper's Gambit: v
 }
-Numerical Reflection(1)
+Numerical Reflection: 1
 Prospector's Gambit
 Surgeon's Exaltation
 
