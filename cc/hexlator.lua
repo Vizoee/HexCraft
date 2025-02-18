@@ -312,7 +312,7 @@ local stringProccessRegistry = {
 
         if string.match(fileName, "^/") then
             print(spell_url)
-            url = spell_url:match("(.-blob/main/)"):match("^(.-)/$")
+            url = spell_url:match("(.-contents/)"):match("^(.-)/$")
         else
             url = spell_url:match("(.*/)")
         end
