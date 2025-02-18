@@ -317,8 +317,6 @@ local stringProccessRegistry = {
             url = spell_url:match("(.*/)")
         end
 
-        url = spell_url:match("(.*/)")
-
         local file_url = url .. fileName
         vPrint("Downloading "..file_url)
         
