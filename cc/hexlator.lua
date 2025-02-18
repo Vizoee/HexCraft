@@ -309,6 +309,13 @@ local stringProccessRegistry = {
         local fileName = getBalancedParens(s, token["start"])
         --strip out newlines
         fileName = string.gsub(fileName,"\n","")
+
+        if string.match(str, "^/") then
+            url = spell_url:match("(.-contents/)"):match("^(.-)/$")
+        else
+            url = spell_url:match("(.*/)")
+        end
+
         url = spell_url:match("(.*/)")
 
         local file_url = url .. fileName
