@@ -183,7 +183,7 @@ local identRegistry = {
     ["%["] = true,
     ["%]"] = true,
     ["Numerical Reflection"] = function(s, token)
-        local str = getBalancedParens(s, token["start"])
+        local str = getColonParens(s, token["start"])
         local num = tonumber(str)
         local angles
         if num >= 0 then
@@ -228,7 +228,7 @@ local identRegistry = {
         return returnTable
     end,
     ["Sekhmet's Gambit"] = function(s, token)
-        local str = getBalancedParens(s, token["start"])
+        local str = getColonParens(s, token["start"])
         local num = tonumber(str)
         local angles = "qaqdd"
         for i=1,num do
