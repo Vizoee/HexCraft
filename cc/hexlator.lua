@@ -76,7 +76,7 @@ local function getBalancedParens(s, startLoc)
 end
 
 local function getColonParens(s, startLoc)
-    local firstC, lastC, str = string.find(s, ":%s*([A-Za-z0-9_]+)", startLoc)
+    local firstC, lastC, str = string.find(s, ":%s*([A-Za-z0-9_-]+)", startLoc)
     return str, firstC, lastC
 end
 
