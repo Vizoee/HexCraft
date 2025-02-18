@@ -1,5 +1,7 @@
 local github = {}
 
+github.cashe = {}
+
 function github.convert_url(url)
     url = url
         :gsub("https://github.com/", "https://api.github.com/repos/")
@@ -18,17 +20,25 @@ function github.api_response(url)
     end
 
     local apiurl = github.convert_url(url)
+
+    if github.cashe[apiurl] then
+        print("Returned cashed")
+        return github.cashe[apiurl]
+    end
+
     local response = http.get(apiurl).readAll()
     local json = require("json")
     local content = json.get(response, "content"):gsub("\\n", "\n")
     local name = json.get(response, "name"):gsub(" ", "_")
     local base64 = require("base64")
     local data = base64.decode(content)
-    return {
+    local output = {
         name = name,
         content = data,
         response = response
     }
+    github.cashe[apiurl] = output
+    return output
 end
 
 function github.api(url, folder)
