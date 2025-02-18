@@ -4,23 +4,9 @@ Augur's Purification
 {
     @num(0)
     Observation Purification
-
-    // Read dict
-    Flock's Disintegration
-    Reflecting Gambit
-    Locator's Distillation
-    Gemini Decomposition
-    Numerical Reflection(-1)
-    Equality Distillation
-    {
-        Bookkeeper's Gambit(vv)
-        Nullary Reflection
-    }
-    {
-        Selection Distillation
-    }
-    Augur's Exaltation
-    Hermes' Gambit
+    Jester's Gambit
+    
+    #git(./hex_casting/programs/dictionary/dictionary_read.hexpattern)
 
     // if command exists
     Gemini Decomposition
