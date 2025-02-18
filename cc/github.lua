@@ -1,11 +1,12 @@
 local github = {}
 
 function github.convert_url(url)
-    return url
+    url = url
         :gsub("https://github.com/", "https://api.github.com/repos/")
         :gsub("https://raw.githubusercontent.com/", "https://api.github.com/repos/")
         :gsub("blob/main/", "contents/")
         :gsub("refs/heads/main/", "contents/")
+    return url
 end
 
 function github.api_response(url)
