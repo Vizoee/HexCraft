@@ -9601,5 +9601,27 @@
         "args": null,
         "url": null,
         "description": null
+    },
+    "Geb's Gambit": {
+        "name": "get_n_to_top",
+        "modid": "moreiotas",
+        "modName": "MoreIotas",
+        "image": null,
+        "direction": null,
+        "pattern": null,
+        "args": null,
+        "url": null,
+        "description": null
+    },
+    "Nut's Gambit": {
+        "name": "push_top_to_n",
+        "modid": "moreiotas",
+        "modName": "MoreIotas",
+        "image": null,
+        "direction": null,
+        "pattern": null,
+        "args": null,
+        "url": null,
+        "description": null
     }
 }

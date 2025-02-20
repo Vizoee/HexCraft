@@ -243,6 +243,34 @@ local identRegistry = {
             ["angles"] = angles,
         }
         return returnTable
+    end,
+    ["Geb's Gambit"] = function(s, token)
+        local str = getColonParens(s, token["start"])
+        local num = tonumber(str)
+        local angles = "aaeaad"
+        for i=3,num do
+            local dir = "w"
+            angles = angles .. dir
+        end
+        local returnTable =  {
+            ["startDir"] = "WEST",
+            ["angles"] = angles,
+        }
+        return returnTable
+    end,
+    ["Nut's Gambit"] = function(s, token)
+        local str = getColonParens(s, token["start"])
+        local num = tonumber(str)
+        local angles = "aawdde"
+        for i=3,num do
+            local dir = "w"
+            angles = angles .. dir
+        end
+        local returnTable =  {
+            ["startDir"] = "WEST",
+            ["angles"] = angles,
+        }
+        return returnTable
     end
 }
 
