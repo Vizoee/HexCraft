@@ -1,4 +1,8 @@
 #git(/hex_casting/spells/get_place_block_pos.hexpattern)
 Conjure Mesh
-Dismiss Speck
-[@vec(1, 2, 3)]
+Consideration: [
+    @vec(1, 1, 0),
+    @vec(1, 1, 1),
+    @vec(0, 1, 1),
+    @vec(0, 1, 0),
+]
