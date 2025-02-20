@@ -5,27 +5,7 @@ Gemini Decomposition
 Rotation Gambit
 Move Speck
 Gemini Decomposition
-Consideration: [
-    @vec(-0.5, -0.5, -0.5),
-    @vec(-0.5, -0.5, 0.5),
-    @vec(0.5, -0.5, 0.5),
-    @vec(0.5, -0.5, -0.5),
-    @vec(-0.5, -0.5, -0.5),
-
-    @vec(-0.5, 0.5, -0.5),
-    @vec(0.5, 0.5, -0.5),
-    @vec(0.5, -0.5, -0.5),
-    @vec(0.5, 0.5, -0.5),
-    @vec(-0.5, 0.5, -0.5),
-    @vec(-0.5, -0.5, -0.5),
-    @vec(-0.5, 0.5, -0.5),
-    @vec(-0.5, 0.5, 0.5),
-    @vec(-0.5, -0.5, 0.5),
-    @vec(-0.5, 0.5, 0.5),
-    @vec(0.5, 0.5, 0.5),
-    @vec(0.5, -0.5, 0.5),
-    @vec(0.5, 0.5, 0.5),
-    @vec(0.5, 0.5, -0.5),
-]
+Consideration: 
+#git(/hex_casting/programs/mesh/models/cube.hexpattern)
 Weave Mesh
 stack: mesh,
