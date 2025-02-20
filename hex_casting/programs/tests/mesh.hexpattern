@@ -1,5 +1,6 @@
 #git(/hex_casting/spells/get_place_block_pos.hexpattern)
 Conjure Mesh
+Gemini Decomposition
 Consideration: [
     @vec(1, 1, 0),
     @vec(1, 1, 1),
