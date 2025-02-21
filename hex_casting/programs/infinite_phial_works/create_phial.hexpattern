@@ -1,0 +1,20 @@
+stack: ,
+// Get bottle
+@num(0) // glass bottle mote
+@num(1) // block pos
+Undertaker's Gambit
+Numerical Reflection: 1
+Return Item
+Entity Purification: Item
+Sleight
+Wristpocket
+
+// Place amethyst
+@num(2) // amethyst mote
+@num(1) // block pos
+Undertaker's Gambit
+Numerical Reflection: 64
+Return Item
+Entity Purification: Item
+
+Craft Phial
