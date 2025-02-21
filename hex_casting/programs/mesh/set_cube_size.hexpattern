@@ -13,9 +13,11 @@ stack: new_pos, mesh, mesh, size
 Transformation Purification
 {
     Sekhmet's Gambit: 2
+    Gemini Decomposition
     Transformation Purification
     Multiplicative Distillation II
     Restoration Purification
+    Additive Distillation
 }
 Consideration: 
 #git(/hex_casting/programs/mesh/models/cube.hexpattern)
