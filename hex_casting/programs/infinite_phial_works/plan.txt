@@ -1,0 +1,14 @@
+create phial
+set variable to 64
+check if phial already exists
+if no
+    go back to step 1
+if yes
+    merge
+    multiply variable by 2
+    recharge phial until it has media equal to variable
+    check if phial already exists
+    if no
+        go back to step 1
+    if yes
+        ...
