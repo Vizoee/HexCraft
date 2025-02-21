@@ -16,6 +16,7 @@ smelt - smelt item you are looking at
 recharge - recharges holded item using amethyst you are looking at
 
 cad - can be run from cad
+write <name> - writes command to offhand
 
 val - returns value of 
 iota

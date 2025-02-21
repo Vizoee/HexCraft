@@ -1,5 +1,5 @@
-stack: size, phial_mote
-@num(0) //pos
+stack: pos, size, phial_mote
+Rotation Gambit
 Undertaker's Gambit
 Return Item
 
@@ -9,16 +9,18 @@ Sleight
 Wristpocket
 
 stack: size, pos
-Undertaker's Gambit
-stack: pos, size, pos
+Prospector's Gambit
+Prospector's Gambit
+stack: size, pos, size, pos
 Jester's Gambit
 Numerical Reflection: 64
 Multiplicative Distillation
 @num(1) // amethyst mote
 Rotation Gambit II
-stack: pos, mote, pos, item_count
+stack: size, pos, mote, pos, item_count
 Return Item
 
+Gemini Decomposition
 Numerical Reflection: 1
 Zone Distillation: Item
 {
@@ -27,3 +29,11 @@ Zone Distillation: Item
 Jester's Gambit
 Thoth's Gambit
 Bookkeeper's Gambit: v
+
+Wristpocket
+Gemini Decomposition
+Sleight
+Entity Purification: Item
+Mediafy Item
+
+stack: phial_mote,

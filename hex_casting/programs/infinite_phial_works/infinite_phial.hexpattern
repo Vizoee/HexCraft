@@ -1,1 +1,54 @@
+stack: pos,
+Gemini Decomposition
 #git(/hex_casting/programs/infinite_phial_works/create_phial.hexpattern)
+stack: pos, phial_mote,
+Numerical Reflection: 1
+Vacant Reflection
+Huginn's Gambit
+Jester's Gambit
+Stocktake Purification
+stack: pos, size, mote_list
+Gemini Decomposition
+Length Purification
+Numerical Reflection: 1
+Equality Distillation
+{
+    // TODO: save mote to list
+    // GO TO Start
+    Jester's Gambit
+    Gemini Decomposition
+    Muninn's Reflection
+    Numerical Reflection: 0
+    Selection Distillation
+    Maximus Distillation
+    {
+        Jester's Gambit
+        Flock's Disintegration
+        Numerical Reflection: 2
+        Flock's Gambit
+        Huginn's Gambit
+    }
+    {}
+    Augur's Exaltation
+    Hermes' Gambit
+}
+{
+    Jester's Gambit
+    Numerical Reflection: 2
+    Multiplicative Distillation
+    Jester's Gambit
+
+    Numerical Reflection: 0
+    Numerical Reflection: 2
+    Selection Exaltation
+
+    Craft
+
+    Numerical Reflection: 3
+    Dioscuri Gambit II
+    #git(/hex_casting/programs/infinite_phial_works/charge_phial.hexpattern)
+    Bookkeeper's Gambit: v-
+    stack: pos, size, mote_list
+}
+Augur's Exaltation
+Hermes' Gambit

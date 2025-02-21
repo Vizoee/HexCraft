@@ -1,11 +1,12 @@
 ~~villager trading/leveling spell~~
     fix villager trading
-chatcasting
-wisp cad
+~~chatcasting~~
+~~wisp cad~~
 fix amethyst mote
 area selection with meshes
 hexlator
-    add file reference
+    ~~add file reference~~
+    in chat casting
 
 create phial
 set variable to 64
