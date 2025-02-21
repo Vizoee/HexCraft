@@ -10,16 +10,7 @@ Rotation Gambit
 Gemini Decomposition
 Rotation Gambit
 stack: new_pos, mesh, mesh, size
-{
-    Length Purification
-}
-Jester's Gambit
-Vector Disintegration
-Numerical Reflection: 3
-Flock's Gambit
-Thoth's Gambit
-Flock's Disintegration
-Vector Exaltation
+#git(/hex_casting/programs/vector/abs.hexpattern)
 
 Transformation Purification
 {
