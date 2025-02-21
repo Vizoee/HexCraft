@@ -1,1 +1,25 @@
-stack: size, 
+stack: size, phial_mote
+@num(0) //pos
+Undertaker's Gambit
+stack: size, pos, phial_mote, pos
+Return Item
+
+stack: size, pos
+Undertaker's Gambit
+stack: pos, size, pos
+Jester's Gambit
+Numerical Reflection: 64
+Multiplicative Distillation
+@num(1) // amethyst mote
+Rotation Gambit II
+stack: pos, mote, pos, item_count
+Return Item
+
+Numerical Reflection: 1
+Zone Distillation: Item
+{
+    Recharge Item
+}
+Jester's Gambit
+Thoth's Gambit
+Bookkeeper's Gambit: v
