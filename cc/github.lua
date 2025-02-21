@@ -1,6 +1,6 @@
 local github = {}
 
-github.cashe = {}
+github.cache = {}
 
 function github.convert_url(url)
     url = url
@@ -21,9 +21,9 @@ function github.api_response(url)
 
     local apiurl = github.convert_url(url)
 
-    if github.cashe[apiurl] then
-        print("Returned cashed")
-        return github.cashe[apiurl]
+    if github.cache[apiurl] then
+        print("Returned cached")
+        return github.cache[apiurl]
     end
 
     local response = http.get(apiurl).readAll()
@@ -37,7 +37,7 @@ function github.api_response(url)
         content = data,
         response = response
     }
-    github.cashe[apiurl] = output
+    github.cache[apiurl] = output
     return output
 end
 
