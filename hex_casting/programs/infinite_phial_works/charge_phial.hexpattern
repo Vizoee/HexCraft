@@ -1,10 +1,10 @@
 stack: size, phial_mote
 @num(0) //pos
 Undertaker's Gambit
-stack: size, pos, phial_mote, pos
 Return Item
 
 Gemini Decomposition
+Entity Purification: Item
 Sleight
 Wristpocket
 
@@ -27,3 +27,4 @@ Zone Distillation: Item
 Jester's Gambit
 Thoth's Gambit
 Bookkeeper's Gambit: v
+d
