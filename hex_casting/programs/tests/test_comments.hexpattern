@@ -2,7 +2,9 @@
     // test
     // Bind
     // Consume Wisp
+    /*
     [
         @vec(1, 2, 3)
     ]
+    */
 }
