@@ -1,9 +1,12 @@
 #git(/hex_casting/programs/tests/syntax_utils.hexpattern)
 
-$if 
+$if (
 True Reflection
-do
+)
+do (
     Numerical Reflection: 1
-else
+    )
+else (
     Numerical Reflection: 2
+    )
 end
