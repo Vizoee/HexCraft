@@ -6,10 +6,8 @@ function github.convert_url(url)
     url = url
         :gsub("https://github.com/", "https://api.github.com/repos/")
         :gsub("https://raw.githubusercontent.com/", "https://api.github.com/repos/")
-        :gsub("blob/main/", "contents/")
-        :gsub("blob/master/", "contents/")
-        :gsub("refs/heads/main/", "contents/")
-        :gsub("refs/heads/master/", "contents/")
+        :gsub("blob/.-/", "contents/")
+        :gsub("refs/heads/.-/", "contents/")
     return url
 end
 

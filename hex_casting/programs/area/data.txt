@@ -1,0 +1,6 @@
+areas: dict: name as key
+    area: dict
+        settings: dict
+            isVisible: boolean
+            color: pigment
+        area: list
