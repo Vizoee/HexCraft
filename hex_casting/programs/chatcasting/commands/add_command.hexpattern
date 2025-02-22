@@ -7,7 +7,7 @@ Augur's Purification
     stack: message_to_list_except_2_words, word
     Bookkeeper's Gambit: v-
     stack: word,
-    @num(0)
+    @num(0) // property iota containing all commands
     Gemini Decomposition
     stack: word, prop, prop
     Observation Purification
@@ -55,14 +55,20 @@ Augur's Purification
 
     stack: prop, dict
     Schrödinger's Gambit
-    @num(1)
+    {
+        @str(Command added successfully.)
+    }
+    Flock's Disintegration
     Reveal
     Bookkeeper's Gambit: v
 }
 {
     stack: message_to_list_except_2_words, word
     Bookkeeper's Gambit: vv
-    @num(2)
+    {
+        @str(Usage: add_command <name>)
+    }
+    Flock's Disintegration
     Reveal
     Bookkeeper's Gambit: v
 

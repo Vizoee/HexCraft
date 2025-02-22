@@ -2,7 +2,7 @@ Speaker's Decomposition
 Gemini Decomposition
 Augur's Purification
 {
-    @num(0)
+    @num(0) // property iota containing all commands
     Observation Purification
     Jester's Gambit
     
@@ -17,17 +17,23 @@ Augur's Purification
         Single's Purification
         Jester's Gambit
         Additive Distillation
-        @num(1)
+        @num(1) // property iota cad will use to cast spell
         Jester's Gambit
         Schrödinger's Gambit
 
-        @num(3)
+        {
+            @str(Command uploaded successfully.)
+        }
+        Flock's Disintegration
         Reveal
         Bookkeeper's Gambit: v
     }
     {
         Bookkeeper's Gambit: vv
-        @num(4)
+        {
+            @str(Command does not exists.)
+        }
+        Flock's Disintegration
         Reveal
         Bookkeeper's Gambit: v
     }
@@ -36,7 +42,10 @@ Augur's Purification
 }
 {
     Bookkeeper's Gambit: vv
-    @num(4)
+    {
+        @str(Usage: cad <name>.)
+    }
+    Flock's Disintegration
     Reveal
     Bookkeeper's Gambit: v
 }
