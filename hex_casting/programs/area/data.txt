@@ -1,6 +1,38 @@
-areas: dict: name as key
-    area: dict
-        settings: dict
-            isVisible: boolean
-            color: pigment
-        area: list
+list:
+    [0]config:
+        selectedAreaName: string
+        dynamicSize: boolean
+        last_look_pos: vec
+    [1]areas: dict - name as key
+        area: dict
+            settings: dict
+                isVisible: boolean
+                color: pigment
+                binded: area_name
+            corners: list
+
+
+commands:
+area
+
+new <name>
+    informs if area exists
+
+remove <name>
+    if isVisible:
+        removes mesh
+
+active <name>
+    sets 
+
+color <name>
+    sets active area color
+
+set_pos
+    sets position of block you are looking at
+
+shift
+    adds 1 block to axis you are looking at
+    when shifted removes 1 block to axis you are looking at
+    on cad
+

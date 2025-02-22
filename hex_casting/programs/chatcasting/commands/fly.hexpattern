@@ -25,7 +25,10 @@ Augur's Purification
 }
 {
     Bookkeeper's Gambit: vv
-    @num(2)
+    {
+        @str(Usage: fly <number>)
+    }
+    Flock's Disintegration
     Reveal
     Bookkeeper's Gambit: v
 }
