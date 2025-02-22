@@ -10,13 +10,19 @@ Augur's Purification
         Jester's Gambit
         Anchorite's Flight
 
-        @num(1)
+        {
+            @str(Command executed successfully.)
+        }
+        Flock's Disintegration
         Reveal
         Bookkeeper's Gambit: v
     }
     {
         Bookkeeper's Gambit: vv
-        @num(2)
+        {
+            @str(Usage: fly <radius>)
+        }
+        Flock's Disintegration
         Reveal
         Bookkeeper's Gambit: v
     }
@@ -26,7 +32,7 @@ Augur's Purification
 {
     Bookkeeper's Gambit: vv
     {
-        @str(Usage: fly <number>)
+        @str(Usage: fly <radius>)
     }
     Flock's Disintegration
     Reveal
