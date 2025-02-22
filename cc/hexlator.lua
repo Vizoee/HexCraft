@@ -509,7 +509,7 @@ end
 local function stringProcess(s)
     -- Strip line comments from string
     local str = string.gsub(s, "//.-\n", "")
-    str = string.gsub(str, "/*-*/", "")
+    str = string.gsub(str, "/%*-%*/", "")
 
     -- Create temp folder for #wget commands
     shell.execute("mkdir", "/"..getRunningPath().."temp")
