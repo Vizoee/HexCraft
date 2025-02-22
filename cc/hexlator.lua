@@ -508,7 +508,8 @@ end
 
 local function stringProcess(s)
     -- Strip line comments from string
-    local str = string.gsub(s, "// .-\n", "")
+    local str = string.gsub(s, "//.-\n", "")
+    str = string.gsub(str, "/*-*/", "")
 
     -- Create temp folder for #wget commands
     shell.execute("mkdir", "/"..getRunningPath().."temp")
@@ -573,10 +574,6 @@ local function compile(str, stripped, verbose, debug_output)
     if verbose ~= nil then
         gVerb = verbose
     end
-    
-    vPrint("Removing comments...")
-    str = str:gsub("//.-\n", "\n")
-
     vPrint("Compiling...")
     local reg
     if stripped == true then
