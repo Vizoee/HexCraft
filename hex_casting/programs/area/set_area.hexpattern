@@ -1,38 +1,43 @@
 stack: pos,
 
-@num(0)
+@num(0) // propertu iota containing area data
 Undertaker's Gambit
-Observation Purification
+Observation Purification 
+// TODO: change reading to advanced structure
 stack: prop, pos, list_or_null
 Gemini Decomposition
 Augur's Purification
 {
+    // if not null
     Gemini Decomposition
     Length Purification
     Numerical Reflection: 1
     Equality Distillation
     {
+        // if 1 corner
         Jester's Gambit
         Integration Distillation
-        Schrödinger's Gambit
     }
     {
+        // if 2 corners
         Speaker's Decomposition
         Bookkeeper's Gambit: v
         Jester's Gambit
         Integration Distillation
-        Schrödinger's Gambit
     }
     Augur's Exaltation
     Hermes' Gambit
 }
 {
+    // if null
     Bookkeeper's Gambit: v
     Gemini Decomposition
     Numerical Reflection: 2
     Flock's Gambit
-    Schrödinger's Gambit
 }
 Augur's Exaltation
 Hermes' Gambit
 
+stack: prop, list
+// TODO: change writing to advanced structure
+Schrödinger's Gambit
