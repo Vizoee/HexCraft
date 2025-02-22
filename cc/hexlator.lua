@@ -573,6 +573,10 @@ local function compile(str, stripped, verbose, debug_output)
     if verbose ~= nil then
         gVerb = verbose
     end
+    
+    vPrint("Removing comments...")
+    str = str:gsub("//.-\n", "\n")
+
     vPrint("Compiling...")
     local reg
     if stripped == true then
