@@ -2,11 +2,8 @@
 
 $if (
 True Reflection
-)
-do (
+)(
     Numerical Reflection: 1
-    )
-else (
+    )(
     Numerical Reflection: 2
     )
-end
