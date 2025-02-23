@@ -1,0 +1,8 @@
+{
+    [
+        @false // is visible
+        @null // color
+        @str() // binded area 
+    ]
+    []
+}
