@@ -60,22 +60,28 @@ Augur's Purification
     Hermes' Gambit
     
     // stack: prop, config, areas, active_area_name, area_settings, corners_updated
-
-    Prospector's Gambit
+    Jester's Gambit
+    Gemini Decomposition
     Numerical Reflection: 0
     Selection Distillation
+    // stack: prop, config, areas, active_area_name, corners_updated, area_settings, mesh/null
     Gemini Decomposition
     Augur's Purification
     {
-        Prospector's Gambit
-        Numerical Reflection: 1
         
     }
     {
-
+        Bookkeeper's Gambit: v
+        #git(/hex_casting/programs/chatcasting/commands/area/create_mesh.hexpattern)
     }
     Augur's Exaltation
     Hermes' Gambit
+    // stack: prop, config, areas, active_area_name, corners_updated, area_settings, mesh
+
+    Bubbling Gambit
+    Prospector's Gambit
+    Flock's Disintegration
+    #git(/hex_casting/programs/mesh/set_cube_size.hexpattern)
 
     // stack: prop, config, areas, active_area_name, area_settings, corners_updated
     Numerical Reflection: 2
