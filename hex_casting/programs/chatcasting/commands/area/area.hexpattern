@@ -1,0 +1,8 @@
+{
+    [
+        @str(new)
+    ]
+    [
+        #git(/hex_casting/programs/chatcasting/commands/area/new.hexpattern)
+    ]
+}

@@ -1,0 +1,5 @@
+#def(dict_create)(#git(/hex_casting/programs/dictionary/dictionary_create.hexpattern))
+#def(dict_over_write)(#git(/hex_casting/programs/dictionary/dictionary_over_write.hexpattern))
+#def(dict_read)(#git(/hex_casting/programs/dictionary/dictionary_read.hexpattern))
+#def(dict_remove)(#git(/hex_casting/programs/dictionary/dictionary_remove.hexpattern))
+#def(dict_write)(#git(/hex_casting/programs/dictionary/dictionary_write.hexpattern))

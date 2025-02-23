@@ -1,0 +1,24 @@
+{
+    [
+        @str(config),
+        @str(areas)
+    ]
+    [
+        [
+            [
+                @str(activeAreaName)
+                @str(dynamicSize)
+                @str(lastLookPos)
+            ]
+            [
+                @str()
+                @false
+                @vec(0, 0, 0)
+            ]
+        ]
+        [
+            []
+            []
+        ]
+    ]
+}

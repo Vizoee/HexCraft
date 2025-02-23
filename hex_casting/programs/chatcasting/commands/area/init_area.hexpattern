@@ -1,0 +1,21 @@
+{
+    [
+        @str(settings)
+        @str(corners)
+    ]
+    [
+        [
+            [
+                @str(isVisible)
+                @str(color)
+                @str(bindedArea)
+            ]
+            [
+                @false
+                @null
+                @str()
+            ]
+        ]
+        []
+    ]
+}

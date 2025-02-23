@@ -1,14 +1,14 @@
 list:
     [0]config:
-        selectedAreaName: string
+        activeAreaName: string
         dynamicSize: boolean
-        last_look_pos: vec
+        lastLookPos: vec
     [1]areas: dict - name as key
         area: dict
             settings: dict
                 isVisible: boolean
                 color: pigment
-                binded: area_name
+                bindedArea: area_name
             corners: list
 
 
@@ -16,6 +16,7 @@ commands:
 area
 
 new <name>
+    creates new area and sets it to active
     informs if area exists
 
 remove <name>

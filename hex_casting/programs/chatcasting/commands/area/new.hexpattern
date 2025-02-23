@@ -1,0 +1,83 @@
+#git(/hex_casting/programs/dictionary/dictionary.hexpattern)
+#def(init_area)(/hex_casting/programs/chatcasting/commands/area/init_area.hexpattern)
+
+// stack: message_to_list_except_first_word,
+
+Speaker's Decomposition
+Gemini Decomposition
+Augur's Purification
+{
+    @num(0) // property iota containing area command data
+    Undertaker's Gambit
+    // stack: prop, name, prop
+    Observation Purification
+    Jester's Gambit
+    Dioscuri Gambit
+    // stack: prop, name, area_data, name, area_data
+    {
+        @str(areas)
+    }
+    Flock's Disintegration
+    $dict_read
+    // stack: prop, name, area_data, name, areas
+    Jester's Gambit
+    Dioscuri Gambit
+    $dict_read
+    Gemini Decomposition
+    Augur's Purification
+    {
+        {
+            @str(Area with this name already exists.)
+        }
+        Flock's Disintegration
+        Reveal
+    }
+    {
+        // stack: prop, name, area_data, areas, name
+        $init_area
+        $dict_write
+        // stack: prop, name, area_data, areas
+        {
+            @str(areas)
+        }
+        Flock's Disintegration
+        Jester's Gambit
+        $dict_over_write
+        Undertaker's Gambit
+        // stack: prop, area_data, name, area_data
+        {
+            @str(config)
+        }
+        Flock's Disintegration
+        $dict_read
+        // stack: prop, area_data, name, area_config
+        {
+            @str(activeAreaName)
+        }
+        Flock's Disintegration
+        Rotation Gambit
+        #dict_over_write
+        // stack: prop, area_data, area_config
+        {
+            @str(config)
+        }
+        Flock's Disintegration
+        Jester's Gambit
+        #dict_over_write
+
+        Schrödinger's Gambit
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+}
+{
+    {
+        @str(Usage: area new <name>)
+    }
+    Flock's Disintegration
+    Reveal
+}
+Augur's Exaltation
+Hermes' Gambit
+
+
