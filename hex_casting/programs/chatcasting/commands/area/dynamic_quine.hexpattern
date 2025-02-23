@@ -167,7 +167,7 @@
                 Hermes' Gambit
 
                 // stack: prop, areas_data, config_updated, area, return_pigment_command, area_corners, area_settings_updated, mesh
-
+                Rotation Gambit
                 Flock's Disintegration
                 // stack: prop, areas_data, config_updated, area, return_pigment_command, area_settings_updated, mesh, pos1, pos2
                 #git(/hex_casting/programs/mesh/set_cube_size.hexpattern)
