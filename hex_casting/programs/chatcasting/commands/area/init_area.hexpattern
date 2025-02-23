@@ -1,6 +1,7 @@
 {
     [
         @false // is visible
+        @null // mesh
         @null // color
         @str() // binded area 
     ]
