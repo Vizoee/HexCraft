@@ -66,7 +66,7 @@ Augur's Purification
     stack: message_to_list_except_2_words, word
     Bookkeeper's Gambit: vv
     {
-        @str(Usage: add_command <name>)
+        @str(Usage: add_command <Name>)
     }
     Flock's Disintegration
     Reveal
