@@ -4,7 +4,6 @@ list:
         [1]dynamic_view: boolean
         [2]last_look_pos: vec
         [3]dynamic_color: pigment
-        [4]pigments: dict
     [1]areas: dict - name as key
         area:
             [0]settings:

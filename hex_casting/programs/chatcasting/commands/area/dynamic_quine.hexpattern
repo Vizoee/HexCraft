@@ -108,11 +108,6 @@
                 Augur's Purification
                 {
                     // mesh already exists
-                    {
-                        Bookkeeper's Gambit: -
-                    }
-                    Nut's Gambit: 4
-                    // stack: prop, areas_data, config_updated, area, [-], area_corners, area_settings, mesh
                 }
                 {
                     // stack: prop, areas_data, config_updated, area, area_corners, area_settings, null
@@ -153,7 +148,7 @@
                     Numerical Reflection: 0
                     Selection Distillation
                     // stack: prop, areas_data, config_updated, area, return_pigment_command, area_corners, area_settings, pos
-                    #git(/hex_casting/programs/mesh/create_cube.hexpattern)
+                    Conjure Mesh
                     // stack: prop, areas_data, config_updated, area, return_pigment_command, area_corners, area_settings, mesh
                     Undertaker's Gambit
                     // stack: prop, areas_data, config_updated, area, return_pigment_command, area_corners, mesh, area_settings, mesh
@@ -162,19 +157,19 @@
                     Surgeon's Exaltation
                     // stack: prop, areas_data, config_updated, area, return_pigment_command, area_corners, mesh, area_settings_updated
                     Jester's Gambit
+                    // stack: prop, areas_data, config_updated, area, return_pigment_command, area_corners, area_settings_updated, mesh
+                    Numerical Reflection: 3
+                    Fisherman's Gambit
+                    Hermes' Gambit // set original pigment 
                 }
                 Augur's Exaltation
                 Hermes' Gambit
 
-                // stack: prop, areas_data, config_updated, area, return_pigment_command, area_corners, area_settings_updated, mesh
+                // stack: prop, areas_data, config_updated, area, area_corners, area_settings_updated, mesh
                 Rotation Gambit
                 Flock's Disintegration
-                // stack: prop, areas_data, config_updated, area, return_pigment_command, area_settings_updated, mesh, pos1, pos2
+                // stack: prop, areas_data, config_updated, area, area_settings_updated, mesh, pos1, pos2
                 #git(/hex_casting/programs/mesh/set_cube_size.hexpattern)
-
-                Jester's Gambit
-                // stack: prop, areas_data, config_updated, area, area_settings_updated, return_pigment_command
-                Hermes' Gambit // set original pigment 
 
                 Numerical Reflection: 0
                 Jester's Gambit

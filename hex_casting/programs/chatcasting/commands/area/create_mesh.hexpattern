@@ -1,0 +1,52 @@
+// stack: area_corners, area_settings
+
+Gemini Decomposition
+Numerical Reflection: 2
+Selection Distillation
+Gemini Decomposition
+Augur's Purification
+{
+    // stack: area_corners, area_settings, pigment
+    Mind's Reflection
+    Pigment Purification
+    Bubbles' Purification
+    Single's Purification
+    {
+        Internalize Pigment II
+    }
+    Additive Distillation
+    Jester's Gambit
+    Internalize Pigment II
+}
+{
+    Bookkeeper's Gambit: v
+    {
+        Bookkeeper's Gambit: -
+    }
+}
+Augur's Exaltation
+Hermes' Gambit
+// stack: area_corners, area_settings, return_pigment_command
+
+Rotation Gambit II
+// stack: return_pigment_command, area_corners, area_settings
+
+Prospector's Gambit
+Numerical Reflection: 0
+Selection Distillation
+// stack: return_pigment_command, area_corners, area_settings, pos
+Conjure Mesh
+// stack: return_pigment_command, area_corners, area_settings, mesh
+Undertaker's Gambit
+// stack: return_pigment_command, area_corners, mesh, area_settings, mesh
+Numerical Reflection: 1
+Jester's Gambit
+Surgeon's Exaltation
+// stack: return_pigment_command, area_corners, mesh, area_settings_updated
+Jester's Gambit
+// stack: return_pigment_command, area_corners, area_settings_updated, mesh
+Numerical Reflection: 3
+Fisherman's Gambit
+Hermes' Gambit // set original pigment
+
+// stack: area_corners, area_settings_updated, mesh

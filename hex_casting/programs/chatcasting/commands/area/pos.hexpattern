@@ -14,9 +14,7 @@ Gemini Decomposition
 Augur's Purification
 {
     // stack: prop, config, areas, active_area_name, area
-    Gemini Decomposition
-    Numerical Reflection: 1
-    Selection Distillation
+    Flock's Disintegration
     
     Mind's Reflection
     Compass' Purification
@@ -26,7 +24,7 @@ Augur's Purification
 
     Jester's Gambit
 
-    // stack: prop, config, areas, active_area_name, area, pos, corners
+    // stack: prop, config, areas, active_area_name, area_settings, pos, corners
     
     Gemini Decomposition
     Augur's Purification
@@ -61,16 +59,33 @@ Augur's Purification
     Augur's Exaltation
     Hermes' Gambit
     
-    // stack: prop, config, areas, active_area_name, area, corners_updated
-    Numerical Reflection: 1
-    Jester's Gambit
-    Surgeon's Exaltation
+    // stack: prop, config, areas, active_area_name, area_settings, corners_updated
+
+    Prospector's Gambit
+    Numerical Reflection: 0
+    Selection Distillation
+    Gemini Decomposition
+    Augur's Purification
+    {
+        Prospector's Gambit
+        Numerical Reflection: 1
+        
+    }
+    {
+
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+
+    // stack: prop, config, areas, active_area_name, area_settings, corners_updated
+    Numerical Reflection: 2
+    Flock's Gambit
     // stack: prop, config, areas, active_area_name, area_updated
     #git(/hex_casting/programs/dictionary/dictionary_over_write.hexpattern)
     // stack: prop, config, areas_updated
     Numerical Reflection: 2
     Flock's Gambit
-    
+
     Schrödinger's Gambit
 }
 {
