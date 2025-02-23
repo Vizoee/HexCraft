@@ -124,6 +124,7 @@
                     Gemini Decomposition
                     Augur's Purification
                     {
+                        // stack: prop, areas_data, config_updated, area, area_corners, area_settings, pigment
                         Mind's Reflection
                         Pigment Purification
                         Bubbles' Purification
@@ -132,6 +133,8 @@
                             Internalize Pigment II
                         }
                         Additive Distillation
+                        Jester's Gambit
+                        Internalize Pigment II
                     }
                     {
                         Bookkeeper's Gambit: v
@@ -141,8 +144,6 @@
                     }
                     Augur's Exaltation
                     Hermes' Gambit
-                    Jester's Gambit
-                    Internalize Pigment II
                     // stack: prop, areas_data, config_updated, area, area_corners, area_settings, return_pigment_command
                     
                     Rotation Gambit II
