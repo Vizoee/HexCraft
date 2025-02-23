@@ -19,7 +19,7 @@
     {
         Numerical Reflection: 3
         Fisherman's Gambit
-        Numerical Reflection: 10 // how often quine is running
+        Numerical Reflection: 2 // how often quine is running
         {
             @str(Dynamic area)
         }
