@@ -1,4 +1,3 @@
-/*
 commands:
 add_command <name> - adds command to chat casting and 
 remove_command <name> - removes command from chat casting
@@ -33,5 +32,3 @@ area
     move
     color
     casting - shows where you need to stand so you can move area
-
-*/

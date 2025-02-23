@@ -1,0 +1,223 @@
+{
+    Consideration: Consideration
+    Bookkeeper's Gambit: -
+    Numerical Reflection: 1
+    Prospector's Gambit
+    Surgeon's Exaltation
+
+    @num(0) // area_prop
+    Gemini Decomposition
+    Observation Purification
+    Gemini Decomposition
+    Numerical Reflection: 0
+    Selection Distillation
+    // stack: quine, prop, areas_data, config
+
+    Gemini Decomposition
+    Numerical Reflection: 1
+    Selection Distillation
+    {
+        Numerical Reflection: 3
+        Fisherman's Gambit
+        Numerical Reflection: 10 // how often quine is running
+        {
+            @str(Dynamic area)
+        }
+        Flock's Disintegration
+        Enqueue
+
+        // stack: prop, areas_data, config
+
+        Gemini Decomposition
+        Numerical Reflection: 2
+        Selection Distillation // get last looking pos
+        // stack: prop, areas_data, config, last_looking_pos
+        
+        Mind's Reflection
+        Compass' Purification
+        Mind's Reflection
+        Alidade's Purification
+        Archer's Distillation // get looking pos
+
+        Undertaker's Gambit
+        Equality Distillation
+        {
+            // Block not changed
+        }
+        {
+            // stack: prop, areas_data, config, looking_pos
+            Undertaker's Gambit
+            Numerical Reflection: 2
+            Jester's Gambit
+            Surgeon's Exaltation // Update config with new looking pos
+            Jester's Gambit
+            // stack: prop, areas_data, config_updated, looking_pos
+
+            Numerical Reflection: 2
+            Fisherman's Gambit II
+            Numerical Reflection: 1
+            Selection Distillation // get areas
+            // stack: prop, areas_data, config_updated, looking_pos, areas
+            Numerical Reflection: 2
+            Fisherman's Gambit II
+            Numerical Reflection: 0
+            Selection Distillation // get active area name
+            // stack: prop, areas_data, config_updated, looking_pos, areas, active_area_name
+            #git(/hex_casting/programs/dictionary/dictionary_read.hexpattern)
+            Gemini Decomposition
+            Augur's Purification
+            {
+                // stack: prop, areas_data, config_updated, looking_pos, area
+                Undertaker's Gambit
+
+                Numerical Reflection: 1
+                Selection Distillation
+                // stack: prop, areas_data, config_updated, area, looking_pos, area_corners
+                {
+                    [
+                        Bookkeeper's Gambit: v
+                        Gemini Decomposition
+                        Numerical Reflection: 2
+                        Flock's Gambit
+                    ]
+                    [
+                        Jester's Gambit
+                        Integration Distillation
+                    ]
+                    [
+                        Speaker's Decomposition
+                        Bookkeeper's Gambit: v
+                        Jester's Gambit
+                        Integration Distillation
+                    ]
+                }
+                Prospector's Gambit
+                Length Purification
+                Selection Distillation
+                Hermes' Gambit
+                
+                // stack: prop, areas_data, config_updated, area, area_corners
+                Prospector's Gambit
+                Numerical Reflection: 0
+                Selection Distillation // get settings
+                Gemini Decomposition
+                Numerical Reflection: 1 // get mesh
+                Selection Distillation
+                // stack: prop, areas_data, config_updated, area, area_corners, area_settings, mesh/null
+                Gemini Decomposition
+                Augur's Purification
+                {
+                    // mesh already exists
+                    {
+                        Bookkeeper's Gambit: -
+                    }
+                    Nut's Gambit: 4
+                    // stack: prop, areas_data, config_updated, area, [-], area_corners, area_settings, mesh
+                }
+                {
+                    // stack: prop, areas_data, config_updated, area, area_corners, area_settings, null
+                    Bookkeeper's Gambit: v
+
+                    Gemini Decomposition
+                    Numerical Reflection: 2
+                    Selection Distillation
+                    Gemini Decomposition
+                    Augur's Purification
+                    {
+                        Mind's Reflection
+                        Pigment Purification
+                        Bubbles' Purification
+                        Single's Purification
+                        {
+                            Internalize Pigment II
+                        }
+                        Additive Distillation
+                    }
+                    {
+                        {
+                            Bookkeeper's Gambit: -
+                        }
+                    }
+                    Augur's Exaltation
+                    Hermes' Gambit
+                    Jester's Gambit
+                    Internalize Pigment II
+                    // stack: prop, areas_data, config_updated, area, area_corners, area_settings, return_pigment_command
+                    
+                    Rotation Gambit II
+                    // stack: prop, areas_data, config_updated, area, return_pigment_command, area_corners, area_settings
+
+                    Prospector's Gambit
+                    Numerical Reflection: 0
+                    Selection Distillation
+                    // stack: prop, areas_data, config_updated, area, return_pigment_command, area_corners, area_settings, pos
+                    #git(/hex_casting/programs/mesh/create_cube.hexpattern)
+                    // stack: prop, areas_data, config_updated, area, return_pigment_command, area_corners, area_settings, mesh
+                    Undertaker's Gambit
+                    // stack: prop, areas_data, config_updated, area, return_pigment_command, area_corners, mesh, area_settings, mesh
+                    Numerical Reflection: 1
+                    Jester's Gambit
+                    Surgeon's Exaltation
+                    // stack: prop, areas_data, config_updated, area, return_pigment_command, area_corners, mesh, area_settings_updated
+                    Jester's Gambit
+                }
+                Augur's Exaltation
+                Hermes' Gambit
+
+                // stack: prop, areas_data, config_updated, area, return_pigment_command, area_corners, area_settings_updated, mesh
+
+                Flock's Disintegration
+                // stack: prop, areas_data, config_updated, area, return_pigment_command, area_settings_updated, mesh, pos1, pos2
+                #git(/hex_casting/programs/mesh/set_cube_size.hexpattern)
+
+                Jester's Gambit
+                // stack: prop, areas_data, config_updated, area, area_settings_updated, return_pigment_command
+                Hermes' Gambit // set original pigment 
+
+                Numerical Reflection: 0
+                Jester's Gambit
+                Surgeon's Exaltation // update area
+                // stack: prop, areas_data, config_updated, area_updated
+                Rotation Gambit
+                Numerical Reflection: 1
+                Selection Distillation
+                // stack: prop, config_updated, area_updated, areas
+                Jester's Gambit
+                // stack: prop, config_updated, areas, area_updated
+                Numerical Reflection: 2
+                Fisherman's Gambit II
+                Numerical Reflection: 0
+                Selection Distillation // get active area name
+                Jester's Gambit
+                // stack: prop, config_updated, areas, area_name, area_updated
+                #git(/hex_casting/programs/dictionary/dictionary_over_write.hexpattern)
+                // stack: prop, config_updated, areas_updated
+                Numerical Reflection: 2
+                Flock's Gambit
+                
+                Schrödinger's Gambit
+            }
+            {
+                // No active area
+            }
+            Augur's Exaltation
+            Hermes' Gambit
+        }
+        Augur's Exaltation
+        Hermes' Gambit
+    }
+    {
+        {
+            @str(Dynamic view disabled: stopping quine)
+        }
+        Flock's Disintegration
+        Reveal
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+    
+}
+Numerical Reflection: 1
+Prospector's Gambit
+Surgeon's Exaltation
+Hermes' Gambit
