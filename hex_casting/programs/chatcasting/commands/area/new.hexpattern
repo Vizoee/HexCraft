@@ -52,7 +52,7 @@ Augur's Purification
         $dict_read
         // stack: prop, area_data, name, area_config
         {
-            @str(activeAreaName)
+            @str(active_area_name)
         }
         Flock's Disintegration
         Rotation Gambit

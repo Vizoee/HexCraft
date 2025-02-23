@@ -6,9 +6,9 @@
     [
         [
             [
-                @str(isVisible)
+                @str(is_visible)
                 @str(color)
-                @str(bindedArea)
+                @str(binded_area)
             ]
             [
                 @false

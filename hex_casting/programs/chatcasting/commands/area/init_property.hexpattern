@@ -6,9 +6,9 @@
     [
         [
             [
-                @str(activeAreaName)
-                @str(dynamicSize)
-                @str(lastLookPos)
+                @str(active_area_name)
+                @str(dynamic_size)
+                @str(last_look_pos)
             ]
             [
                 @str()

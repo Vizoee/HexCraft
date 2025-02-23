@@ -1,14 +1,14 @@
 list:
     [0]config:
-        activeAreaName: string
-        dynamicSize: boolean
-        lastLookPos: vec
+        active_area_name: string
+        dynamic_size: boolean
+        last_look_pos: vec
     [1]areas: dict - name as key
         area: dict
             settings: dict
-                isVisible: boolean
+                is_visible: boolean
                 color: pigment
-                bindedArea: area_name
+                binded_area: area_name
             corners: list
 
 
