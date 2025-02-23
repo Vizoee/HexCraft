@@ -1,5 +1,5 @@
-#git(/hex_casting/programs/dictionary/dictionary.hexpattern)
-#def(init_area)(/hex_casting/programs/chatcasting/commands/area/init_area.hexpattern)
+#def(dict_over_write)(#git(/hex_casting/programs/dictionary/dictionary_over_write.hexpattern))
+#def(dict_read)(#git(/hex_casting/programs/dictionary/dictionary_read.hexpattern))
 
 // stack: message_to_list_except_first_word,
 
@@ -13,16 +13,12 @@ Augur's Purification
     Observation Purification
     Dioscuri Gambit
     // stack: prop, name, area_data, name, area_data
-    {
-        @str(areas)
-    }
-    Flock's Disintegration
-    $dict_read
-
-    // stack: prop, name, area_data, name, areas
+    Numerical Reflection: 1
+    Selection Distillation
     Jester's Gambit
+    // stack: prop, name, area_data, areas, name
     Dioscuri Gambit
-    $dict_read
+    $dict_read // check if area with name already exists
     Augur's Purification
     {
         {
@@ -33,62 +29,26 @@ Augur's Purification
     }
     {
         // stack: prop, name, area_data, areas, name
-        Flock's Reflection
-        Flock's Gambit
-        Reveal
-        Flock's Disintegration
-        
-        $init_area
-
-        Flock's Reflection
-        Flock's Gambit
-        Reveal
-        Flock's Disintegration
-        
-        Rotation Gambit
-        Flock's Disintegration
-        Rotation Gambit
-        Integration Distillation
-        Rotation Gambit II
-        Jester's Gambit
-        Integration Distillation
-        Jester's Gambit
-        Numerical Reflection: 2
-        Flock's Gambit
-
-        Flock's Reflection
-        Flock's Gambit
-        Reveal
-        Flock's Disintegration
-
-        // stack: prop, name, area_data, areas
-        {
-            @str(areas)
-        }
-        Flock's Disintegration
-        Jester's Gambit
+        #git(init_area_v2.hexpattern)
         $dict_over_write
-        Undertaker's Gambit
-        // stack: prop, area_data, name, area_data
-        {
-            @str(config)
-        }
-        Flock's Disintegration
-        $dict_read
-        // stack: prop, area_data, name, area_config
-        {
-            @str(active_area_name)
-        }
-        Flock's Disintegration
-        Rotation Gambit
-        #dict_over_write
-        // stack: prop, area_data, area_config
-        {
-            @str(config)
-        }
-        Flock's Disintegration
+
+        Numerical Reflection: 1 
         Jester's Gambit
-        #dict_over_write
+        Surgeon's Exaltation// update areas
+
+        // stack: prop, name, area_data
+        Gemini Decomposition
+        Numerical Reflection: 0 
+        Selection Distillation// get config
+
+        Rotation Gambit
+        Numerical Reflection: 0 // set active area
+        Jester's Gambit
+        Surgeon's Exaltation
+        
+        Numerical Reflection: 0 // update config
+        Jester's Gambit
+        Surgeon's Exaltation
 
         Schrödinger's Gambit
     }

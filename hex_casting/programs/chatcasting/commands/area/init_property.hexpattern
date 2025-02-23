@@ -1,24 +1,10 @@
 {
     [
-        @str(config),
-        @str(areas)
+        @str() // active area
+        @false // is dynamic view
+        @vec(0, 0, 0) // last looking pos
+        @null // dynamic view pigment
+        [[][]] // dict of pigments
     ]
-    [
-        [
-            [
-                @str(active_area_name)
-                @str(dynamic_size)
-                @str(last_look_pos)
-            ]
-            [
-                @str()
-                @false
-                @vec(0, 0, 0)
-            ]
-        ]
-        [
-            []
-            []
-        ]
-    ]
+    [[][]] // dict of areas
 }

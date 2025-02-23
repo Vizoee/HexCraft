@@ -1,21 +1,8 @@
 {
     [
-        @str(settings)
-        @str(corners)
+        @false // is visible
+        @null // color
+        @str() // binded area 
     ]
-    [
-        [
-            [
-                @str(is_visible)
-                @str(color)
-                @str(binded_area)
-            ]
-            [
-                @false
-                @null
-                @str()
-            ]
-        ]
-        []
-    ]
+    [] // list of points
 }

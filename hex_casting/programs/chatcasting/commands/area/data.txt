@@ -3,6 +3,8 @@ list:
         [0]active_area_name: string
         [1]dynamic_size: boolean
         [2]last_look_pos: vec
+        [3]dynamic_color: pigment
+        [4]pigments: dict
     [1]areas: dict - name as key
         area:
             [0]settings:
@@ -24,16 +26,25 @@ remove <name>
         removes mesh
 
 active <name>
-    sets 
+    sets area active
 
 color <name>
     sets active area color
 
-set_pos
+set
     sets position of block you are looking at
+
+move
+    similar to shift but also removes/adds in -axis you are looking at
 
 shift
     adds 1 block to axis you are looking at
     when shifted removes 1 block to axis you are looking at
     on cad
 
+show
+
+dynamic
+    starts new quine
+    changes size each time looking at new block
+    does not 
