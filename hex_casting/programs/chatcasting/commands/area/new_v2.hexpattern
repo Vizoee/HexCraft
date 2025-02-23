@@ -1,6 +1,5 @@
 #def(dict_over_write)(#git(/hex_casting/programs/dictionary/dictionary_over_write.hexpattern))
 #def(dict_read)(#git(/hex_casting/programs/dictionary/dictionary_read.hexpattern))
-#def(init_area)(/hex_casting/programs/chatcasting/commands/area/init_area_v2.hexpattern)
 
 // stack: message_to_list_except_first_word,
 
@@ -31,7 +30,7 @@ Augur's Purification
     }
     {
         // stack: prop, area_data, areas, areas, name
-        #git(hex_casting/programs/chatcasting/commands/area/init_area_v2.hexpattern)
+        #git(init_area_v2.hexpattern)
         $dict_over_write
 
         Flock's Reflection
