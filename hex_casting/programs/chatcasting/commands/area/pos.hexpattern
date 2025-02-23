@@ -1,0 +1,84 @@
+
+
+@num(0) // propertu iota containing area data
+Gemini Decomposition
+Observation Purification
+Flock's Disintegration
+Prospector's Gambit
+Numerical Reflection: 0
+Selection Distillation
+// stack: prop, config, areas, active_area_name
+Dioscuri Gambit
+#git(/hex_casting/programs/dictionary/dictionary_read.hexpattern)
+Gemini Decomposition
+Augur's Purification
+{
+    // stack: prop, config, areas, active_area_name, area
+    Gemini Decomposition
+    Numerical Reflection: 1
+    Selection Distillation
+    
+    Mind's Reflection
+    Compass' Purification
+    Mind's Reflection
+    Alidade's Purification
+    Archer's Distillation // get looking pos
+
+    Jester's Gambit
+
+    // stack: prop, config, areas, active_area_name, area, pos, corners
+    
+    Gemini Decomposition
+    Augur's Purification
+    {
+        // if not empty
+        Gemini Decomposition
+        Length Purification
+        Numerical Reflection: 1
+        Equality Distillation
+        {
+            // if 1 corner
+            Jester's Gambit
+            Integration Distillation
+        }
+        {
+            // if 2 corners
+            Speaker's Decomposition
+            Bookkeeper's Gambit: v
+            Jester's Gambit
+            Integration Distillation
+        }
+        Augur's Exaltation
+        Hermes' Gambit
+    }
+    {
+        // if empty
+        Bookkeeper's Gambit: v
+        Gemini Decomposition
+        Numerical Reflection: 2
+        Flock's Gambit
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+    
+    // stack: prop, config, areas, active_area_name, area, corners_updated
+    Numerical Reflection: 1
+    Jester's Gambit
+    Surgeon's Exaltation
+    // stack: prop, config, areas, active_area_name, area_updated
+    #git(/hex_casting/programs/dictionary/dictionary_over_write.hexpattern)
+    // stack: prop, config, areas_updated
+    Numerical Reflection: 2
+    Flock's Gambit
+    
+    Schrödinger's Gambit
+}
+{
+    {
+        @str(No area selected)
+    }
+    Flock's Disintegration
+    Reveal
+}
+Augur's Exaltation
+Hermes' Gambit

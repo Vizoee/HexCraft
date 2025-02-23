@@ -32,8 +32,8 @@ active <name>
 color <name>
     sets active area color
 
-set
-    sets position of block you are looking at
+pos
+    sets position of block you are looking at as one of corners
 
 move
     similar to shift but also removes/adds in -axis you are looking at
