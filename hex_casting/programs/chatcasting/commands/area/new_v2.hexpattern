@@ -1,5 +1,5 @@
 #git(/hex_casting/programs/dictionary/dictionary.hexpattern)
-#def(init_area)(/hex_casting/programs/chatcasting/commands/area/init_area.hexpattern)
+#def(init_area)(/hex_casting/programs/chatcasting/commands/area/init_area_v2.hexpattern)
 
 // stack: message_to_list_except_first_word,
 
