@@ -11,11 +11,10 @@ Augur's Purification
     Undertaker's Gambit
     // stack: prop, name, prop
     Observation Purification
-    Undertaker's Gambit
+    Dioscuri Gambit
     // stack: prop, area_data, name, area_data
     Numerical Reflection: 1
     Selection Distillation
-    Undertaker's Gambit
     // stack: prop, area_data, areas, name, areas
     Jester's Gambit
     Dioscuri Gambit
@@ -38,6 +37,20 @@ Augur's Purification
         Reveal
         Flock's Disintegration
 
+        Numerical Reflection: 0
+        Jester's Gambit
+        Surgeon's Exaltation
+        
+        Gemini Decomposition
+        Numerical Reflection: 0
+        Selection Distillation
+        Rotation Gambit
+        Numerical Reflection: 0
+        Jester's Gambit
+        Surgeon's Exaltation
+        Numerical Reflection: 0
+        Jester's Gambit
+        Surgeon's Exaltation
     }
     Augur's Exaltation
     Hermes' Gambit
