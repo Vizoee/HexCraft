@@ -33,6 +33,11 @@ Augur's Purification
     }
     {
         // stack: prop, name, area_data, areas, name
+        Flock's Reflection
+        Flock's Gambit
+        Reveal
+        Flock's Disintegration
+        
         $init_area
         $dict_write
 
