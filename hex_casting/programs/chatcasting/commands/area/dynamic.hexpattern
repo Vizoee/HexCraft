@@ -1,0 +1,29 @@
+@num(0)
+Gemini Decomposition
+Observation Purification
+Gemini Decomposition
+Numerical Reflection: 0
+Selection Distillation // get config
+Gemini Decomposition
+Numerical Reflection: 1
+Selection Distillation // get is dynamic view
+// stack: prop, data, config, is_dynamic
+Negation Purification // change setting
+Gemini Decomposition
+// stack: prop, data, config, is_dynamic, is_dynamic
+Numerical Reflection: -4
+Fisherman's Gambit
+Numerical Reflection: 1
+Jester's Gambit
+Surgeon's Exaltation // update config
+Numerical Reflection: 0
+Jester's Gambit
+Surgeon's Exaltation // update data
+Schrödinger's Gambit // save data
+{
+    @str(Changed dynamic to :)
+}
+Flock's Disintegration
+Reveal
+Bookkeeper's Gambit: v
+Reveal

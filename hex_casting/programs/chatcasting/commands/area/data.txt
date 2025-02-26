@@ -61,3 +61,6 @@ rotate
 swap
 
 copy
+
+all
+    returns all area names
