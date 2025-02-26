@@ -20,10 +20,20 @@ Numerical Reflection: 0
 Jester's Gambit
 Surgeon's Exaltation // update data
 Schrödinger's Gambit // save data
-{
-    @str(Changed dynamic to :)
-}
-Flock's Disintegration
-Reveal
+
 Bookkeeper's Gambit: v
 Reveal
+{
+    #git(/hex_casting/programs/chatcasting/commands/area/dynamic_quine.hexpattern)
+    {
+        @str(Dynamic view enabled.)
+    }
+    Flock's Disintegration
+    Reveal
+}
+{
+
+}
+Augur's Exaltation
+Hermes' Gambit
+
