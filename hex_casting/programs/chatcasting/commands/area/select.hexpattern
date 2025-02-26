@@ -1,0 +1,62 @@
+#def(dict_read)(#git(/hex_casting/programs/dictionary/dictionary_read.hexpattern))
+
+// stack: message_to_list_except_first_word,
+
+Speaker's Decomposition
+Gemini Decomposition
+Augur's Purification
+{
+    @num(0) // property iota containing area command data
+    Undertaker's Gambit
+    // stack: prop, name, prop
+    Observation Purification
+    Dioscuri Gambit
+    // stack: prop, name, areas_data, name, areas_data
+    Numerical Reflection: 1
+    Selection Distillation
+    Jester's Gambit
+    // stack: prop, name, areas_data, areas, name
+    $dict_read // check if area with name already exists
+    Augur's Purification
+    {
+        // stack: prop, name, areas_data
+        Gemini Decomposition
+        Numerical Reflection: 0 
+        Selection Distillation// get config
+
+        Rotation Gambit
+        Numerical Reflection: 0 // set active area
+        Jester's Gambit
+        Surgeon's Exaltation
+        
+        Numerical Reflection: 0 // update config
+        Jester's Gambit
+        Surgeon's Exaltation
+
+        Schrödinger's Gambit
+
+        {
+            @str(Area successfully selected.)
+        }
+        Flock's Disintegration
+        Reveal
+    }
+    {
+        {
+            @str(Area with this name does not exists.)
+        }
+        Flock's Disintegration
+        Reveal
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+}
+{
+    {
+        @str(Usage: area select <name>)
+    }
+    Flock's Disintegration
+    Reveal
+}
+Augur's Exaltation
+Hermes' Gambit

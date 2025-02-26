@@ -13,11 +13,11 @@ Augur's Purification
     // stack: prop, name, prop
     Observation Purification
     Dioscuri Gambit
-    // stack: prop, name, area_data, name, area_data
+    // stack: prop, name, areas_data, name, areas_data
     Numerical Reflection: 1
     Selection Distillation
     Jester's Gambit
-    // stack: prop, name, area_data, areas, name
+    // stack: prop, name, areas_data, areas, name
     Dioscuri Gambit
     $dict_read // check if area with name already exists
     Augur's Purification
@@ -29,7 +29,7 @@ Augur's Purification
         Reveal
     }
     {
-        // stack: prop, name, area_data, areas, name
+        // stack: prop, name, areas_data, areas, name
         $init_area
         $dict_over_write
 
@@ -37,7 +37,7 @@ Augur's Purification
         Jester's Gambit
         Surgeon's Exaltation// update areas
 
-        // stack: prop, name, area_data
+        // stack: prop, name, areas_data
         Gemini Decomposition
         Numerical Reflection: 0 
         Selection Distillation// get config
