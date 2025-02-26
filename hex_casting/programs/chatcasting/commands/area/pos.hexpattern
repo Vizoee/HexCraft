@@ -1,5 +1,3 @@
-
-
 @num(0) // propertu iota containing area data
 Gemini Decomposition
 Observation Purification
@@ -90,10 +88,12 @@ Augur's Purification
         #git(/hex_casting/programs/mesh/set_cube_size.hexpattern)
     }
     {
-
+        
     }
     Augur's Exaltation
     Hermes' Gambit
+
+    Jester's Gambit
 
     // stack: prop, config, areas, active_area_name, area_settings, corners_updated
     Numerical Reflection: 2
