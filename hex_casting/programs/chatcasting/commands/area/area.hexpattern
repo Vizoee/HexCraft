@@ -1,8 +1,39 @@
+Speaker's Decomposition
+Gemini Decomposition
+Augur's Purification
 {
-    [
-        @str(new)
-    ]
-    [
-        #git(/hex_casting/programs/chatcasting/commands/area/new.hexpattern)
-    ]
+    @num(0) // property iota containing all commands
+    Observation Purification
+    Jester's Gambit
+    
+    #git(/hex_casting/programs/dictionary/dictionary_read.hexpattern)
+
+    // if command exists
+    Gemini Decomposition
+    Augur's Purification
+    {
+        Hermes' Gambit
+    }
+    {
+        Bookkeeper's Gambit: vv
+        {
+            @str(Command does not exists.)
+        }
+        Flock's Disintegration
+        Reveal
+        Bookkeeper's Gambit: v
+    }
+    Augur's Exaltation
+    Hermes' Gambit
 }
+{
+    Bookkeeper's Gambit: vv
+    {
+        @str(Usage: area <command>.)
+    }
+    Flock's Disintegration
+    Reveal
+    Bookkeeper's Gambit: v
+}
+Augur's Exaltation
+Hermes' Gambit

@@ -49,3 +49,15 @@ dynamic
     starts new quine
     changes size each time looking at new block
     does not 
+
+bind
+
+fill
+
+break
+
+rotate
+
+swap
+
+copy
