@@ -1,0 +1,8 @@
+type command
+send string to cc
+    option 1: have wisp read chat messages for hexget
+    option 2: have property containing hexes and wisp reading it for new commands
+parse string
+return information that hex is finnished
+read hex
+write it to offhand
