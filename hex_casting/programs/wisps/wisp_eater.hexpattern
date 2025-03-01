@@ -13,7 +13,13 @@ Flock's Reflection
 Augur's Purification
 {
     // create dict
+    {
+        @str(Wisp eater started.)
+    }
+    Flock's Disintegration
     Reveal
+    Bookkeeper's Gambit: v
+    
     Bookkeeper's Gambit: v
     Vacant Reflection
     Vacant Reflection
@@ -95,10 +101,6 @@ Huginn's Gambit
         {
             Bookkeeper's Gambit: v
             Consume Wisp
-
-            Reservoir Reflection
-            Reveal
-            Bookkeeper's Gambit: v
 
             Popularity Reflection
             Augur's Purification
