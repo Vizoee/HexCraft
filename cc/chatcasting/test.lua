@@ -9,7 +9,7 @@ local function executeCommand(input)
     end
 
     -- Construct command path
-    local commandPath = fs.combine(commandFolder, command .. ".lua")
+    local commandPath = "/" .. shell.dir() .. commandFolder .. command .. ".lua"
     
     if fs.exists(commandPath) and not fs.isDir(commandPath) then
         local success, err = pcall(function()
