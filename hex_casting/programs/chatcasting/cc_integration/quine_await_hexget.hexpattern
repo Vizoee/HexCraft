@@ -1,0 +1,30 @@
+{
+    Consideration: Consideration
+    Bookkeeper's Gambit: -
+    Numerical Reflection: 1
+    Prospector's Gambit
+    Surgeon's Exaltation
+
+    @num(0) // area_prop
+    Observation Purification
+    Gemini Decomposition
+    Augur's Purification
+    {
+        Scribe's Gambit
+    }
+    {
+        Bookkeeper's Gambit: v
+        Numerical Reflection: 2 // how often quine is running
+        {
+            @str(Await response)
+        }
+        Flock's Disintegration
+        Enqueue
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+}
+Numerical Reflection: 1
+Prospector's Gambit
+Surgeon's Exaltation
+Hermes' Gambit

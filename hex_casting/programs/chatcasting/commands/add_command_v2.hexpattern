@@ -1,0 +1,52 @@
+#def(dict_write)(#git(/hex_casting/programs/dictionary/dictionary_write.hexpattern))
+#def(dict_read)(#git(/hex_casting/programs/dictionary/dictionary_read.hexpattern))
+
+
+stack: message_to_list_except_first_word,
+
+Speaker's Decomposition
+Gemini Decomposition
+Augur's Purification
+{
+    // stack: name
+    @num(0) // property iota containing all commands
+    Undertaker's Gambit
+    Observation Purification
+    Jester's Gambit
+    // stack: prop, dict, name
+    Dioscuri Gambit
+    
+    $dict_read
+    Augur's Purification
+    {
+        {
+            @str(Command already exists.)
+        }
+        Flock's Disintegration
+        Reveal
+    }
+    {
+        stack: prop, dict
+        Schrödinger's Gambit
+        {
+            @str(Command added successfully.)
+        }
+        Flock's Disintegration
+        Reveal
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+
+
+
+    
+}
+{
+    {
+        @str(Usage: add_command <name>)
+    }
+    Flock's Disintegration
+    Reveal
+}
+Augur's Exaltation
+Hermes' Gambit
