@@ -4,8 +4,8 @@
 //      if new wisp
 //          return wisp to dict with time 
 //      else
-//          // todo: eat wisp if time is up
-//          return wisp with old time
+//          eat wisp if time is up
+//          else return wisp with old time
 
 
 // init wisp
@@ -145,10 +145,3 @@ Thoth's Gambit
 Sekhmet's Gambit: 0
 
 Muninn's Reflection
-
-Numerical Reflection: 1
-Flock's Reflection
-Flock's Gambit
-Reveal
-Flock's Disintegration
-Bookkeeper's Gambit: v
