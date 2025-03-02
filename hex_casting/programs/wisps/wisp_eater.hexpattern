@@ -16,6 +16,14 @@ Augur's Purification
     {
         @str(Wisp eater started.)
     }
+
+    Numerical Reflection: 0
+    Flock's Reflection
+    Flock's Gambit
+    Reveal
+    Flock's Disintegration
+    Bookkeeper's Gambit: v
+
     Flock's Disintegration
     Reveal
     Bookkeeper's Gambit: v
@@ -50,6 +58,14 @@ Huginn's Gambit
 
     // get value from dict
     Jester's Gambit
+
+    Numerical Reflection: 1
+    Flock's Reflection
+    Flock's Gambit
+    Reveal
+    Flock's Disintegration
+    Bookkeeper's Gambit: v
+
     Flock's Disintegration
     Reflecting Gambit
     Locator's Distillation
@@ -78,6 +94,14 @@ Huginn's Gambit
         
         // write to dict
         Rotation Gambit
+
+        Numerical Reflection: 2
+        Flock's Reflection
+        Flock's Gambit
+        Reveal
+        Flock's Disintegration
+        Bookkeeper's Gambit: v
+
         Flock's Disintegration
         Rotation Gambit
         Integration Distillation
@@ -109,6 +133,14 @@ Huginn's Gambit
             
             // write to dict
             Rotation Gambit
+
+            Numerical Reflection: 3
+            Flock's Reflection
+            Flock's Gambit
+            Reveal
+            Flock's Disintegration
+            Bookkeeper's Gambit: v
+
             Flock's Disintegration
             Rotation Gambit
             Integration Distillation
