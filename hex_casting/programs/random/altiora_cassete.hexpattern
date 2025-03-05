@@ -6,8 +6,10 @@
     Surgeon's Exaltation
 
     Numerical Reflection: 3
-    Consideration: Consideration
-    @str(Altiora)
+    {
+        Altiora
+    }
+    Flock's Disintegration
     Enqueue
 
     Telepathic Reflection
