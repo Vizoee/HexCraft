@@ -1,0 +1,36 @@
+{
+    Consideration: Consideration
+    Bookkeeper's Gambit: -
+    Numerical Reflection: 1
+    Prospector's Gambit
+    Surgeon's Exaltation
+
+    Numerical Reflection: 3
+    Consideration: Consideration
+    @str(Altiora)
+    Enqueue
+
+    Telepathic Reflection
+    Numerical Reflection: -1
+    Equality Distillation
+    {
+        Leaping Reflection
+        Numerical Reflection: -1
+        Equality Distillation
+        {}
+        {
+            Mind's Reflection
+            Altiora
+        }
+        Augur's Exaltation
+        Hermes' Gambit
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+}
+Numerical Reflection: 1
+Prospector's Gambit
+Surgeon's Exaltation
+Hermes' Gambit
+
+
