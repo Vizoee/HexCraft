@@ -9,3 +9,5 @@ hexlator
     in chat casting
     fork PEASE FORK!!!
 
+thanks guys for remonding me about hexicon
+thanks to that i have modified my akasha chat casting to just use words to find spells
