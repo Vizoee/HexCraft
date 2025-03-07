@@ -1,0 +1,57 @@
+{
+    Consideration: Consideration
+    Bookkeeper's Gambit: -
+    Numerical Reflection: 1
+    Prospector's Gambit
+    Surgeon's Exaltation
+
+    Numerical Reflection: 13
+    Whisper Reflection
+    Bubbles' Purification
+    Surgeon's Exaltation
+
+    Numerical Reflection: 2
+    Consideration: Consideration
+    @str(Chat Casting)
+    Enqueue
+
+    Whisper Reflection
+    
+
+    stack: last_message,
+    Whisper Reflection
+    Equality Distillation
+    {}
+    {
+        Whisper Reflection
+        Spacing Reflection
+        Separation Distillation
+        
+        Speaker's Decomposition
+        #git(/hex_casting/hexicon/convert_string_to_hexicon.hexpattern)
+
+        Gemini Decomposition
+        Augur's Purification
+        {
+            {
+                @vec(375, 53, 2484)
+            }
+            Flock's Disintegration
+            Jester's Gambit
+            Akasha's Distillation
+            Hermes' Gambit
+        }
+        {}
+        Augur's Exaltation
+        Hermes' Gambit
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+
+}
+Numerical Reflection: 1
+Prospector's Gambit
+Surgeon's Exaltation
+Hermes' Gambit
+
+
