@@ -26,7 +26,7 @@
     @str(x),
     @str(y),
     @str(z),
-    @str(_),
+    @str(_)
   ],
   [
     @pattern(NORTHEAST,eda),
@@ -55,6 +55,6 @@
     @pattern(NORTHEAST,eaddwa),
     @pattern(EAST,qadedq),
     @pattern(NORTHEAST,eaddq),
-    @pattern(EAST,w),
+    @pattern(EAST,w)
   ]
 ]
