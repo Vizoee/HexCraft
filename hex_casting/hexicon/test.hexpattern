@@ -1,5 +1,5 @@
-{
-  {
+[]
+  [
     @str(a),
     @str(b),
     @str(c),
@@ -27,8 +27,8 @@
     @str(y),
     @str(z),
     @str(_),
-  },
-  {
+  ],
+  [
     @pattern(NORTHEAST,eda),
     @pattern(NORTHEAST,wddaq),
     @pattern(NORTHEAST,wedwa),
@@ -56,5 +56,5 @@
     @pattern(EAST,qadedq),
     @pattern(NORTHEAST,eaddq),
     @pattern(EAST,w),
-  },
-}
+  ]
+]
