@@ -1,0 +1,141 @@
+{
+  {
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h",
+    "i",
+    "j",
+    "k",
+    "l",
+    "m",
+    "n",
+    "o",
+    "p",
+    "q",
+    "r",
+    "s",
+    "t",
+    "u",
+    "v",
+    "w",
+    "x",
+    "y",
+    "z",
+    "_",
+  },
+  {
+    {
+      startDir = "NORTH_EAST",
+      angles = "eda",
+    },
+    {
+      startDir = "NORTH_EAST",
+      angles = "wddaq",
+    },
+    {
+      startDir = "NORTH_EAST",
+      angles = "wedwa",
+    },
+    {
+      startDir = "EAST",
+      angles = "qaddw",
+    },
+    {
+      startDir = "EAST",
+      angles = "ade",
+    },
+    {
+      startDir = "EAST",
+      angles = "awdew",
+    },
+    {
+      startDir = "NORTH_EAST",
+      angles = "wdea",
+    },
+    {
+      startDir = "NORTH_EAST",
+      angles = "wedq",
+    },
+    {
+      startDir = "EAST",
+      angles = "aedea",
+    },
+    {
+      startDir = "NORTH_EAST",
+      angles = "wddaad",
+    },
+    {
+      startDir = "EAST",
+      angles = "awddada",
+    },
+    {
+      startDir = "EAST",
+      angles = "adaddwa",
+    },
+    {
+      startDir = "EAST",
+      angles = "aedw",
+    },
+    {
+      startDir = "NORTH_EAST",
+      angles = "dad",
+    },
+    {
+      startDir = "EAST",
+      angles = "adda",
+    },
+    {
+      startDir = "NORTH_EAST",
+      angles = "qddqad",
+    },
+    {
+      startDir = "NORTH_EAST",
+      angles = "daqddq",
+    },
+    {
+      startDir = "NORTH_EAST",
+      angles = "qdew",
+    },
+    {
+      startDir = "NORTH_EAST",
+      angles = "wdw",
+    },
+    {
+      startDir = "NORTH_EAST",
+      angles = "ee",
+    },
+    {
+      startDir = "NORTH_EAST",
+      angles = "qddae",
+    },
+    {
+      startDir = "NORTH_EAST",
+      angles = "qdedaq",
+    },
+    {
+      startDir = "EAST",
+      angles = "awddae",
+    },
+    {
+      startDir = "NORTH_EAST",
+      angles = "eaddwa",
+    },
+    {
+      startDir = "EAST",
+      angles = "qadedq",
+    },
+    {
+      startDir = "NORTH_EAST",
+      angles = "eaddq",
+    },
+    {
+      startDir = "EAST",
+      angles = "w",
+    },
+  },
+}
