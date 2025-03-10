@@ -26,8 +26,11 @@ Chirographer's Purification
     // stack: result, to_convert_list, abc_patterns, abc_strings
     Rotation Gambit II
     // stack: result, abc_strings, to_convert_list, abc_patterns
+    Undertaker's Gambit
+    // stack: result, abc_strings, abc_patterns, to_convert_list, abc_patterns
     { // for each pattern - break when finds pattern
         // stack: to_convert_list, abc_pattern
+        Sekhmet's Gambit: 2
         Chirographer's Purification
         Undertaker's Gambit
         Length Purification
@@ -53,8 +56,11 @@ Chirographer's Purification
         Hermes' Gambit
     }
     Jester's Gambit
+    // stack: result, abc_strings, abc_patterns, to_convert_list, abc_patterns, [num/empty]
     Thoth's Gambit
-    // stack: result, abc_strings, to_convert_list, pattern_numbers, [num/empty]
+    // stack: result, abc_strings, abc_patterns, to_convert_list, [num/empty]
+    Bubbling Gambit
+    // stack: result, abc_strings, to_convert_list, abc_patterns, [num/empty]
     Flock's Reflection
     Flock's Gambit
     Reveal
@@ -66,12 +72,13 @@ Chirographer's Purification
         // No patterns found. PANIC AND THROW ERROR OR SHIT
     }
     {
-        // stack: result, abc_strings, to_convert_list, pattern_numbers, num
         Flock's Disintegration
+        // stack: result, abc_strings, to_convert_list, to_convert_list, num
         Numerical Reflection: -2
         Fisherman's Gambit II
-        // stack: result, abc_strings, num, to_convert_list, pattern_numbers, num
+        // stack: result, abc_strings, num, to_convert_list, abc_patterns, num
         Selection Distillation
+        Chirographer's Purification
         Length Purification
         Prospector's Gambit
         Length Purification
