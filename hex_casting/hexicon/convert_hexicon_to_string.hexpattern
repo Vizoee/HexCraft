@@ -74,17 +74,17 @@ Chirographer's Purification
     Reveal
     Flock's Disintegration
 
-    Prospector's Gambit
+    // stack: result, abc_strings, to_convert_list, abc_patterns, [num/empty]
     Length Purification
     Prospector's Gambit
     Length Purification
+    Prospector's Gambit
     Inequality Distillation
     Prospector's Gambit
     Augur's Purification
     Conjunction Distillation
     {
-        Length Purification
-        // stack: result, abc_strings, to_convert_list, to_convert_list, num
+        // stack: result, abc_strings, to_convert_list, abc_patterns, num
         Numerical Reflection: -2
         Fisherman's Gambit II
         // stack: result, abc_strings, num, to_convert_list, abc_patterns, num
@@ -92,6 +92,12 @@ Chirographer's Purification
         Chirographer's Purification
         Length Purification
         Prospector's Gambit
+
+        Flock's Reflection
+        Flock's Gambit
+        Reveal
+        Flock's Disintegration
+
         Length Purification
         Selection Exaltation
         // stack: result, abc_strings, num, to_convert_list_sliced
