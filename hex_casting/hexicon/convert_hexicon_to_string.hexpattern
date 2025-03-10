@@ -77,9 +77,6 @@ Chirographer's Purification
     Gemini Decomposition
     Augur's Purification
     {
-        // No patterns found. PANIC AND THROW ERROR OR SHIT
-    }
-    {
         Flock's Disintegration
         // stack: result, abc_strings, to_convert_list, to_convert_list, num
         Numerical Reflection: -2
@@ -111,6 +108,9 @@ Chirographer's Purification
         }
         Augur's Exaltation
         Hermes' Gambit
+    }
+    {
+        // No patterns found. PANIC AND THROW ERROR OR SHIT
     }
     Augur's Exaltation
     Hermes' Gambit
