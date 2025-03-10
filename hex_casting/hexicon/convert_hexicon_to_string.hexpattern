@@ -28,6 +28,7 @@ Chirographer's Purification
     // stack: result, abc_strings, to_convert_list, abc_patterns
     { // for each pattern - break when finds pattern
         // stack: to_convert_list, abc_pattern
+        Chirographer's Purification
         Undertaker's Gambit
         Length Purification
         Numerical Reflection: 0
