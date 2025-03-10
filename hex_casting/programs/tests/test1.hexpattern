@@ -1,8 +1,8 @@
 Jester's Gambit
 Schrödinger's Gambit
 @pattern(EAST,eda)
-@pattern(NORTHEAST,eda)
-@pattern(SOUTHEAST,eda)
+@pattern(NORTH_EAST,eda)
+@pattern(SOUTH_EAST,eda)
 @pattern(WEST,eda)
-@pattern(NORTHWEST,eda)
-@pattern(SOUTHWEST,eda)
+@pattern(NORTH_WEST,eda)
+@pattern(SOUTH_WEST,eda)
