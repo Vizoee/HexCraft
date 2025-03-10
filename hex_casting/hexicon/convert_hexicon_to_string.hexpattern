@@ -32,6 +32,7 @@ Chirographer's Purification
     { // for each pattern - break when finds pattern
         Sekhmet's Gambit: 1
         // stack: [to_convert_list, abc_patterns]
+        Reveal
         Flock's Disintegration
         Speaker's Decomposition
         Chirographer's Purification
@@ -86,28 +87,27 @@ Chirographer's Purification
         Speaker's Decomposition
         {
             // correct pattern. return value
-            Sekhmet's Gambit: 1
             Length Purification
+            Sekhmet's Gambit: 1
         }
         {
             // stack: to_convert_list, abc_patterns, [boolean_list]
             // incorrect pattern. go next
-            Gemini Decomposition
             Length Purification
             Augur's Purification
             {
                 // If there are more patterns
-                Bookkeeper's Gambit: v
                 Numerical Reflection: 2
                 Flock's Gambit
                 Pollux's Gambit
+                Sekhmet's Gambit: 0
             }
             {
                 Nullary Reflection
+                Sekhmet's Gambit: 1
             }
             Augur's Exaltation
             Hermes' Gambit
-            Sekhmet's Gambit: 0
         }
         Augur's Exaltation
         Hermes' Gambit
