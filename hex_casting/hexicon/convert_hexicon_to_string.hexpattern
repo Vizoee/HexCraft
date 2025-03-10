@@ -46,14 +46,15 @@ Chirographer's Purification
         Undertaker's Gambit
         Equality Distillation
         {
-            Length Purification
+            True Reflection
             Sekhmet's Gambit: 1
             {
                 Charon's Gambit
             }
         }
         {
-            Sekhmet's Gambit: 0
+            False Reflection
+            Sekhmet's Gambit: 1
             {
                 Tutu's Gambit
             }
@@ -74,8 +75,14 @@ Chirographer's Purification
     Reveal
     Flock's Disintegration
 
-    Gemini Decomposition
+    Prospector's Gambit
+    Length Purification
+    Prospector's Gambit
+    Length Purification
+    Inequality Distillation
+    Prospector's Gambit
     Augur's Purification
+    Conjunction Distillation
     {
         Flock's Disintegration
         // stack: result, abc_strings, to_convert_list, to_convert_list, num
