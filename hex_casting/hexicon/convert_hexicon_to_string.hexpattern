@@ -46,14 +46,12 @@ Chirographer's Purification
         Undertaker's Gambit
         Equality Distillation
         {
-            True Reflection
             Sekhmet's Gambit: 1
             {
                 Charon's Gambit
             }
         }
         {
-            False Reflection
             Sekhmet's Gambit: 1
             {
                 Tutu's Gambit
@@ -63,6 +61,7 @@ Chirographer's Purification
         Hermes' Gambit
         Flock's Disintegration
         Hermes' Gambit
+        Numerical Reflection: 0
     }
     Jester's Gambit
     // stack: result, abc_strings, abc_patterns, to_convert_list, abc_patterns, [num/empty]
