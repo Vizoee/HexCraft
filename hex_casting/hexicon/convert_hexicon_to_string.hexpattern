@@ -1,0 +1,170 @@
+/*
+number list
+while there are more patterns
+    while there are more numbers
+        check if numbers are matching
+
+        at the end return true
+    if empty return false
+    else return true and break
+
+get pattern with number equal to lenght of list - 1 
+    or skip if last pattern is false
+
+*/
+
+// stack: pattern
+Chirographer's Purification
+
+{ // while not empty
+    Sekhmet's Gambit: 2
+    // stack: abc_pattern_dict, [to_convert_list, result]
+    Flock's Disintegration
+    Reflecting Gambit
+    // stack: result, to_convert_list, abc_pattern_dict
+    Flock's Disintegration
+    // stack: result, to_convert_list, abc_patterns, abc_strings
+    Rotation Gambit II
+    Numerical Reflection: 2
+    Flock's Gambit
+    Single's Purification
+    // stack: result, abc_strings, [[to_convert_list, abc_patterns]]
+    { // for each pattern - break when finds pattern
+        Sekhmet's Gambit: 1
+        // stack: [to_convert_list, abc_patterns]
+        Flock's Disintegration
+        Speaker's Decomposition
+        Chirographer's Purification
+        // stack: to_convert_list, abc_patterns, pattern_numbers
+        Numerical Reflection: 2
+        Fisherman's Gambit II
+        Jester's Gambit
+        // stack: to_convert_list, abc_patterns, to_convert_list, pattern_numbers
+        Dioscuri Gambit
+        Numerical Reflection: 2
+        Flock's Gambit
+        Single's Purification
+        // stack: to_convert_list, abc_patterns, to_convert_list, pattern_numbers, [[to_convert_list, pattern_numbers]]
+
+        { // for each number  - break when pattern ends or is incorrect
+            Sekhmet's Gambit: 1
+            // stack: [to_convert_list, pattern_numbers]
+            Flock's Disintegration
+            Speaker's Decomposition
+            Rotation Gambit
+            Speaker's Decomposition
+            Rotation Gambit
+            Equality Distillation
+            {
+                Gemini Decomposition
+                Length Purification
+                Augur's Purification
+                {
+                    Numerical Reflection: 2
+                    Flock's Gambit
+                    Pollux's Gambit
+                }
+                {}
+                Augur's Exaltation
+                Hermes' Gambit
+                Sekhmet's Gambit: 0
+                True Reflection
+            }
+            {
+                Sekhmet's Gambit: 0
+                False Reflection
+            }
+            Augur's Exaltation
+            Hermes' Gambit
+        }
+        Jester's Gambit
+        // stack: to_convert_list, abc_patterns, commands, [[to_convert_list, pattern_numbers]]
+        Thoth's Gambit
+        // stack: to_convert_list, abc_patterns, [boolean_list]
+
+        Retrograde Purification
+        Speaker's Decomposition
+        {
+            // correct pattern. return value
+            Sekhmet's Gambit: 1
+            Length Purification
+        }
+        {
+            // stack: to_convert_list, abc_patterns, [boolean_list]
+            // incorrect pattern. go next
+            Gemini Decomposition
+            Length Purification
+            Augur's Purification
+            {
+                // If there are more patterns
+                Bookkeeper's Gambit: v
+                Numerical Reflection: 2
+                Flock's Gambit
+                Pollux's Gambit
+            }
+            {
+                Nullary Reflection
+            }
+            Augur's Exaltation
+            Hermes' Gambit
+            Sekhmet's Gambit: 0
+        }
+        Augur's Exaltation
+        Hermes' Gambit
+    }
+    Jester's Gambit
+    Thoth's Gambit
+    // stack: result, abc_strings, to_convert_list, pattern_numbers, [num/null]
+    Flock's Disintegration
+    Gemini Decomposition
+    Nullary Reflection
+    Equality Distillation
+    {
+        // No patterns found. PANIC AND THROW ERROR OR SHIT
+    }
+    {
+        // stack: result, abc_strings, to_convert_list, pattern_numbers, num
+        Numerical Reflection: -2
+        Fisherman's Gambit II
+        // stack: result, abc_strings, num, to_convert_list, pattern_numbers, num
+        Selection Distillation
+        Length Purification
+        Prospector's Gambit
+        Length Purification
+        Selection Exaltation
+        // stack: result, abc_strings, num, to_convert_list_sliced
+        Numerical Reflection: -3
+        Fisherman's Gambit
+        Selection Distillation
+        Additive Distillation
+        // stack: to_convert_list_sliced, result
+        Prospector's Gambit
+        Augur's Purification
+        {
+            Numerical Reflection: 2
+            Flock's Gambit
+            Pollux's Gambit
+            Sekhmet's Gambit: 0
+        }
+        {
+            Sekhmet's Gambit: 1
+            // stack: result
+        }
+        Augur's Exaltation
+        Hermes' Gambit
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+}
+#git(abc_list_r_p.hexpattern)
+Reflecting Gambit
+// stack: pattern_dict, commands, to_convert_list
+Blank Reflection
+Numerical Reflection: 2
+Flock's Gambit
+Single's Purification
+// stack: pattern_dict, commands, [[to_convert_list, string]]
+Thoth's Gambit
+Flock's Disintegration
+
+
