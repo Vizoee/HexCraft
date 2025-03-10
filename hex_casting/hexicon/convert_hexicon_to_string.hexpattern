@@ -36,6 +36,12 @@ Chirographer's Purification
         Numerical Reflection: 0
         Jester's Gambit
         Selection Exaltation
+
+        Flock's Reflection
+        Flock's Gambit
+        Reveal
+        Flock's Disintegration
+
         Equality Distillation
         {
             Length Purification
@@ -60,10 +66,11 @@ Chirographer's Purification
     // stack: result, abc_strings, abc_patterns, to_convert_list, [num/empty]
     Bubbling Gambit
     // stack: result, abc_strings, to_convert_list, abc_patterns, [num/empty]
-    Flock's Reflection
-    Flock's Gambit
-    Reveal
-    Flock's Disintegration
+    
+    // Flock's Reflection
+    // Flock's Gambit
+    // Reveal
+    // Flock's Disintegration
 
     Gemini Decomposition
     Augur's Purification
