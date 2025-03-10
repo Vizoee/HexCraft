@@ -1,0 +1,11 @@
+
+
+if <condition> then <commands> [else <commands>] end
+    <condition>
+    <commands>
+    [else <commands>]|{}
+    if
+
+for <variable> <start> <stop> [<increment>] do <commands> end
+    <commands>
+    []

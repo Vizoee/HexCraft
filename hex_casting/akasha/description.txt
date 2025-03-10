@@ -1,0 +1,14 @@
+Akasha stores functions in 2 separate ways
+    name of function in hexicon - 
+        compiled version of function
+        ready to use version of function that is stripped of aditional data
+        can be exported as its own function (minimalizes usage of akasha)
+        all uncompiled functions are converted to compiled ones and inserted directly into this function
+    name of function in hexicon with "_" at start -
+        uncompiled version of function
+        more detailed version of function. contains:
+            [0]name of function in string (bubbled - unbubbled durring reading)
+            [1]description (bubbled - unbubbled durring reading)
+            [2]list of patterns (bubbled - unbubbled durring reading)
+            execution of patterns (vv hermes)
+        list of patterns will prefer containing other uncomplied version of function
