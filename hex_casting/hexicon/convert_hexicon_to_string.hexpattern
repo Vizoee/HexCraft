@@ -86,10 +86,10 @@ Chirographer's Purification
     Bubbling Gambit
     // stack: result, abc_strings, to_convert_list, abc_patterns, [num/empty]
     
-    Flock's Reflection
-    Flock's Gambit
-    Reveal
-    Flock's Disintegration
+    // Flock's Reflection
+    // Flock's Gambit
+    // Reveal
+    // Flock's Disintegration
 
     // stack: result, abc_strings, to_convert_list, abc_patterns, [num/empty]
     Length Purification
