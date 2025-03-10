@@ -34,29 +34,46 @@ Chirographer's Purification
         Chirographer's Purification
         Undertaker's Gambit
         Length Purification
-        Numerical Reflection: 0
-        Jester's Gambit
-        Selection Exaltation
-
-        // Flock's Reflection
-        // Flock's Gambit
-        // Reveal
-        // Flock's Disintegration
-
-        Undertaker's Gambit
-        Equality Distillation
-        {
-            {
-                Charon's Gambit
-            }
-        }
+        // stack: abc_pattern, to_convert_list, abc_pattern_length
+        Prospector's Gambit
+        Length Purification
+        Prospector's Gambit
+        // stack: abc_pattern, to_convert_list, abc_pattern_length, to_convert_list_length, abc_pattern_length
+        Minimus Distillation II
         {
             {
                 Tutu's Gambit
             }
         }
+        {
+            // stack: abc_pattern, to_convert_list, abc_pattern_length
+            Numerical Reflection: 0
+            Jester's Gambit
+            Selection Exaltation
+
+            // Flock's Reflection
+            // Flock's Gambit
+            // Reveal
+            // Flock's Disintegration
+
+            Undertaker's Gambit
+            Equality Distillation
+            {
+                {
+                    Charon's Gambit
+                }
+            }
+            {
+                {
+                    Tutu's Gambit
+                }
+            }
+            Augur's Exaltation
+            Hermes' Gambit
+        }
         Augur's Exaltation
         Hermes' Gambit
+        
         Flock's Disintegration
         Sekhmet's Gambit: 1
         Hermes' Gambit
@@ -92,12 +109,6 @@ Chirographer's Purification
         Chirographer's Purification
         Length Purification
         Prospector's Gambit
-
-        Flock's Reflection
-        Flock's Gambit
-        Reveal
-        Flock's Disintegration
-
         Length Purification
         Selection Exaltation
         // stack: result, abc_strings, num, to_convert_list_sliced
