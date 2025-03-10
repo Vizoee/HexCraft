@@ -61,7 +61,8 @@ Chirographer's Purification
         }
         Augur's Exaltation
         Hermes' Gambit
-        // Hermes' Gambit
+        Flock's Disintegration
+        Hermes' Gambit
     }
     Jester's Gambit
     // stack: result, abc_strings, abc_patterns, to_convert_list, abc_patterns, [num/empty]
@@ -84,37 +85,37 @@ Chirographer's Purification
     Augur's Purification
     Conjunction Distillation
     {
-        // Flock's Disintegration
-        // // stack: result, abc_strings, to_convert_list, to_convert_list, num
-        // Numerical Reflection: -2
-        // Fisherman's Gambit II
-        // // stack: result, abc_strings, num, to_convert_list, abc_patterns, num
-        // Selection Distillation
-        // Chirographer's Purification
-        // Length Purification
-        // Prospector's Gambit
-        // Length Purification
-        // Selection Exaltation
-        // // stack: result, abc_strings, num, to_convert_list_sliced
-        // Numerical Reflection: -3
-        // Fisherman's Gambit
-        // Selection Distillation
-        // Additive Distillation
-        // // stack: to_convert_list_sliced, result
-        // Prospector's Gambit
-        // Augur's Purification
-        // {
-        //     Numerical Reflection: 2
-        //     Flock's Gambit
-        //     Pollux's Gambit
-        //     Sekhmet's Gambit: 0
-        // }
-        // {
-        //     Sekhmet's Gambit: 1
-        //     // stack: result
-        // }
-        // Augur's Exaltation
-        // Hermes' Gambit
+        Flock's Disintegration
+        // stack: result, abc_strings, to_convert_list, to_convert_list, num
+        Numerical Reflection: -2
+        Fisherman's Gambit II
+        // stack: result, abc_strings, num, to_convert_list, abc_patterns, num
+        Selection Distillation
+        Chirographer's Purification
+        Length Purification
+        Prospector's Gambit
+        Length Purification
+        Selection Exaltation
+        // stack: result, abc_strings, num, to_convert_list_sliced
+        Numerical Reflection: -3
+        Fisherman's Gambit
+        Selection Distillation
+        Additive Distillation
+        // stack: to_convert_list_sliced, result
+        Prospector's Gambit
+        Augur's Purification
+        {
+            Numerical Reflection: 2
+            Flock's Gambit
+            Pollux's Gambit
+            Sekhmet's Gambit: 0
+        }
+        {
+            Sekhmet's Gambit: 1
+            // stack: result
+        }
+        Augur's Exaltation
+        Hermes' Gambit
     }
     {
         // No patterns found. PANIC AND THROW ERROR OR SHIT
