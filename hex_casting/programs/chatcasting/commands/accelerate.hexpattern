@@ -7,30 +7,31 @@ Augur's Purification
     Augur's Purification
     {
         {
-            Consideration: Consideration
-            Bookkeeper's Gambit: -
+            Numerical Reflection: -1
             Numerical Reflection: 1
             Prospector's Gambit
             Surgeon's Exaltation
 
             Numerical Reflection: 2
-            Consideration: Consideration
-            @str(acc)
+            {
+                @str(acc)
+            }
+            Flock's Disintegration
             Enqueue
 
             Tutu's Gambit
-            Numerical Reflection: 0
-            Numerical Reflection: 1
+            Numerical Reflection: -1
+            Numerical Reflection: -1
             Gemini Gambit
             Hermes' Gambit
         }
         Reveal
-        Numerical Reflection: 11
+        Numerical Reflection: 12
         Rotation Gambit
         Surgeon's Exaltation
         Reveal
 
-        Numerical Reflection: 10
+        Numerical Reflection: 11
 
         Mind's Reflection
         Compass' Purification
@@ -51,7 +52,7 @@ Augur's Purification
         Surgeon's Exaltation
         Reveal
 
-        Numerical Reflection: 1
+        Numerical Reflection: 0
         Prospector's Gambit
         Surgeon's Exaltation
         Reveal
