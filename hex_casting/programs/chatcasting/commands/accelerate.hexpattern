@@ -22,7 +22,9 @@ Augur's Purification
             Flock's Disintegration
             Enqueue
 
-            Tutu's Gambit
+            {
+                Tutu's Gambit
+            }
             {
                 Numerical Reflection: -1
                 Numerical Reflection: -1
@@ -32,12 +34,12 @@ Augur's Purification
             Hermes' Gambit
         }
         Reveal
-        Numerical Reflection: 16
+        Numerical Reflection: 18
         Rotation Gambit
         Surgeon's Exaltation
         Reveal
 
-        Numerical Reflection: 15
+        Numerical Reflection: 17
 
         Mind's Reflection
         Compass' Purification
