@@ -1,32 +1,83 @@
+Speaker's Decomposition
+Gemini Decomposition
+Augur's Purification
 {
-    Consideration: Consideration
-    Bookkeeper's Gambit: -
-    Numerical Reflection: 1
-    Prospector's Gambit
-    Surgeon's Exaltation
+    Input Purification
+    Gemini Decomposition
+    Augur's Purification
+    {
+        {
+            Consideration: Consideration
+            Bookkeeper's Gambit: -
+            Numerical Reflection: 1
+            Prospector's Gambit
+            Surgeon's Exaltation
 
-    Numerical Reflection: 2
-    Consideration: Consideration
-    Accelerate
-    Enqueue
+            Numerical Reflection: 2
+            Consideration: Consideration
+            @str(acc)
+            Enqueue
 
-    Bookkeeper's Gambit: -
-    Accelerate
+            Tutu's Gambit
+            Bookkeeper's Gambit: -
+            Bookkeeper's Gambit: -
+            Gemini Gambit
+            Hermes' Gambit
+        }
+        Numerical Reflection: 11
+        Rotation Gambit
+        Surgeon's Exaltation
+
+        Numerical Reflection: 10
+
+        Mind's Reflection
+        Compass' Purification
+        Mind's Reflection
+        Alidade's Purification
+        Archer's Distillation
+
+        Bubbles' Purification
+        Single's Purification
+        {
+            {
+                Accelerate
+                Hermes' Gambit
+            }
+        }
+        Additive Distillation
+
+        Surgeon's Exaltation
+
+        Numerical Reflection: 1
+        Prospector's Gambit
+        Surgeon's Exaltation
+        Hermes' Gambit
+    }
+    {
+        Bookkeeper's Gambit: vv
+        {
+            @str(Usage: accelerate <speed>)
+        }
+        Flock's Disintegration
+        Reveal
+        Bookkeeper's Gambit: v
+    }
+    Augur's Exaltation
+    Hermes' Gambit
 }
-Numerical Reflection: 9
-
-Mind's Reflection
-Compass' Purification
-Mind's Reflection
-Alidade's Purification
-Archer's Distillation
-Bubbles' Purification
-
-Surgeon's Exaltation
-
-Numerical Reflection: 1
-Prospector's Gambit
-Surgeon's Exaltation
+{
+    Bookkeeper's Gambit: vv
+    {
+        @str(Usage: accelerate <speed>)
+    }
+    Flock's Disintegration
+    Reveal
+    Bookkeeper's Gambit: v
+}
+Augur's Exaltation
 Hermes' Gambit
+
+
+
 
 
