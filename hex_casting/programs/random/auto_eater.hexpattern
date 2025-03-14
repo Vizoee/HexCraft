@@ -7,21 +7,31 @@
 
     Numerical Reflection: 340
     {
-        @str(Eat)
+        @str(Auto Eater)
     }
     Flock's Disintegration
     Enqueue
 
+    Spatial Reflection
+    Homeland Reflection
+    Equality Distillation
     {
-        @vec(375.5, 53.5, 2484.5)
-        @str(eat)
-        @vec(375.5, 53.5, 2484.5)
-        @pattern(EAST,aqwawqwa)
+        {
+            @vec(375.5, 53.5, 2484.5)
+            @str(eat)
+            @vec(375.5, 53.5, 2484.5)
+            @pattern(EAST,aqwawqwa)
+        }
+        Flock's Disintegration
+        Akasha's Distillation
+        Hermes' Gambit
+        Akasha's Distillation
+        Hermes' Gambit
     }
-    Flock's Disintegration
-    Akasha's Distillation
-    Hermes' Gambit
-    Akasha's Distillation
+    {
+
+    }
+    Augur's Exaltation
     Hermes' Gambit
 }
 Numerical Reflection: 1
