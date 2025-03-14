@@ -1,6 +1,6 @@
 local sha256 = require("sha256")
 local patternsPath = "/patterns"
-local patternsPath = "/patternHashes"
+local patternsPath = "/pattern_hashes"
 
 local function hashFile(filename)
     local file = fs.open(filename, "r")
