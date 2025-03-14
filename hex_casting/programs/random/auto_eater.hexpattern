@@ -7,13 +7,13 @@
 
     Numerical Reflection: 150
     {
-        @str("Eat")
+        @str(Eat)
     }
     Flock's Disintegration
     Enqueue
 
     {
-        @str("eat")
+        @str(eat)
     }
     Flock's Disintegration
     @pattern(EAST,aqwawqwa)
