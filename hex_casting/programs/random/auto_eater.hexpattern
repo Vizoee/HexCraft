@@ -1,0 +1,28 @@
+{
+    Consideration: Consideration
+    Bookkeeper's Gambit: -
+    Numerical Reflection: 1
+    Prospector's Gambit
+    Surgeon's Exaltation
+
+    Numerical Reflection: 150
+    {
+        @str("Eat")
+    }
+    Flock's Disintegration
+    Enqueue
+
+    {
+        @str("eat")
+    }
+    Flock's Disintegration
+    @pattern(EAST,aqwawqwa)
+    Hermes' Gambit
+    Hermes' Gambit
+}
+Numerical Reflection: 1
+Prospector's Gambit
+Surgeon's Exaltation
+Hermes' Gambit
+
+
