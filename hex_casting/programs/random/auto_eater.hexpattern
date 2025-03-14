@@ -17,7 +17,11 @@
     }
     Flock's Disintegration
     @pattern(EAST,aqwawqwa)
-    Hermes' Gambit
+    {
+        @vec(375.5, 53.5, 2484.5)
+    }
+    Flock's Disintegration
+    Akasha's Distillation
     Hermes' Gambit
 }
 Numerical Reflection: 1
