@@ -1,4 +1,3 @@
-local sha256 = require("sha256")
 local patternsPath = "/patterns"
 local patternsPath = "/pattern_hashes"
 
@@ -12,7 +11,7 @@ local function hashFile(filename)
     local content = file.readAll()
     file.close()
 
-    return sha256.digest(content)
+    return crypto.sha256(content)
 end
 
 local function checkIfFileWasUpdated(filename)
