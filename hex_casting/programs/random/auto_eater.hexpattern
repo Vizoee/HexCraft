@@ -13,14 +13,14 @@
     Enqueue
 
     {
-        @str(eat)
-    }
-    Flock's Disintegration
-    @pattern(EAST,aqwawqwa)
-    {
         @vec(375.5, 53.5, 2484.5)
+        @str(eat)
+        @vec(375.5, 53.5, 2484.5)
+        @pattern(EAST,aqwawqwa)
     }
     Flock's Disintegration
+    Akasha's Distillation
+    Hermes' Gambit
     Akasha's Distillation
     Hermes' Gambit
 }
