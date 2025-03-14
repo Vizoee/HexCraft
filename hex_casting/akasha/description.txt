@@ -12,3 +12,9 @@ Akasha stores functions in 2 separate ways
             [2]list of patterns (bubbled - unbubbled durring reading)
             execution of patterns (vv hermes)
         list of patterns will prefer containing other uncomplied version of function
+
+
+integration with cc
+    folder that stores all patterns
+    each pattern have name.hexpattern and name.hash
+    if hash does not match turtle updates pattern in akasha
