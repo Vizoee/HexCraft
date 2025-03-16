@@ -1,8 +1,13 @@
-local patternsPath = "/patterns"
-local patternsPath = "/pattern_hashes"
 
-local function hashFile(filename)
-    local file = fs.open(filename, "r")
+local autoUpdater = {
+    patternsPath = "/homeless/patterns/",
+    patternHashesPath = "/homeless/pattern_hashes/"
+}
+
+---@type fun(filename: string): string|nil
+--- Returns previous .
+function autoUpdater.hashFile(filename)
+    local file = fs.open(autoUpdater.patternsPath..filename, "r")
     if not file then
         print("Error: File not found")
         return nil
@@ -14,38 +19,46 @@ local function hashFile(filename)
     return crypto.sha256(content)
 end
 
-local function checkIfFileWasUpdated(filename)
+function autoUpdater.checkIfFileWasUpdated(filename)
+    local newHash = autoUpdater.hashFile(filename)
+
     local filenameWithoutExtension = filename:gsub("%.hexpattern$", "")
-    local file = fs.open(filenameWithoutExtension .. ".hash", "r")
+    local file = fs.open(autoUpdater.patternHashesPath..filenameWithoutExtension .. ".hash", "r")
     if not file then
+        local file2 = fs.open(autoUpdater.patternHashesPath..filenameWithoutExtension .. ".hash", "w")
+        file2.write(newHash)
+        file2.close()
         return true
     end
 
     local oldHash = file.readAll()
     file.close()
 
-    local newHash = hashFile(filename)
     local result = oldHash ~= newHash
     if result then
-        local file = fs.open(filenameWithoutExtension .. ".hash", "w")
-        file.write(newHash)
-        file.close()
+        local file2 = fs.open(autoUpdater.patternHashesPath..filenameWithoutExtension .. ".hash", "w")
+        file2.write(newHash)
+        file2.close()
     end
     return result
 end
 
-local function updateAkasha(filename)
+function autoUpdater.onUpdate(filename)
     print("File: "..filename.." updated.")
 end
 
-while true do
-    local files = fs.list(patternsPath)
-
-    for _, filename in ipairs(files) do
-        if checkIfFileWasUpdated(filename) then
-            updateAkasha(filename)
+function autoUpdater.run(checkFrequency)
+    while true do
+        local files = fs.list(autoUpdater.patternsPath)
+        for _, filename in ipairs(files) do
+            local result = autoUpdater.checkIfFileWasUpdated(filename)
+            if result then
+                autoUpdater.onUpdate(filename)
+            end
         end
-    end
 
-    sleep(20)
+        sleep(checkFrequency)
+    end
 end
+
+return autoUpdater
