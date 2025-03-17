@@ -1,42 +1,43 @@
 local test = {}
 
 function test.write(text)
-    -- print("Function not implemented")
+    -- os.queueEvent("customMessage", "Function not implemented")
+    os.queueEvent("customMessage", tostring(text).."w")
 end
 
 function test.scroll(y)
-    -- print("Function not implemented")
+    os.queueEvent("customMessage", "Function not implemented")
 end
 
 function test.getCursorPos()
-    -- print("Function not implemented")
+    os.queueEvent("customMessage", "Function not implemented")
     return 1, 1
 end
 
 function test.setCursorPos(x, y)
-    -- print("Function not implemented")
+    os.queueEvent("customMessage", "Function not implemented")
 end
 
 function test.getCursorBlink()
-    -- print("Function not implemented")
+    os.queueEvent("customMessage", "Function not implemented")
     return false
 end
 
 function test.setCursorBlink(blink)
-    -- print("Function not implemented")
+    os.queueEvent("customMessage", "Function not implemented")
 end
 
 function test.getSize()
-    -- print("Function not implemented")
+    os.queueEvent("customMessage", "Function not implemented")
     return 100, 100
 end
 
 function test.clear()
-    -- print("Function not implemented")
+    os.queueEvent("customMessage", "Function not implemented")
 end
 
 function test.clearLine()
-    -- print("Function not implemented")
+    os.queueEvent("customMessage", "Function not implemented")
 end
 
 function test.getTextColour()
@@ -44,7 +45,7 @@ function test.getTextColour()
 end
 
 function test.getTextColor()
-    -- print("Function not implemented")
+    os.queueEvent("customMessage", "Function not implemented")
     return 1
 end
 
@@ -53,7 +54,7 @@ function test.setTextColour(colour)
 end
 
 function test.setTextColor(colour)
-    -- print("Function not implemented")
+    os.queueEvent("customMessage", "Function not implemented")
 end
 
 function test.getBackgroundColour()
@@ -61,8 +62,8 @@ function test.getBackgroundColour()
 end
 
 function test.getBackgroundColor()
-    -- print("Function not implemented")
-    return 1
+    os.queueEvent("customMessage", "Function not implemented")
+    return colors.black
 end
 
 function test.setBackgroundColour(colour)
@@ -70,7 +71,7 @@ function test.setBackgroundColour(colour)
 end
 
 function test.setBackgroundColor(colour)
-    -- print("Function not implemented")
+    os.queueEvent("customMessage", "Function not implemented")
 end
 
 function test.isColour()
@@ -78,12 +79,13 @@ function test.isColour()
 end
 
 function test.isColor()
-    -- print("Function not implemented")
+    os.queueEvent("customMessage", "Function not implemented")
     return false
 end
 
 function test.blit(text, textColour, backgroundColour)
-    -- print("Function not implemented")
+    -- os.queueEvent("customMessage", "Function not implemented")
+    os.queueEvent("customMessage", tostring(text).."b")
 end
 
 function test.setPaletteColour(index, r, g, b)
@@ -91,7 +93,7 @@ function test.setPaletteColour(index, r, g, b)
 end
 
 function test.setPaletteColor(index, r, g, b)
-    -- print("Function not implemented")
+    os.queueEvent("customMessage", "Function not implemented")
 end
 
 function test.getPaletteColour(colour)

@@ -1,0 +1,160 @@
+Flock's Reflection
+Augur's Purification
+{
+
+}
+{
+    Identity Reflection
+}
+Augur's Exaltation
+Hermes' Gambit
+
+Gemini Decomposition
+Identity Reflection
+Equality Distillation
+{
+    // create dict
+    {
+        @str(Wisp eater started.)
+    }
+    Flock's Disintegration
+    Reveal
+    Bookkeeper's Gambit: v
+    
+    Bookkeeper's Gambit: v
+    #git(/hex_casting/programs/dictionary/dictionary_create.hexpattern)
+    Timekeeper's Reflection
+    Prospector's Gambit
+    Numerical Reflection: 2
+    Flock's Gambit
+    Huginn's Gambit
+}
+{
+    Timekeeper's Reflection
+    #git(/hex_casting/programs/dictionary/dictionary_create.hexpattern)
+    Numerical Reflection: 2
+    Flock's Gambit
+    Huginn's Gambit
+}
+Augur's Exaltation
+Hermes' Gambit
+
+// get wisps
+{
+    @vec(358.5, 53.5, 2481.5)
+}
+Flock's Disintegration
+Numerical Reflection: 1
+Zone Distillation: Wisp
+
+Identity Reflection
+Single's Purification
+Exclusion Distillation
+
+Undertaker's Gambit
+
+{
+    Undertaker's Gambit
+    
+    #git(/hex_casting/programs/dictionary/dictionary_read.hexpattern)
+
+    Gemini Decomposition
+    Nullary Reflection
+    Equality Distillation
+    {
+        Bookkeeper's Gambit: v
+        Timekeeper's Reflection
+
+        Muninn's Reflection
+        Flock's Disintegration
+        Numerical Reflection: -3
+        Fisherman's Gambit
+        Dioscuri Gambit
+        Minimus Distillation
+        {
+            Bookkeeper's Gambit: v
+            Gemini Decomposition
+        }
+        {
+        }
+        Augur's Exaltation
+        Hermes' Gambit
+        Numerical Reflection: -3
+        Fisherman's Gambit
+        
+        #git(/hex_casting/programs/dictionary/dictionary_write.hexpattern)
+
+        Numerical Reflection: 2
+        Flock's Gambit
+        
+        Huginn's Gambit
+    }
+    {
+        Gemini Decomposition
+        Timekeeper's Reflection
+        Subtractive Distillation
+
+        Numerical Reflection: -300
+        Equality Distillation
+        {
+            Bookkeeper's Gambit: v
+            Consume Wisp
+        }
+        {
+            Muninn's Reflection
+            Flock's Disintegration
+            Numerical Reflection: -3
+            Fisherman's Gambit
+            Dioscuri Gambit
+            Minimus Distillation
+            {
+                Bookkeeper's Gambit: v
+                Gemini Decomposition
+            }
+            {
+            }
+            Augur's Exaltation
+            Hermes' Gambit
+            Numerical Reflection: -3
+            Fisherman's Gambit
+            
+            #git(/hex_casting/programs/dictionary/dictionary_write.hexpattern)
+
+            Numerical Reflection: 2
+            Flock's Gambit
+            
+            Huginn's Gambit
+        }
+        Augur's Exaltation
+        Hermes' Gambit
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+}
+Jester's Gambit
+
+Thoth's Gambit
+// stack: wisps, last_dictionary, random_list
+Bookkeeper's Gambit: vv
+Length Purification
+Numerical Reflection: 4
+Equality Distillation
+{
+    Numerical Reflection: 300
+    Timekeeper's Reflection
+    Muninn's Reflection
+    Numerical Reflection: 0
+    Selection Distillation
+    Subtractive Distillation
+    Subtractive Distillation
+    Delay Wisp
+}
+{
+
+}
+Augur's Exaltation
+Hermes' Gambit
+
+Muninn's Reflection
+Flock's Disintegration
+Sekhmet's Gambit: 1
