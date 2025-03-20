@@ -29,7 +29,7 @@ Separation Distillation
         Blank Reflection
         Surgeon's Exaltation
         Gemini Decomposition
-        {"\"}>>
+        {@str(\)}>>
         Locator's Distillation
         Numerical Reflection: 2
         Flock's Gambit
@@ -39,7 +39,7 @@ Separation Distillation
     Hermes' Gambit
 }
 Prospector's Gambit
-{"\"}>>
+{@str(\)}>>
 Locator's Distillation
 Bubbling Gambit
 Numerical Reflection: 2
