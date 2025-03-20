@@ -1,0 +1,47 @@
+// stack: list_of_char, index
+// returns: 
+{
+    [
+        "\",
+        """,
+        "'",
+        "<",
+        ">",
+        "{",
+        "}",
+        "[",
+        "]",
+        "(",
+        ")",
+        "t",
+        "s"
+    ],
+    [
+        { // "\"
+            Undertaker's Gambit
+            Dioscuri Gambit
+            Dioscuri Gambit
+            Numerical Reflection: 1
+            Additive Distillation
+            Selection Distillation
+            Rotation Gambit II
+            Selection Distillation
+            Jester's Gambit
+            Additive Distillation
+            // stack: index, list, index, new_string
+            Surgeon's Exaltation
+            Jester's Gambit
+            Numerical Reflection: 1
+            Additive Distillation
+            Blank Reflection
+            Surgeon's Exaltation
+        }
+    ]
+}
+
+
+
+
+
+
+

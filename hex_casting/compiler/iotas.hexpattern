@@ -1,0 +1,30 @@
+{
+    [
+        "hexcasting:list",
+        "moreiotas:string",
+        // "hexcasting:pattern",
+        // "hexcasting:double",
+        // "hexcasting:vec3",
+        // "hexcasting:entity",
+        // "hexal:item", // mote
+        // "hexal:identifier"
+        // "hexal:gate",
+        // "oneironaut:dim",
+    ]
+    [
+        [
+            Muninn's Reflection
+            Hermes' Gambit
+        ],
+        [
+            {
+                [
+                    []
+                ],
+                [
+
+                ]
+            }
+        ]
+    ]
+}
