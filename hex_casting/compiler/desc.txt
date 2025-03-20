@@ -1,3 +1,53 @@
+idea:
+    end result will be list of something :3 (can be processed further)
+    convert string into list of symbols
+    find all specific symbols
+    get closest
+    get its function
+        balanced symbols: <> {} [] etc:
+            open symbol places object on stack with start index
+            takes object from stack
+                can throw there exceptions if incorrect object
+        
+
+
+ravenmind
+    result
+    stack
+        object_parser
+            [0]type
+            [1]parsed_data
+    list_of_symbols?
+    last_symbol - id of symbol
+    list_of_last_found - list of last index of each symbol or 65536 if not found (spell shouldn't be longet than that)
+    
+            
+
+
+
+
+object_types - (static ids):
+    < > - puts value into stack
+        "" - string
+        number - number
+        ? - vector
+        ? - gate
+        ? - garbage
+        ? - types
+        name - pattern from akasha (akasha can contain all hexcasting patterns)
+    { } - creates list
+    ( )
+    [ ]
+    \<
+    \>
+    \\
+    \{
+    \}
+    \(
+    \)
+    \[
+    \]
+
 
 
 if <condition> then <commands> [else <commands>] end

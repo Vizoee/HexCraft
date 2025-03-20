@@ -18,3 +18,38 @@ integration with cc
     folder that stores all patterns
     each pattern have name.hexpattern and name.hash
     if hash does not match turtle updates pattern in akasha
+
+
+ravenmind
+
+
+object_types:
+    < > - puts value into stack
+        "" - string
+        number - number
+        ? - vector
+        ? - gate
+        ? - garbage
+        ? - types
+        name - pattern from akasha (akasha can contain all hexcasting patterns)
+    { } - creates list
+    ( )
+    [ ]
+    \<
+    \>
+    \\
+    \{
+    \}
+    \(
+    \)
+    \[
+    \]
+
+
+
+
+[1, 2, 3, 4, 5]
+
+[2, 3]
+[4, 6, 7]
+[1, 2, 3]
