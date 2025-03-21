@@ -1,30 +1,63 @@
 #def(get)(
-Flock's Reflection
+    Flock's Reflection
 
-Muninn's Reflection
-{<1>}>>
+    Muninn's Reflection
+    {<1>}>>
 
-Jester's Gambit
-Flock's Disintegration
-Reflecting Gambit
-Locator's Distillation
-Gemini Decomposition
-Numerical Reflection: -1
-Equality Distillation
-{
-    Bookkeeper's Gambit: vv
-    Nullary Reflection
-}
-{
-    Selection Distillation
-}
-Augur's Exaltation
-Hermes' Gambit
+    Jester's Gambit
+    Flock's Disintegration
+    Reflecting Gambit
+    Locator's Distillation
+    Gemini Decomposition
+    Numerical Reflection: -1
+    Equality Distillation
+    {
+        Bookkeeper's Gambit: vv
+        Nullary Reflection
+    }
+    {
+        Selection Distillation
+    }
+    Augur's Exaltation
+    Hermes' Gambit
 
-Subtractive Distillation
-Numerical Reflection: 1
-Subtractive Distillation
-Fisherman's Gambit II
+    Subtractive Distillation
+    Numerical Reflection: 1
+    Subtractive Distillation
+    Fisherman's Gambit II
+)
+
+#def(set)(
+    Flock's Reflection
+
+    Muninn's Reflection
+    {<1>}>>
+
+    Jester's Gambit
+    Flock's Disintegration
+    Reflecting Gambit
+    Locator's Distillation
+    Gemini Decomposition
+    Numerical Reflection: -1
+    Equality Distillation
+    {
+        Bookkeeper's Gambit: vv
+        Nullary Reflection
+    }
+    {
+        Selection Distillation
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+
+    Subtractive Distillation
+    Gemini Decomposition
+    Fisherman's Gambit
+    Bookkeeper's Gambit: v
+    <2>
+    Numerical Reflection: -1
+    Multiplicative Distillation
+    Fisherman's Gambit
 )
 
 Numerical Reflection: 10
@@ -62,3 +95,4 @@ $get(@str(var_a))
 $get(@str(var_a))
 $get(@str(var_d))
 $get(@str(var_f))
+$set(@str(var_b), Numerical Reflection: 20)
