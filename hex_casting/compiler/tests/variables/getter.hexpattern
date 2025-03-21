@@ -1,5 +1,6 @@
 #def(get)(
 Flock's Reflection
+
 Muninn's Reflection
 {<1>}>>
 
@@ -25,13 +26,6 @@ Numerical Reflection: -1
 Subtractive Distillation
 Fisherman's Gambit II
 )
-
-#def(var_a)(0)
-#def(var_a)(1)
-#def(var_a)(2)
-#def(var_a)(3)
-#def(var_a)(4)
-#def(var_a)(5)
 
 Numerical Reflection: 10
 Numerical Reflection: 11
@@ -63,8 +57,3 @@ Mind's Reflection
 Huginn's Gambit
 
 $get(@str(var_e))
-$get(@str(var_a))
-$get(@str(var_a))
-$get(@str(var_a))
-$get(@str(var_d))
-$get(@str(var_f))
