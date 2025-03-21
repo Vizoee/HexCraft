@@ -53,16 +53,11 @@
     Subtractive Distillation
     Gemini Decomposition
     Fisherman's Gambit
-    Reveal
     Bookkeeper's Gambit: v
-    Reveal
-    <2>
-    Reveal
+    Numerical Reflection: 20
     Jester's Gambit
-    Reveal
     Numerical Reflection: -1
     Multiplicative Distillation
-    Reveal
     Fisherman's Gambit
 )
 
@@ -101,4 +96,4 @@ $get(@str(var_a))
 $get(@str(var_a))
 $get(@str(var_d))
 $get(@str(var_f))
-$set(1, Numerical Reflection: 20)
+$set(1, 2)
