@@ -31,7 +31,7 @@
     Flock's Reflection
 
     Muninn's Reflection
-    {@str(var_f)}>>
+    {@str(var_c)}>>
 
     Jester's Gambit
     Flock's Disintegration
@@ -56,6 +56,8 @@
     Bookkeeper's Gambit: v
     Numerical Reflection: 20
     Jester's Gambit
+    Numerical Reflection: -1
+    Subtractive Distillation
     Numerical Reflection: -1
     Multiplicative Distillation
     Fisherman's Gambit
