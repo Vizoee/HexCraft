@@ -1,26 +1,14 @@
+Mind's Reflection
+Vitality Purification
+Mind's Reflection
+Fitness Purification
+Minimus Distillation
 {
-    {@str(auto regen)}>>
-    Gemini Decomposition
-    Program Purification
+    Mind's Reflection
+    Numerical Reflection: 30
     Numerical Reflection: 1
-    Rotation Gambit
-    Enqueue
-
-    Mind's Reflection
-    Vitality Purification
-    Mind's Reflection
-    Fitness Purification
-    Minimus Distillation
-    {
-        Mind's Reflection
-        Numerical Reflection: 30
-        Numerical Reflection: 1
-        White Sun's Zenith
-    }
-    {}
-    Augur's Exaltation
-    Hermes' Gambit
+    White Sun's Zenith
 }
-Numerical Reflection: 1
-{@str(auto regen)}>>
-Enqueue
+{}
+Augur's Exaltation
+Hermes' Gambit
