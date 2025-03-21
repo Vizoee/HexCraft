@@ -1,3 +1,11 @@
+parsing by word vs by char:
+    word will be faster
+    char will allow for more customization
+    word will be easier but less serialized
+    word will have more steps
+    word will be easier to implement partially
+
+
 idea:
     end result will be list of something :3 (can be processed further)
     convert string into list of symbols
@@ -8,7 +16,7 @@ idea:
             open symbol places object on stack with start index
             takes object from stack
                 can throw there exceptions if incorrect object
-        
+
 
 
 ravenmind

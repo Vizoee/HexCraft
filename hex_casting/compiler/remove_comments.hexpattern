@@ -1,0 +1,58 @@
+// Converts string into list of char
+// stack: string
+{
+    // stack: [string, index]
+    Flock's Disintegration
+    Gemini Decomposition
+    Numerical Reflection: -1
+    Equality Distillation
+    {}
+    {
+        // stack: string, index
+        Dioscuri Gambit
+        Numerical Reflection: 0
+        Jester's Gambit
+        Selection Exaltation
+        Rotation Gambit II
+        
+        // stack: string_p1, string, index
+        Prospector's Gambit
+        Length Purification
+        Selection Exaltation
+        // stack: string_p1, string_p2_with_comment
+
+        Gemini Decomposition
+        {"\n"}>>
+        Locator's Distillation
+
+        Gemini Decomposition
+        Numerical Reflection: -1
+        Equality Distillation
+        {
+            Bookkeeper's Gambit: vv
+            Blank Reflection
+        }
+        {
+            Numerical Reflection: 2
+            Additive Distillation
+            Prospector's Gambit
+            Length Purification
+            Selection Exaltation
+        }
+        Augur's Exaltation
+        Hermes' Gambit
+        
+        Additive Distillation
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+}
+Jester's Gambit
+Gemini Decomposition
+{"//"}>>
+Locator's Distillation
+Numerical Reflection: 2
+Flock's Gambit
+Single's Purification
+Thoth's Gambit
+
