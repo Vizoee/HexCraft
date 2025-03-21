@@ -2,7 +2,7 @@
     {@str(auto regen)}>>
     Gemini Decomposition
     Program Purification
-    Numerical Reflection: 0
+    Numerical Reflection: 1
     Rotation Gambit
     Enqueue
 
@@ -21,6 +21,6 @@
     Augur's Exaltation
     Hermes' Gambit
 }
-Numerical Reflection: 0
+Numerical Reflection: 1
 {@str(auto regen)}>>
 Enqueue
