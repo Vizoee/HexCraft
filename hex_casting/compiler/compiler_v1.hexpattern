@@ -1,10 +1,16 @@
+// ravenmind
+#def(object_stack)(Numerical Reflection: 0)
+
+
+// object
+#def(object_type)(Numerical Reflection: 0)
+
 // stack: list_of_char, index
 // returns: 
 {
     [
-        "\",
         """,
-        "'",
+        // "'",
         "<",
         ">",
         "{",
@@ -13,30 +19,64 @@
         "]",
         "(",
         ")",
-        "t",
-        "s"
+        "\t",
+        "\s",
+        "\n"
     ],
     [
-        { // "\"
-            Undertaker's Gambit
-            Dioscuri Gambit
-            Dioscuri Gambit
-            Numerical Reflection: 1
-            Additive Distillation
+        { /* " */
+            // TODO: check if can run under this pattern
+
+            Muninn's Reflection
+            Gemini Decomposition
+            $object_stack
             Selection Distillation
-            Rotation Gambit II
+            Speaker's Decomposition
+            $object_type
             Selection Distillation
-            Jester's Gambit
-            Additive Distillation
-            // stack: index, list, index, new_string
-            Surgeon's Exaltation
-            Jester's Gambit
-            Numerical Reflection: 1
-            Additive Distillation
-            Blank Reflection
-            Surgeon's Exaltation
+            // stack: list_of_char, index, raven, list_minus_last, object
+            Gemini Decomposition
+            {@str(_string_type)}>>
+            Equality Distillation
+            {
+
+                // stack: list_of_char, index, raven, list
+                $object_stack
+                Jester's Gambit
+                Surgeon's Exaltation
+                Huginn's Gambit
+                // stack: list_of_char, index
+            }
+            {
+                Speaker's Distillation
+                {@str(_string_type)}>>
+                Numerical Reflection: 4
+                Fisherman's Gambit II
+                Vacant Reflection
+                Numerical Reflection: 3
+                Flock's Gambit
+                Speaker's Distillation
+                // stack: list_of_char, index, raven, list
+                $object_stack
+                Jester's Gambit
+                Surgeon's Exaltation
+                Huginn's Gambit
+                // stack: list_of_char, index
+            }
+            Augur's Exaltation
+            Hermes' Gambit
+            
         }
     ]
+}
+
+{ /* default */
+    Dioscuri Gambit
+    Selection Distillation
+    Numerical Reflection: 1
+    Numerical Reflection: 2
+    Selection Exaltation
+    Surgeon's Exaltation
 }
 
 

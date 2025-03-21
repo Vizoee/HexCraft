@@ -1,0 +1,19 @@
+variables:
+always at start of stack
+each variable have its own index
+object:
+    pos on stack
+    list of getters
+    list of setters
+
+
+
+
+
+
+
+
+
+read first impl:
+random values on stack, strings with names of variables
+replaces vatiables with values from start of stack

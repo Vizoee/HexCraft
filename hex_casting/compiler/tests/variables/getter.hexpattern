@@ -1,0 +1,51 @@
+#def(get)(
+Flock's Reflection
+Muninn's Reflection
+{<1>}>>
+#git(/hex_casting/programs/dictionary/dictionary_read.hexpattern)
+Subtractive Distillation
+Fisherman's Gambit II
+)
+
+#def(var_a)(0)
+#def(var_a)(1)
+#def(var_a)(2)
+#def(var_a)(3)
+#def(var_a)(4)
+#def(var_a)(5)
+
+Numerical Reflection: 10
+Numerical Reflection: 11
+Numerical Reflection: 12
+Numerical Reflection: 13
+Numerical Reflection: 14
+Numerical Reflection: 15
+
+Mind's Reflection
+
+{
+    [
+        @str(var_a),
+        @str(var_b),
+        @str(var_c),
+        @str(var_d),
+        @str(var_e),
+        @str(var_f)
+    ]
+    [
+        @num(0),
+        @num(1),
+        @num(2),
+        @num(3),
+        @num(4),
+        @num(5)
+    ]
+}
+Huginn's Gambit
+
+$get(@str(var_e))
+$get(@str(var_a))
+$get(@str(var_a))
+$get(@str(var_a))
+$get(@str(var_d))
+$get(@str(var_f))
