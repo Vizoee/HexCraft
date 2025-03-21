@@ -31,7 +31,7 @@
     Flock's Reflection
 
     Muninn's Reflection
-    {<1>}>>
+    {@str(var_b)}>>
 
     Jester's Gambit
     Flock's Disintegration
@@ -95,4 +95,4 @@ $get(@str(var_a))
 $get(@str(var_a))
 $get(@str(var_d))
 $get(@str(var_f))
-$set(@str(var_b), Numerical Reflection: 20)
+$set(1, Numerical Reflection: 20)
