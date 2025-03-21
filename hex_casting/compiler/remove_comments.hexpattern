@@ -1,6 +1,7 @@
-// Converts string into list of char
+// Removes comments
 // stack: string
 {
+    Sekhmet's Gambit: 1
     // stack: [string, index]
     Flock's Disintegration
     Gemini Decomposition
@@ -67,6 +68,7 @@ Flock's Disintegration
 Bookkeeper's Gambit: v
 
 {
+    Sekhmet's Gambit: 1
     // stack: [string, index]
     Flock's Disintegration
     Gemini Decomposition
@@ -133,3 +135,4 @@ Thoth's Gambit
 Flock's Disintegration
 Bookkeeper's Gambit: v
 
+// stack: string
