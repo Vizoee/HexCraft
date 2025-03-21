@@ -22,7 +22,7 @@
         // stack: string_p1, string_p2_with_comment
 
         Gemini Decomposition
-        {"\n"}>>
+        {@str(\n)}>>
         Locator's Distillation
 
         Gemini Decomposition
@@ -44,7 +44,7 @@
         
         Additive Distillation
         Gemini Decomposition
-        {"//"}>>
+        {@str(//)}>>
         Locator's Distillation
         Numerical Reflection: 2
         Flock's Gambit
@@ -55,7 +55,7 @@
 }
 Jester's Gambit
 Gemini Decomposition
-{"//"}>>
+{@str(//)}>>
 Locator's Distillation
 Numerical Reflection: 2
 Flock's Gambit
