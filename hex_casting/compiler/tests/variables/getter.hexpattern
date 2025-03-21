@@ -57,3 +57,8 @@ Mind's Reflection
 Huginn's Gambit
 
 $get(@str(var_e))
+$get(@str(var_a))
+$get(@str(var_a))
+$get(@str(var_a))
+$get(@str(var_d))
+$get(@str(var_f))
