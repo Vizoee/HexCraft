@@ -21,6 +21,9 @@ Hermes' Gambit
     {}
     {
         // stack: string, index
+        Numerical Reflection: 1
+        Additive Distillation
+
         Dioscuri Gambit
         Numerical Reflection: 0
         Jester's Gambit
@@ -34,7 +37,7 @@ Hermes' Gambit
         // stack: string_p1, string_p2_with_function
 
         Gemini Decomposition
-        {@str(end)}>>
+        {@str( end )}>>
         Locator's Distillation
         // stack: string_p1, string_p2_with_function, index
 
@@ -57,7 +60,7 @@ Hermes' Gambit
             Huginn's Gambit
             
             
-            Numerical Reflection: 3
+            Numerical Reflection: 5
             Additive Distillation
             Prospector's Gambit
             Length Purification
@@ -68,7 +71,7 @@ Hermes' Gambit
         
         Additive Distillation
         Gemini Decomposition
-        {@str(function)}>>
+        {@str( function )}>>
         Locator's Distillation
         Numerical Reflection: 2
         Flock's Gambit
@@ -78,8 +81,15 @@ Hermes' Gambit
     Hermes' Gambit
 }
 Jester's Gambit
+
+// Adding padding
+Spacing Reflection
+Undertaker's Gambit
+Additive Distillation
+Additive Distillation
+
 Gemini Decomposition
-{@str(function)}>>
+{@str( function )}>>
 Locator's Distillation
 Numerical Reflection: 2
 Flock's Gambit
