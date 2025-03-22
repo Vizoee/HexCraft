@@ -1,0 +1,90 @@
+// stack: string
+Muninn's Reflection
+Augur's Purification
+{}
+{
+    Vacant Reflection
+    Huginn's Gambit
+}
+Augur's Exaltation
+Hermes' Gambit
+
+// todo: remove all \n
+
+{
+    Sekhmet's Gambit: 1
+    // stack: [string, index]
+    Flock's Disintegration
+    Gemini Decomposition
+    Numerical Reflection: -1
+    Equality Distillation
+    {}
+    {
+        // stack: string, index
+        Dioscuri Gambit
+        Numerical Reflection: 0
+        Jester's Gambit
+        Selection Exaltation
+        Rotation Gambit II
+        
+        // stack: string_p1, string, index
+        Prospector's Gambit
+        Length Purification
+        Selection Exaltation
+        // stack: string_p1, string_p2_with_function
+
+        Gemini Decomposition
+        {@str(end)}>>
+        Locator's Distillation
+        // stack: string_p1, string_p2_with_function, index of end
+
+        Gemini Decomposition
+        Numerical Reflection: -1
+        Equality Distillation
+        {
+            {@str(Error: function is missing 'end' tag.)}>>
+            Reveal
+        }
+        {
+            Dioscuri Gambit
+            Numerical Reflection: 9
+            Jester's Gambit
+            Selection Exaltation
+            Rotation Gambit II
+            
+            Muninn's Reflection
+            Speaker's Distillation
+            Huginn's Gambit
+            
+            
+            Numerical Reflection: 3
+            Additive Distillation
+            Prospector's Gambit
+            Length Purification
+            Selection Exaltation
+        }
+        Augur's Exaltation
+        Hermes' Gambit
+        
+        Additive Distillation
+        Gemini Decomposition
+        {@str(function)}>>
+        Locator's Distillation
+        Numerical Reflection: 2
+        Flock's Gambit
+        Castor's Gambit
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+}
+Jester's Gambit
+Gemini Decomposition
+{@str(function)}>>
+Locator's Distillation
+Numerical Reflection: 2
+Flock's Gambit
+Single's Purification
+Thoth's Gambit
+Flock's Disintegration
+Bookkeeper's Gambit: v
+// stack: string

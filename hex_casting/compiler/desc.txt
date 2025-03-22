@@ -4,6 +4,18 @@ parsing by word vs by char:
     word will be easier but less serialized
     word will have more steps
     word will be easier to implement partially
+result: parse by word
+
+
+stages:
+    remove comments
+    parse variables
+        split by spaces
+        check if known symbol
+            if not add new symbol to 
+                stack
+                ravenmind
+    parse functions (can be merged with variables)
 
 
 idea:
