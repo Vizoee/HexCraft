@@ -42,7 +42,11 @@ ravenmind
     last_symbol - id of symbol
     list_of_last_found - list of last index of each symbol or 65536 if not found (spell shouldn't be longet than that)
     
-            
+
+ravenmind: = main function
+    list of unique names
+    list of variables
+    list of functions
 
 
 

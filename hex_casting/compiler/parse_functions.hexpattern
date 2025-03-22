@@ -1,3 +1,23 @@
+// stack: string, char
+#def(split)(
+    Gemini Decomposition
+    Jester's Gambit
+    Locator's Distillation
+    Dioscuri Gambit
+    Numerical Reflection: 0
+    Jester's Gambit
+    Selection Exaltation
+    Rotation Gambit II
+    Numerical Reflection: 1
+    Additive Distillation
+    Prospector's Gambit
+    Length Purification
+    Selection Exaltation
+    // stack: string, string
+)
+
+
+
 // stack: string
 Muninn's Reflection
 Augur's Purification
@@ -54,6 +74,57 @@ Hermes' Gambit
             Jester's Gambit
             Selection Exaltation
             
+            // stack: ... , function_string
+            Gemini Decomposition
+            {@str(())}>>
+            Blank Reflection
+            Separation Distillation
+            Numerical Reflection: 0
+            Selection Distillation
+
+            Locator's Distillation
+
+            // stack: ... , function_string, index_of_(
+            Dioscuri Gambit
+            Numerical Reflection: 0
+            Jester's Gambit
+            Selection Exaltation
+            Rotation Gambit II
+
+            // stack: ... , function_name, function_string, index_of_)
+            Numerical Reflection: 1
+            Additive Distillation
+            Prospector's Gambit
+            Length Purification
+            Selection Exaltation
+
+            // stack: ... , function_name, function_string_without_name
+            Gemini Decomposition
+            {@str(())}>>
+            Blank Reflection
+            Separation Distillation
+            Numerical Reflection: 1
+            Selection Distillation
+            Locator's Distillation
+
+            // stack: ... , function_name, function_string_without_name, index_of_)
+            Dioscuri Gambit
+            Numerical Reflection: 0
+            Jester's Gambit
+            Selection Exaltation
+            Rotation Gambit II
+
+            // stack: ... , function_name, function_param_string, function_string_without_name, index_of_)
+            Numerical Reflection: 1
+            Additive Distillation
+            Prospector's Gambit
+            Length Purification
+            Selection Exaltation
+            
+            // stack: ... , function_name, function_param_string, function_commands_string
+            Numerical Reflection: 3
+            Flock's Gambit
+
             Muninn's Reflection
             Jester's Gambit
             Speaker's Distillation
