@@ -69,6 +69,8 @@ Hermes' Gambit
             Reveal
         }
         {
+            Numerical Reflection: 1
+            Additive Distillation
             Dioscuri Gambit
             Numerical Reflection: 9
             Jester's Gambit
@@ -79,14 +81,7 @@ Hermes' Gambit
             {@str(())}>>
             Numerical Reflection: 0
             Selection Distillation
-
             Locator's Distillation
-
-Flock's Reflection
-Flock's Gambit
-Reveal
-Flock's Disintegration
-
 
             // stack: ... , function_string, index_of_(
             Dioscuri Gambit
@@ -95,22 +90,12 @@ Flock's Disintegration
             Selection Exaltation
             Rotation Gambit II
 
-Flock's Reflection
-Flock's Gambit
-Reveal
-Flock's Disintegration
-
             // stack: ... , function_name, function_string, index_of_)
             Numerical Reflection: 1
             Additive Distillation
             Prospector's Gambit
             Length Purification
             Selection Exaltation
-
-Flock's Reflection
-Flock's Gambit
-Reveal
-Flock's Disintegration
 
             // stack: ... , function_name, function_string_without_name
             Gemini Decomposition
@@ -119,11 +104,6 @@ Flock's Disintegration
             Selection Distillation
             Locator's Distillation
 
-Flock's Reflection
-Flock's Gambit
-Reveal
-Flock's Disintegration
-
             // stack: ... , function_name, function_string_without_name, index_of_)
             Dioscuri Gambit
             Numerical Reflection: 0
@@ -131,22 +111,12 @@ Flock's Disintegration
             Selection Exaltation
             Rotation Gambit II
 
-Flock's Reflection
-Flock's Gambit
-Reveal
-Flock's Disintegration
-
             // stack: ... , function_name, function_param_string, function_string_without_name, index_of_)
             Numerical Reflection: 1
             Additive Distillation
             Prospector's Gambit
             Length Purification
             Selection Exaltation
-
-Flock's Reflection
-Flock's Gambit
-Reveal
-Flock's Disintegration
 
             // stack: ... , function_name, function_param_string, function_commands_string
             Numerical Reflection: 3
@@ -158,7 +128,7 @@ Flock's Disintegration
             Huginn's Gambit
             
             
-            Numerical Reflection: 5
+            Numerical Reflection: 4
             Additive Distillation
             Prospector's Gambit
             Length Purification
