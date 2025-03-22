@@ -84,3 +84,8 @@ if <condition> then <commands> [else <commands>] end
 for <variable> <start> <stop> [<increment>] do <commands> end
     <commands>
     []
+
+
+require(vector) - returns object for akasha retrival
+mainly used for develepment
+by default 1 object already exists for currently binded akasha
