@@ -77,12 +77,16 @@ Hermes' Gambit
             // stack: ... , function_string
             Gemini Decomposition
             {@str(())}>>
-            Blank Reflection
-            Separation Distillation
             Numerical Reflection: 0
             Selection Distillation
 
             Locator's Distillation
+
+Flock's Reflection
+Flock's Gambit
+Reveal
+Flock's Disintegration
+
 
             // stack: ... , function_string, index_of_(
             Dioscuri Gambit
@@ -91,6 +95,11 @@ Hermes' Gambit
             Selection Exaltation
             Rotation Gambit II
 
+Flock's Reflection
+Flock's Gambit
+Reveal
+Flock's Disintegration
+
             // stack: ... , function_name, function_string, index_of_)
             Numerical Reflection: 1
             Additive Distillation
@@ -98,14 +107,22 @@ Hermes' Gambit
             Length Purification
             Selection Exaltation
 
+Flock's Reflection
+Flock's Gambit
+Reveal
+Flock's Disintegration
+
             // stack: ... , function_name, function_string_without_name
             Gemini Decomposition
             {@str(())}>>
-            Blank Reflection
-            Separation Distillation
             Numerical Reflection: 1
             Selection Distillation
             Locator's Distillation
+
+Flock's Reflection
+Flock's Gambit
+Reveal
+Flock's Disintegration
 
             // stack: ... , function_name, function_string_without_name, index_of_)
             Dioscuri Gambit
@@ -114,13 +131,23 @@ Hermes' Gambit
             Selection Exaltation
             Rotation Gambit II
 
+Flock's Reflection
+Flock's Gambit
+Reveal
+Flock's Disintegration
+
             // stack: ... , function_name, function_param_string, function_string_without_name, index_of_)
             Numerical Reflection: 1
             Additive Distillation
             Prospector's Gambit
             Length Purification
             Selection Exaltation
-            
+
+Flock's Reflection
+Flock's Gambit
+Reveal
+Flock's Disintegration
+
             // stack: ... , function_name, function_param_string, function_commands_string
             Numerical Reflection: 3
             Flock's Gambit
