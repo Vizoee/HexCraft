@@ -15,6 +15,7 @@
     Numerical Reflection: 0
     Equality Distillation
     {
+        Reveal
         Bookkeeper's Gambit: v
         Mind's Reflection
         Numerical Reflection: 1
@@ -23,6 +24,7 @@
     }
     {
         Numerical Reflection: 10
+        Reveal
         Equality Distillation
         {
             Mind's Reflection
