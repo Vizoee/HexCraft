@@ -9,7 +9,7 @@
     Enqueue
 
     Timekeeper's Reflection
-    Numerical Reflection: 200
+    Numerical Reflection: 40
     Modulus Distillation
     Gemini Decomposition
     Numerical Reflection: 0
@@ -17,17 +17,17 @@
     {
         Bookkeeper's Gambit: v
         Mind's Reflection
-        Numerical Reflection: 5
+        Numerical Reflection: 1
         Numerical Reflection: 2
         Black Sun's Zenith
     }
     {
-        Numerical Reflection: 40
+        Numerical Reflection: 10
         Equality Distillation
         {
             Mind's Reflection
-            Numerical Reflection: 5
-            Numerical Reflection: 2
+            Numerical Reflection: 1
+            Numerical Reflection: 1
             Black Sun's Zenith
         }
         {}
