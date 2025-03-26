@@ -4,7 +4,7 @@
     Prospector's Gambit
     Surgeon's Exaltation
 
-    Numerical Reflection: 2
+    Numerical Reflection: 1
     {@str(Absorprion)}>>
     Enqueue
 
@@ -15,7 +15,6 @@
     Numerical Reflection: 0
     Equality Distillation
     {
-        Reveal
         Bookkeeper's Gambit: v
         Mind's Reflection
         Numerical Reflection: 1
@@ -24,7 +23,6 @@
     }
     {
         Numerical Reflection: 10
-        Reveal
         Equality Distillation
         {
             Mind's Reflection
