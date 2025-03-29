@@ -329,20 +329,16 @@ Separation Distillation
                 @str(=)
             ]
             [
-                {@str(aE :3)}>>
-                Reveal
-                Bookkeeper's Gambit: v
-                $setter_obj
-                $push_stack
+                [
+                    {@str(aE :3)}>>
+                    Reveal
+                    Bookkeeper's Gambit: v
+                    $setter_obj
+                    $push_stack
+                ]
             ]
         }
         Prospector's Gambit
-
-        Length Purification
-        Flock's Gambit
-        Reveal
-        Flock's Disintegration
-        
         $dict_read
         Reveal
 
