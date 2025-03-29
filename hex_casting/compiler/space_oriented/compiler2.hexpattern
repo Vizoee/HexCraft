@@ -324,7 +324,7 @@ number
     
 
     // $ident_obj
-    {$ident_obj_type}>>
+    {@str(identifier)}>>
     {
         // stack: obj
         $stack_obj_val1
