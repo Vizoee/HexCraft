@@ -324,7 +324,7 @@ number
     
 
     // $ident_obj
-    // $push_stack
+    $push_stack
     
     // end stack: list, index
     Numerical Reflection: 2
