@@ -1,0 +1,2 @@
+everything have spaces between and string is splitted by them
+    strings are converted to list to avoid getting parsed

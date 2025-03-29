@@ -1,0 +1,192 @@
+#def(dict_read)(#git(/hex_casting/programs/dictionary/dictionary_read.hexpattern))
+
+#def(raven_sym_dict)(0)
+#def(raven_var_dict)(0)
+#def(rav_type)(0)
+#def(rav_pos)(1)
+
+// stack: string
+Spacing Reflection
+Separation Distillation
+{
+    [
+        @str(=)
+    ]
+    [
+        [
+            /*
+            Get
+            */
+        ]
+    ]
+}
+
+
+
+{
+    Flock's Disintegration
+    // stack: list, index
+    Dioscuri Gambit
+    Selection Distillation
+    Gemini Decomposition
+    Classifier's Purification
+    Scrivener's Purification
+    {@str(moreiotas:string)}>>
+    Equality Distillation
+    {}
+    {
+        Bookkeeper's Gambit: v
+        Numerical Reflection: 1
+        Additive Distillation
+        Numerical Reflection: 2
+        Flock's Gambit
+        Castor's Gambit
+        Atalanta's Gambit
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+    
+    Gemini Decomposition
+    Blank Reflection
+    Equality Distillation
+    {
+        Bookkeeper's Gambit: v
+        Numerical Reflection: 1
+        Additive Distillation
+        Numerical Reflection: 2
+        Flock's Gambit
+        Castor's Gambit
+        Atalanta's Gambit
+    }
+    {}
+    Augur's Exaltation
+    Hermes' Gambit
+    
+    // stack: list, index, string
+    // check if it is build in symbol
+    Muninn's Reflection
+    $raven_sym_dict
+    Selection Distillation
+    Prospector's Gambit
+    $dict_read
+
+    Gemini Decomposition
+    Augur's Purification
+    {
+        Hermes' Gambit
+
+        Numerical Reflection: 2
+        Flock's Gambit
+        Castor's Gambit
+        Atalanta's Gambit
+    }
+    {
+        Bookkeeper's Gambit: v
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+    
+    // stack: list, index, string
+    // check if it is variable name
+    Muninn's Reflection
+    $raven_var_dict
+    Selection Distillation
+    Prospector's Gambit
+    $dict_read
+
+    Gemini Decomposition
+    Augur's Purification
+    {
+        Bookkeeper's Gambit: v
+    }
+    {
+        Bookkeeper's Gambit: v
+        // stack: list, index, string
+
+
+        Muninn's Reflection
+        $raven_var_dict
+        Selection Distillation
+        Jester's Gambit
+        {
+            @str(variable)
+            @null
+        }
+        #git(/hex_casting/programs/dictionary/dictionary_write.hexpattern)
+
+        Muninn's Reflection
+        $raven_var_dict
+        Rotation Gambit
+        Surgeon's Exaltation
+        Huginn's Gambit
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+
+    // stack: list, index, string
+    // if none create new variable without allocation
+}
+
+/*
+while i < list len
+    if list[i] != string || list[i] == ""
+        i++
+    else
+        parse string
+
+
+ravenmind
+    [0]buildin symbols - dict
+    [1]variables - dict
+
+
+
+idea:
+    everything is on stack and some things take from stack
+    what about " - insides shouldnt be processed - requires processing overide
+        can apply to comments
+    2 events
+        on insert on stack
+        on processing
+        on taking from stack
+    variable/value
+        variable - shouldnt happen? remove it from stack?
+        //     = get variable and set it
+        +,-,/,*,^,% - remove it and remove variable/value - returns value
+        =,( - just put variable on stack
+        function - set function name
+
+    function
+        put block on stack
+
+    end
+        remove until finds block (function/if/while/for/switch)
+
+variable, sign and function share method(index in list) to get value
+    variable - returns value
+    sign(+,-,*,/) - gets value of argument 1 and 2, runs function and then returns value
+    function - compiles and runs conde and returns value 
+        (every function returns some value or null)
+
+should things predict future?
+    if yes:
+        requires more careful approach - each element must know what will happen next
+        simplifies some things - comments, math(if we don't implement ++/--variable), function
+    if partially:
+        most freedom
+        most likely to introduce bugs
+    if no:
+        more robust?
+        will require processing function stack - which is arguably the same as predicting future
+        simplifies implementation of most things
+
+math requires rebalancing of tree
+anything other than math operators +,-,*,/,( should process math
+
+
+processing function stack
+    can be used to process next commands
+    should it be running before or after command
+
+
+*/

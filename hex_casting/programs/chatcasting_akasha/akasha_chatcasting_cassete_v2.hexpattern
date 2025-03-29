@@ -1,6 +1,5 @@
 {
-    Consideration: Consideration
-    Bookkeeper's Gambit: -
+    {Bookkeeper's Gambit: -}>>
     Numerical Reflection: 1
     Prospector's Gambit
     Surgeon's Exaltation
@@ -11,8 +10,7 @@
     Surgeon's Exaltation
 
     Numerical Reflection: 2
-    Consideration: Consideration
-    @str(Chat Casting)
+    {@str(Chat Casting)}>>
     Enqueue
 
     Whisper Reflection
