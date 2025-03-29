@@ -297,6 +297,15 @@ Separation Distillation
         Nullary Reflection
         Equality Distillation
         {
+            {@str(NaN)}>>
+            Reveal
+            Bookkeeper's Gambit: v
+        }
+        {
+            {@str(aN :3)}>>
+            Reveal
+            Bookkeeper's Gambit: v
+
             Input Purification
             $value_obj
             $push_stack
@@ -304,11 +313,6 @@ Separation Distillation
             Numerical Reflection: 2
             Flock's Gambit
             Castor's Gambit
-        }
-        {
-            {@str(NaN)}>>
-            Reveal
-            Bookkeeper's Gambit: v
         }
         Augur's Exaltation
         Hermes' Gambit
