@@ -333,7 +333,14 @@ number
     Rotation Gambit
     Numerical Reflection: 3
     Flock's Gambit
-    $push_stack
+
+    // $push_stack
+    Muninn's Reflection
+    Speaker's Decomposition
+    Rotation Gambit
+    Speaker's Distillation
+    Speaker's Distillation
+    Huginn's Gambit
     
     // end stack: list, index
     Numerical Reflection: 2
