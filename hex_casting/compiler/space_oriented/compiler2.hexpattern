@@ -309,11 +309,7 @@ Separation Distillation
         Input Purification
         Nullary Reflection
         Equality Distillation
-        {
-            {@str(NaN)}>>
-            Reveal
-            Bookkeeper's Gambit: v
-        }
+        {}
         {
             {@str(aN :3)}>>
             Reveal
@@ -334,33 +330,36 @@ Separation Distillation
         Hermes' Gambit
         
 
-        // {
-        //     [
-        //         @str(=)
-        //     ]
-        //     [
-        //         $setter_obj
-        //         $push_stack
-        //     ]
-        // }
-        // Prospector's Gambit
-        // $dict_read
+        {
+            [
+                @str(=)
+            ]
+            [
+                {@str(aE :3)}>>
+                Reveal
+                Bookkeeper's Gambit: v
+                $setter_obj
+                $push_stack
+            ]
+        }
+        Prospector's Gambit
+        $dict_read
 
-        // Gemini Decomposition
-        // Augur's Purification
-        // {
-        //     Hermes' Gambit
-        //     Numerical Reflection: 1
-        //     Additive Distillation
-        //     Numerical Reflection: 2
-        //     Flock's Gambit
-        //     Castor's Gambit
-        // }
-        // {
-        //     Bookkeeper's Gambit: v
-        // }
-        // Augur's Exaltation
-        // Hermes' Gambit
+        Gemini Decomposition
+        Augur's Purification
+        {
+            Hermes' Gambit
+            Numerical Reflection: 1
+            Additive Distillation
+            Numerical Reflection: 2
+            Flock's Gambit
+            Castor's Gambit
+        }
+        {
+            Bookkeeper's Gambit: v
+        }
+        Augur's Exaltation
+        Hermes' Gambit
         
         // else is an identifier
         $ident_obj
