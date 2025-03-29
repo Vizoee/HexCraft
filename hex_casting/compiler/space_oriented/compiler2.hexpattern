@@ -308,26 +308,26 @@ number
     Prospector's Gambit
     $dict_read
 
-    Gemini Decomposition
-    Augur's Purification
-    {
-        Hermes' Gambit
-        Numerical Reflection: 2
-        Flock's Gambit
-        Castor's Gambit
-    }
-    {
-        Bookkeeper's Gambit: v
-    }
-    Augur's Exaltation
-    Hermes' Gambit
+    // Gemini Decomposition
+    // Augur's Purification
+    // {
+    //     Hermes' Gambit
+    //     Numerical Reflection: 2
+    //     Flock's Gambit
+    //     Castor's Gambit
+    // }
+    // {
+    //     Bookkeeper's Gambit: v
+    // }
+    // Augur's Exaltation
+    // Hermes' Gambit
     
 
-    // $ident_obj
-    // $push_stack
+    // // $ident_obj
+    // // $push_stack
     
-    // end stack: list, index
-    Numerical Reflection: 2
-    Flock's Gambit
-    Castor's Gambit
+    // // end stack: list, index
+    // Numerical Reflection: 2
+    // Flock's Gambit
+    // Castor's Gambit
 }
