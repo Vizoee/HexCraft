@@ -105,14 +105,14 @@ number
 
 #def(dict_read)(#git(/hex_casting/programs/dictionary/dictionary_read.hexpattern))
 
-#def(raven_stack)(0)
-#def(raven_ident)(1)
-#def(raven_var_count)(2)
+#def(raven_stack)(Numerical Reflection: 0)
+#def(raven_ident)(Numerical Reflection: 1)
+#def(raven_var_count)(Numerical Reflection: 2)
 
-#def(stack_obj_type)(0)
-#def(stack_obj_eval)(1)
-#def(stack_obj_val1)(2)
-#def(stack_obj_val2)(3)
+#def(stack_obj_type)(Numerical Reflection: 0)
+#def(stack_obj_eval)(Numerical Reflection: 1)
+#def(stack_obj_val1)(Numerical Reflection: 2)
+#def(stack_obj_val2)(Numerical Reflection: 3)
 
 #def(ident_obj_type)(@str(identifier))
 
@@ -340,7 +340,6 @@ Separation Distillation
         }
         Prospector's Gambit
         $dict_read
-        Reveal
 
         Gemini Decomposition
         Augur's Purification
