@@ -296,17 +296,17 @@ number
     Hermes' Gambit
     
 
-    // {
-    //     [
-    //         @str(=)
-    //     ]
-    //     [
-    //         $setter_obj
-    //         $push_stack
-    //     ]
-    // }
-    // Prospector's Gambit
-    // $dict_read
+    {
+        [
+            @str(=)
+        ]
+        [
+            $setter_obj
+            $push_stack
+        ]
+    }
+    Prospector's Gambit
+    $dict_read
 
     Gemini Decomposition
     Augur's Purification
