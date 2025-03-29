@@ -1,107 +1,4 @@
-/*
 
-
-idea:
-    everything is on stack and some things take from stack
-    what about " - insides shouldnt be processed - requires processing overide
-        can apply to comments
-    2 events
-        on insert on stack
-        on processing
-        on taking from stack
-    variable/value
-        variable - shouldnt happen? remove it from stack?
-        //     = get variable and set it
-        +,-,/,*,^,% - remove it and remove variable/value - returns value
-        =,( - just put variable on stack
-        function - set function name
-
-    function
-        put block on stack
-
-    end
-        remove until finds block (function/if/while/for/switch)
-
-variable, sign and function share method(index in list) to get value
-    variable - returns value
-    sign(+,-,*,/) - gets value of argument 1 and 2, runs function and then returns value
-    function - compiles and runs conde and returns value 
-        (every function returns some value or null)
-
-should things predict future?
-    if yes:
-        requires more careful approach - each element must know what will happen next
-        simplifies some things - comments, math(if we don't implement ++/--variable), function
-    if partially:
-        most freedom
-        most likely to introduce bugs
-    if no:
-        more robust?
-        will require processing function stack - which is arguably the same as predicting future
-        simplifies implementation of most things
-
-math requires rebalancing of tree
-anything other than math operators +,-,*,/,( should process math
-
-
-processing function stack
-    can be used to process next commands
-    should it be running before or after command
-
-ravenmind
-    [0]variable count
-    [1]identifier list
-        [0]type
-        [1]get function
-        [2]var-pos
-        [2]func-code(unparsed?)
-    [2]variable_count
-
-get_value function
-    // stack: obj
-
-identifier
-    put on stack:
-    [
-        [0]type:identifier
-        [1]get_value: return value
-        [2]value: name
-    ]
-
-=
-    get identifier from stack
-    change it into variable
-        change type to variable
-        allocate it and set pos
-
-    put on stack
-    [
-        [0]type:setter
-        [1]get_value:get val_2 and set val_1 (and returns set value)
-        [2]val_1:identifier or stack_item
-        [3]val_2:null
-    ]
-
-+
-    get identifier or equasion from stack
-
-    put on stack
-    [
-        [0]type:expression
-        [1]get_value:(rebalance tree) get val_2 and set val_1 calculate and return result
-        [2]val_1:identifier or stack_item
-        [3]val_2:null
-    ]
-
-number
-    put on stack
-    [
-        [0]type:value
-        [1]get_value:return value
-        [2]value
-    ]
-
-*/
 
 #def(dict_read)(#git(/hex_casting/programs/dictionary/dictionary_read.hexpattern))
 
@@ -325,7 +222,7 @@ number
 
     $ident_obj
     $push_stack
-    
+
     // end stack: list, index
     Numerical Reflection: 2
     Flock's Gambit
