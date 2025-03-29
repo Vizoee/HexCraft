@@ -307,7 +307,8 @@ Augur's Purification
 
     Numerical Reflection: 0
 
-    {$push_stack}
+    // {$push_stack}
+    Vacant Reflection
     Single's Purification
 
     Numerical Reflection: 4
