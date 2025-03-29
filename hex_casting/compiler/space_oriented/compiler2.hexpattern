@@ -189,7 +189,7 @@ number
 
 #def(ident_obj)(
     // stack: name
-    {$ident_obj_type}>>
+    {@str(identifier)}>>
     {
         // stack: obj
         $stack_obj_val1
@@ -302,35 +302,6 @@ number
         ]
         [
             $setter_obj
-            // Bookkeeper's Gambit: v
-            // {@str(setter)}>>
-
-            // {
-
-            // }
-
-            // $pop_stack_last
-            // Gemini Decomposition
-            // $stack_obj_type
-            // Selection Distillation
-            // {@str(identifier)}>>
-            // Equality Distillation
-            // {}
-            // { // Error
-            //     {@str(Error while parsing '='. Expected identifier but got )}>>
-            //     Jester's Gambit
-            //     $stack_obj_type
-            //     Selection Distillation
-            //     Additive Distillation
-            //     Hermes' Gambit
-            // }
-            // Augur's Exaltation
-            // Hermes' Gambit
-
-            // Nullary Reflection
-
-            // Numerical Reflection: 4
-            // Flock's Gambit
             $push_stack
         ]
     }
@@ -352,24 +323,18 @@ number
     Hermes' Gambit
     
 
-    // $ident_obj
-    {@str(identifier)}>>
-    {
-        // stack: obj
-        $stack_obj_val1
-        Selection Distillation
-    }
-    Rotation Gambit
-    Numerical Reflection: 3
-    Flock's Gambit
+    $ident_obj
+    // {@str(identifier)}>>
+    // {
+    //     // stack: obj
+    //     $stack_obj_val1
+    //     Selection Distillation
+    // }
+    // Rotation Gambit
+    // Numerical Reflection: 3
+    // Flock's Gambit
 
     $push_stack
-    // Muninn's Reflection
-    // Speaker's Decomposition
-    // Rotation Gambit
-    // Speaker's Distillation
-    // Speaker's Distillation
-    // Huginn's Gambit
     
     // end stack: list, index
     Numerical Reflection: 2
