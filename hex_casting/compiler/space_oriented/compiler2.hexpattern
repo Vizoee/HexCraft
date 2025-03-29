@@ -213,7 +213,7 @@ number
     Gemini Decomposition
     $stack_obj_type
     Selection Distillation
-    {$ident_obj_type}>>
+    {@str(identifier)}>>
     Equality Distillation
     {}
     { // Error
@@ -301,36 +301,36 @@ number
             @str(=)
         ]
         [
-            // $setter_obj
-            Bookkeeper's Gambit: v
-            {@str(setter)}>>
+            $setter_obj
+            // Bookkeeper's Gambit: v
+            // {@str(setter)}>>
 
-            {
+            // {
 
-            }
+            // }
 
-            $pop_stack_last
-            Gemini Decomposition
-            $stack_obj_type
-            Selection Distillation
-            {@str(identifier)}>>
-            Equality Distillation
-            {}
-            { // Error
-                {@str(Error while parsing '='. Expected identifier but got )}>>
-                Jester's Gambit
-                $stack_obj_type
-                Selection Distillation
-                Additive Distillation
-                Hermes' Gambit
-            }
-            Augur's Exaltation
-            Hermes' Gambit
+            // $pop_stack_last
+            // Gemini Decomposition
+            // $stack_obj_type
+            // Selection Distillation
+            // {@str(identifier)}>>
+            // Equality Distillation
+            // {}
+            // { // Error
+            //     {@str(Error while parsing '='. Expected identifier but got )}>>
+            //     Jester's Gambit
+            //     $stack_obj_type
+            //     Selection Distillation
+            //     Additive Distillation
+            //     Hermes' Gambit
+            // }
+            // Augur's Exaltation
+            // Hermes' Gambit
 
-            Nullary Reflection
+            // Nullary Reflection
 
-            Numerical Reflection: 4
-            Flock's Gambit
+            // Numerical Reflection: 4
+            // Flock's Gambit
             $push_stack
         ]
     }
