@@ -323,8 +323,8 @@ number
     Hermes' Gambit
     
 
-    // $ident_obj
-    $push_stack
+    $ident_obj
+    // $push_stack
     
     // end stack: list, index
     Numerical Reflection: 2
