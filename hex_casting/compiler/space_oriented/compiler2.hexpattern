@@ -323,7 +323,16 @@ number
     Hermes' Gambit
     
 
-    $ident_obj
+    // $ident_obj
+    {$ident_obj_type}>>
+    {
+        // stack: obj
+        $stack_obj_val1
+        Selection Distillation
+    }
+    Rotation Gambit
+    Numerical Reflection: 3
+    Flock's Gambit
     $push_stack
     
     // end stack: list, index
