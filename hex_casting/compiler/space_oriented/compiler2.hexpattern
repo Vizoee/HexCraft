@@ -49,12 +49,12 @@ processing function stack
     should it be running before or after command
 
 ravenmind
-    [0]variable count
-    [1]identifier list
+    [0]stack
         [0]type
         [1]get function
-        [2]var-pos
-        [2]func-code(unparsed?)
+        [2]var1
+        [3]var2
+    [1]identifier list
     [2]variable_count
 
 get_value function
@@ -233,6 +233,19 @@ number
     Flock's Gambit
 )
 
+Muninn's Reflection
+Augur's Purification
+{}
+{
+    Single's Purification
+    Single's Purification
+    Numerical Reflection: 0
+    Numerical Reflection: 3
+    Flock's Gambit
+    Huginn's Gambit
+}
+Augur's Exaltation
+Hermes' Gambit
 
 
 Spacing Reflection
