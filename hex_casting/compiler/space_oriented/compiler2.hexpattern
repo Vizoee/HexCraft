@@ -56,6 +56,7 @@ ravenmind
         [3]var2
     [1]identifier list
     [2]variable_count
+    [3]parse_function_stack
 
 get_value function
     // stack: obj
@@ -108,6 +109,7 @@ number
 #def(raven_stack)(Numerical Reflection: 0)
 #def(raven_ident)(Numerical Reflection: 1)
 #def(raven_var_count)(Numerical Reflection: 2)
+#def(raven_parse_func_stack)(Numerical Reflection: 3)
 
 #def(stack_obj_type)(Numerical Reflection: 0)
 #def(stack_obj_eval)(Numerical Reflection: 1)
@@ -145,6 +147,15 @@ number
 //     Selection Distillation
 // )
 
+// #def(remove_stack_last)(
+//     Muninn's Reflection
+//     Speaker's Decomposition
+//     Speaker's Decomposition
+//     Bookkeeper's Gambit: v
+//     Speaker's Distillation
+//     Huginn's Gambit
+// )
+
 #def(pop_stack_last)(
     Muninn's Reflection
     Speaker's Decomposition
@@ -155,15 +166,6 @@ number
     // stack: obj
 )
 
-// #def(remove_stack_last)(
-//     Muninn's Reflection
-//     Speaker's Decomposition
-//     Speaker's Decomposition
-//     Bookkeeper's Gambit: v
-//     Speaker's Distillation
-//     Huginn's Gambit
-// )
-
 #def(push_stack)(
     // stack: object
     Muninn's Reflection
@@ -172,6 +174,59 @@ number
     Speaker's Distillation
     Speaker's Distillation
     Huginn's Gambit
+)
+
+#def(push_parser)(
+    // stack: parser
+    Muninn's Reflection
+    $raven_parse_func_stack
+    Selection Distillation
+    Jester's Gambit
+    Speaker's Distillation
+
+    Muninn's Reflection
+    $raven_parse_func_stack
+    Rotation Gambit
+    Surgeon's Exaltation
+    Huginn's Gambit
+)
+
+#deg(remove_parser)(
+    Muninn's Reflection
+    $raven_parse_func_stack
+    Selection Distillation
+    Speaker's Decomposition
+    Bookkeeper's Gambit: v
+
+    Muninn's Reflection
+    $raven_parse_func_stack
+    Rotation Gambit
+    Surgeon's Exaltation
+    Huginn's Gambit
+)
+
+#def(get_parser)(
+    Muninn's Reflection
+    $raven_parse_func_stack
+    Selection Distillation
+    Numerical Reflection: 0
+    Selection Distillation
+)
+
+#def(parser_set_val2)(
+    // stack: object
+    Muninn's Reflection
+    Speaker's Decomposition
+    Speaker's Decomposition
+    $stack_obj_val2
+    Numerical Reflection: 4
+    Fisherman's Gambit
+    Surgeon's Exaltation
+    Speaker's Distillation
+    Speaker's Distillation
+    Huginn's Gambit
+
+    $remove_parser
 )
 
 #def(value_obj)(
@@ -247,9 +302,15 @@ Augur's Purification
 {}
 {
     Vacant Reflection
+
     Vacant Reflection
+
     Numerical Reflection: 0
-    Numerical Reflection: 3
+
+    {$push_stack}
+    Single's Purification
+
+    Numerical Reflection: 4
     Flock's Gambit
     Huginn's Gambit
 }
@@ -316,7 +377,8 @@ Separation Distillation
 
             Input Purification
             $value_obj
-            $push_stack
+            $get_parser
+            Hermes' Gambit
 
             $next_iter
         }
@@ -334,7 +396,10 @@ Separation Distillation
                     Reveal
                     Bookkeeper's Gambit: v
                     $setter_obj
-                    $push_stack
+                    $get_parser
+                    Hermes' Gambit
+                    {$parser_set_val2}
+                    $push_parser
                 ]
             ]
         }
@@ -359,7 +424,8 @@ Separation Distillation
         Bookkeeper's Gambit: v
 
         $ident_obj
-        $push_stack
+        $get_parser
+        Hermes' Gambit
         
         // end stack: list, index
         $next_iter
