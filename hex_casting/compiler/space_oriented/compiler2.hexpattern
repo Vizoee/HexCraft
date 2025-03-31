@@ -57,6 +57,7 @@ ravenmind
     [1]identifier list
     [2]variable_count
     [3]parse_function_stack
+    [4]result
 
 get_value function
     // stack: obj
@@ -110,6 +111,7 @@ number
 #def(raven_ident)(Numerical Reflection: 1)
 #def(raven_var_count)(Numerical Reflection: 2)
 #def(raven_parse_func_stack)(Numerical Reflection: 3)
+#def(raven_parse_result)(Numerical Reflection: 4)
 
 #def(stack_obj_type)(Numerical Reflection: 0)
 #def(stack_obj_eval)(Numerical Reflection: 1)
@@ -118,26 +120,30 @@ number
 
 #def(ident_obj_type)(@str(identifier))
 
-// #def(malloc)(
-//     // stack: value
-//     Muninn's Reflection
-//     $raven_var_count
-//     Selection Distillation
+#def(malloc)(
+    // stack: value
+    Muninn's Reflection
+    $raven_var_count
+    Selection Distillation
 
-//     Muninn's Reflection
-//     Prospector's Gambit
-//     Numerical Reflection: 1
-//     Additive Distillation
-//     $raven_var_count
-//     Jester's Gambit
-//     Surgeon's Exaltation
+    Muninn's Reflection
+    Prospector's Gambit
+    Numerical Reflection: 1
+    Additive Distillation
+    $raven_var_count
+    Jester's Gambit
+    Surgeon's Exaltation
 
-//     Flock's Reflection
-//     Subtractive Distillation
-//     Numerical Reflection: 2
-//     Additive Distillation
-//     Fisherman's Gambit
-// )
+    Flock's Reflection
+    Subtractive Distillation
+    Numerical Reflection: 2
+    Additive Distillation
+    Fisherman's Gambit
+)
+
+#def(var_define)(
+    
+)
 
 // #def(get_stack_last)(
 //     Muninn's Reflection
@@ -213,8 +219,9 @@ number
     Selection Distillation
 )
 
-#def(parser_set_val2)(
+#def(parser_setter)(
     // stack: object
+    // take val from stack and put it in
     Muninn's Reflection
     Speaker's Decomposition
     Speaker's Decomposition
@@ -222,11 +229,18 @@ number
     Numerical Reflection: 4
     Fisherman's Gambit
     Surgeon's Exaltation
-    Speaker's Distillation
+    // stack: raven, stack, obj
+    Rotation Gambit II
     Speaker's Distillation
     Huginn's Gambit
 
     $remove_parser
+
+    // stack: object
+    Gemini Decomposition
+    $stack_obj_eval
+    Selection Distillation
+    Hermes' Gambit
 )
 
 #def(value_obj)(
@@ -261,7 +275,33 @@ number
     {@str(setter)}>>
 
     {
+        // stack: object
+        // what it sould do: 
+        // create list of instruction that
+        // gets value of var2
+        // if var1 does not exists, adds it and malloc it at new index
+        // if var1 exists, removes old value and sets new one
+        Gemini Decomposition
+        $stack_obj_val1
+        Selection Distillation
 
+        Muninn's Reflection
+        $raven_ident
+        Selection Distillation
+        Prospector's Gambit
+        $dict_read
+        
+        Gemini Decomposition
+        Augur's Purification
+        {
+            
+        }
+        {
+            Bookkeeper's Gambit: v
+            
+        }
+        Augur's Exaltation
+        Hermes' Gambit
     }
 
     $pop_stack_last
@@ -304,6 +344,9 @@ Augur's Purification
     Vacant Reflection
 
     Vacant Reflection
+    Vacant Reflection
+    Numerical Reflection: 2
+    Flock's Gambit
 
     Numerical Reflection: 0
 
@@ -389,6 +432,7 @@ Separation Distillation
         {
             [
                 @str(=)
+                @str(\n)
             ]
             [
                 [
@@ -398,8 +442,15 @@ Separation Distillation
                     $setter_obj
                     $get_parser
                     Hermes' Gambit
-                    {$parser_set_val2}
+                    {$parser_setter}
                     $push_parser
+                ]
+                [
+                    {@str(Eval Time :3)}>>
+                    Reveal
+                    Bookkeeper's Gambit: v
+                    Bookkeeper's Gambit: v
+                    
                 ]
             ]
         }
