@@ -24,10 +24,34 @@ Integration Distillation
 
     {
 
-        // Numerical Reflection: 60
-        // Numerical Reflection: 100
-        // Multiplicative Distillation
-        // Modulus Distillation
+        Numerical Reflection: 60
+        Numerical Reflection: 100
+        Multiplicative Distillation
+        Modulus Distillation
+        Numerical Reflection: 340
+        Minimus Distillation II
+        {
+            Pocket Reflection
+            {@vec(-999.5, 31.5, -133.5)}>>
+            Undertaker's Gambit
+            Entity Purification: Item
+            Sleight
+            Mage Mouth
+            Augur's Purification
+            {
+                Entity Purification: Item
+                Sleight
+            }
+            {
+                Bookkeeper's Gambit: v
+            }
+            Augur's Exaltation
+            Hermes' Gambit
+        }
+        {}
+        Augur's Exaltation
+        Hermes' Gambit
+        
 
         Pocket Reflection
         {@vec(-983.5, 31.5, -133.5)}>>
