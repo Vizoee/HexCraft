@@ -9623,5 +9623,27 @@
         "args": null,
         "url": null,
         "description": null
+    },
+    "Heimdall's Gambit": {
+        "name": "dim/eval",
+        "modid": "moreiotas",
+        "modName": "MoreIotas",
+        "image": null,
+        "direction": "WEST",
+        "pattern": "wewewewdqdeaqqeawqw",
+        "args": null,
+        "url": null,
+        "description": null
+    },
+    "Expose Mind": {
+        "name": "expose",
+        "modid": "moreiotas",
+        "modName": "MoreIotas",
+        "image": null,
+        "direction": "NORTH_EAST",
+        "pattern": "eqeeedqadqqqqqdeewewewe",
+        "args": null,
+        "url": null,
+        "description": null
     }
 }
