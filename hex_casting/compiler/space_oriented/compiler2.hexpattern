@@ -106,6 +106,7 @@ number
 */
 
 #def(dict_read)(#git(/hex_casting/programs/dictionary/dictionary_read.hexpattern))
+#def(dict_write)(#git(/hex_casting/programs/dictionary/dictionary_write.hexpattern))
 
 #def(raven_stack)(Numerical Reflection: 0)
 #def(raven_ident)(Numerical Reflection: 1)
@@ -142,7 +143,35 @@ number
 )
 
 #def(var_define)(
+    // stack: identifier
+    Muninn's Reflection
+    Muninn's Reflection
+    $raven_ident
+    Selection Distillation
+    Rotation Gambit
+    $dict_write
+    $raven_ident
+    Jester's Gambit
+    Surgeon's Exaltation
+    Huginn's Gambit
+)
+
+#def(var_set)(
+    // stack: value, index
+    Flock's Reflection
+    Jester's Gambit
+    Subtractive Distillation
+    Gemini Decomposition
+    Fisherman's Gambit
+    Bookkeeper's Gambit: v
     
+    // stack: value, pos+
+    Numerical Reflection: -1
+    Multiplicative Distillation
+    Numerical Reflection: 1
+    Additive Distillation
+    Jester's Gambit
+    Fisherman's Gambit
 )
 
 // #def(get_stack_last)(
@@ -282,6 +311,14 @@ number
         // if var1 does not exists, adds it and malloc it at new index
         // if var1 exists, removes old value and sets new one
         Gemini Decomposition
+        $stack_obj_val2
+        Selection Distillation
+
+        $stack_obj_eval
+        Selection Distillation
+        Hermes' Gambit
+
+        Jester's Gambit
         $stack_obj_val1
         Selection Distillation
 
@@ -290,15 +327,21 @@ number
         Selection Distillation
         Prospector's Gambit
         $dict_read
-        
+        // stack: value, name, index
         Gemini Decomposition
         Augur's Purification
         {
-            
+            Bookkeeper's Gambit: v-
+            Bubbles' Purification
+            Numerical Reflection: 2
+            Flock's Gambit
+            {$var_set}
+            Additive Distillation
         }
         {
             Bookkeeper's Gambit: v
-            
+            $var_define
+            $malloc
         }
         Augur's Exaltation
         Hermes' Gambit
@@ -352,6 +395,8 @@ Augur's Purification
 
     {$push_stack}
     Single's Purification
+
+    Vacant Reflection
 
     Numerical Reflection: 4
     Flock's Gambit

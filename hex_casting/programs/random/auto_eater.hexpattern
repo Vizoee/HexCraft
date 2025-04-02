@@ -1,13 +1,12 @@
 {
-    Consideration: Consideration
-    Bookkeeper's Gambit: -
+    {Bookkeeper's Gambit: -}>>
     Numerical Reflection: 1
     Prospector's Gambit
     Surgeon's Exaltation
 
     Numerical Reflection: 340
     {
-        @str(Auto Eater)
+        @str(E-Blood)
     }
     Flock's Disintegration
     Enqueue
