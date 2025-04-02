@@ -20,9 +20,6 @@ Integration Distillation
     Timekeeper's Reflection
     Additive Distillation
 
-    Spatial Reflection
-    Homeland Reflection
-    Equality Distillation
     {
         Pocket Reflection
         {@vec(-983.5, 31.5, -133.5)}>>
@@ -38,13 +35,22 @@ Integration Distillation
             Sleight
         }
         {
-
+            Bookkeeper's Gambit: v
         }
         Augur's Exaltation
         Hermes' Gambit
     }
-    {
 
+    Spatial Reflection
+    Homeland Reflection
+    Equality Distillation
+    {
+        Hermes' Gambit
+    }
+    {
+        Homeland Reflection
+        Jester's Gambit
+        @pattern(WEST,wewewewdqdeaqqeawqw)
     }
     Augur's Exaltation
     Hermes' Gambit
@@ -54,5 +60,7 @@ Numerical Reflection: 1
 Prospector's Gambit
 Surgeon's Exaltation
 Hermes' Gambit
+Bookkeeper's Gambit: v
+
 
 
