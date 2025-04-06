@@ -1,0 +1,11 @@
+controlled by turtle
+
+write to bookshelfs by ambit, not akasha record
+wisp owned by nobody
+wisp accepts requests
+[
+    [0]version of request
+    [1]request
+    [2]sender
+    [3]
+]

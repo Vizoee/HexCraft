@@ -1,0 +1,17 @@
+// stack: name of variable/spell
+{@pattern(SOUTH_WEST,wwwwwaqwwewwqwqqwwaeawqawwwwawwwwawwwqawwdww)}>>
+Athena's Gambit
+{
+    {@str(Error: You do not have scarab containing private variable dictionary.)}>>
+    Reveal
+    Janus' Gambit
+}
+{
+    Bookkeeper's Gambit: v
+}
+Augur's Exaltation
+Hermes' Gambit
+@pattern(SOUTH_WEST,wwwwwaqwwewwqwqqwwaeawqawwwwawwwwawwwqawwdww)
+Observation Purification
+Jester's Gambit
+#git(/hex_casting/programs/dictionary/dictionary_read.hexpattern)

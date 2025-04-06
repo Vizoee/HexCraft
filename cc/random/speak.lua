@@ -1,0 +1,5 @@
+local t = table.concat(arg, " ")
+print(t)
+local p = t:gsub(" ", "%%20")
+print(p)
+shell.run("speaker play https://music.madefor.cc/tts?text=" .. p)
