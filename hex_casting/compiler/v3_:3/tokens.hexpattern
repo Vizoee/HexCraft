@@ -48,7 +48,8 @@ Huginn's Gambit
         ]
     ]
     [
-
+        @null(),
+        Bookkeeper's Gambit: -
     ]
 }
 
@@ -76,12 +77,12 @@ Huginn's Gambit
     Flock's Gambit
     Huginn's Gambit
 }
-// Rotation Gambit
-// Thoth's Gambit
-// Bookkeeper's Gambit: v
-// Muninn's Reflection
-// Jester's Gambit
-// Huginn's Gambit
+Rotation Gambit
+Thoth's Gambit
+Bookkeeper's Gambit: v
+Muninn's Reflection
+Jester's Gambit
+Huginn's Gambit
 
 
 
