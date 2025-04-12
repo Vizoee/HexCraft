@@ -93,37 +93,34 @@ Huginn's Gambit
 
             $continue
         ]]
-        [@str(\), ]
-        [
+        [@str(\), [
+            // stack: string, index, \
+            Rotation Gambit II
+            Numerical Reflection: 1
+            Additive Distillation
+            Dioscuri Gambit
+            Selection Distillation
+            Numerical Reflection: 3
+            Fisherman's Gambit
+            Jester's Gambit
+            Additive Distillation
+            // stack: string, index, \+char
 
-            [
-                // stack: string, index, \
-                Rotation Gambit II
-                Numerical Reflection: 1
-                Additive Distillation
-                Dioscuri Gambit
-                Selection Distillation
-                Numerical Reflection: 3
-                Fisherman's Gambit
-                Jester's Gambit
-                Additive Distillation
-                // stack: string, index, \+char
-
-                Muninn's Reflection
-                Gemini Decomposition
-                $r_value
-                Selection Distillation
-                Rotation Gambit
-                Additive Distillation
-                $r_value
-                Jester's Gambit
-                Surgeon's Exaltation
-                Huginn's Gambit
-                
-                $continue
-            ]
-        ]
+            Muninn's Reflection
+            Gemini Decomposition
+            $r_value
+            Selection Distillation
+            Rotation Gambit
+            Additive Distillation
+            $r_value
+            Jester's Gambit
+            Surgeon's Exaltation
+            Huginn's Gambit
+            
+            $continue
+        ]]
     }
+    #git(/hex_casting/spells/transpose_nx2.hexpattern)
 )
 
 
@@ -135,12 +132,21 @@ Huginn's Gambit
     {
         // returns string containing token identifier
         [@str(), [
-            Bookkeeper's Gambit: v,
-            Nullary Reflection
+            $continue
         ]]
         [@str(=), [
             Bookkeeper's Gambit: v,
+
+            Muninn's Reflection
+            $r_tokens
+            Dioscuri Gambit
+            Selection Distillation
             {$t_assigment}>>
+            Speaker's Distillation
+            Surgeon's Exaltation
+            Huginn's Gambit
+            
+            $continue
         ]]
         [@str("), [
             Bookkeeper's Gambit: v
@@ -149,7 +155,13 @@ Huginn's Gambit
             $p_string
             Speaker's Distillation
             Speaker's Distillation
-            
+
+            $r_value
+            Blank Reflection
+            Surgeon's Exaltation
+
+            Huginn's Gambit
+            $continue
         ]]
     }
 
@@ -164,14 +176,23 @@ Huginn's Gambit
         Bookkeeper's Gambit: v
     }
     {
-        
+        Hermes' Gambit
         $continue
     }
     Augur's Exaltation
     Hermes' Gambit
 
+    // TODO: number handling
+
+
     $continue
 }
+Jester's Gambit
+Numerical Reflection: 0
+Flock's Gambit
+Single's Purification
+Thoth's Gambit
+
 
 
 
