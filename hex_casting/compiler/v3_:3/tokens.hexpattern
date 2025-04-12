@@ -1,6 +1,10 @@
 /*
 it is only converting list of strings into list of tokens
-tokent types:
+token structure:
+    type
+    value
+
+token types:
     BOOLEAN
     STRING
     NUMBER
@@ -20,8 +24,28 @@ ravenmind:
     tokens stack
     last token value
 */
+#def(dict_read)(/hex_casting/programs/dictionary/dictionary_read.hexpattern)
+
+#def(continue)(
+    Flock's Reflection
+    Numerical Reflection: 2
+    Subtractive Distillation
+    Flock's Gambit
+    Bookkeeper's Gambit: v
+
+    Numerical Reflection: 1
+    Additive Distillation
+    Numerical Reflection: 2
+    Flock's Gambit
+    Castor's Gambit
+    Atalanta's Gambit
+)
+
+#def(token_type)(Numerical Reflection: 0)
+#def(token_value)(Numerical Reflection: 1)
 
 #def(t_assigment)(@str(ASSIGNMENT))
+#def(t_string)(@str(STRING))
 
 #def(r_parsers)(Numerical Reflection: 0)
 #def(r_tokens)(Numerical Reflection: 1)
@@ -34,55 +58,151 @@ ravenmind:
 }
 Huginn's Gambit
 
-{
-    // returns string containing token identifier
-    [@str(), [
-        Bookkeeper's Gambit: v,
-        Nullary Reflection
-    ]]
-    [
-        @str(=), 
+#def(p_string)(
+    // stack: string, index
+    Dioscuri Gambit
+    Selection Distillation
+
+    {
+        // returns string containing token identifier
+        [@str("), [
+            // stack: string, index, "
+            Bookkeeper's Gambit: v
+            Muninn's Reflection
+            Flock's Disintegration
+
+            // create and add token
+            {$t_string}>>
+            Jester's Gambit
+            Numerical Reflection: 2
+            Flock's Gambit
+            Speaker's Distillation
+
+            // remove parser
+            Jester's Gambit
+            Speaker's Decomposition
+            Bookkeeper's Gambit: v
+            Jester's Gambit
+
+            // clear value
+            Blank Reflection
+
+            Numerical Reflection: 3
+            Flock's Gambit
+            Huginn's Gambit
+
+            $continue
+        ]]
+        [@str(\), ]
         [
+
+            [
+                // stack: string, index, \
+                Rotation Gambit II
+                Numerical Reflection: 1
+                Additive Distillation
+                Dioscuri Gambit
+                Selection Distillation
+                Numerical Reflection: 3
+                Fisherman's Gambit
+                Jester's Gambit
+                Additive Distillation
+                // stack: string, index, \+char
+
+                Muninn's Reflection
+                Gemini Decomposition
+                $r_value
+                Selection Distillation
+                Rotation Gambit
+                Additive Distillation
+                $r_value
+                Jester's Gambit
+                Surgeon's Exaltation
+                Huginn's Gambit
+                
+                $continue
+            ]
+        ]
+    }
+)
+
+
+{
+    // stack: string, index
+    Dioscuri Gambit
+    Selection Distillation
+
+    {
+        // returns string containing token identifier
+        [@str(), [
+            Bookkeeper's Gambit: v,
+            Nullary Reflection
+        ]]
+        [@str(=), [
             Bookkeeper's Gambit: v,
             {$t_assigment}>>
-        ]
-    ]
-    [
-        @null ,
-        Bookkeeper's Gambit: -
-    ]
+        ]]
+        [@str("), [
+            Bookkeeper's Gambit: v
+            Muninn's Reflection
+            Speaker's Decomposition
+            $p_string
+            Speaker's Distillation
+            Speaker's Distillation
+            
+        ]]
+    }
+
+    #git(/hex_casting/spells/transpose_nx2.hexpattern)
+    // Muninn's Reflection
+    // Vacant Reflection
+    // Vacant Reflection
+    // Numerical Reflection: 2
+    // Flock's Gambit
+    // Huginn's Gambit
+    // {
+    //     Muninn's Reflection
+    //     Jester's Gambit
+    //     Flock's Disintegration
+    //     // stack: dict, key, value
+    //     Rotation Gambit
+    //     Flock's Disintegration
+    //     Rotation Gambit
+    //     Integration Distillation
+    //     Rotation Gambit II
+    //     Jester's Gambit
+    //     Integration Distillation
+    //     Jester's Gambit
+    //     Numerical Reflection: 2
+    //     Flock's Gambit
+    //     Huginn's Gambit
+    // }
+    // Rotation Gambit
+    // Thoth's Gambit
+    // Bookkeeper's Gambit: v
+    // Muninn's Reflection
+    // Jester's Gambit
+    // Huginn's Gambit
+
+    Prospector's Gambit
+    $dict_read
+    Gemini Decomposition
+    Nullary Reflection
+    Equality Distillation
+    {
+        Bookkeeper's Gambit: v
+    }
+    {
+        
+        $continue
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+
+    $continue
 }
 
-// #git(/hex_casting/spells/transpose_nx2.hexpattern)
-Muninn's Reflection
-Vacant Reflection
-Vacant Reflection
-Numerical Reflection: 2
-Flock's Gambit
-Huginn's Gambit
-{
-    Muninn's Reflection
-    Jester's Gambit
-    Flock's Disintegration
-    // stack: dict, key, value
-    Rotation Gambit
-    Flock's Disintegration
-    Rotation Gambit
-    Integration Distillation
-    Rotation Gambit II
-    Jester's Gambit
-    Integration Distillation
-    Jester's Gambit
-    Numerical Reflection: 2
-    Flock's Gambit
-    Huginn's Gambit
-}
-Rotation Gambit
-Thoth's Gambit
-Bookkeeper's Gambit: v
-Muninn's Reflection
-Jester's Gambit
-Huginn's Gambit
+
 
 
 
