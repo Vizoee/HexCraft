@@ -30,18 +30,18 @@ ravenmind:
 {
     []
     []
-    ""
+    @str()
 }
 Huginn's Gambit
 
 {
     // returns string containing token identifier
-    ["", [
+    [@str(), [
         Bookkeeper's Gambit: v,
         Nullary Reflection
     ]]
     [
-        "=", 
+        @str(=), 
         [
             Bookkeeper's Gambit: v,
             {$t_assigment}>>
