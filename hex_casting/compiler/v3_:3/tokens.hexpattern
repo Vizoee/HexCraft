@@ -21,20 +21,6 @@ ravenmind:
     last token value
 */
 
-#def(r_parsers)(Numerical Reflection: 0)
-#def(r_tokens)(Numerical Reflection: 1)
-#def(r_value)(Numerical Reflection: 2)
-
-{
-
-}
-
-
-{
-    // returns string containing token identifier
-    ["", [Bookkeeper's Gambit: v]]
-}
-
 #git(/hex_casting/spells/transpose_nx2.hexpattern)
 
 
