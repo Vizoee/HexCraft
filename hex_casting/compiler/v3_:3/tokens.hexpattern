@@ -33,13 +33,6 @@ ravenmind:
 {
     // returns string containing token identifier
     ["", [Bookkeeper's Gambit: v]]
-    [
-        "=", 
-        [
-            Bookkeeper's Gambit: v ,
-            {@str(ASSIGNMENT)}>>
-        ]
-    ]
 }
 
 #git(/hex_casting/spells/transpose_nx2.hexpattern)
