@@ -1,0 +1,48 @@
+/*
+it is only converting list of strings into list of tokens
+tokent types:
+    BOOLEAN
+    STRING
+    NUMBER
+
+    IDENTIFIER
+
+    KEYWORD
+
+    OPERATOR
+    COMPARISON
+    ASSIGNMENT
+    
+    COMMENT
+
+ravenmind:
+    parser stack
+    tokens stack
+    last token value
+*/
+
+#def(r_parsers)(Numerical Reflection: 0)
+#def(r_tokens)(Numerical Reflection: 1)
+#def(r_value)(Numerical Reflection: 2)
+
+{
+
+}
+
+
+{
+    // returns string containing token identifier
+    ["", [Bookkeeper's Gambit: v]]
+    [
+        "=", 
+        [
+            Bookkeeper's Gambit: v
+            {@str(ASSIGNMENT)}>>
+        ]
+    ]
+}
+
+#git(/hex_casting/spells/transpose_nx2.hexpattern)
+
+
+

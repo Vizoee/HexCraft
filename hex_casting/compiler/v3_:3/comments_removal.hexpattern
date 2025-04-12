@@ -1,0 +1,3 @@
+// cut from string all that:
+// between // and \n symbols
+// between /* and */ symbols
