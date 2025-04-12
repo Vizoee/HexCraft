@@ -36,13 +36,19 @@ Huginn's Gambit
 
 {
     // returns string containing token identifier
-    ["", [Bookkeeper's Gambit: v]]
+    ["", [
+        Bookkeeper's Gambit: v,
+        Nullary Reflection
+    ]]
     [
         "=", 
         [
-            Bookkeeper's Gambit: v ,
+            Bookkeeper's Gambit: v,
             {$t_assigment}>>
         ]
+    ]
+    [
+
     ]
 }
 
