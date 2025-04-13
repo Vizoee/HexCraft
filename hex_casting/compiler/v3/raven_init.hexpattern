@@ -1,0 +1,19 @@
+/*
+Ravenmind:
+    parser stack
+    tokent stack
+    value holder
+*/
+
+#def(r_parsers)(Numerical Reflection: 0)
+#def(r_tokens)(Numerical Reflection: 1)
+#def(r_value)(Numerical Reflection: 2)
+
+#def(r_init)(
+{
+    []
+    []
+    @str()
+}
+Huginn's Gambit
+)

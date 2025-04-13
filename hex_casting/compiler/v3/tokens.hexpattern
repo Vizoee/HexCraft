@@ -1,0 +1,2 @@
+#def(t_assigment)(@str(ASSIGNMENT))
+#def(t_string)(@str(STRING))

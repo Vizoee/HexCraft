@@ -1,0 +1,18 @@
+#git(/hex_casting/compiler/v3/lib.hexpattern)
+
+#def(p_asign)(
+    [@str(=), [
+        Bookkeeper's Gambit: v,
+
+        Muninn's Reflection
+        $r_tokens
+        Dioscuri Gambit
+        Selection Distillation
+        {$t_assigment}
+        Speaker's Distillation
+        Surgeon's Exaltation
+        Huginn's Gambit
+        
+        $continue
+    ]]
+)
