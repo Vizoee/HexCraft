@@ -131,8 +131,6 @@ Huginn's Gambit
 
 
 {
-    $logger(1)
-
     Muninn's Reflection
     Numerical Reflection: 2
     Flock's Gambit
@@ -178,10 +176,11 @@ Huginn's Gambit
             $continue
         ]]
         [@str("), [
+            $logger(10)
             Bookkeeper's Gambit: v
             Muninn's Reflection
             Speaker's Decomposition
-            $p_string
+            {$p_string}
             Speaker's Distillation
             Speaker's Distillation
 
