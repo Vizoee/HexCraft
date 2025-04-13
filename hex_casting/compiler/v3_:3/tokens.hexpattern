@@ -129,9 +129,15 @@ Huginn's Gambit
     #git(/hex_casting/spells/transpose_nx2.hexpattern)
 )
 
-
+Muninn's Reflection
+$r_parsers
 {
     Muninn's Reflection
+    $r_parsers
+    Dioscuri Gambit
+    Selection Distillation
+    Length Purification
+    Surgeon's Exaltation
     Numerical Reflection: 2
     Flock's Gambit
     Reveal
@@ -233,6 +239,18 @@ Huginn's Gambit
 
     $continue
 }
+Single's Purification
+Surgeon's Exaltation
+
+{
+    Muninn's Reflection
+    $r_parsers
+    Selection Distillation
+    Speaker's Decomposition
+    Bookkeeper's Gambit: v-
+    Hermes' Gambit
+}
+
 Jester's Gambit
 Numerical Reflection: 0
 Numerical Reflection: 2
