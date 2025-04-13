@@ -185,7 +185,7 @@ $r_parsers
             $r_tokens
             Dioscuri Gambit
             Selection Distillation
-            {$t_assigment}>>
+            {$t_assigment}
             Speaker's Distillation
             Surgeon's Exaltation
             Huginn's Gambit
