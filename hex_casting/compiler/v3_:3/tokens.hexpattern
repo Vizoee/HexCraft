@@ -213,7 +213,37 @@ $r_parsers
 
     $sreveal
 
-    #git(/hex_casting/spells/transpose_nx2.hexpattern)
+    // #git(/hex_casting/spells/transpose_nx2.hexpattern)
+Muninn's Reflection
+Vacant Reflection
+Vacant Reflection
+Numerical Reflection: 2
+Flock's Gambit
+Huginn's Gambit
+{
+    Muninn's Reflection
+    Jester's Gambit
+    Flock's Disintegration
+    // stack: dict, key, value
+    Rotation Gambit
+    Flock's Disintegration
+    Rotation Gambit
+    Integration Distillation
+    Rotation Gambit II
+    Jester's Gambit
+    Integration Distillation
+    Jester's Gambit
+    Numerical Reflection: 2
+    Flock's Gambit
+    Huginn's Gambit
+}
+Rotation Gambit
+Thoth's Gambit
+Bookkeeper's Gambit: v
+Muninn's Reflection
+Jester's Gambit
+Huginn's Gambit
+
     $logger(3)
 
     Prospector's Gambit
