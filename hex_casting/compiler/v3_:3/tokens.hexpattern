@@ -158,9 +158,11 @@ $r_parsers
     {}
     Augur's Exaltation
     Hermes' Gambit
+    $logger(0)
 
     Dioscuri Gambit
     Selection Distillation
+    $logger(1)
 
     {
         // returns string containing token identifier
