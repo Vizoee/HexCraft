@@ -192,22 +192,22 @@ $r_parsers
             
             $continue
         ]]
-        [@str("), [
-            $logger(10)
-            Bookkeeper's Gambit: v
-            Muninn's Reflection
-            Speaker's Decomposition
-            {$p_string}
-            Speaker's Distillation
-            Speaker's Distillation
+        // [@str("), [
+        //     $logger(10)
+        //     Bookkeeper's Gambit: v
+        //     Muninn's Reflection
+        //     Speaker's Decomposition
+        //     {$p_string}
+        //     Speaker's Distillation
+        //     Speaker's Distillation
 
-            $r_value
-            Blank Reflection
-            Surgeon's Exaltation
+        //     $r_value
+        //     Blank Reflection
+        //     Surgeon's Exaltation
 
-            Huginn's Gambit
-            $continue
-        ]]
+        //     Huginn's Gambit
+        //     $continue
+        // ]]
     }
 
     $logger(2)
