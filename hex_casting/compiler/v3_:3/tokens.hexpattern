@@ -24,6 +24,12 @@ ravenmind:
     tokens stack
     last token value
 */
+#def(logger)(
+Numerical Reflection: <1>
+Reveal
+Bookkeeper's Gambit: v
+)
+
 #def(dict_read)(/hex_casting/programs/dictionary/dictionary_read.hexpattern)
 
 #def(continue)(
@@ -125,8 +131,8 @@ Huginn's Gambit
 
 
 {
-    // stack: string, index
-    
+    $logger(1)
+
     Muninn's Reflection
     Numerical Reflection: 2
     Flock's Gambit
@@ -135,6 +141,9 @@ Huginn's Gambit
     Bookkeeper's Gambit: v
     
     Flock's Disintegration
+    // stack: string, index
+
+    // check if end of string
     Dioscuri Gambit
     Jester's Gambit
     Length Purification
