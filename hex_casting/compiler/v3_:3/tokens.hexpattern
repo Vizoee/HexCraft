@@ -31,6 +31,12 @@ Numerical Reflection: <1>
 Reveal
 Bookkeeper's Gambit: v
 )
+#def(sreveal)(
+    Flock's Reflection
+    Flock's Gambit
+    Reveal
+    Flock's Disintegration
+)
 
 #def(dict_read)(/hex_casting/programs/dictionary/dictionary_read.hexpattern)
 
@@ -204,6 +210,9 @@ $r_parsers
     }
 
     $logger(2)
+
+    $sreveal
+
     #git(/hex_casting/spells/transpose_nx2.hexpattern)
     $logger(3)
 
