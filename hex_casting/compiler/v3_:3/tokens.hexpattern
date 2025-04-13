@@ -24,6 +24,8 @@ ravenmind:
     tokens stack
     last token value
 */
+Whisper Reflection
+
 #def(logger)(
 Numerical Reflection: <1>
 Reveal
@@ -201,10 +203,12 @@ $r_parsers
         ]]
     }
 
+    $logger(2)
     #git(/hex_casting/spells/transpose_nx2.hexpattern)
+    $logger(3)
 
     Prospector's Gambit
-
+    $logger(4)
     #git(/hex_casting/programs/dictionary/dictionary_read.hexpattern)
 // Jester's Gambit
 // Flock's Disintegration
