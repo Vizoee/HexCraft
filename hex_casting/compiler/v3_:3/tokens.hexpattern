@@ -197,22 +197,23 @@ Huginn's Gambit
 
     Prospector's Gambit
 
-Jester's Gambit
-Flock's Disintegration
-Reflecting Gambit
-Locator's Distillation
-Gemini Decomposition
-Numerical Reflection: -1
-Equality Distillation
-{
-    Bookkeeper's Gambit: vv
-    Nullary Reflection
-}
-{
-    Selection Distillation
-}
-Augur's Exaltation
-Hermes' Gambit
+    #git(/hex_casting/programs/dictionary/dictionary_read.hexpattern)
+// Jester's Gambit
+// Flock's Disintegration
+// Reflecting Gambit
+// Locator's Distillation
+// Gemini Decomposition
+// Numerical Reflection: -1
+// Equality Distillation
+// {
+//     Bookkeeper's Gambit: vv
+//     Nullary Reflection
+// }
+// {
+//     Selection Distillation
+// }
+// Augur's Exaltation
+// Hermes' Gambit
 
     Gemini Decomposition
     Nullary Reflection
