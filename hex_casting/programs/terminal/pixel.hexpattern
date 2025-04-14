@@ -1,0 +1,70 @@
+/*
+--Mesh width: 0.0436--
+todo: use one side of hexagon for background
+Mesh:
+    corners pos (x100)
+    1: -2.166  1.250
+    2: -2.166 -1.250
+    3:  0.000 -2.500
+    4:  2.166 -1.250
+    5:  2.166  1.250
+    6:  0.000  2.500
+
+    corners pos (x1)
+    1: -0.0216666  0.0125
+    2: -0.0216666 -0.0125
+    3:  0         -0.0250
+    4:  0.0216666 -0.0125
+    5:  0.0216666  0.0125
+    6:  0          0.0250
+
+*/
+
+// {@vec(-1006.5, 64.25, -127.5)}>>
+// {@vec(0, 0, 1)}>>
+
+/// Draws pixel at given pos and rotation
+/// @param vec pos
+/// @param vec rotation
+/// @return speck background
+/// @return speck text
+
+Jester's Gambit
+Dioscuri Gambit
+
+Conjure Mesh
+// stack: v2, v1, v2, mesh
+
+Gemini Decomposition
+{
+    @vec(0, -0.0125, 0)
+    @vec(0,  0.0125, 0)
+}
+Weave Mesh
+
+Gemini Decomposition
+Numerical Reflection: 4
+Resize Speck
+
+// stack: v2, v1, v2, mesh
+Undertaker's Gambit
+Jester's Gambit
+{@vec(0, 1, 0)}>>
+Division Distillation
+Rotate Speck
+// stack: v2, v1, mesh
+
+Rotation Gambit II
+// stack: m1, v2, v1
+{@vec(0, 0.15, 0.09)}>>
+Additive Distillation
+{@str( )}>>
+Reflecting Gambit
+// stack: m1, str, v1, v2
+Conjure Speck
+
+Gemini Decomposition
+Numerical Reflection: 33
+Numerical Reflection: 100
+Division Distillation
+Resize Speck
