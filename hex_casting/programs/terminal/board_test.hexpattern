@@ -21,7 +21,7 @@ Hermes' Gambit
     []
 }
 Huginn's Gambit
-Numerical Reflection: 3
+Numerical Reflection: 20
 { // Y
     Undertaker's Gambit
     Minimus Distillation II
@@ -48,7 +48,7 @@ Numerical Reflection: 3
     Huginn's Gambit
     
     
-    Numerical Reflection: 2
+    Numerical Reflection: 10
     { // X
         Undertaker's Gambit
         Minimus Distillation II
@@ -72,7 +72,7 @@ Numerical Reflection: 3
         {@vec(0, -0.1, 0)}>>
         Multiplicative Distillation
         
-        {@vec(-1006.5, 64.25, -127.5)}>>
+        {@vec(-1006.5, 65.5, -127.5)}>>
         Additive Distillation
 
         Prospector's Gambit
@@ -158,4 +158,5 @@ Huginn's Gambit
     }
     Jester's Gambit
     Thoth's Gambit
+    Bookkeeper's Gambit: v
 }
