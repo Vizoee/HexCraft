@@ -21,9 +21,12 @@ Mesh:
 */
 
 {@vec(-1006.5, 64.25, -127.5)}>>
+{@vec(0, 0, 1)}>>
+Jester's Gambit
+Dioscuri Gambit
 
-Gemini Decomposition
 Conjure Mesh
+// stack: v2, v1, v2, mesh
 
 Gemini Decomposition
 {
@@ -36,17 +39,21 @@ Gemini Decomposition
 Numerical Reflection: 4
 Resize Speck
 
-Gemini Decomposition
-{@vec(1, 0, 0)}>>
-Rotate Speck
-
+// stack: v2, v1, v2, mesh
 Jester's Gambit
+{@vec(1, 0, 0)}>>
+Division Distillation
+Prospector's Gambit
+Rotate Speck
+// stack: v2, v1, mesh
 
+Rotation Gambit II
+// stack: m1, v2, v1
 {@vec(0, 0.15, 0.09)}>>
 Additive Distillation
-{@str(T)}>>
-Jester's Gambit
-{@vec(0, 0, 1)}>>
+{@str( )}>>
+Reflecting Gambit
+// stack: m1, str, v1, v2
 Conjure Speck
 
 Gemini Decomposition
