@@ -32,6 +32,7 @@ Hermes' Gambit
 Conjure Mesh
 Gemini Decomposition
 Gemini Decomposition
+Gemini Decomposition
 {
     @vec(0, -0.021666, 0)
     @vec(0, 0.021666, 0)
@@ -39,6 +40,8 @@ Gemini Decomposition
 Weave Mesh
 Numerical Reflection: 7
 Resize Speck
+{@vec(1, 0, 0)}>>
+Rotate Speck
 
 {@str(T)}>>
 {
