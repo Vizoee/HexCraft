@@ -2,15 +2,28 @@
 Mesh width: 0.0436
 */
 
-{@vec(-1006.5, 64.5, -127.5)}>>
+{@vec(-1006.5, 64.25, -127.5)}>>
 Conjure Mesh
 Gemini Decomposition
+Gemini Decomposition
 {
-    @vec(0, -0.0436, 0)
-    @vec(0, 0, 0)
+    @vec(0, -0.0218, 0)
+    @vec(0, 0.0218, 0)
 }
 Weave Mesh
-Numerical Reflection: 10
+Numerical Reflection: 7
+Resize Speck
+
+{@vec(-1006.5, 64.25, -127.5)}>>
+Conjure Mesh
+Gemini Decomposition
+Gemini Decomposition
+{
+    @vec(-0.0218, 0, 0)
+    @vec(0.0218, 0, 0)
+}
+Weave Mesh
+Numerical Reflection: 7
 Resize Speck
 
 {@str(T)}>>
@@ -19,3 +32,7 @@ Resize Speck
     @vec(0, 0, 1)
 }>>
 Conjure Speck
+
+Dismiss Speck
+Dismiss Speck
+Dismiss Speck
