@@ -5055,8 +5055,8 @@
             "height": 157,
             "width": 127
         },
-        "direction": "WEST",
-        "pattern": "edqdeq",
+        "direction": "SOUTH_EAST",
+        "pattern": "awd",
         "args": "any \u2192 identifier",
         "url": null,
         "description": "Pushes the identifier of an iota's type. Can be used to determine whether two iota are the same type."
@@ -9642,6 +9642,39 @@
         "image": null,
         "direction": "NORTH_EAST",
         "pattern": "eqeeedqadqqqqqdeewewewe",
+        "args": null,
+        "url": null,
+        "description": null
+    },
+    "Offensive Reflection": {
+        "name": "left_click",
+        "modid": "moreiotas",
+        "modName": "MoreIotas",
+        "image": null,
+        "direction": "NORTH_EAST",
+        "pattern": "qadee",
+        "args": null,
+        "url": null,
+        "description": null
+    },
+    "Manipulative Reflection": {
+        "name": "right_click",
+        "modid": "moreiotas",
+        "modName": "MoreIotas",
+        "image": null,
+        "direction": "NORTH_WEST",
+        "pattern": "edaqq",
+        "args": null,
+        "url": null,
+        "description": null
+    },
+    "Illuminate": {
+        "name": "illuminate",
+        "modid": "moreiotas",
+        "modName": "MoreIotas",
+        "image": null,
+        "direction": "SOUTH_EAST",
+        "pattern": "aeaeaeaeaeawqqqqq",
         "args": null,
         "url": null,
         "description": null
