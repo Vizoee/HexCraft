@@ -28,14 +28,16 @@ Length Purification
     Numerical Reflection: 1
     Subtractive Distillation
     Fisherman's Gambit II
-
+    // stack i, str, speck, i
     Dioscuri Gambit
     Jester's Gambit
     Length Purification
+    // stack i, str, speck, i, i, len
     Minimus Distillation
     {
+        // stack i, str, speck, i
+        Bubbling Gambit
         Selection Distillation
-        Jester's Gambit
         Alter Speck
     }
     {}
