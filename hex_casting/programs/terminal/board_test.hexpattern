@@ -7,6 +7,8 @@ Reveal
 Flock's Disintegration
 )
 
+{}
+Huginn's Gambit
 Numerical Reflection: 3
 { // Y
     Undertaker's Gambit
@@ -25,6 +27,12 @@ Numerical Reflection: 3
     Multiplicative Distillation
     Fisherman's Gambit
 
+
+    Muninn's Reflection
+    Vacant Reflection
+    Integration Distillation
+    Huginn's Gambit
+    
     
     Numerical Reflection: 2
     { // X
@@ -47,14 +55,6 @@ Numerical Reflection: 3
         // Vector Reflection -Y
         {@vec(0, -1, 0)}>>
         Multiplicative Distillation
-
-        Numerical Reflection: 1
-        Numerical Reflection: 4
-        Division Distillation
-        Numerical Reflection: 10
-        Division Distillation
-
-        Multiplicative Distillation
         
         {@vec(-1006.5, 64.25, -127.5)}>>
         Additive Distillation
@@ -63,19 +63,13 @@ Numerical Reflection: 3
         // Vector Reflection +X
         {@vec(1, 0, 0)}>>
         Multiplicative Distillation
-
-        Numerical Reflection: 1
-        Numerical Reflection: 4
-        Division Distillation
-        Numerical Reflection: 10
-        Division Distillation
-
-        Multiplicative Distillation
         Additive Distillation
         
+        $print_s
+
         {@vec(0, 0, 1)}>>
 
-        $c_pixel
+        // $c_pixel
     
 
         Flock's Reflection
@@ -106,3 +100,17 @@ Numerical Reflection: 0
 Single's Purification
 Thoth's Gambit
 Bookkeeper's Gambit: v-
+
+
+{
+    {
+        Flock's Disintegration
+        Bookkeeper's Gambit: v
+        Dismiss Speck
+        Dismiss Speck
+        Dismiss Speck
+        Dismiss Speck
+    }
+    Jester's Gambit
+    Thoth's Gambit
+}
