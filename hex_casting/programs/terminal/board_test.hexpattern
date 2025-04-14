@@ -1,4 +1,4 @@
-#def(c_pixel)(/hex_casting/programs/terminal/pixel.hexpattern)
+#def(c_pixel)(#git(/hex_casting/programs/terminal/pixel.hexpattern))
 
 #def(print_s)(
 Flock's Reflection
@@ -7,8 +7,6 @@ Reveal
 Flock's Disintegration
 )
 
-{}
-Huginn's Gambit
 Numerical Reflection: 3
 { // Y
     Undertaker's Gambit
@@ -27,12 +25,6 @@ Numerical Reflection: 3
     Multiplicative Distillation
     Fisherman's Gambit
 
-
-    Muninn's Reflection
-    Vacant Reflection
-    Integration Distillation
-    Huginn's Gambit
-    
     
     Numerical Reflection: 2
     { // X
