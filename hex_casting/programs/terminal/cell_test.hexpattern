@@ -28,7 +28,7 @@ Resize Speck
 
 {@str(T)}>>
 {
-    @vec(-1006.5, 64.5, -127.33)
+    @vec(-1006.5, 64.5, -127.32)
     @vec(0, 0, 1)
 }>>
 Conjure Speck
