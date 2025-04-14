@@ -72,11 +72,11 @@ Numerical Reflection: 3
         Multiplicative Distillation
         Additive Distillation
         
-        $print_s
+        // $print_s
 
         {@vec(0, 0, 1)}>>
 
-        // $c_pixel
+        $c_pixel
 
         Muninn's Reflection
         Flock's Disintegration
