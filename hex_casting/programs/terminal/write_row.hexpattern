@@ -1,9 +1,12 @@
-{@str(> _)}>>
+// {@str(> _)}>>
+
+/// @param string value
+/// @param num row
 
 Muninn's Reflection
 Numerical Reflection: 1
 Selection Distillation
-Numerical Reflection: 1
+Jester's Gambit
 Selection Distillation
 
 Gemini Decomposition
