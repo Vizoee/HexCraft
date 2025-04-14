@@ -34,8 +34,8 @@ Gemini Decomposition
 Gemini Decomposition
 Gemini Decomposition
 {
-    @vec(0, -0.021666, 0)
-    @vec(0, 0.021666, 0)
+    @vec(0, -0.0125, 0)
+    @vec(0,  0.0125, 0)
 }
 Weave Mesh
 Numerical Reflection: 4
