@@ -54,7 +54,8 @@ Numerical Reflection: 3
     
 $print_s
 
-        Vector Reflection -Y
+        // Vector Reflection -Y
+        {@vec(0, -1, 0)}>>
 
 $print_s
 
