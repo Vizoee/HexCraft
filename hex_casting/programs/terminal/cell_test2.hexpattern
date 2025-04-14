@@ -45,7 +45,7 @@ Rotate Speck
 
 {@str(T)}>>
 {
-    @vec(-1006.5, 64.5, -127.32)
+    @vec(-1006.5, 64.5, -127.413)
     @vec(0, 0, 1)
 }>>
 Conjure Speck
