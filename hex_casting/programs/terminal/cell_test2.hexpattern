@@ -1,6 +1,23 @@
 /*
-Mesh width: 0.0436
+--Mesh width: 0.0436--
 todo: use one side of hexagon for background
+Mesh:
+    corners pos (x100)
+    1: -2.166  1.250
+    2: -2.166 -1.250
+    3:  0.000 -2.500
+    4:  2.166 -1.250
+    5:  2.166  1.250
+    6:  0.000  2.500
+
+    corners pos (x1)
+    1: -0.0216666  0.0125
+    2: -0.0216666 -0.0125
+    3:  0         -0.0250
+    4:  0.0216666 -0.0125
+    5:  0.0216666  0.0125
+    6:  0          0.0250
+
 */
 Flock's Reflection
 Augur's Purification
@@ -16,20 +33,8 @@ Conjure Mesh
 Gemini Decomposition
 Gemini Decomposition
 {
-    @vec(0, -0.0218, 0)
-    @vec(0, 0.0218, 0)
-}
-Weave Mesh
-Numerical Reflection: 7
-Resize Speck
-
-{@vec(-1006.5, 64.25, -127.5)}>>
-Conjure Mesh
-Gemini Decomposition
-Gemini Decomposition
-{
-    @vec(-0.0218, 0, 0)
-    @vec(0.0218, 0, 0)
+    @vec(0, -0.021666, 0)
+    @vec(0, 0.021666, 0)
 }
 Weave Mesh
 Numerical Reflection: 7
@@ -42,7 +47,6 @@ Resize Speck
 }>>
 Conjure Speck
 {
-    Dismiss Speck
     Dismiss Speck
     Dismiss Speck
 }
