@@ -32,7 +32,8 @@ Resize Speck
     @vec(0, 0, 1)
 }>>
 Conjure Speck
-
-Dismiss Speck
-Dismiss Speck
-Dismiss Speck
+{
+    Dismiss Speck
+    Dismiss Speck
+    Dismiss Speck
+}
