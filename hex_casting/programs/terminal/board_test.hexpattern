@@ -13,7 +13,6 @@ Numerical Reflection: 3
     {}
     Augur's Exaltation
     Hermes' Gambit
-
     Flock's Reflection
     Numerical Reflection: 1
     Subtractive Distillation
@@ -39,7 +38,6 @@ Numerical Reflection: 3
         {}
         Augur's Exaltation
         Hermes' Gambit
-    
         Flock's Reflection
         Numerical Reflection: 1
         Subtractive Distillation
@@ -47,6 +45,14 @@ Numerical Reflection: 3
         Multiplicative Distillation
         Fisherman's Gambit
     
+
+Flock's Reflection
+Flock's Gambit
+Reveal
+Flock's Disintegration
+
+
+
         Vector Reflection -Y
         Multiplicative Distillation
 
@@ -75,9 +81,10 @@ Numerical Reflection: 3
         Additive Distillation
         
         {@vec(0, 0, 1)}>>
-        
+
         $c_pixel
     
+
         Flock's Reflection
         Numerical Reflection: 1
         Subtractive Distillation
