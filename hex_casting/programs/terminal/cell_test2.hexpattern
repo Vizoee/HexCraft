@@ -38,7 +38,7 @@ Gemini Decomposition
     @vec(0, 0.021666, 0)
 }
 Weave Mesh
-Numerical Reflection: 7
+Numerical Reflection: 4
 Resize Speck
 {@vec(1, 0, 0)}>>
 Rotate Speck
@@ -49,6 +49,10 @@ Rotate Speck
     @vec(0, 0, 1)
 }>>
 Conjure Speck
+Gemini Decomposition
+Numerical Reflection: 0.5
+Resize Speck
+
 {
     Dismiss Speck
     Dismiss Speck
