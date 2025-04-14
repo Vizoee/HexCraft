@@ -1,0 +1,48 @@
+/*
+Mesh width: 0.0436
+todo: use one side of hexagon for background
+*/
+Flock's Reflection
+Augur's Purification
+{
+    Hermes' Gambit
+}
+{}
+Augur's Exaltation
+Hermes' Gambit
+
+{@vec(-1006.5, 64.25, -127.5)}>>
+Conjure Mesh
+Gemini Decomposition
+Gemini Decomposition
+{
+    @vec(0, -0.0218, 0)
+    @vec(0, 0.0218, 0)
+}
+Weave Mesh
+Numerical Reflection: 7
+Resize Speck
+
+{@vec(-1006.5, 64.25, -127.5)}>>
+Conjure Mesh
+Gemini Decomposition
+Gemini Decomposition
+{
+    @vec(-0.0218, 0, 0)
+    @vec(0.0218, 0, 0)
+}
+Weave Mesh
+Numerical Reflection: 7
+Resize Speck
+
+{@str(T)}>>
+{
+    @vec(-1006.5, 64.5, -127.32)
+    @vec(0, 0, 1)
+}>>
+Conjure Speck
+{
+    Dismiss Speck
+    Dismiss Speck
+    Dismiss Speck
+}
