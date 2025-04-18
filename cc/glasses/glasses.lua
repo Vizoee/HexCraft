@@ -242,11 +242,10 @@ function create(nX, nY, nWidth, nHeight, bStartVisible)
     local function redrawLine(n)
         local tLine = tLines[n]
         local cLine = cLines[n]
-        -- cLine[1].setText(tLine[1])
         for i = 1, #tLine[1] do
-            cLine[1][i].setText(string.sub(tLine[1], i, i))
-            cLine[1][i].setColor(bit.blshift(cHex[string.sub(tLine[2], i, i)], 8) + 0xFF)
-            cLine[2][i].setColor(bit.blshift(cHex[string.sub(tLine[3], i, i)], 8) + backgroundColorOpacity)
+            _ = cLine and cLine[1] and cLine[1][i] and cLine[1][i].setText(string.sub(tLine[1], i, i))
+            _ = cLine and cLine[1] and cLine[1][i] and cLine[1][i].setColor(bit.blshift(cHex[string.sub(tLine[2], i, i)], 8) + 0xFF)
+            _ = cLine and cLine[1] and cLine[1][i] and cLine[2][i].setColor(bit.blshift(cHex[string.sub(tLine[3], i, i)], 8) + backgroundColorOpacity)
         end
 
 
