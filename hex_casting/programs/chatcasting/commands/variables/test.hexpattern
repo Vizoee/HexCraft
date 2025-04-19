@@ -1,18 +1,21 @@
-{@str(Checking for scarab with variables...)}>>
-Reveal
-Bookkeeper's Gambit: v
+#def(print)(
+    {@str(<1>)}>>
+    Reveal
+    Bookkeeper's Gambit: v
+)
+
+$print(Checking for scarab with variables...)
 Blank Reflection
 {@pattern(SOUTH_WEST,wwwwwaqwwewwqwqqwwaeawqawwwwawwwwawwwqawwdww)}>>
 Hermes' Gambit
-{@str(Found scarab. Checking returned value...)}>>
-Reveal
-Bookkeeper's Gambit: v
+$print(Found scarab. Checking returned value...)
 Nullary Reflection
 Equality Distillation
-{}
 {
-    {@str(Scarab did not return proper value. Terminating hex.)}>>
-    Reveal
+    $print(Scarab does contain property.)
+}
+{
+    $print(Scarab did not return proper value. Terminating hex.)
     Flock's Reflection
     Flock's Gambit
     Bookkeeper's Gambit: v
@@ -20,3 +23,5 @@ Equality Distillation
 }
 Augur's Exaltation
 Hermes' Gambit
+
+$print(Rest of hex...)
