@@ -20,8 +20,11 @@ Augur's Purification
 Augur's Exaltation
 Hermes' Gambit
 
-{}
 {
+    $print(Property already exists on stack.)
+}
+{
+    $print(Creating new property.)
     Bookkeeper's Gambit: v
     Schrödinger's Reflection
 }
@@ -67,10 +70,10 @@ Augur's Exaltation
 Hermes' Gambit
 
 {
-    $print(test)
+    $print(Property already contains dictionary. Skipping creating one.)
 }
 {
-    $print(test2)
+    $print(Creating dictionary for property.)
     Gemini Decomposition
     {[][]}
     Schrödinger's Gambit
@@ -94,6 +97,7 @@ Hermes' Gambit
     Augur's Exaltation
     Hermes' Gambit
 }
+$print(Writing property into scarab instructions.)
 Prospector's Gambit
 Numerical Reflection: 8
 Jester's Gambit
