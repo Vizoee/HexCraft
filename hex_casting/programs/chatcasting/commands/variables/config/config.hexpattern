@@ -12,7 +12,7 @@ Augur's Purification
         ]
         [
             @hexicon(config_show),
-            @null,
+            @hexicon(config_all),
             @null
         ]
     }
