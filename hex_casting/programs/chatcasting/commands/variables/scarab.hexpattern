@@ -82,7 +82,7 @@ Augur's Exaltation
 Hermes' Gambit
 
 {
-    {@pattern(SOUTH_WEST,wwwwwaqwwewwqwqqwwaeawqawwwwawwwwawwwqawwdww)}>>
+    {#git(/hex_casting/programs/chatcasting/commands/variables/pattern.hexpattern)}>>
     Prospector's Gambit
     Equality Distillation
     {
@@ -91,7 +91,7 @@ Hermes' Gambit
         Observation Purification
         Jester's Gambit
 
-        @git(/hex_casting/programs/dictionary/dictionary_read.hexpattern)
+        #git(/hex_casting/programs/dictionary/dictionary_read.hexpattern)
     }
     {}
     Augur's Exaltation
