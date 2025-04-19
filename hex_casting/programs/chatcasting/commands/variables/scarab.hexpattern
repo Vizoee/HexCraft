@@ -1,3 +1,9 @@
+#def(print)(
+{@str(<1>)}>>
+Reveal
+Bookkeeper's Gambit: v
+)
+
 Flock's Reflection
 Augur's Purification
 {
@@ -60,8 +66,11 @@ Augur's Purification
 Augur's Exaltation
 Hermes' Gambit
 
-{}
 {
+    print(test)
+}
+{
+    print(test2)
     Gemini Decomposition
     {[][]}
     Schrödinger's Gambit
