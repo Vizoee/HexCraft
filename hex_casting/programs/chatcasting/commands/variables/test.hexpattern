@@ -1,7 +1,7 @@
 #def(print)(
-    {@str(<1>)}>>
-    Reveal
-    Bookkeeper's Gambit: v
+    // {@str(<1>)}>>
+    // Reveal
+    // Bookkeeper's Gambit: v
 )
 
 $print(Checking for scarab with variables...)

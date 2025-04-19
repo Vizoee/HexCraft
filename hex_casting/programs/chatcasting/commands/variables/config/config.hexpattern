@@ -17,8 +17,8 @@ Augur's Purification
         ]
         [
             @hexicon(config_show),
-            @hexicon(config_all),
-            @null
+            @null,
+            @hexicon(config_all)
         ]
     }
     Jester's Gambit
