@@ -14,33 +14,80 @@ Augur's Purification
 Augur's Exaltation
 Hermes' Gambit
 
-// {}
-// {
-//     Bookkeeper's Gambit: v
-//     Schrödinger's Reflection
-// }
-// Augur's Exaltation
-// Hermes' Gambit
+{}
+{
+    Bookkeeper's Gambit: v
+    Schrödinger's Reflection
+}
+Augur's Exaltation
+Hermes' Gambit
 
-// {
-//     {@pattern(SOUTH_WEST,wwwwwaqwwewwqwqqwwaeawqawwwwawwwwawwwqawwdww)}>>
-//     Prospector's Gambit
-//     Equality Distillation
-//     {
-//         Bookkeeper's Gambit: v
-//         Bookkeeper's Gambit: -
-//         Observation Purification
-//         Jester's Gambit
+Gemini Decomposition
+Observation Purification
+Gemini Decomposition
+Augur's Purification
+{
+    Gemini Decomposition
+    Length Purification
+    Numerical Reflection: 2
+    Equality Distillation
+    {
+        Speaker's Decomposition
+        Classifier's Purification
+        Vacant Reflection
+        Classifier's Purification
+        Equality Distillation
+        Jester's Gambit
+        Speaker's Decomposition
+        Bookkeeper's Gambit: v-
+        Classifier's Purification
+        Vacant Reflection
+        Classifier's Purification
+        Equality Distillation
+        Conjunction Distillation
+    }
+    {
+        Bookkeeper's Gambit: v
+        False Reflection
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+}
+{
+    Bookkeeper's Gambit: v
+    False Reflection
+}
+Augur's Exaltation
+Hermes' Gambit
 
-//         @git(/hex_casting/programs/dictionary/dictionary_read.hexpattern)
-//     }
-//     {}
-//     Augur's Exaltation
-//     Hermes' Gambit
-// }
-// Prospector's Gambit
-// Numerical Reflection: 8
-// Jester's Gambit
-// Surgeon's Exaltation
+{}
+{
+    Gemini Decomposition
+    {[][]}
+    Schrödinger's Gambit
+}
+Augur's Exaltation
+Hermes' Gambit
+
+{
+    {@pattern(SOUTH_WEST,wwwwwaqwwewwqwqqwwaeawqawwwwawwwwawwwqawwdww)}>>
+    Prospector's Gambit
+    Equality Distillation
+    {
+        Bookkeeper's Gambit: v
+        Bookkeeper's Gambit: -
+        Observation Purification
+        Jester's Gambit
+
+        @git(/hex_casting/programs/dictionary/dictionary_read.hexpattern)
+    }
+    {}
+    Augur's Exaltation
+    Hermes' Gambit
+}
+Prospector's Gambit
+Numerical Reflection: 8
+Jester's Gambit
+Surgeon's Exaltation
 
 
