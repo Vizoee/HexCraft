@@ -1,11 +1,19 @@
-Numerical Reflection: 0
-{
-    @pattern(SOUTH_WEST,wwwwwaqwwewwqwqqwwaeawqawwwwawwwwawwwqawwdww)
-    Hermes' Gambit
-}>>
-Athena's Gambit
-Numerical Reflection: 2
-Flock's Reflection
-Flock's Gambit
+{@str(Checking for scarab with variables...)}>>
 Reveal
-Flock's Disintegration
+Bookkeeper's Gambit: v
+Blank Reflection
+{@pattern(SOUTH_WEST,wwwwwaqwwewwqwqqwwaeawqawwwwawwwwawwwqawwdww)}>>
+Hermes' Gambit
+{@str(Found scarab. Checking returned value...)}>>
+Reveal
+Bookkeeper's Gambit: v
+Nullary Reflection
+Equality Distillation
+{}
+{
+    {@str(Scarab did not return proper value. Terminating hex.)}>>
+    Reveal
+    Janus' Gambit
+}
+Augur's Exaltation
+Hermes' Gambit
