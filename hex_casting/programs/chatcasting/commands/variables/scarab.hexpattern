@@ -67,10 +67,10 @@ Augur's Exaltation
 Hermes' Gambit
 
 {
-    print(test)
+    $print(test)
 }
 {
-    print(test2)
+    $print(test2)
     Gemini Decomposition
     {[][]}
     Schrödinger's Gambit
