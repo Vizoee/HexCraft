@@ -13,10 +13,7 @@
     {@str(Akasha Chat Casting)}>>
     Enqueue
 
-    Whisper Reflection
-    
-
-    stack: last_message,
+    Whisper Reflection // replaced by last message
     Whisper Reflection
     Equality Distillation
     {}
@@ -26,15 +23,12 @@
         Separation Distillation
         
         Speaker's Decomposition
-        #git(/hex_casting/hexicon/convert_string_to_hexicon.hexpattern)
 
         Gemini Decomposition
         Augur's Purification
         {
-            {
-                @vec(375, 53, 2484)
-            }
-            Flock's Disintegration
+            #git(/hex_casting/hexicon/convert_string_to_hexicon.hexpattern)
+            {#git(/hex_casting/programs/chatcasting/config/position.hexpattern)}>>
             Jester's Gambit
             Akasha's Distillation
             Gemini Decomposition

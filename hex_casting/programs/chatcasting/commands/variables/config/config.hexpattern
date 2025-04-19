@@ -1,4 +1,4 @@
-//#git(/hex_casting/programs/chatcasting/commands/variables/test.hexpattern)
+#git(/hex_casting/programs/chatcasting/commands/variables/test.hexpattern)
 
 Flock's Reflection
 Flock's Gambit
@@ -22,13 +22,9 @@ Augur's Purification
         ]
     }
     Jester's Gambit
-
-    Flock's Reflection
-    Flock's Gambit
-    Reveal
-    Flock's Disintegration
     
     #git(/hex_casting/programs/dictionary/dictionary_read.hexpattern)
+    Reveal
     Gemini Decomposition
     Augur's Purification
 }
