@@ -26,7 +26,16 @@
     @str(x),
     @str(y),
     @str(z),
-    @str(_)
+    @str(_),
+    @str(?),
+    @str(!),
+    @str(+),
+    @str(-),
+    @str(*),
+    @str(/),
+    @str(=),
+    @str(>),
+    @str(<)
   ],
   [
     @pattern(NORTH_EAST,eda),
@@ -55,6 +64,15 @@
     @pattern(NORTH_EAST,eaddwa),
     @pattern(EAST,qadedq),
     @pattern(NORTH_EAST,eaddq),
-    @pattern(EAST,w)
+    @pattern(EAST,w),
+    @pattern(EAST,adwdeaae),
+    @pattern(EAST,qqddqdaae),
+    @pattern(NORTH_EAST,qdeeaaeedq),
+    @pattern(NORTH_EAST,wdeaaedw),
+    @pattern(NORTH_EAST,qddqaqddqaqddq),
+    @pattern(NORTH_EAST,daqddqad),
+    @pattern(NORTH_EAST,qddawaddq),
+    @pattern(NORTH_EAST,qdeqe),
+    @pattern(NORTH_EAST,eqedq)
   ]
 }

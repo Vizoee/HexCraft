@@ -622,57 +622,57 @@ function create(nX, nY, nWidth, nHeight, bStartVisible)
     -- @tparam[opt] term.Redirect new_parent The new redirect object this
     -- window should draw to.
     -- @changed 1.85.0 Add `new_parent` parameter.
-    function window.reposition(new_x, new_y, new_width, new_height, new_parent)
-        -- os.queueEvent("customMessage", "Repositioning")
-        if type(new_x) ~= "number" then expect(1, new_x, "number") end
-        if type(new_y) ~= "number" then expect(2, new_y, "number") end
-        if new_width ~= nil or new_height ~= nil then
-            expect(3, new_width, "number")
-            expect(4, new_height, "number")
-        end
-        if new_parent ~= nil and type(new_parent) ~= "table" then expect(5, new_parent, "table") end
+    -- function window.reposition(new_x, new_y, new_width, new_height, new_parent)
+    --     -- os.queueEvent("customMessage", "Repositioning")
+    --     if type(new_x) ~= "number" then expect(1, new_x, "number") end
+    --     if type(new_y) ~= "number" then expect(2, new_y, "number") end
+    --     if new_width ~= nil or new_height ~= nil then
+    --         expect(3, new_width, "number")
+    --         expect(4, new_height, "number")
+    --     end
+    --     if new_parent ~= nil and type(new_parent) ~= "table" then expect(5, new_parent, "table") end
 
-        nX = new_x
-        nY = new_y
+    --     nX = new_x
+    --     nY = new_y
 
-        if new_parent then parent = new_parent end
+    --     if new_parent then parent = new_parent end
 
-        if new_width and new_height then
-            local tNewLines = {}
-            createEmptyLines(new_width)
-            local sEmptyText = sEmptySpaceLine
-            local sEmptyTextColor = tEmptyColorLines[nTextColor]
-            local sEmptyBackgroundColor = tEmptyColorLines[nBackgroundColor]
-            for y = 1, new_height do
-                if y > nHeight then
-                    tNewLines[y] = { sEmptyText, sEmptyTextColor, sEmptyBackgroundColor }
-                else
-                    local tOldLine = tLines[y]
-                    if new_width == nWidth then
-                        tNewLines[y] = tOldLine
-                    elseif new_width < nWidth then
-                        tNewLines[y] = {
-                            string_sub(tOldLine[1], 1, new_width),
-                            string_sub(tOldLine[2], 1, new_width),
-                            string_sub(tOldLine[3], 1, new_width),
-                        }
-                    else
-                        tNewLines[y] = {
-                            tOldLine[1] .. string_sub(sEmptyText, nWidth + 1, new_width),
-                            tOldLine[2] .. string_sub(sEmptyTextColor, nWidth + 1, new_width),
-                            tOldLine[3] .. string_sub(sEmptyBackgroundColor, nWidth + 1, new_width),
-                        }
-                    end
-                end
-            end
-            nWidth = new_width
-            nHeight = new_height
-            tLines = tNewLines
-        end
-        if bVisible then
-            window.redraw()
-        end
-    end
+    --     if new_width and new_height then
+    --         local tNewLines = {}
+    --         createEmptyLines(new_width)
+    --         local sEmptyText = sEmptySpaceLine
+    --         local sEmptyTextColor = tEmptyColorLines[nTextColor]
+    --         local sEmptyBackgroundColor = tEmptyColorLines[nBackgroundColor]
+    --         for y = 1, new_height do
+    --             if y > nHeight then
+    --                 tNewLines[y] = { sEmptyText, sEmptyTextColor, sEmptyBackgroundColor }
+    --             else
+    --                 local tOldLine = tLines[y]
+    --                 if new_width == nWidth then
+    --                     tNewLines[y] = tOldLine
+    --                 elseif new_width < nWidth then
+    --                     tNewLines[y] = {
+    --                         string_sub(tOldLine[1], 1, new_width),
+    --                         string_sub(tOldLine[2], 1, new_width),
+    --                         string_sub(tOldLine[3], 1, new_width),
+    --                     }
+    --                 else
+    --                     tNewLines[y] = {
+    --                         tOldLine[1] .. string_sub(sEmptyText, nWidth + 1, new_width),
+    --                         tOldLine[2] .. string_sub(sEmptyTextColor, nWidth + 1, new_width),
+    --                         tOldLine[3] .. string_sub(sEmptyBackgroundColor, nWidth + 1, new_width),
+    --                     }
+    --                 end
+    --             end
+    --         end
+    --         nWidth = new_width
+    --         nHeight = new_height
+    --         tLines = tNewLines
+    --     end
+    --     if bVisible then
+    --         window.redraw()
+    --     end
+    -- end
 
     if bVisible then
         window.redraw()
