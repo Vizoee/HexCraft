@@ -5,6 +5,7 @@ Augur's Purification
     Classifier's Purification
     Scrivener's Purification
     {@str(hexcellular:property)}>>
+    @iota_type(hexcellular:property)
     // Equality Distillation
 }
 // {
