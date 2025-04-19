@@ -5,42 +5,42 @@ Augur's Purification
     Classifier's Purification
     Scrivener's Purification
     {@str(hexcellular:property)}>>
-    Equality Distillation
+    // Equality Distillation
 }
-{
-    Nullary Reflection
-    False Reflection
-}
-Augur's Exaltation
-Hermes' Gambit
+// {
+//     Nullary Reflection
+//     False Reflection
+// }
+// Augur's Exaltation
+// Hermes' Gambit
 
-{}
-{
-    Bookkeeper's Gambit: v
-    Schrödinger's Reflection
-}
-Augur's Exaltation
-Hermes' Gambit
+// {}
+// {
+//     Bookkeeper's Gambit: v
+//     Schrödinger's Reflection
+// }
+// Augur's Exaltation
+// Hermes' Gambit
 
-{
-    {@pattern(SOUTH_WEST,wwwwwaqwwewwqwqqwwaeawqawwwwawwwwawwwqawwdww)}>>
-    Prospector's Gambit
-    Equality Distillation
-    {
-        Bookkeeper's Gambit: v
-        Bookkeeper's Gambit: -
-        Observation Purification
-        Jester's Gambit
+// {
+//     {@pattern(SOUTH_WEST,wwwwwaqwwewwqwqqwwaeawqawwwwawwwwawwwqawwdww)}>>
+//     Prospector's Gambit
+//     Equality Distillation
+//     {
+//         Bookkeeper's Gambit: v
+//         Bookkeeper's Gambit: -
+//         Observation Purification
+//         Jester's Gambit
 
-        @git(/hex_casting/programs/dictionary/dictionary_read.hexpattern)
-    }
-    {}
-    Augur's Exaltation
-    Hermes' Gambit
-}
-Prospector's Gambit
-Numerical Reflection: 8
-Jester's Gambit
-Surgeon's Exaltation
+//         @git(/hex_casting/programs/dictionary/dictionary_read.hexpattern)
+//     }
+//     {}
+//     Augur's Exaltation
+//     Hermes' Gambit
+// }
+// Prospector's Gambit
+// Numerical Reflection: 8
+// Jester's Gambit
+// Surgeon's Exaltation
 
 
