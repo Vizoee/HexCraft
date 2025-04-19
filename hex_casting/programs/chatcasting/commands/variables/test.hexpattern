@@ -6,7 +6,7 @@
 
 $print(Checking for scarab with variables...)
 Blank Reflection
-{@pattern(SOUTH_WEST,wwwwwaqwwewwqwqqwwaeawqawwwwawwwwawwwqawwdww)}>>
+{#git(/hex_casting/programs/chatcasting/commands/variables/pattern.hexpattern)}>>
 Hermes' Gambit
 $print(Found scarab. Checking returned value...)
 Classifier's Purification
