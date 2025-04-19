@@ -9,8 +9,9 @@ Blank Reflection
 {@pattern(SOUTH_WEST,wwwwwaqwwewwqwqqwwaeawqawwwwawwwwawwwqawwdww)}>>
 Hermes' Gambit
 $print(Found scarab. Checking returned value...)
-Reveal
-Nullary Reflection
+Classifier's Purification
+Scrivener's Purification
+{@str(hexcasting.iota.hexcellular:property)}>>
 Equality Distillation
 {
     $print(Scarab does contain property.)
