@@ -4,6 +4,13 @@
     Bookkeeper's Gambit: v
 )
 
+#def(stack_reveal)(
+    Flock's Reflection
+    Flock's Gambit
+    Reveal
+    Flock's Disintegration
+)
+
 #def(dict_read)(#git(/hex_casting/programs/dictionary/dictionary_read.hexpattern))
 #def(dict_over_write)(/hex_casting/programs/dictionary/dictionary_over_write.hexpattern)
 
@@ -37,6 +44,7 @@ Single's Purification
         //stack: dict, keyList-1, key, dict, keyList-1, key
         Bookkeeper's Gambit: -v-
         
+        $stack_reveal
         $dict_read
 
         //stack: dict, keyList-1, key, dict-1
