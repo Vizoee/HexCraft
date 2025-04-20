@@ -23,6 +23,7 @@ Single's Purification
 
 {
     Sekhmet's Gambit: 1
+    Reveal
     Flock's Disintegration
     // stack: dictionary, keyList
     Speaker's Decomposition
@@ -48,6 +49,7 @@ Single's Purification
         Selection Distillation
         Jester's Gambit
         Thoth's Gambit
+        Reveal
         Flock's Disintegration
         //stack: dict, key, dict-1
         $dict_over_write
@@ -66,6 +68,7 @@ Huginn's Gambit
 Jester's Gambit
 // stack: property, function, [[dict, keys]]
 Thoth's Gambit
+Reveal
 Flock's Disintegration
 
 Schrödinger's Gambit
