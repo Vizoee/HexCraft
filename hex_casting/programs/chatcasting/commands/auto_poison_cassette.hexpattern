@@ -1,5 +1,5 @@
 {
-    {@str(auto regen)}>>
+    {@str(auto poison)}>>
     Gemini Decomposition
     Program Purification
     Numerical Reflection: 1
@@ -7,10 +7,12 @@
     Enqueue
 
     Mind's Reflection
-    Numerical Reflection: 30
+    Numerical Reflection: 25
+    Numerical Reflection: 20
+    Division Distillation
     Numerical Reflection: 1
     Red Sun's Nadir
 }
 Numerical Reflection: 1
-{@str(auto regen)}>>
+{@str(auto poison)}>>
 Enqueue
