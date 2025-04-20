@@ -72,7 +72,7 @@ Single's Purification
     Hermes' Gambit
     // stack: dict/value
     $print(Returns)
-    Reveal
+    $stack_reveal
 }
 Gemini Decomposition
 Single's Purification
