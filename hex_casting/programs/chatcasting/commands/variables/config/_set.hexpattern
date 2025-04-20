@@ -68,11 +68,18 @@ Single's Purification
         Vacant Reflection
         Classifier's Purification
         Equality Distillation
-        Jester's Gambit
-        Length Purification
-        Numerical Reflection: 2
-        Equality Distillation
-        Conjunction Distillation
+        {
+            Length Purification
+            Numerical Reflection: 2
+            Equality Distillation
+        }
+        {
+            Bookkeeper's Gambit: v
+            False Reflection
+        }
+        Augur's Exaltation
+        Hermes' Gambit
+        
         {}
         {
             Bookkeeper's Gambit: v-
