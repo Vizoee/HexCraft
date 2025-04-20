@@ -17,6 +17,24 @@
 
 #def(dfs)(Numerical Reflection: 0)
 
+Gemini Decomposition
+Length Purification
+Numerical Reflection: 2
+Minimus Distillation
+{
+    Bookkeeper's Gambit: vv
+    {
+        @str(Usage: config show <spell_config_name>.)
+    }
+    Flock's Disintegration
+    Reveal
+    Janus' Gambit
+}
+{}
+Augur's Exaltation
+Hermes' Gambit
+
+
 {#git(/hex_casting/programs/chatcasting/commands/variables/pattern.hexpattern)}>>
 Hermes' Gambit
 // stack: keys, prop
@@ -65,7 +83,7 @@ Single's Purification
         Augur's Exaltation
         Hermes' Gambit
 
-        $stack_reveal
+        // $stack_reveal
         $dict_read
 
         //stack: dict, keyList-1, key, dict-1
