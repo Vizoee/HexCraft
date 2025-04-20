@@ -22,7 +22,6 @@ Length Purification
 Numerical Reflection: 2
 Minimus Distillation
 {
-    Bookkeeper's Gambit: vv
     {
         @str(Usage: config show <spell_config_name>.)
     }
