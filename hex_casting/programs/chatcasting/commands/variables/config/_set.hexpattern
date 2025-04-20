@@ -40,6 +40,7 @@ Single's Purification
     Augur's Purification
     //stack: dict, keyList-1, key
     {
+        $print(Yes)
         Numerical Reflection: 3
         Dioscuri Gambit II
         //stack: dict, keyList-1, key, dict, keyList-1, key
@@ -57,19 +58,20 @@ Single's Purification
         Selection Distillation
         Jester's Gambit
         Thoth's Gambit
-        
+
         Flock's Disintegration
         //stack: dict, key, dict-1
         $dict_over_write
     }
     {
+        $print(Nes)
         //stack: dict, keyList-1, key/value
         Bookkeeper's Gambit: vv-
     }
     Augur's Exaltation
     Hermes' Gambit
     // stack: dict/value
-    @print(Returns)
+    $print(Returns)
     Reveal
 }
 Gemini Decomposition
