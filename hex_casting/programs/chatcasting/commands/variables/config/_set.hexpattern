@@ -52,6 +52,7 @@ Single's Purification
         Single's Purification
         Muninn's Reflection
         $dfs
+        $stack_reveal
         Selection Distillation
         Jester's Gambit
         Thoth's Gambit
@@ -66,6 +67,7 @@ Single's Purification
     Augur's Exaltation
     Hermes' Gambit
     // stack: dict/value
+    @print(Returns)
     Reveal
 }
 Gemini Decomposition
@@ -73,8 +75,10 @@ Single's Purification
 Huginn's Gambit
 Jester's Gambit
 // stack: property, function, [[dict, keys]]
+$print(Start)
 $stack_reveal
 Thoth's Gambit
+$print(End)
 $stack_reveal
 Flock's Disintegration
 
