@@ -11,6 +11,7 @@
     Flock's Disintegration
 )
 
+
 #def(dict_read)(#git(/hex_casting/programs/dictionary/dictionary_read.hexpattern))
 #def(dict_over_write)(#git(/hex_casting/programs/dictionary/dictionary_over_write.hexpattern))
 
@@ -30,8 +31,6 @@ Single's Purification
 
 {
     Sekhmet's Gambit: 1
-    $print(DFS)
-    Reveal
     Flock's Disintegration
     // stack: dictionary, keyList
     Speaker's Decomposition
@@ -40,11 +39,23 @@ Single's Purification
     Augur's Purification
     //stack: dict, keyList-1, key
     {
-        $print(Yes)
         Numerical Reflection: 3
         Dioscuri Gambit II
         //stack: dict, keyList-1, key, dict, keyList-1, key
         Bookkeeper's Gambit: -v-
+
+        // check if dictionary
+        Prospector's Gambit
+        Augur's Purification
+        {}
+        {
+            Bookkeeper's Gambit: v-
+            {[][]}
+            Jester's Gambit
+        }
+        Augur's Exaltation
+        Hermes' Gambit
+
         
         $dict_read
 
@@ -64,25 +75,31 @@ Single's Purification
         $dict_over_write
     }
     {
-        $print(Nes)
         //stack: dict, keyList-1, key/value
         Bookkeeper's Gambit: vv-
+        Gemini Decomposition
+        Input Purification
+        Gemini Decomposition
+        Augur's Purification
+        {
+            Bookkeeper's Gambit: v-
+        }
+        {
+            Bookkeeper's Gambit: v
+        }
+        Augur's Exaltation
+        Hermes' Gambit
     }
     Augur's Exaltation
     Hermes' Gambit
     // stack: dict/value
-    $print(Returns)
-    $stack_reveal
 }
 Gemini Decomposition
 Single's Purification
 Huginn's Gambit
 Jester's Gambit
 // stack: property, function, [[dict, keys]]
-$print(Start)
 Thoth's Gambit
-$print(End)
-$stack_reveal
 Flock's Disintegration
 
 Schrödinger's Gambit
