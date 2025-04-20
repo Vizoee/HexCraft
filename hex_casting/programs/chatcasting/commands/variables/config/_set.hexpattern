@@ -23,7 +23,7 @@ Numerical Reflection: 2
 Minimus Distillation
 {
     {
-        @str(Usage: config show <spell_config_name>.)
+        @str(Usage: config set <spell_config_name> <value>.)
     }
     Flock's Disintegration
     Reveal
