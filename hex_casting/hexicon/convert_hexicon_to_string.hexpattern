@@ -133,7 +133,9 @@ Chirographer's Purification
     Augur's Exaltation
     Hermes' Gambit
 }
-#git(/hex_casting/hexicon/abc_list_p.hexpattern)
+{#git(/hex_casting/programs/chatcasting/config/position.hexpattern)}>>
+@hexicon(hexicon)
+Akasha's Distillation
 Retrograde Purification
 Reflecting Gambit
 // stack: pattern_dict, commands, to_convert_list

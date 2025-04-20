@@ -6,7 +6,9 @@ Separation Distillation
 Blank Reflection
 Single's Purification
 Exclusion Distillation
-#git(/hex_casting/hexicon/abc_list_p.hexpattern)
+{#git(/hex_casting/programs/chatcasting/config/position.hexpattern)}>>
+@hexicon(hexicon)
+Akasha's Distillation
 {
     Sekhmet's Gambit: 2
     #git(/hex_casting/programs/dictionary/dictionary_read.hexpattern)
