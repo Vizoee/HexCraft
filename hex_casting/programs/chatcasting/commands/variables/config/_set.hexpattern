@@ -30,7 +30,6 @@ Single's Purification
 
 {
     Sekhmet's Gambit: 1
-    Reveal
     Flock's Disintegration
     // stack: dictionary, keyList
     Speaker's Decomposition
@@ -44,7 +43,6 @@ Single's Purification
         //stack: dict, keyList-1, key, dict, keyList-1, key
         Bookkeeper's Gambit: -v-
         
-        $stack_reveal
         $dict_read
 
         //stack: dict, keyList-1, key, dict-1
@@ -57,7 +55,6 @@ Single's Purification
         Selection Distillation
         Jester's Gambit
         Thoth's Gambit
-        Reveal
         Flock's Disintegration
         //stack: dict, key, dict-1
         $dict_over_write
@@ -69,6 +66,7 @@ Single's Purification
     Augur's Exaltation
     Hermes' Gambit
     // stack: dict/value
+    Reveal
 }
 Gemini Decomposition
 Single's Purification
@@ -76,7 +74,6 @@ Huginn's Gambit
 Jester's Gambit
 // stack: property, function, [[dict, keys]]
 Thoth's Gambit
-Reveal
 Flock's Disintegration
 
 $stack_reveal
