@@ -30,6 +30,8 @@ Single's Purification
 
 {
     Sekhmet's Gambit: 1
+    $print(DFS)
+    Reveal
     Flock's Disintegration
     // stack: dictionary, keyList
     Speaker's Decomposition
@@ -55,7 +57,6 @@ Single's Purification
         Selection Distillation
         Jester's Gambit
         Thoth's Gambit
-        $stack_reveal
         Flock's Disintegration
         //stack: dict, key, dict-1
         $dict_over_write
