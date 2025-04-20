@@ -65,7 +65,7 @@ Single's Purification
         Augur's Exaltation
         Hermes' Gambit
 
-        
+        $stack_reveal
         $dict_read
 
         //stack: dict, keyList-1, key, dict-1
@@ -73,6 +73,7 @@ Single's Purification
         Numerical Reflection: 2
         Flock's Gambit
         Single's Purification
+        
         Muninn's Reflection
         $dfs
         Selection Distillation
