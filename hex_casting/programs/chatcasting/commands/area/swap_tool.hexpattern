@@ -43,6 +43,15 @@ Rotation Gambit
         ]
         [@false, @false]
     }
+    Tchotchke Reflection
+    Augur's Purification
+    {
+        Bookkeeper's Gambit: v
+        Tchotchke Reflection
+    }
+    {}
+    Augur's Exaltation
+    Hermes' Gambit
     Huginn's Gambit
 
     Flock's Disintegration
@@ -86,7 +95,6 @@ Rotation Gambit
             Selection Distillation
             $left
             Selection Distillation
-            Reveal
             Augur's Purification
             {
                 Muninn's Reflection
@@ -105,7 +113,6 @@ Rotation Gambit
                 Augur's Exaltation
 
                 $get_block_pos
-                $print(1)
                 Surgeon's Exaltation
             }
             {
@@ -162,7 +169,7 @@ Rotation Gambit
     Hermes' Gambit
 
     Muninn's Reflection
-    Reveal
+    Tchotchke Gambit
 }
 Numerical Reflection: 1
 Rotation Gambit
