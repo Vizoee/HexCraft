@@ -32,12 +32,12 @@ Single's Purification
     
     {
         [// right click
-            {@str(right click)}>>
-            Reveal
+            // {@str(right click)}>>
+            // Reveal
         ]
         [// shift right click
-            {@str(shift right click)}>>
-            Reveal
+            // {@str(shift right click)}>>
+            // Reveal
 
             Muninn's Reflection
             Flock's Disintegration
@@ -46,12 +46,12 @@ Single's Purification
             
         ]
         [// left click
-            {@str(left click)}>>
-            Reveal
+            // {@str(left click)}>>
+            // Reveal
         ]
         [// shift left click
-            {@str(shift left click)}>>
-            Reveal
+            // {@str(shift left click)}>>
+            // Reveal
         ]
     }
     Jester's Gambit
