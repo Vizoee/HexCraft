@@ -122,7 +122,7 @@ Rotation Gambit
             Dioscuri Gambit
             Selection Distillation
             $left
-            Numerical Reflection: -4
+            Numerical Reflection: 4
             Fisherman's Gambit
             $rstack
             $print(2)
