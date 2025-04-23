@@ -1,0 +1,15 @@
+on start
+    create mesh
+    embed mesh into tchotchkes
+
+on right click
+    select corner of area 1
+
+on left click
+    select corner of area 1
+
+on shift left click
+    destroy meshes and tchotches
+
+on shift right click
+    swap areas

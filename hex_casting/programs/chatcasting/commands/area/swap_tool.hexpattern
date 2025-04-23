@@ -1,0 +1,65 @@
+Mind's Reflection
+Compass' Purification
+Gemini Decomposition
+Conjure Mesh
+Prospector's Gambit
+Conjure Mesh
+Numerical Reflection: 2
+Flock's Gambit
+
+Numerical Reflection: 1 // media
+Numerical Reflection: 1// rank
+
+Rotation Gambit
+Bubbles' Purification
+Single's Purification
+{
+    Huginn's Gambit
+
+    Numerical Reflection: 0
+    Numerical Reflection: 2
+    Augur's Exaltation
+    
+    Stealthy Reflection
+    Numerical Reflection: -1
+    Equality Distillation
+    
+    Numerical Reflection: 0
+    Numerical Reflection: 1
+    Augur's Exaltation
+    
+    Additive Distillation
+    
+    {
+        [// right click
+            {@str(right click)}>>
+            Reveal
+        ]
+        [// shift right click
+            {@str(shift right click)}>>
+            Reveal
+
+            Muninn's Reflection
+            Flock's Disintegration
+            Dismiss Speck
+            Dismiss Speck
+            
+        ]
+        [// left click
+            {@str(left click)}>>
+            Reveal
+        ]
+        [// shift left click
+            {@str(shift left click)}>>
+            Reveal
+        ]
+    }
+    Jester's Gambit
+    Selection Distillation
+    Hermes' Gambit
+}
+Additive Distillation
+
+Conjure Tchotchke
+
+
