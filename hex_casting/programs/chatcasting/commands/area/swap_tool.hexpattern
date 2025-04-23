@@ -4,6 +4,13 @@
     Bookkeeper's Gambit: v
 )
 
+#def(rstack)(
+    Flock's Reflection
+    Flock's Gambit
+    Reveal
+    Flock's Disintegration
+)
+
 #def(left)(Numerical Reflection: 0)
 #def(right)(Numerical Reflection: 1)
 
@@ -117,9 +124,11 @@ Rotation Gambit
             $left
             Numerical Reflection: -4
             Fisherman's Gambit
+            $rstack
             $print(2)
             Surgeon's Exaltation
             $print(3)
+            $rstack
             Surgeon's Exaltation
             Huginn's Gambit
 
