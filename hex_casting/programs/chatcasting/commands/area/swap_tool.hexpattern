@@ -1,3 +1,12 @@
+#def(left)(Numerical Reflection: 0)
+#def(right)(Numerical Reflection: 1)
+
+#def(r_mesh)(Numerical Reflection: 0)
+#def(r_corners)(Numerical Reflection: 1)
+#def(r_last)(Numerical Reflection: 2)
+
+#def(get_block_pos)(/hex_casting/spells/get_block_pos.hexpattern)
+
 Mind's Reflection
 Compass' Purification
 Gemini Decomposition
@@ -13,12 +22,17 @@ Numerical Reflection: 1// rank
 Rotation Gambit
 
 {
-    {Bookkeeper's Gambit: -}>>
+    {
+        Bookkeeper's Gambit: -
+        [
+            []
+            []
+        ]
+        [@false, @false]
+    }
     Huginn's Gambit
 
     Flock's Disintegration
-    
-
     Numerical Reflection: 0
     Numerical Reflection: 2
     Augur's Exaltation
@@ -26,7 +40,6 @@ Rotation Gambit
     Stealthy Reflection
     Numerical Reflection: -1
     Equality Distillation
-    
     Numerical Reflection: 0
     Numerical Reflection: 1
     Augur's Exaltation
@@ -37,9 +50,80 @@ Rotation Gambit
         [// right click
             {@str(right click)}>>
             Reveal
+            
+            
         ]
         [// shift right click
             {@str(shift right click)}>>
+            Reveal
+
+        ]
+        [// left click
+            {@str(left click)}>>
+            Reveal
+
+            $get_block_pos
+
+            Muninn's Reflection
+            $r_corners
+            Selection Distillation
+            $left
+            Selection Distillation
+            Length Purification
+            {
+                Muninn's Reflection
+                $r_corners
+                Selection Distillation
+                $left
+                Selection Distillation
+
+                Muninn's Reflection
+                $r_last
+                Selection Distillation
+                $left
+                Selection Distillation
+                Numerical Reflection: 0
+                Numerical Reflection: 1
+                Augur's Exaltation
+
+                $get_block_pos
+                Surgeon's Exaltation
+            }
+            {
+                Gemini Decomposition
+                Numerical Reflection: 2
+                Flock's Gambit
+            }
+            Augur's Exaltation
+            Hermes' Gambit
+
+            // stack: list
+            Muninn's Reflection
+            $r_corners
+            Dioscuri Gambit
+            Selection Distillation
+            $left
+            Numerical Reflection: -4
+            Fisherman's Gambit
+            Surgeon's Exaltation
+            Surgeon's Exaltation
+            Huginn's Gambit
+
+
+            Muninn's Reflection
+            $r_last
+            Dioscuri Gambit
+            Selection Distillation
+            $left
+            Dioscuri Gambit
+            Selection Distillation
+            Negation Purification
+            Surgeon's Exaltation
+            Surgeon's Exaltation
+            Huginn's Gambit
+        ]
+        [// shift left click
+            {@str(shift left click)}>>
             Reveal
 
             Muninn's Reflection
@@ -47,19 +131,15 @@ Rotation Gambit
             Dismiss Speck
             Dismiss Speck
             
-        ]
-        [// left click
-            {@str(left click)}>>
-            Reveal
-        ]
-        [// shift left click
-            {@str(shift left click)}>>
-            Reveal
+            Erase Item
         ]
     }
     Jester's Gambit
     Selection Distillation
     Hermes' Gambit
+
+    Muninn's Reflection
+    Reveal
 }
 Numerical Reflection: 1
 Rotation Gambit
