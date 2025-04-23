@@ -123,6 +123,17 @@ Rotation Gambit
             Augur's Exaltation
             Hermes' Gambit
 
+
+            Muninn's Reflection
+            $r_mesh
+            Selection Distillation
+            $left
+            Selection Distillation
+            Prospector's Gambit
+            Flock's Disintegration
+            
+            #git(/hex_casting/programs/mesh/set_cube_size.hexpattern)
+
             // stack: list
             Muninn's Reflection
             $r_corners
