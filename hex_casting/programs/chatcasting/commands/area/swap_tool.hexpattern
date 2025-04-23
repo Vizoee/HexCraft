@@ -13,52 +13,53 @@ Numerical Reflection: 1// rank
 Rotation Gambit
 
 {
+    Flock's Disintegration
+    
     {Bookkeeper's Gambit: -}>>
     Huginn's Gambit
-    Reveal
     
 
-    // Numerical Reflection: 0
-    // Numerical Reflection: 2
-    // Augur's Exaltation
+    Numerical Reflection: 0
+    Numerical Reflection: 2
+    Augur's Exaltation
     
-    // Stealthy Reflection
-    // Numerical Reflection: -1
-    // Equality Distillation
+    Stealthy Reflection
+    Numerical Reflection: -1
+    Equality Distillation
     
-    // Numerical Reflection: 0
-    // Numerical Reflection: 1
-    // Augur's Exaltation
+    Numerical Reflection: 0
+    Numerical Reflection: 1
+    Augur's Exaltation
     
-    // Additive Distillation
+    Additive Distillation
     
-    // {
-    //     [// right click
-    //         // {@str(right click)}>>
-    //         // Reveal
-    //     ]
-    //     [// shift right click
-    //         // {@str(shift right click)}>>
-    //         // Reveal
+    {
+        [// right click
+            {@str(right click)}>>
+            Reveal
+        ]
+        [// shift right click
+            {@str(shift right click)}>>
+            Reveal
 
-    //         Muninn's Reflection
-    //         Flock's Disintegration
-    //         Dismiss Speck
-    //         Dismiss Speck
+            Muninn's Reflection
+            Flock's Disintegration
+            Dismiss Speck
+            Dismiss Speck
             
-    //     ]
-    //     [// left click
-    //         // {@str(left click)}>>
-    //         // Reveal
-    //     ]
-    //     [// shift left click
-    //         // {@str(shift left click)}>>
-    //         // Reveal
-    //     ]
-    // }
-    // Jester's Gambit
-    // Selection Distillation
-    // Hermes' Gambit
+        ]
+        [// left click
+            {@str(left click)}>>
+            Reveal
+        ]
+        [// shift left click
+            {@str(shift left click)}>>
+            Reveal
+        ]
+    }
+    Jester's Gambit
+    Selection Distillation
+    Hermes' Gambit
 }
 Numerical Reflection: 1
 Rotation Gambit
