@@ -81,6 +81,7 @@ Rotation Gambit
             $get_block_pos
 
             Muninn's Reflection
+            Reveal
             $r_corners
             Selection Distillation
             $left
@@ -116,7 +117,6 @@ Rotation Gambit
             Hermes' Gambit
 
             // stack: list
-            Reveal
             Muninn's Reflection
             $r_corners
             Dioscuri Gambit
@@ -124,11 +124,7 @@ Rotation Gambit
             $left
             Numerical Reflection: 4
             Fisherman's Gambit
-            $rstack
-            $print(2)
             Surgeon's Exaltation
-            $print(3)
-            $rstack
             Surgeon's Exaltation
             Huginn's Gambit
 
@@ -141,10 +137,9 @@ Rotation Gambit
             Dioscuri Gambit
             Selection Distillation
             Negation Purification
-            $print(4)
             Surgeon's Exaltation
-            $print(5)
             Surgeon's Exaltation
+            Reveal
             Huginn's Gambit
         ]
         [// shift left click
