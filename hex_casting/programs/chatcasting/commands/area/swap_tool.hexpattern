@@ -11,7 +11,7 @@
 #def(r_corners)(Numerical Reflection: 1)
 #def(r_last)(Numerical Reflection: 2)
 
-#def(get_block_pos)(/hex_casting/spells/get_block_pos.hexpattern)
+#def(get_block_pos)(#git(/hex_casting/spells/get_block_pos.hexpattern))
 
 Mind's Reflection
 Compass' Purification
