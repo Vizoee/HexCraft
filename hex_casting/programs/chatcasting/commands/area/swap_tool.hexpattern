@@ -56,17 +56,20 @@ Rotation Gambit
         [// right click
             {@str(right click)}>>
             Reveal
+            Bookkeeper's Gambit: v
             
             
         ]
         [// shift right click
             {@str(shift right click)}>>
             Reveal
+            Bookkeeper's Gambit: v
 
         ]
         [// left click
             {@str(left click)}>>
             Reveal
+            Bookkeeper's Gambit: v
 
             $get_block_pos
 
@@ -138,6 +141,7 @@ Rotation Gambit
         [// shift left click
             {@str(shift left click)}>>
             Reveal
+            Bookkeeper's Gambit: v
 
             Muninn's Reflection
             $r_mesh
