@@ -20,6 +20,13 @@
 
 #def(get_block_pos)(#git(/hex_casting/spells/get_block_pos.hexpattern))
 
+/*
+ravenmind:
+    [mesh1, mesh2]
+    [[pos1, pos2], [pos1, pos2]]
+    [false, false]
+*/
+
 Mind's Reflection
 Compass' Purification
 Gemini Decomposition
@@ -74,6 +81,15 @@ Rotation Gambit
             Reveal
             Bookkeeper's Gambit: v
             
+            $get_block_pos
+
+            Muninn's Reflection
+            $r_corners
+            Selection Distillation
+            $left
+            Selection Distillation
+            Gemini Decomposition
+            Augur's Purification
             
         ]
         [// shift right click
@@ -90,7 +106,6 @@ Rotation Gambit
             $get_block_pos
 
             Muninn's Reflection
-            Reveal
             $r_corners
             Selection Distillation
             $left
@@ -157,7 +172,6 @@ Rotation Gambit
             Negation Purification
             Surgeon's Exaltation
             Surgeon's Exaltation
-            Reveal
             Huginn's Gambit
         ]
         [// shift left click
