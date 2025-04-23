@@ -1,3 +1,9 @@
+#def(print)(
+    {@str(<1>)}>>
+    Reveal
+    Bookkeeper's Gambit: v
+)
+
 #def(left)(Numerical Reflection: 0)
 #def(right)(Numerical Reflection: 1)
 
@@ -88,6 +94,7 @@ Rotation Gambit
                 Augur's Exaltation
 
                 $get_block_pos
+                $print(1)
                 Surgeon's Exaltation
             }
             {
@@ -106,7 +113,9 @@ Rotation Gambit
             $left
             Numerical Reflection: -4
             Fisherman's Gambit
+            $print(2)
             Surgeon's Exaltation
+            $print(3)
             Surgeon's Exaltation
             Huginn's Gambit
 
@@ -119,7 +128,9 @@ Rotation Gambit
             Dioscuri Gambit
             Selection Distillation
             Negation Purification
+            $print(4)
             Surgeon's Exaltation
+            $print(5)
             Surgeon's Exaltation
             Huginn's Gambit
         ]
