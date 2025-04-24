@@ -10,7 +10,22 @@ Archer's Distillation
 // stack: caster_pos, pos
 
 Subtractive Distillation
+Vector Disintegration
+Numerical Reflection: 3
+Flock's Gambit
+{
+    Numerical Reflection: 0
+    Maximus Distillation
+    Numerical Reflection: 1
+    Numerical Reflection: -1
+    Augur's Exaltation
+}
 Axial Purification
+Jester's Gambit
+Thoth's Gambit
+Flock's Disintegration
+Vector Exaltation
+
 
 
 // stack: axis_vec
