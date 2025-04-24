@@ -139,7 +139,8 @@ Rotation Gambit
             Numerical Reflection: 2
             Flock's Gambit
             
-            // stack: ..., [corners], [corners]
+            // stack: ..., [corners]
+            Reveal
             Muninn's Reflection
             $r_corners_right
             Rotation Gambit
