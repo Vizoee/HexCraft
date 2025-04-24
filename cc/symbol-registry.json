@@ -9678,5 +9678,16 @@
         "args": null,
         "url": null,
         "description": null
+    },
+    "Seshat's Reflection": {
+        "name": "acc_num",
+        "modid": "moreiotas",
+        "modName": "MoreIotas",
+        "image": null,
+        "direction": "NORTH_EAST",
+        "pattern": "wqaqwadad",
+        "args": null,
+        "url": null,
+        "description": null
     }
 }
