@@ -96,8 +96,17 @@ Rotation Gambit
             Selection Distillation
             Gemini Decomposition
             Augur's Purification
-            // stack: get_block_pos, mesh1_corners
+            // stack: mesh2, get_block_pos, mesh1_corners
             { // if mesh1 is set
+                Mind's Reflection
+                Compass' Purification
+                Rotation Gambit
+                #git(/hex_casting/spells/snapped_vec.hexpattern)
+                
+                // mesh2, mesh1_corners, direction
+                Prospector's Gambit
+                Flock's Disintegration
+                Subtractive Distillation
                 
             }
             { // if mesh1 is not set
