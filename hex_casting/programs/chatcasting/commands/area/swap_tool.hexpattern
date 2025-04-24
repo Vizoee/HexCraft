@@ -81,6 +81,12 @@ Rotation Gambit
             Reveal
             Bookkeeper's Gambit: v
             
+            Muninn's Reflection
+            $r_mesh
+            Selection Distillation
+            $right
+            Selection Distillation
+
             $get_block_pos
 
             Muninn's Reflection
@@ -91,15 +97,17 @@ Rotation Gambit
             Gemini Decomposition
             Augur's Purification
             // stack: get_block_pos, mesh1_corners
-            {
-
+            { // if mesh1 is set
+                
             }
-            {// if source mesh is not set
-
+            { // if mesh1 is not set
+                Bookkeeper's Gambit: v
+                Gemini Decomposition
             }
             Augur's Exaltation
             Hermes' Gambit
             
+            #git(/hex_casting/programs/mesh/set_cube_size.hexpattern)
         ]
         [// shift right click
             {@str(shift right click)}>>
