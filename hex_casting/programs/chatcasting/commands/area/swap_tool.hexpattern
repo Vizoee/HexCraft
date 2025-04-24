@@ -98,16 +98,22 @@ Rotation Gambit
             Augur's Purification
             // stack: mesh2, get_block_pos, mesh1_corners
             { // if mesh1 is set
+                Prospector's Gambit
+                Jester's Gambit
                 Mind's Reflection
                 Compass' Purification
                 Rotation Gambit
                 #git(/hex_casting/spells/snapped_vec.hexpattern)
                 
-                // mesh2, mesh1_corners, direction
-                Prospector's Gambit
+                // mesh2, get_block_pos, mesh1_corners, direction
+                Jester's Gambit
                 Flock's Disintegration
                 Subtractive Distillation
-                
+                #git(/hex_casting/spells/vec_abs.hexpattern)
+                #git(/hex_casting/spells/vec_mul.hexpattern)
+                // mesh2, get_block_pos, size
+                Prospector's Gambit
+                Additive Distillation
             }
             { // if mesh1 is not set
                 Bookkeeper's Gambit: v
