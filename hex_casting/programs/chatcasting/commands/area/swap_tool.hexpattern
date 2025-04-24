@@ -24,6 +24,8 @@
 
 #def(vec_abs)(#git(/hex_casting/programs/vector/abs.hexpattern))
 #def(vec_mul)(#git(/hex_casting/programs/vector/mult.hexpattern))
+#def(cube_set)(#git(/hex_casting/programs/mesh/set_cube_size.hexpattern))
+
 
 #def(refresh_mesh_left)(
     Muninn's Reflection
@@ -33,6 +35,7 @@
     $r_corners_left
     Selection Distillation
     Flock's Disintegration
+    $cube_set
 )
 
 #def(refresh_mesh_right)(
@@ -65,6 +68,7 @@
     }
     Augur's Exaltation
     Hermes' Gambit
+    $cube_set
 )
 
 /*
@@ -145,7 +149,6 @@ Rotation Gambit
             Huginn's Gambit
             
             $refresh_mesh_right
-            #git(/hex_casting/programs/mesh/set_cube_size.hexpattern)
         ]
         [// shift right click
             {@str(shift right click)}>>
@@ -201,7 +204,6 @@ Rotation Gambit
             Huginn's Gambit
 
             $refresh_mesh_left
-            #git(/hex_casting/programs/mesh/set_cube_size.hexpattern)
 
             Muninn's Reflection
             $r_corners_right
@@ -209,11 +211,8 @@ Rotation Gambit
             Augur's Purification
             {
                 $refresh_mesh_right
-                #git(/hex_casting/programs/mesh/set_cube_size.hexpattern)
             }
-            {
-                Bookkeeper's Gambit: vvvv
-            }
+            {}
             Augur's Exaltation
             Hermes' Gambit
             
