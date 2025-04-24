@@ -22,6 +22,8 @@
 
 #def(get_block_pos)(#git(/hex_casting/spells/get_block_pos.hexpattern))
 
+#def(vec_abs)(#git(/hex_casting/programs/vector/abs.hexpattern))
+#def(vec_mul)(#git(/hex_casting/programs/vector/mult.hexpattern))
 
 #def(refresh_mesh_left)(
     Muninn's Reflection
@@ -51,8 +53,8 @@
         
         Flock's Disintegration
         Subtractive Distillation
-        #git(/hex_casting/programs/vector/abs.hexpattern)
-        #git(/hex_casting/programs/vector/mult.hexpattern)
+        $vec_abs
+        $vec_mul
         // get_block_pos, size
         Prospector's Gambit
         Additive Distillation
