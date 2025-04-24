@@ -35,10 +35,10 @@
 
 #def(refresh_mesh_right)(
     Muninn's Reflection
-    $r_mesh_left
+    $r_mesh_right
     Selection Distillation
     Muninn's Reflection
-    $r_corners_left
+    $r_corners_right
     Selection Distillation
     Flock's Disintegration
 )
@@ -140,7 +140,6 @@ Rotation Gambit
             Flock's Gambit
             
             // stack: ..., [corners]
-            Reveal
             Muninn's Reflection
             $r_corners_right
             Rotation Gambit
