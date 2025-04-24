@@ -211,30 +211,57 @@ Rotation Gambit
             Selection Distillation
             Gemini Decomposition
             Augur's Purification
-            // stack: list, raven, index, corners_r
+            // stack: corners_l, raven, index, corners_r
             {
-                Numerical Reflection: 3
-                Fisherman's Gambit
-                
                 Muninn's Reflection
                 $r_last
                 Selection Distillation
+                Dioscuri Gambit
+                // stack: corners_l, raven, index, corners_r, bool, corners_r, bool
+                Numerical Reflection: 6
+                Fisherman's Gambit II
+                Rotation Gambit II
+                // stack: corners_l, raven, index, corners_r, bool, corners_l, corners_r, bool
+                Numerical Reflection: 0
+                Numerical Reflection: 1
+                Augur's Exaltation
+                Undertaker's Gambit
+                Selection Distillation
+                Rotation Gambit II
+                Selection Distillation
+                Subtractive Distillation
+
+                Rotation Gambit II
+                // stack: corners_l, raven, corners_r_index, offset, corners_r, bool
+                Numerical Reflection: 5
+                Fisherman's Gambit
+                Rotation Gambit II
+                Bubbling Gambit
+                
+                
                 Numerical Reflection: 1
                 Numerical Reflection: 0
                 Augur's Exaltation
-                // stack: raven, index, corners_r, list, last_index
+                
                 Undertaker's Gambit
+                // stack: raven, corners_r_index, offset, corners_r, index, corners_l, index
                 Selection Distillation
+                // stack: raven, corners_r_index, offset, corners_r, index, corner
+                Numerical Reflection: 3
+                Fisherman's Gambit
+                Additive Distillation
                 Surgeon's Exaltation
+                // stack: raven, corners_r_index, corners_r
                 Surgeon's Exaltation
                 Huginn's Gambit
                 
+
 
                 $refresh_mesh_right
                 #git(/hex_casting/programs/mesh/set_cube_size.hexpattern)
             }
             {
-                Bookkeeper's Gambit: vvv
+                Bookkeeper's Gambit: vvvv
             }
             Augur's Exaltation
             Hermes' Gambit
