@@ -1,15 +1,15 @@
-stack: mesh, vec1, vec2
+// stack: mesh, vec1, vec2
 Dioscuri Gambit
 Additive Distillation
 Numerical Reflection: 2
 Division Distillation
 Rotation Gambit II
 Subtractive Distillation
-stack: mesh, new_pos, size
+// stack: mesh, new_pos, size
 Rotation Gambit
 Gemini Decomposition
 Rotation Gambit
-stack: new_pos, mesh, mesh, size
+// stack: new_pos, mesh, mesh, size
 #git(/hex_casting/programs/vector/abs.hexpattern)
 
 Transformation Purification

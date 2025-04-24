@@ -109,8 +109,8 @@ Rotation Gambit
                 Jester's Gambit
                 Flock's Disintegration
                 Subtractive Distillation
-                #git(/hex_casting/spells/vec_abs.hexpattern)
-                #git(/hex_casting/spells/vec_mul.hexpattern)
+                #git(/hex_casting/programs/vector/abs.hexpattern)
+                #git(/hex_casting/programs/vector/mult.hexpattern)
                 // mesh2, get_block_pos, size
                 Prospector's Gambit
                 Additive Distillation
@@ -121,7 +121,26 @@ Rotation Gambit
             }
             Augur's Exaltation
             Hermes' Gambit
+
+            Numerical Reflection: 2
+            Flock's Gambit
+            Gemini Decomposition
             
+            Muninn's Reflection
+            $r_corners
+            Dioscuri Gambit
+            Selection Distillation
+            $right
+            // stack: ..., [corners], [corners], raven, index, corners, index
+            Numerical Reflection: 4
+            Fisherman's Gambit
+            Surgeon's Exaltation
+            Surgeon's Exaltation
+            Huginn's Gambit
+            
+
+            Flock's Disintegration
+
             #git(/hex_casting/programs/mesh/set_cube_size.hexpattern)
         ]
         [// shift right click
