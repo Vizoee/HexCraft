@@ -10,6 +10,8 @@ Archer's Distillation
 // stack: from_pos, to_pos
 
 Subtractive Distillation
+{@vec(1, -1, 1)}>>
+Multiplicative Distillation
 Vector Disintegration
 Numerical Reflection: 3
 Flock's Gambit
