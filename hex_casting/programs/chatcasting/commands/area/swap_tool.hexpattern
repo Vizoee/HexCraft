@@ -14,17 +14,42 @@
 #def(left)(Numerical Reflection: 0)
 #def(right)(Numerical Reflection: 1)
 
-#def(r_mesh)(Numerical Reflection: 0)
-#def(r_corners)(Numerical Reflection: 1)
-#def(r_last)(Numerical Reflection: 2)
+#def(r_mesh_left)(Numerical Reflection: 0)
+#def(r_mesh_right)(Numerical Reflection: 1)
+#def(r_corners_left)(Numerical Reflection: 2)
+#def(r_corners_right)(Numerical Reflection: 3)
+#def(r_last)(Numerical Reflection: 4)
 
 #def(get_block_pos)(#git(/hex_casting/spells/get_block_pos.hexpattern))
+
+
+#def(refresh_mesh_left)(
+    Muninn's Reflection
+    $r_mesh_left
+    Selection Distillation
+    Muninn's Reflection
+    $r_corners_left
+    Selection Distillation
+    Flock's Disintegration
+    #git(/hex_casting/programs/mesh/set_cube_size.hexpattern)
+)
+
+#def(refresh_mesh_right)(
+    Muninn's Reflection
+    $r_mesh_left
+    Selection Distillation
+    Muninn's Reflection
+    $r_corners_left
+    Selection Distillation
+    Flock's Disintegration
+    #git(/hex_casting/programs/mesh/set_cube_size.hexpattern)
+)
 
 /*
 ravenmind:
     [mesh1, mesh2]
     [[pos1, pos2], [pos1, pos2]]
-    [false, false]
+    false
 */
 
 Mind's Reflection
@@ -42,14 +67,13 @@ Numerical Reflection: 1// rank
 Rotation Gambit
 
 {
+    {Bookkeeper's Gambit: -}
     {
-        Bookkeeper's Gambit: -
-        [
-            []
-            []
-        ]
-        [@false, @false]
+        []
+        []
+        @false
     }
+    Additive Distillation
     Tchotchke Reflection
     Augur's Purification
     {
@@ -80,23 +104,15 @@ Rotation Gambit
             {@str(right click)}>>
             Reveal
             Bookkeeper's Gambit: v
-            
-            Muninn's Reflection
-            $r_mesh
-            Selection Distillation
-            $right
-            Selection Distillation
 
             $get_block_pos
 
             Muninn's Reflection
-            $r_corners
-            Selection Distillation
-            $left
+            $r_corners_left
             Selection Distillation
             Gemini Decomposition
             Augur's Purification
-            // stack: mesh2, get_block_pos, mesh1_corners
+            // stack: get_block_pos, mesh1_corners
             { // if mesh1 is set
                 Prospector's Gambit
                 Jester's Gambit
@@ -105,13 +121,13 @@ Rotation Gambit
                 Rotation Gambit
                 #git(/hex_casting/spells/snapped_vec.hexpattern)
                 
-                // mesh2, get_block_pos, mesh1_corners, direction
+                // get_block_pos, mesh1_corners, direction
                 Jester's Gambit
                 Flock's Disintegration
                 Subtractive Distillation
                 #git(/hex_casting/programs/vector/abs.hexpattern)
                 #git(/hex_casting/programs/vector/mult.hexpattern)
-                // mesh2, get_block_pos, size
+                // get_block_pos, size
                 Prospector's Gambit
                 Additive Distillation
             }
@@ -124,24 +140,15 @@ Rotation Gambit
 
             Numerical Reflection: 2
             Flock's Gambit
-            Gemini Decomposition
             
+            // stack: ..., [corners], [corners]
             Muninn's Reflection
-            $r_corners
-            Dioscuri Gambit
-            Selection Distillation
-            $right
-            // stack: ..., [corners], [corners], raven, index, corners, index
-            Numerical Reflection: 4
-            Fisherman's Gambit
-            Surgeon's Exaltation
+            $r_corners_right
+            Rotation Gambit
             Surgeon's Exaltation
             Huginn's Gambit
             
-
-            Flock's Disintegration
-
-            #git(/hex_casting/programs/mesh/set_cube_size.hexpattern)
+            $refresh_mesh_right
         ]
         [// shift right click
             {@str(shift right click)}>>
@@ -157,22 +164,14 @@ Rotation Gambit
             $get_block_pos
 
             Muninn's Reflection
-            $r_corners
+            $r_corners_left
             Selection Distillation
-            $left
-            Selection Distillation
+            Gemini Decomposition
             Augur's Purification
+            // stack: get_block_pos, [corners]
             {
                 Muninn's Reflection
-                $r_corners
-                Selection Distillation
-                $left
-                Selection Distillation
-
-                Muninn's Reflection
                 $r_last
-                Selection Distillation
-                $left
                 Selection Distillation
                 Numerical Reflection: 0
                 Numerical Reflection: 1
@@ -182,6 +181,7 @@ Rotation Gambit
                 Surgeon's Exaltation
             }
             {
+                Bookkeeper's Gambit: v
                 Gemini Decomposition
                 Numerical Reflection: 2
                 Flock's Gambit
@@ -189,62 +189,51 @@ Rotation Gambit
             Augur's Exaltation
             Hermes' Gambit
 
-
-            Muninn's Reflection
-            $r_mesh
-            Selection Distillation
-            $left
-            Selection Distillation
-            Prospector's Gambit
-            Flock's Disintegration
-            
-            #git(/hex_casting/programs/mesh/set_cube_size.hexpattern)
-
             // stack: list
+            Gemini Decomposition
             Muninn's Reflection
-            $r_corners
-            Dioscuri Gambit
-            Selection Distillation
-            $left
-            Numerical Reflection: 4
-            Fisherman's Gambit
+            $r_corners_left
+            Rotation Gambit
             Surgeon's Exaltation
-            Surgeon's Exaltation
-            Huginn's Gambit
-
-
-            Muninn's Reflection
+            
             $r_last
-            Dioscuri Gambit
-            Selection Distillation
-            $left
             Dioscuri Gambit
             Selection Distillation
             Negation Purification
             Surgeon's Exaltation
-            Surgeon's Exaltation
             Huginn's Gambit
 
+            $refresh_mesh_left
+
             Muninn's Reflection
-            $r_corners
-            Selection Distillation
-            $right
+            $r_corners_right
+            Dioscuri Gambit
             Selection Distillation
             Gemini Decomposition
-            Reveal
             Augur's Purification
+            // stack: list, raven, index, corners_r
             {
+                Numerical Reflection: 3
+                Fisherman's Gambit
+                
                 Muninn's Reflection
-                $r_mesh
+                $r_last
                 Selection Distillation
-                $right
+                Numerical Reflection: 1
+                Numerical Reflection: 0
+                Augur's Exaltation
+                // stack: raven, index, corners_r, list, last_index
+                Undertaker's Gambit
                 Selection Distillation
-                Jester's Gambit
-                Flock's Disintegration
-                #git(/hex_casting/programs/mesh/set_cube_size.hexpattern)
+                Surgeon's Exaltation
+                Surgeon's Exaltation
+                Huginn's Gambit
+                
+
+                $refresh_mesh_right
             }
             {
-                Bookkeeper's Gambit: v
+                Bookkeeper's Gambit: vvv
             }
             Augur's Exaltation
             Hermes' Gambit
@@ -256,10 +245,12 @@ Rotation Gambit
             Bookkeeper's Gambit: v
 
             Muninn's Reflection
-            $r_mesh
+            Gemini Decomposition
+            $r_mesh_left
             Selection Distillation
-            Flock's Disintegration
             Dismiss Speck
+            $r_mesh_right
+            Selection Distillation
             Dismiss Speck
             
             Erase Item
