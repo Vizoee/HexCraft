@@ -31,7 +31,6 @@
     $r_corners_left
     Selection Distillation
     Flock's Disintegration
-    #git(/hex_casting/programs/mesh/set_cube_size.hexpattern)
 )
 
 #def(refresh_mesh_right)(
@@ -42,7 +41,6 @@
     $r_corners_left
     Selection Distillation
     Flock's Disintegration
-    #git(/hex_casting/programs/mesh/set_cube_size.hexpattern)
 )
 
 /*
@@ -149,6 +147,7 @@ Rotation Gambit
             Huginn's Gambit
             
             $refresh_mesh_right
+            #git(/hex_casting/programs/mesh/set_cube_size.hexpattern)
         ]
         [// shift right click
             {@str(shift right click)}>>
@@ -204,6 +203,7 @@ Rotation Gambit
             Huginn's Gambit
 
             $refresh_mesh_left
+            #git(/hex_casting/programs/mesh/set_cube_size.hexpattern)
 
             Muninn's Reflection
             $r_corners_right
@@ -231,6 +231,7 @@ Rotation Gambit
                 
 
                 $refresh_mesh_right
+                #git(/hex_casting/programs/mesh/set_cube_size.hexpattern)
             }
             {
                 Bookkeeper's Gambit: vvv
