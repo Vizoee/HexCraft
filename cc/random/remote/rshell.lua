@@ -1,4 +1,4 @@
-local t = peripheral.find("modem", rednet.open)
+peripheral.find("modem", rednet.open)
 local protocol = "protocol:viz_ni"
 
 local filterKeyTypes = {
