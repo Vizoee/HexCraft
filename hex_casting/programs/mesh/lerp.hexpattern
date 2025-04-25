@@ -1,0 +1,41 @@
+// stack: t, model1, model2
+{
+    //stack: t, model1, model2, index
+    Sekhmet's Gambit: 3
+    
+    Undertaker's Gambit
+    Selection Distillation
+    // stack: t, model1, index, vec2
+    
+    Rotation Gambit II
+    
+    Undertaker's Gambit
+    Selection Distillation
+    // stack: t, vec2, index, vec1
+    Bubbling Gambit
+    Jester's Gambit
+    Numerical Reflection: 3
+    Fisherman's Gambit
+    
+    #git(/hex_casting/lib/vector/lerp.hexpattern)
+
+    Jester's Gambit
+    // stack: vec3, index
+    Gemini Decomposition
+    Numerical Reflection: 0
+    Maximus Distillation
+    {
+        Castor's Gambit
+    }
+    {
+        Bookkeeper's Gambit: v
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+}
+Prospector's Gambit
+Length Purification
+Single's Purification
+
+Thoth's Gambit
+// stack: model3
