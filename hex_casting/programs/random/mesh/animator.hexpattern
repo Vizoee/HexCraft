@@ -19,21 +19,6 @@
     Enqueue
 
     {@num(0)}>>
-    Prospector's Gambit
-    Equality Distillation
-    {}
-    {
-        {
-            #git(/hex_casting/programs/random/mesh/key1.hexpattern)
-            #git(/hex_casting/programs/random/mesh/key2.hexpattern)
-            #git(/hex_casting/programs/random/mesh/key3.hexpattern)
-        }
-        Jester's Gambit
-        Selection Distillation
-        Reveal
-    }
-    Augur's Exaltation
-    Hermes' Gambit
 }
 Numerical Reflection: 1
 Prospector's Gambit
