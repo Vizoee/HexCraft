@@ -25,6 +25,7 @@
     // stack: t, index, vec2, vec1
     Numerical Reflection: 3
     Fisherman's Gambit
+    // stack: index, vec2, vec1, t
     
     #git(/hex_casting/lib/vector/lerp.hexpattern)
 
