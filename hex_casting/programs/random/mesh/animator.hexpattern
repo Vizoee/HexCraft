@@ -24,6 +24,7 @@
     Equality Distillation
     {}
     {
+        Reveal
         {
             #git(/hex_casting/programs/random/mesh/key1.hexpattern)
             #git(/hex_casting/programs/random/mesh/key2.hexpattern)
