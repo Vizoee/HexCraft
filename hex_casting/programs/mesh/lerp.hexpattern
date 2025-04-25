@@ -1,23 +1,28 @@
 // stack: t, model1, model2
-Flock's Reflection
-Flock's Gambit
-Reveal
-Flock's Disintegration
+// Flock's Reflection
+// Flock's Gambit
+// Reveal
+// Flock's Disintegration
 {
     //stack: t, model1, model2, index
     Sekhmet's Gambit: 4
     
     Undertaker's Gambit
+    //stack: t, model1, index, model2, index
     Selection Distillation
     // stack: t, model1, index, vec2
     
     Rotation Gambit II
+    // stack: t, vec2, model1, index
     
     Undertaker's Gambit
+    // stack: t, vec2, index, model1, index
     Selection Distillation
     // stack: t, vec2, index, vec1
     Bubbling Gambit
+    // stack: t, index, vec2, vec1
     Jester's Gambit
+    // stack: t, index, vec2, vec1
     Numerical Reflection: 3
     Fisherman's Gambit
     
@@ -39,6 +44,8 @@ Flock's Disintegration
 }
 Prospector's Gambit
 Length Purification
+Numerical Reflection: 1
+Subtractive Distillation
 Single's Purification
 
 Thoth's Gambit
