@@ -31,22 +31,19 @@
     {@num(-1)}>>
     Prospector's Gambit
     Equality Distillation
-    // {}
-    // {
-    //     {
-    //         #git(/hex_casting/programs/random/mesh/key1.hexpattern)
-    //         #git(/hex_casting/programs/random/mesh/key2.hexpattern)
-    //         #git(/hex_casting/programs/random/mesh/key3.hexpattern)
-    //     }
-    //     Jester's Gambit
-    //     Selection Distillation
-    //     Weave Mesh
-    // }
-    // Augur's Exaltation
-    // Hermes' Gambit
-    Flock's Reflection
-    Flock's Gambit
-    Reveal
+    {}
+    {
+        {
+            #git(/hex_casting/programs/random/mesh/key1.hexpattern)
+            #git(/hex_casting/programs/random/mesh/key2.hexpattern)
+            #git(/hex_casting/programs/random/mesh/key3.hexpattern)
+        }
+        Jester's Gambit
+        Selection Distillation
+        Weave Mesh
+    }
+    Augur's Exaltation
+    Hermes' Gambit
 }
 Numerical Reflection: 2
 Prospector's Gambit
