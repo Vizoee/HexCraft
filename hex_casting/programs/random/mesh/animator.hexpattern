@@ -1,6 +1,9 @@
 {
-    {Bookkeeper's Gambit: -}>>
-    Numerical Reflection: 1
+    {
+        Bookkeeper's Gambit: -
+        Bookkeeper's Gambit: -
+    }>>
+    Numerical Reflection: 2
     Prospector's Gambit
     Surgeon's Exaltation
 
@@ -20,7 +23,7 @@
     {@str(Animator)}>>
     Enqueue
 
-    {@num(0)}>>
+    {@num(-1)}>>
     Prospector's Gambit
     Equality Distillation
     {}
@@ -33,13 +36,19 @@
         }
         Jester's Gambit
         Selection Distillation
-        Reveal
+        Weave Mesh
     }
     Augur's Exaltation
     Hermes' Gambit
     
 }
-Numerical Reflection: 1
+Numerical Reflection: 2
 Prospector's Gambit
+Surgeon's Exaltation
+
+Numerical Reflection: 1
+Mind's Reflection
+Compass' Purification
+Conjure Mesh
 Surgeon's Exaltation
 Hermes' Gambit
