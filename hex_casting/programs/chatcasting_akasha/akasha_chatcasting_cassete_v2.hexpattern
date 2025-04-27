@@ -28,15 +28,30 @@
         Augur's Purification
         {
             #git(/hex_casting/hexicon/convert_string_to_hexicon.hexpattern)
+            Gemini Decomposition
             {#git(/hex_casting/programs/chatcasting/config/position.hexpattern)}>>
             Jester's Gambit
             Akasha's Distillation
             Gemini Decomposition
             Augur's Purification
             {
+                Bookkeeper's Gambit: v-
                 Hermes' Gambit
             }
-            {}
+            {
+                Bookkeeper's Gambit: v
+                {#git(/hex_casting/programs/chatcasting/config/position_personal.hexpattern)}>>
+                Jester's Gambit
+                Akasha's Distillation
+                Gemini Decomposition
+                Augur's Purification
+                {
+                    Hermes' Gambit
+                }
+                {}
+                Augur's Exaltation
+                Hermes' Gambit
+            }
             Augur's Exaltation
             Hermes' Gambit
         }
