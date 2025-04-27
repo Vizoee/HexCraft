@@ -17,13 +17,42 @@
 
 #def(dfs)(Numerical Reflection: 0)
 
+#def(is_dict)(
+    Prospector's Gambit
+    Gemini Decomposition
+    Classifier's Purification
+    Vacant Reflection
+    Classifier's Purification
+    Equality Distillation
+    {
+        Length Purification
+        Numerical Reflection: 2
+        Equality Distillation
+    }
+    {
+        Bookkeeper's Gambit: v
+        False Reflection
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+    
+    {}
+    {
+        Bookkeeper's Gambit: v-
+        {[][]}
+        Jester's Gambit
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+)
+
 Gemini Decomposition
 Length Purification
-Numerical Reflection: 2
+Numerical Reflection: 1
 Minimus Distillation
 {
     {
-        @str(Usage: config set <spell_config_name> <value>.)
+        @str(Usage: config set <spell_config_name>.)
     }
     Flock's Disintegration
     Reveal
@@ -62,32 +91,7 @@ Single's Purification
         Bookkeeper's Gambit: -v-
 
         // check if dictionary
-        Prospector's Gambit
-        Gemini Decomposition
-        Classifier's Purification
-        Vacant Reflection
-        Classifier's Purification
-        Equality Distillation
-        {
-            Length Purification
-            Numerical Reflection: 2
-            Equality Distillation
-        }
-        {
-            Bookkeeper's Gambit: v
-            False Reflection
-        }
-        Augur's Exaltation
-        Hermes' Gambit
-        
-        {}
-        {
-            Bookkeeper's Gambit: v-
-            {[][]}
-            Jester's Gambit
-        }
-        Augur's Exaltation
-        Hermes' Gambit
+        $is_dict
 
         // $stack_reveal
         $dict_read
@@ -109,20 +113,10 @@ Single's Purification
         $dict_over_write
     }
     {
-        //stack: dict, keyList-1, key/value
-        Bookkeeper's Gambit: vv-
-        Gemini Decomposition
-        Input Purification
-        Gemini Decomposition
-        Augur's Purification
-        {
-            Bookkeeper's Gambit: v-
-        }
-        {
-            Bookkeeper's Gambit: v
-        }
-        Augur's Exaltation
-        Hermes' Gambit
+        //stack: dict, [], key
+        Bookkeeper's Gambit: -v-
+        Scribe's Reflection
+        $dict_over_write
     }
     Augur's Exaltation
     Hermes' Gambit
@@ -137,3 +131,5 @@ Thoth's Gambit
 Flock's Disintegration
 
 Schrödinger's Gambit
+{@str(Command executed successfully.)}>>
+Reveal
