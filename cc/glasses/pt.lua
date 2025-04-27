@@ -30,7 +30,7 @@ local function resume(...)
     return param
 end
 
-local timers = {}
+
 
 local ok, param = pcall(function()
     local sFilter = resume()

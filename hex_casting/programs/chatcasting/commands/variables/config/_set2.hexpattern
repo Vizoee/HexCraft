@@ -1,0 +1,133 @@
+#def(print)(
+    {@str(<1>)}>>
+    Reveal
+    Bookkeeper's Gambit: v
+)
+
+#def(stack_reveal)(
+    Flock's Reflection
+    Flock's Gambit
+    Reveal
+    Flock's Disintegration
+)
+
+
+#def(dict_read)(#git(/hex_casting/programs/dictionary/dictionary_read.hexpattern))
+#def(dict_over_write)(#git(/hex_casting/programs/dictionary/dictionary_over_write.hexpattern))
+
+#def(dfs)(Numerical Reflection: 0)
+
+#def(is_dict)(
+    Prospector's Gambit
+    Gemini Decomposition
+    Classifier's Purification
+    Vacant Reflection
+    Classifier's Purification
+    Equality Distillation
+    {
+        Length Purification
+        Numerical Reflection: 2
+        Equality Distillation
+    }
+    {
+        Bookkeeper's Gambit: v
+        False Reflection
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+    
+    {}
+    {
+        Bookkeeper's Gambit: v-
+        {[][]}
+        Jester's Gambit
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+)
+
+Gemini Decomposition
+Length Purification
+Numerical Reflection: 2
+Minimus Distillation
+{
+    {
+        @str(Usage: config set <spell_config_name>.)
+    }
+    Flock's Disintegration
+    Reveal
+    Janus' Gambit
+}
+{}
+Augur's Exaltation
+Hermes' Gambit
+
+
+{#git(/hex_casting/programs/chatcasting/commands/variables/pattern.hexpattern)}>>
+Hermes' Gambit
+// stack: keys, prop
+Gemini Decomposition
+Observation Purification
+Rotation Gambit
+// stack: property, dict, keys
+
+Numerical Reflection: 2
+Flock's Gambit
+Single's Purification
+
+{
+    Sekhmet's Gambit: 1
+    Flock's Disintegration
+    // stack: dictionary, keyList
+    Speaker's Decomposition
+    Prospector's Gambit
+    Length Purification
+    Augur's Purification
+    //stack: dict, keyList-1, key
+    {
+        Numerical Reflection: 3
+        Dioscuri Gambit II
+        //stack: dict, keyList-1, key, dict, keyList-1, key
+        Bookkeeper's Gambit: -v-
+
+        // check if dictionary
+        $is_dict
+
+        // $stack_reveal
+        $dict_read
+
+        //stack: dict, keyList-1, key, dict-1
+        Rotation Gambit
+        Numerical Reflection: 2
+        Flock's Gambit
+        Single's Purification
+        
+        Muninn's Reflection
+        $dfs
+        Selection Distillation
+        Jester's Gambit
+        Thoth's Gambit
+
+        Flock's Disintegration
+        //stack: dict, key, dict-1
+        $dict_over_write
+    }
+    {
+        //stack: dict, [], key
+        Bookkeeper's Gambit: -v-
+        Scribe's Reflection
+        $dict_over_write
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+    // stack: dict/value
+}
+Gemini Decomposition
+Single's Purification
+Huginn's Gambit
+Jester's Gambit
+// stack: property, function, [[dict, keys]]
+Thoth's Gambit
+Flock's Disintegration
+
+Schrödinger's Gambit
