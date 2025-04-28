@@ -29,7 +29,6 @@ local function apply_patch(original_text, patch_text)
         table.insert(lines, line)
     end
 
-    local patched_lines = {}
     local patch_lines = {}
   
     -- Split the patch text into lines

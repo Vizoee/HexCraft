@@ -46,7 +46,7 @@ if not branch then
 end
 
 config.commit_sha = getLatestCommitSha(config.url, config.branch)
-
+config.token = ""
 
 local config_file = fs.open(".git/config", "w")
 config_file.write(textutils.serializeJSON(config))

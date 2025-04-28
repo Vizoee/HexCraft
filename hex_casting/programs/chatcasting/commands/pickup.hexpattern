@@ -1,0 +1,59 @@
+// [words]
+Spatial Reflection
+Homeland Reflection
+Equality Distillation
+{
+    Speaker's Decomposition
+    Gemini Decomposition
+    Augur's Purification
+    {
+        Input Purification
+    }
+    {
+        Bookkeeper's Gambit: -
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+
+    Augur's Purification
+    {
+        Bookkeeper's Gambit: -
+    }
+    {
+        Bookkeeper's Gambit: v
+        Numerical Reflection: 32
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+
+
+    @num(0) // gate mesh
+    Gemini Decomposition
+    Mind's Reflection
+    Compass' Purification II
+    Move Speck
+    @num(1) // gate mesh gate
+    {
+        Gate's Opening
+    }
+    Mind's Reflection
+    Compass' Purification
+    Numerical Reflection: 32
+    Zone Distillation: Item
+    Thoth's Gambit
+    Bookkeeper's Gambit: v
+    Gate's Closing
+    @num(2) // lib sentinel bed
+    Move Speck
+    {@str(Teleported items.)}>>
+    Reveal
+}
+{
+    {@str(Not supported dimension.)}>>
+    Reveal
+}
+Augur's Exaltation
+Hermes' Gambit
+
+
+
