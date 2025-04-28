@@ -1,2 +1,2 @@
 @hexicon(?!+-*/=><abcdefghijklmnopqrstuvwxyz_)
-@hexicon(/abcdefghijklmnopqrstuvwxyz_)
+//@hexicon(/abcdefghijklmnopqrstuvwxyz_)
