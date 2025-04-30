@@ -244,15 +244,9 @@ function create(nX, nY, nWidth, nHeight, bStartVisible)
         local cLine = cLines[n]
         for i = 1, #tLine[1] do
             _ = cLine and cLine[1] and cLine[1][i] and cLine[1][i].setText(string.sub(tLine[1], i, i))
-            _ = cLine and cLine[1] and cLine[1][i] and cLine[1][i].setColor(bit.blshift(cHex[string.sub(tLine[2], i, i)], 8) + 0xFF)
-            _ = cLine and cLine[1] and cLine[1][i] and cLine[2][i].setColor(bit.blshift(cHex[string.sub(tLine[3], i, i)], 8) + backgroundColorOpacity)
+            _ = cLine and cLine[1] and cLine[1][i] and cLine[1][i].setColor(bit.blshift(cHex[string.sub(tLine[2], i, i)], 8) + (bVisible and 0xFF or 0x00))
+            _ = cLine and cLine[1] and cLine[1][i] and cLine[2][i].setColor(bit.blshift(cHex[string.sub(tLine[3], i, i)], 8) + (bVisible and backgroundColorOpacity or 0x00))
         end
-
-
-        -- parent.setCursorPos(nX, nY + n - 1)
-        -- -- os.queueEvent("customMessage", "before: " .. tLine[1])
-        -- parent.blit(tLine[1], tLine[2], tLine[3])
-        -- -- os.queueEvent("customMessage", "after: " .. tLine[1])
     end
 
     local function redraw()
@@ -563,9 +557,7 @@ function create(nX, nY, nWidth, nHeight, bStartVisible)
         if type(visible) ~= "boolean" then expect(1, visible, "boolean") end
         if bVisible ~= visible then
             bVisible = visible
-            if bVisible then
-                window.redraw()
-            end
+            window.redraw()
         end
     end
 
@@ -582,8 +574,8 @@ function create(nX, nY, nWidth, nHeight, bStartVisible)
     --
     -- @see Window:setVisible
     function window.redraw()
+        redraw()
         if bVisible then
-            redraw()
             updatePalette()
             updateCursorBlink()
             updateCursorColor()
@@ -673,6 +665,10 @@ function create(nX, nY, nWidth, nHeight, bStartVisible)
     --         window.redraw()
     --     end
     -- end
+
+    function window.reposition()
+
+    end
 
     if bVisible then
         window.redraw()
