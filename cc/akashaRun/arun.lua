@@ -1,5 +1,6 @@
 local akashaRun = require"akashaRun"
 
+-- Position of keyboard
 local pos = {
     ["x"] = 375.5,
     ["y"] = 53.5,

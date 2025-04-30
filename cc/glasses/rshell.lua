@@ -1,4 +1,5 @@
 -- Script for keyboard pc handler
+local id = 32 -- Id of Neural Interface
 
 peripheral.find("modem", rednet.open)
 local protocol = "protocol:viz_ni"
@@ -20,7 +21,6 @@ end
 while true do
     local e = table.pack(os.pullEvent())
     if filter[e[1]] then
-        local id = 32--rednet.lookup(protocol, "viz ni")
         if id then
             print("Sending "..e[1].." "..e[2])
             

@@ -55,12 +55,4 @@ local function runAkashicCassette(pos, commandString, arguments)
 end
 
 
--- local pos = {
---     ["x"] = 375.5,
---     ["y"] = 53.5,
---     ["z"] = 2484.5
--- }
--- local commandString = arg[1]
--- local arguments = {table.unpack(arg, 2)}
--- runAkashicCassette(pos, commandString, arguments)
 return {runAkashicCassette = runAkashicCassette}

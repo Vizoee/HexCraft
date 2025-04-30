@@ -1,3 +1,6 @@
+local protocol = "protocol:viz_ni"
+local acceptedComputers = {241}
+
 
 local tArgs = { ... }
 if #tArgs < 1 then
@@ -15,7 +18,7 @@ end
 print("Running " .. sProgram)
 
 local te2 = require"glasses"
-local terminal = te2.create(325, 0, 40, 40)
+local terminal = te2.create(325, 0, 40, 40) -- Position and size of terminal
 local previousTerm = term.redirect(terminal)
 term.current().setVisible(false)
 
@@ -32,8 +35,6 @@ local function resume(...)
 end
 
 peripheral.find("modem", rednet.open)
-local protocol = "protocol:viz_ni"
-local acceptedComputers = {241}
 
 local idFilter = {}
 
