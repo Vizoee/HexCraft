@@ -1,5 +1,18 @@
 local git_config_file = ".git/config"
 
+local config
+
+local function getFilename(file)
+    return shell.dir().."/"..file
+end
+
+local function openFile(path, flag)
+    return fs.open(getFilename(path), flag)
+end
+
+local function getApiUrl()
+    return "https://api.github.com/repos/"..config.owner.."/"..config.repo
+end
 
 local function apply_patch(original_text, patch_text)
     -- Split the original text into lines
@@ -62,22 +75,22 @@ local function apply_patch(original_text, patch_text)
   
     -- Join the lines back into a single string
     return table.concat(lines, "\n")
-  end
+end
 
 local function patch_file(filename, patch)
-    local readFile = fs.open(filename, "r")
+    local readFile = openFile(filename, "r")
     local content = readFile.readAll()
     readFile.close()
     local updatedContent = apply_patch(content, patch)
-    local writeFile = fs.open(filename, "w")
+    local writeFile = openFile(filename, "w")
     writeFile.write(updatedContent)
     writeFile.close()
 end
 
-local function request(url, config)
+local function request(url)
     if config.token and config.token ~= "" then
         local header = {
-            ["Authorization"] = "token " .. config.token,
+            ["Authorization"] = "Bearer " .. config.token,
             ["User-Agent"] = "ComputerCraft"
         }
         return http.get(url, header)
@@ -87,44 +100,51 @@ local function request(url, config)
 end
 
 local function pull()
-    local file = fs.open(git_config_file, "r")
-    local config = textutils.unserializeJSON(file.readAll())
+    local file = openFile(git_config_file, "r")
+    config = textutils.unserializeJSON(file.readAll())
     file.close()
-    if config then
-        print("No config file.")
+    if not config then
+        printError("No config file.")
         return
     end
-    local url = config.url
-    local currentCommit = config.commit
+    local url = getApiUrl()
+    local currentCommit = config.commit_sha
     local branch = config.branch
 
     local request_url = url .. "/compare/" .. currentCommit .. "..." .. branch
-    local response = textutils.unserializeJSON(request(request_url, config).readAll())
-
-    for _, file in ipairs(response.files) do
-        local filename = "/tests/"..file.filename
-        if file.status == "added" then
-            local f = fs.open(filename, "w")
-            f.close()
-            patch_file(filename, file.patch)
-            goto continue
-        end
-        if file.status == "modified" then
-            patch_file(filename, file.patch)
-            goto continue
-        end
-        if file.status == "deleted" then
-            fs.delete(filename)
-            goto continue
-        end
-        ::continue::
+    local response = textutils.unserializeJSON(request(request_url).readAll())
+    
+    if #response.commits < 1 then
+        print("No new updates.")
+        return
     end
 
-    config.commit = response.commits[#response.commits].sha
+    for _, file in ipairs(response.files) do
+        local filename = file.filename
+        if file.status == "added" then
+            print("Creating  "..filename)
+            local f = openFile(filename, "w")
+            f.close()
+            patch_file(filename, file.patch)
+        elseif file.status == "modified" then
+            print("Updating  "..filename)
+            patch_file(filename, file.patch)
+        elseif file.status == "removed" then
+            print("Deleting  "..filename)
+            fs.delete(getFilename(filename))
+        end
+    end
+    
+    config.commit_sha = response.commits[#response.commits].sha
 
-    local file = fs.open(git_config_file, "w")
+    local file = openFile(git_config_file, "w")
     file.write(textutils.serializeJSON(config))
     file.close()
+    print("Updated files: "..#response.files)
 end
 
-return {pull=pull}
+if debug.getinfo(3) then
+    return {pull=pull}
+else
+    pull()
+end
