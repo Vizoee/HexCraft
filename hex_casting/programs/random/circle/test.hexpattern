@@ -21,6 +21,9 @@
     {@num(0.01)}>>
     Minimus Distillation
     {
+        {@str(1)}>>
+        Reveal
+        Bookkeeper's Gambit: v
         Bookkeeper's Gambit: v
         Gemini Decomposition
         Cosine Purification
@@ -30,6 +33,9 @@
         Vector Exaltation
     }
     {
+        {@str(2)}>>
+        Reveal
+        Bookkeeper's Gambit: v
         // normalize
         Gemini Decomposition
         Length Purification
