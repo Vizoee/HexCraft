@@ -1,0 +1,31 @@
+#def(cassette)(@str(Circle))
+#def(pos)(@vec(-991.5, 42.5, -136.5))
+#dev(rot)(@vec(0, 0, 1))
+
+
+
+
+{
+    Timekeeper's Reflection
+    Numerical Reflection: 10
+    Division Distillation
+    Gemini Decomposition
+    Cosine Purification
+    Jester's Gambit
+    Sine Purification
+    Numerical Reflection: 0
+    Vector Exaltation
+    $pos
+    Additive Distillation
+    {@num(0)}>>
+    Move Speck
+    
+    {$cassette}>>
+    Gemini Decomposition
+    Program Purification
+    Numerical Reflection: 1
+    Rotation Gambit
+    Enqueue
+}
+{$cassette}>>
+Enqueue

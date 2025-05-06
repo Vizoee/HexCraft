@@ -1,0 +1,64 @@
+
+  {
+    {
+      startDir = "NORTH_EAST",
+      [ "iota$serde" ] = "hextweaks:pattern",
+      angles = "waaw",
+    },
+    {
+      startDir = "EAST",
+      [ "iota$serde" ] = "hextweaks:pattern",
+      angles = "ddqaa",
+    },
+    {
+      startDir = "NORTH_EAST",
+      [ "iota$serde" ] = "hextweaks:pattern",
+      angles = "qqqqqe",
+    },
+    {
+      startDir = "EAST",
+      [ "iota$serde" ] = "hextweaks:pattern",
+      angles = "wawqwawaw",
+    },
+    {
+      startDir = "EAST",
+      [ "iota$serde" ] = "hextweaks:pattern",
+      angles = "ad",
+    },
+    {
+      startDir = "WEST",
+      [ "iota$serde" ] = "hextweaks:pattern",
+      angles = "qqq",
+    },
+    {
+      startDir = "EAST",
+      [ "iota$serde" ] = "hextweaks:pattern",
+      angles = "eee",
+    },
+    {
+      startDir = "WEST",
+      [ "iota$serde" ] = "hextweaks:pattern",
+      angles = "qqq",
+    },
+    {
+      startDir = "EAST",
+      [ "iota$serde" ] = "hextweaks:pattern",
+      angles = "a",
+    },
+    {
+      startDir = "EAST",
+      [ "iota$serde" ] = "hextweaks:pattern",
+      angles = "eee",
+    },
+    {
+      startDir = "SOUTH_EAST",
+      [ "iota$serde" ] = "hextweaks:pattern",
+      angles = "awdd",
+    },
+    {
+      startDir = "SOUTH_EAST",
+      [ "iota$serde" ] = "hextweaks:pattern",
+      angles = "deaqq",
+    },
+    [ "iota$serde" ] = "hextweaks:list",
+  }

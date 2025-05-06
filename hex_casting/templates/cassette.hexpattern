@@ -1,0 +1,12 @@
+#def(cassette)(@str(Circle))
+{
+    
+    {$cassette}>>
+    Gemini Decomposition
+    Program Purification
+    Numerical Reflection: 1
+    Rotation Gambit
+    Enqueue
+}
+{$cassette}>>
+Enqueue
