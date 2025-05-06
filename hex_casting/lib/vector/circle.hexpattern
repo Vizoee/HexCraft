@@ -1,0 +1,56 @@
+/// calculates vector in circle on 3d plane
+/// param num circle angle
+/// param vec normal for 3d plane
+
+Gemini Decomposition
+Length Purification
+Division Distillation
+Gemini Decomposition
+{@vec(0, 1, 0)}>>
+Multiplicative Distillation
+Inverse Cosine Purification
+Reveal
+{@num(0.01)}>>
+Minimus Distillation
+{
+    Bookkeeper's Gambit: v
+    Gemini Decomposition
+    Cosine Purification
+    Numerical Reflection: 0
+    Rotation Gambit
+    Sine Purification
+    Vector Exaltation
+}
+{
+    // ..., t, n
+    // calculate u
+    Gemini Decomposition
+    {@vec(0, 1, 0)}>>
+    Division Distillation
+    // normalize
+    Gemini Decomposition
+    Length Purification
+    Division Distillation
+    // ..., t, n, u
+
+    // calculate v
+    Undertaker's Gambit
+    Division Distillation
+    // ..., t, u, v
+
+    Rotation Gambit
+    Undertaker's Gambit
+    
+    // ..., u, t, v, t
+
+    Sine Purification
+    Multiplicative Distillation
+    Rotation Gambit II
+    
+    Cosine Purification
+    Multiplicative Distillation
+    
+    Additive Distillation
+}
+Augur's Exaltation
+Hermes' Gambit
