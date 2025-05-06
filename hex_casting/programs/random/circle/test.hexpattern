@@ -15,9 +15,14 @@
 
     // ..., t, n
     // todo: check if n==temp - if yes then you don't need to rotate vector
+    // normalize
+    Gemini Decomposition
+    Length Purification
+    Division Distillation
     Gemini Decomposition
     {@vec(0, 1, 0)}>>
     Multiplicative Distillation
+    Inverse Cosine Purification
     Reveal
     {@num(0.01)}>>
     Minimus Distillation
@@ -31,12 +36,7 @@
         Vector Exaltation
     }
     {
-        // normalize
-        Gemini Decomposition
-        Length Purification
-        Division Distillation
         // ..., t, n
-        
         // calculate u
         Gemini Decomposition
         {@vec(0, 1, 0)}>>
