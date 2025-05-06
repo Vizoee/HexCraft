@@ -1,24 +1,54 @@
 #def(cassette)(@str(Cir))
 #def(pos)(@vec(-991.5, 42.5, -136.5))
-#def(rot)(@vec(0, 0, 1))
+#def(rot)(@vec(1, 0, 1))
+#def(temp)(@vec(0, 1, 0))
 
 
 
-
+    
 {
     @num(0)
+    
+    {$rot}>>
+    // normalize
+    Gemini Decomposition
+    Length Purification
+    Division Distillation
+    // mesh, n
+    // todo: check if n==temp - if yes then you don't need to rotate vector
+    
+    // calculate u
+    Gemini Decomposition
+    {$temp}>>
+    Division Distillation
+    // normalize
+    Gemini Decomposition
+    Length Purification
+    Division Distillation
+    // mesh, n, u
+
+    // calculate v
+    Undertaker's Gambit
+    Division Distillation
+    // mesh, u, v
+
     Timekeeper's Reflection
     Numerical Reflection: 10
     Division Distillation
-    Gemini Decomposition
-    Cosine Purification
-    Jester's Gambit
+    Undertaker's Gambit
+    // mesh, u, t, v, t
+
     Sine Purification
-    Numerical Reflection: 0
-    Vector Exaltation
-    {$pos}>>
+    Multiplicative Distillation
+    Rotation Gambit II
+    
+    Cosine Purification
+    Multiplicative Distillation
+    
     Additive Distillation
+    
     Move Speck
+    
     
     {$cassette}>>
     Gemini Decomposition
