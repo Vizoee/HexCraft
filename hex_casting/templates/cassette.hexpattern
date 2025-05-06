@@ -1,4 +1,4 @@
-#def(cassette)(@str(Circle))
+#def(cassette)(@str(cassette))
 {
     
     {$cassette}>>

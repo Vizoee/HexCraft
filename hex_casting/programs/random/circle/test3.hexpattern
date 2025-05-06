@@ -1,0 +1,22 @@
+#def(cassette)(@str(cir))
+{
+    {
+        @num(0)
+        @vec(-991.5, 42.5, -136.5)
+        @vec(0, 0, 1)
+    }>>
+
+    Timekeeper's Reflection
+    Numerical Reflection: 40
+    Division Distillation
+
+    #git(/hex_casting/programs/random/circle/update.hexpattern)
+    {$cassette}>>
+    Gemini Decomposition
+    Program Purification
+    Numerical Reflection: 1
+    Rotation Gambit
+    Enqueue
+}
+{$cassette}>>
+Enqueue
