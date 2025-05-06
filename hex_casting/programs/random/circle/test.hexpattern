@@ -6,6 +6,7 @@
 
 
 {
+    @num(0)
     Timekeeper's Reflection
     Numerical Reflection: 10
     Division Distillation
@@ -17,7 +18,6 @@
     Vector Exaltation
     {$pos}>>
     Additive Distillation
-    @num(0)
     Move Speck
     
     {$cassette}>>
