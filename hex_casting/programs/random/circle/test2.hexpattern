@@ -5,7 +5,7 @@ Alidade's Purification
 Scout's Distillation
 {
     @num(1.57)
-    @vec(0, 0, 1)
+    @vec(0, 1, 0)
 }>>
 #git(/hex_casting/lib/vector/circle.hexpattern)
 
