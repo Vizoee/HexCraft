@@ -4,7 +4,7 @@ Mind's Reflection
 Alidade's Purification
 Scout's Distillation
 {
-    @num(0)
+    @num(0.785)
     @vec(0, 0, 1)
 }>>
 #git(/hex_casting/lib/vector/circle.hexpattern)
