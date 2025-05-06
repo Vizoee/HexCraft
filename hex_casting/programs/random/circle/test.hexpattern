@@ -3,49 +3,74 @@
 #def(rot)(@vec(1, 0, 1))
 #def(temp)(@vec(0, 1, 0))
 
-
-
     
 {
     @num(0)
-    
-    {$rot}>>
-    // normalize
-    Gemini Decomposition
-    Length Purification
-    Division Distillation
-    // mesh, n
-    // todo: check if n==temp - if yes then you don't need to rotate vector
-    
-    // calculate u
-    Gemini Decomposition
-    {$temp}>>
-    Division Distillation
-    // normalize
-    Gemini Decomposition
-    Length Purification
-    Division Distillation
-    // mesh, n, u
-
-    // calculate v
-    Undertaker's Gambit
-    Division Distillation
-    // mesh, u, v
 
     Timekeeper's Reflection
     Numerical Reflection: 10
     Division Distillation
-    Undertaker's Gambit
-    // mesh, u, t, v, t
+    
+    {$rot}>>
 
-    Sine Purification
+    // ..., t, n
+    // todo: check if n==temp - if yes then you don't need to rotate vector
+    Gemini Decomposition
+    {@vec(0, 1, 0)}>>
     Multiplicative Distillation
-    Rotation Gambit II
+    {@num(0.01)}>>
+    Minimus Distillation
+    {
+        Bookkeeper's Gambit: v
+        Gemini Decomposition
+        Cosine Purification
+        Numerical Reflection: 0
+        Rotation Gambit
+        Sine Purification
+        Vector Exaltation
+    }
+    {
+        // normalize
+        Gemini Decomposition
+        Length Purification
+        Division Distillation
+        // ..., t, n
+        
+        // calculate u
+        Gemini Decomposition
+        {@vec(0, 1, 0)}>>
+        Division Distillation
+        // normalize
+        Gemini Decomposition
+        Length Purification
+        Division Distillation
+        // ..., t, n, u
+
+        // calculate v
+        Undertaker's Gambit
+        Division Distillation
+        // ..., t, u, v
+
+        Rotation Gambit
+        Undertaker's Gambit
+        
+        // ..., u, t, v, t
+
+        Sine Purification
+        Multiplicative Distillation
+        Rotation Gambit II
+        
+        Cosine Purification
+        Multiplicative Distillation
+        
+        Additive Distillation
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+    // ..., vec
+
+
     
-    Cosine Purification
-    Multiplicative Distillation
-    
-    Additive Distillation
     {$pos}>>
     Additive Distillation
     
