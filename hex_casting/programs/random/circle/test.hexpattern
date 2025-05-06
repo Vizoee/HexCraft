@@ -1,6 +1,6 @@
 #def(cassette)(@str(Cir))
 #def(pos)(@vec(-991.5, 42.5, -136.5))
-#def(rot)(@vec(1, 0, 1))
+#def(rot)(@vec(0, 0, 1))
 #def(temp)(@vec(0, 1, 0))
 
     
