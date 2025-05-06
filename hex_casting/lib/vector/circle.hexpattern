@@ -1,8 +1,10 @@
 /// calculates vector in circle on 3d plane
-/// param num circle angle
+/// param num circle angle in 0 to 1 range
 /// param vec normal for 3d plane
 
 Jester's Gambit
+Circle's Reflection
+Multiplicative Distillation
 Arc's Reflection
 Numerical Reflection: 2
 Division Distillation
