@@ -4,19 +4,8 @@ Mind's Reflection
 Alidade's Purification
 Scout's Distillation
 {
-    @num(0.25)
+    @vec(-991.5, 42.5, -136.5)
     @vec(0, 0, 1)
+    @num(0.25)
 }>>
-Numerical Reflection: 3
-Dioscuri Gambit II
-Bookkeeper's Gambit: v-
-Rotate Speck
-Numerical Reflection: 3
-Dioscuri Gambit II
-Bookkeeper's Gambit: v
-Roll Speck
-#git(/hex_casting/lib/vector/circle.hexpattern)
-
-{@vec(-991.5, 42.5, -136.5)}>>
-Additive Distillation
-Move Speck
+#git(/hex_casting/programs/random/circle/update.hexpattern)
