@@ -4,7 +4,7 @@ Mind's Reflection
 Alidade's Purification
 Scout's Distillation
 {
-    @num(0.33)
+    @num(0.25)
     @vec(0, 0, 1)
 }>>
 Numerical Reflection: 3
