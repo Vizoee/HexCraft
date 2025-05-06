@@ -9,6 +9,8 @@
     Timekeeper's Reflection
     Numerical Reflection: 40
     Division Distillation
+    Numerical Reflection: 1
+    Modulus Distillation
 
     #git(/hex_casting/programs/random/circle/update.hexpattern)
     {$cassette}>>
