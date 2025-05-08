@@ -13,7 +13,7 @@ Rotation Gambit
     Dioscuri Gambit
     Minimus Distillation
     {
-        Bookkeeper's Gambit: vv
+        Sekhmet's Gambit: 0
     }
     {
         // stack: pos, rot, pattern_list, max, i
@@ -66,3 +66,10 @@ Numerical Reflection: 2
 Flock's Gambit
 Single's Purification
 Thoth's Gambit
+{
+    {
+        Dismiss Speck
+    }
+    Jester's Gambit
+    Thoth's Gambit
+}
