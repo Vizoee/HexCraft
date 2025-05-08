@@ -79,8 +79,8 @@ Bookkeeper's Gambit: v-
 Rotation Gambit II
 // stack: thot, pos, rot
 Undertaker's Gambit
-{@num(0.95)}>>
-Multiplicative Distillation
+// {@num(0.95)}>>
+// Multiplicative Distillation
 Subtractive Distillation
 Gemini Decomposition
 // stack: thot, rot, pos, pos
