@@ -84,13 +84,16 @@ Summon Item Display
 Jester's Gambit
 Entity Purification: BIT
 // stack: thot, rot, bit
+Undertaker's Gambit
 Numerical Reflection: 1
 Rotation Gambit
+{@vec(0, 1, 0)}>>
+Division Distillation
 Quaternionic Exal.
 Rotate BIT
 // stack: thot
-Sekhmet's Gambit: 1
 {
+    Kill BIT
     {
         Dismiss Speck
     }
