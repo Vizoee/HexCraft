@@ -79,8 +79,6 @@ Bookkeeper's Gambit: v-
 Rotation Gambit II
 // stack: thot, pos, rot
 Undertaker's Gambit
-// {@num(0.95)}>>
-// Multiplicative Distillation
 Subtractive Distillation
 Gemini Decomposition
 // stack: thot, rot, pos, pos
@@ -92,7 +90,7 @@ Gemini Decomposition
 {@vec(1.25, 1, 1.25)}>>
 Scale BIT
 Undertaker's Gambit
-Numerical Reflection: 1
+Numerical Reflection: 2
 Rotation Gambit
 {@vec(0, 1, 0)}>>
 Division Distillation
