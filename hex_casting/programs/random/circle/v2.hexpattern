@@ -1,0 +1,89 @@
+// stack: pattern_list
+Scribe's Reflection
+Mind's Reflection
+Compass' Purification
+{
+    @vec(1, 0, 0)
+}>>
+Rotation Gambit
+// stack: pos, rot, pattern_list
+{
+    // stack: ..., max, i
+    Flock's Disintegration
+    Dioscuri Gambit
+    Minimus Distillation
+    {
+        Sekhmet's Gambit: 0
+    }
+    {
+        // stack: pos, rot, pattern_list, max, i
+        Rotation Gambit
+        Prospector's Gambit
+        Selection Distillation
+        Rotation Gambit II
+        // stack: pos, rot, pattern, max, i
+        Numerical Reflection: -4
+        Fisherman's Gambit II
+        Jester's Gambit
+        // stack: i, pos, rot, pattern, i, max
+        Numerical Reflection: -5
+        Fisherman's Gambit II
+        Division Distillation
+        // stack: max, i, pos, rot, pattern, perc
+        Numerical Reflection: -3
+        Fisherman's Gambit
+        Rotation Gambit II
+        // stack: max, i, perc, pattern, pos, rot
+        Numerical Reflection: 3
+        Dioscuri Gambit II
+        // stack: max, i, perc, pattern, pos, rot, pattern, pos, rot
+        Conjure Speck
+        Bookkeeper's Gambit: v---
+        // stack: max, i, perc, pos, rot, s
+        Numerical Reflection: -5
+        Fisherman's Gambit II
+        Rotation Gambit II
+        // stack: s, max, i, perc, s, pos, rot
+        Numerical Reflection: 3
+        Fisherman's Gambit
+        // stack: s, max, i, s, pos, rot, perc
+        Numerical Reflection: 25
+        Numerical Reflection: 6
+        Fisherman's Gambit
+        Division Distillation
+        // stack: s, max, i, s, pos, rot, perc, size
+        Numerical Reflection: -4
+        Fisherman's Gambit
+        
+        // stack: ..., size, s, pos, rot, perc
+        #git(/hex_casting/programs/random/circle/updatev2.hexpattern)
+        
+        
+        Numerical Reflection: 1
+        Additive Distillation
+        Numerical Reflection: 2
+        Flock's Gambit
+        Castor's Gambit
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+}
+Prospector's Gambit
+Length Purification
+Numerical Reflection: 0
+Numerical Reflection: 2
+Flock's Gambit
+Single's Purification
+Thoth's Gambit
+Sekhmet's Gambit: 1
+{
+    {
+        Dismiss Speck
+    }
+    Jester's Gambit
+    Thoth's Gambit
+    Bookkeeper's Gambit: v
+}
+Thanatos' Reflection
+Reveal
+Bookkeeper's Gambit: v

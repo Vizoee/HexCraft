@@ -1,0 +1,29 @@
+// size, mesh, pos, rot, angle
+Rotation Gambit
+Numerical Reflection: -3
+Fisherman's Gambit
+
+Numerical Reflection: 3
+Dioscuri Gambit II
+Bookkeeper's Gambit: v-
+Roll Speck
+
+Numerical Reflection: 3
+Dioscuri Gambit II
+Bookkeeper's Gambit: v
+Rotate Speck
+// size, pos, mesh, rot, angle
+#git(/hex_casting/lib/vector/circle.hexpattern)
+// size, pos, mesh, offset
+
+Prospector's Gambit
+// size, pos, mesh, offset, mesh
+Numerical Reflection: 4
+Fisherman's Gambit
+Dioscuri Gambit
+Resize Speck
+Thicken Speck
+
+Bubbling Gambit
+Additive Distillation
+Move Speck
