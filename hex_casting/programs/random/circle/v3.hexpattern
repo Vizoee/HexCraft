@@ -2,8 +2,11 @@
 Scribe's Reflection
 Mind's Reflection
 Compass' Purification
-Mind's Reflection
-Alidade's Purification
+// Mind's Reflection
+// Alidade's Purification
+{
+    @vec(1, 0, 0)
+}>>
 Rotation Gambit
 // stack: pos, rot, pattern_list
 {
@@ -86,8 +89,11 @@ Gemini Decomposition
 Summon Item Display
 Entity Purification: BIT
 // stack: thot, rot, bit
+Gemini Decomposition
+{@vec(1.25, 1, 1.25)}>>
+Scale BIT
 Undertaker's Gambit
-{@num(1.25)}>>
+Numerical Reflection: 2
 Rotation Gambit
 {@vec(0, 1, 0)}>>
 Division Distillation
