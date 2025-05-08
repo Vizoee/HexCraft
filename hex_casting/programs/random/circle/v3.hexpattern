@@ -79,13 +79,16 @@ Bookkeeper's Gambit: v-
 Rotation Gambit II
 // stack: thot, pos, rot
 Undertaker's Gambit
-Additive Distillation
+Subtractive Distillation
 Gemini Decomposition
 // stack: thot, rot, pos, pos
 {@str(oneironaut:circle)}>>
 Summon Item Display
 Entity Purification: BIT
 // stack: thot, rot, bit
+Gemini Decomposition
+{@vec(2, 1, 2)}>>
+Scale BIT
 Undertaker's Gambit
 Numerical Reflection: 1
 Rotation Gambit
