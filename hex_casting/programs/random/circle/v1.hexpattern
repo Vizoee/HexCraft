@@ -3,7 +3,7 @@ Scribe's Reflection
 Mind's Reflection
 Compass' Purification
 {
-    @vec(0, 1, 0)
+    @vec(1, 0, 0)
 }>>
 Rotation Gambit
 // stack: pos, rot, pattern_list
