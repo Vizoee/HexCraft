@@ -20,6 +20,29 @@ Rotation Gambit
         Rotation Gambit
         Prospector's Gambit
         Selection Distillation
+        {{}}
+        Jester's Gambit
+        // stack: ..., list, pattern
+        Dioscuri Gambit
+        Locator's Distillation
+        Gemini Decomposition
+        Numerical Reflection: -1
+        Equality Distillation
+        // stack: ..., list, pattern, index
+        {
+            Bookkeeper's Gambit: v-v
+        }
+        {
+            Bookkeeper's Gambit: v-
+            Jester's Gambit
+            Retrograde Purification
+            Jester's Gambit
+            Selection Distillation
+        }
+        Augur's Exaltation
+        Hermes' Gambit
+
+
         Rotation Gambit II
         // stack: pos, rot, pattern, max, i
         Numerical Reflection: -4
