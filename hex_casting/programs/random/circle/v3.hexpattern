@@ -78,10 +78,12 @@ Thoth's Gambit
 Bookkeeper's Gambit: v-
 Rotation Gambit II
 // stack: thot, pos, rot
-Prospector's Gambit
+Undertaker's Gambit
+Additive Distillation
+Gemini Decomposition
+// stack: thot, rot, pos, pos
 {@str(oneironaut:circle)}>>
 Summon Item Display
-Jester's Gambit
 Entity Purification: BIT
 // stack: thot, rot, bit
 Undertaker's Gambit
