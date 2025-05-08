@@ -86,11 +86,8 @@ Gemini Decomposition
 Summon Item Display
 Entity Purification: BIT
 // stack: thot, rot, bit
-Gemini Decomposition
-{@vec(1.25, 1, 1.25)}>>
-Scale BIT
 Undertaker's Gambit
-Numerical Reflection: 2
+{@num(1.25)}>>
 Rotation Gambit
 {@vec(0, 1, 0)}>>
 Division Distillation
