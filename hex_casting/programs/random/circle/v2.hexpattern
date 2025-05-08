@@ -49,24 +49,24 @@ Rotation Gambit
         // stack: s, max, i, s, pos, rot, perc
         Numerical Reflection: 25
         Numerical Reflection: 6
-        Fisherman's Gambit
+        Fisherman's Gambit II
         Division Distillation
         // stack: s, max, i, s, pos, rot, perc, size
         Numerical Reflection: -4
         Fisherman's Gambit
 
-        Flock's Reflection
-        Flock's Gambit
-        Reveal
-        Flock's Disintegration
+        // Flock's Reflection
+        // Flock's Gambit
+        // Reveal
+        // Flock's Disintegration
         
         // stack: ..., size, s, pos, rot, perc
         #git(/hex_casting/programs/random/circle/updatev2.hexpattern)
 
-        Flock's Reflection
-        Flock's Gambit
-        Reveal
-        Flock's Disintegration
+        // Flock's Reflection
+        // Flock's Gambit
+        // Reveal
+        // Flock's Disintegration
         
         
         Numerical Reflection: 1
