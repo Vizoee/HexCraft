@@ -79,6 +79,8 @@ Bookkeeper's Gambit: v-
 Rotation Gambit II
 // stack: thot, pos, rot
 Undertaker's Gambit
+{@num(0.95)}>>
+Multiplicative Distillation
 Subtractive Distillation
 Gemini Decomposition
 // stack: thot, rot, pos, pos
@@ -87,7 +89,7 @@ Summon Item Display
 Entity Purification: BIT
 // stack: thot, rot, bit
 Gemini Decomposition
-{@vec(2, 1, 2)}>>
+{@vec(1.25, 1, 1.25)}>>
 Scale BIT
 Undertaker's Gambit
 Numerical Reflection: 1
