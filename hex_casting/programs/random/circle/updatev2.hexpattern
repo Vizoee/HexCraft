@@ -13,6 +13,7 @@ Dioscuri Gambit II
 Bookkeeper's Gambit: v
 Rotate Speck
 // size, pos, mesh, rot, angle
+Reveal
 #git(/hex_casting/lib/vector/circle.hexpattern)
 // size, pos, mesh, offset
 
