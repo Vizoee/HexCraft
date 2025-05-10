@@ -6,7 +6,7 @@ Archer's Distillation
 Librarian's Purification
 {
     @hexicon(from_hexicon)
-    @git(/hex_casting/programs/chatcasting/config/position.hexpattern)
+    @vec(375, 53, 2484)
 }>>
 Akasha's Distillation
 Hermes' Gambit
