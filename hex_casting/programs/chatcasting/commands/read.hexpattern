@@ -5,8 +5,8 @@ Alidade's Purification
 Archer's Distillation
 Librarian's Purification
 {
-    @hexicon(from_hexicon)
     @vec(375, 53, 2484)
+    @hexicon(from_hexicon)
 }>>
 Akasha's Distillation
 Hermes' Gambit
