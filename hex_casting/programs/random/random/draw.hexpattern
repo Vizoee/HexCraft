@@ -8,10 +8,10 @@
     Rotation Gambit
     Enqueue
 
+    Numerical Reflection: 0
     {
-        0
-        @vec(100, 100, 0)
         @vec(0, 0, 0)
+        @vec(100, 100, 0)
         @vec(1, 1, 1)
     }>>
     Draw Rectangle
