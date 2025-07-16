@@ -7,11 +7,11 @@
     Numerical Reflection: 1
     Rotation Gambit
     Enqueue
+
     Numerical Reflection: 0
     Periphery Reflection
     Numerical Reflection: 2
     {@vec(0, 0, 0)}>>
-    Gemini Decomposition
     {@vec(1, 1, 1)}>>
     Draw Rectangle
 }
