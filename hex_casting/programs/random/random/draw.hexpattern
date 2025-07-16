@@ -9,17 +9,44 @@
     Enqueue
 
     Numerical Reflection: 0
-    {
-        @vec(0, 0, 0)
-        @vec(100, 100, 0)
-        @vec(1, 1, 1)
-    }>>
-    Draw Rectangle
+    {@vec(3, 2, 1)}>>
 
+    {@vec(3, 2, 1)}>>
+        {@vec(0, 1, 0)}>>
+        Mind's Reflection
+        Alidade's Purification
+        Division Distillation
+    Undertaker's Gambit
+    Multiplicative Distillation
+    
+    {@vec(3, 2, 1)}>>
+    Mind's Reflection
+    Alidade's Purification
+    Rotation Gambit
+    Division Distillation
+    Multiplicative Distillation
+
+    {@vec(3, 2, 1)}>>
+    Mind's Reflection
+    Alidade's Purification
+    Multiplicative Distillation
+    
+    Numerical Reflection: 3
+    Gemini Gambit
+    // x, y, z, x, y, z
+    Bookkeeper's Gambit: v---v-
+    // y, z, x, z
+    Division Distillation
+    Rotation Gambit II
+    Division Distillation
+    // x, y
+    Numerical Reflection: 0
+    Vector Exaltation
     Numerical Reflection: 1
+    Multiplicative Distillation
+    Reveal
     {
-        @vec(-10, -10, 2)
-        @vec(100, 100, 0)
+        @vec(10, 10, 0)
         @vec(1, 0, 0)
     }>>
     Draw Rectangle
