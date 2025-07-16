@@ -11,24 +11,24 @@
     Numerical Reflection: 0
 
     {@vec(3, 2, 1)}>>
-        {@vec(0, 1, 0)}>>
-            Mind's Reflection
-            Alidade's Purification
-        Division Distillation
+        Mind's Reflection
+        Alidade's Purification
+            {@vec(0, 1, 0)}>>
+        Division Distillation// right
             Undertaker's Gambit
-        Multiplicative Distillation
-    
+        Multiplicative Distillation // x
+    // right, x
+            {@vec(3, 2, 1)}>>
+            Rotation Gambit
+                Mind's Reflection
+                Alidade's Purification
+            Division Distillation // up
+        Multiplicative Distillation // y
+    // x, y
             {@vec(3, 2, 1)}>>
                 Mind's Reflection
                 Alidade's Purification
-                Rotation Gambit
-            Division Distillation
-        Multiplicative Distillation
-
-            {@vec(3, 2, 1)}>>
-                Mind's Reflection
-                Alidade's Purification
-            Multiplicative Distillation
+            Multiplicative Distillation // z
     
     // Flock's Reflection
     // Flock's Gambit
