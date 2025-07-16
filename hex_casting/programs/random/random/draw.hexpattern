@@ -1,9 +1,6 @@
 Numerical Reflection: 0
-Periphery Reflection
-Numerical Reflection: 2
+{@vec(0, 0, 0)}>>
 Division Distillation
 Gemini Decomposition
-{
-    @vec(1, 1, 1)
-}>>
+{@vec(1, 1, 1)}>>
 Draw Rectangle
