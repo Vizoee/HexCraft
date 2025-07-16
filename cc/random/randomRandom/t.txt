@@ -1,0 +1,80 @@
+program in coroutine
+in while check if file changed
+if yes
+    terminate program and start new
+
+
+
+
+
+Base Class
+
+self override where:
+    during base creation/retrieval
+        more confusing
+    during base func retrieval
+    during any func retrieval - this
+
+    store during creation of base
+    use during getting a function
+
+base - gives access to overriden
+    --base(...) - calls current method from base                  ok
+    base.fun(...) - calls fun method from base                  ok?
+
+    using base overrides self
+    custom self custom fields:
+        __class - base class pointer
+        __self - original self
+        --__function - evaluated function name
+    
+    fields:
+        __class - base class pointer - duplicated but allows for easier access
+
+function to create new class - allows for future implementation of multi inheritance
+    flag to disable base - less overhead
+
+usefull additions:
+    a.copy(b) - copies b into a
+    way to create setters/getters
+
+
+
+
+
+V2
+
+Base Class:
+    
+    modified __index:
+        if function and used by same object:
+            return function with self wrapper
+        else return normally
+
+        option 2:
+        else return wrapper wrapper but with values from that object
+
+        also if object is already a wrapper then 
+            just update it, 
+            run function and 
+            return to original values
+
+    
+Self Wrapper:
+    __is_wrapper - (oprional?) is wrapper? :3
+    __self - original object
+    __class - original class
+    __function - current function
+
+    __index - get from __self
+    __newindex - set to __self
+
+
+    additional functions?:
+        setmetatable(metatable_obj)
+        setmetatablefor(obj)
+
+~~just limit chunk force loads and/or claims, and make it so you can buy more of them~~
+It will solve absolutely nothing and cause a bunch of problems, but hey, at least money would have some kind of real value and people would want to trade to get it.
+
+But yea, i do agree that money would make server less friendly.
