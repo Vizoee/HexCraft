@@ -30,10 +30,10 @@
                 Alidade's Purification
             Multiplicative Distillation // z
     
-    // Flock's Reflection
-    // Flock's Gambit
-    // Reveal
-    // Flock's Disintegration
+    Flock's Reflection
+    Flock's Gambit
+    Reveal
+    Flock's Disintegration
 
     Numerical Reflection: 3
     Dioscuri Gambit
@@ -48,7 +48,7 @@
     Vector Exaltation
     Numerical Reflection: 1
     Multiplicative Distillation
-    Reveal
+    // Reveal
     {
         @vec(10, 10, 0)
         @vec(1, 0, 0)
