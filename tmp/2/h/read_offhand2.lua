@@ -1,0 +1,7 @@
+local wand = peripheral.find("wand")
+wand.clearStack()
+wand.runPattern("EAST", "aqqqqq")
+local file = fs.open("/h/focus.ser", "w")
+file.write(textutils.serialise(wand.getStack()))
+file.close()
+wand.clearStack()

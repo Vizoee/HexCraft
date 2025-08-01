@@ -1,0 +1,1 @@
+shell.setAlias("hexget", "/programfiles/hexlator/hexget.lua") shell.setAlias("hexxyedit", "/programfiles/hexlator/hexxyedit.lua") shell.setAlias("github", "/programfiles/hexlator/github.lua")

@@ -1,0 +1,5 @@
+local wand = peripheral.find("wand")
+wand.clearStack()
+wand.runPattern("EAST", "aqqqqq")
+wand.runPattern()
+wand.clearStack()
