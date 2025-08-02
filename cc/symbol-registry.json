@@ -2590,13 +2590,14 @@
         "name": "env_evocation",
         "modid": "hexical",
         "modName": "Hexical",
-        "image": {
+        "_image": {
             "filename": "hexical_env_evocation.png",
             "height": 114,
             "width": 152
         },
         "direction": "NORTH_EAST",
-        "pattern": "waaqeaqa",
+        "pattern": "wwdeeeeeqeaqawwewewwaqawwewew",
+        "_pattern": "waaqeaqa",
         "args": " \u2192 boolean",
         "url": null,
         "description": "Pushes whether pure mental effort is being used to cast this pattern."
