@@ -9689,5 +9689,27 @@
         "args": null,
         "url": null,
         "description": null
+    },
+    "Particulate Reflection": {
+        "name": "get_particles",
+        "modid": "moreiotas",
+        "modName": "MoreIotas",
+        "image": null,
+        "direction": "NORTH_EAST",
+        "pattern": "eqqqqqaq",
+        "args": null,
+        "url": null,
+        "description": null
+    },
+    "Conjure Particle": {
+        "name": "create_particle",
+        "modid": "moreiotas",
+        "modName": "MoreIotas",
+        "image": null,
+        "direction": "NORTH_EAST",
+        "pattern": "wqaqwadad",
+        "args": null,
+        "url": null,
+        "description": null
     }
 }
