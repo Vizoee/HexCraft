@@ -1,0 +1,12 @@
+values:
+    current symbol
+    processing number
+
+for each symbol:
+    if number or .:
+        if last symbol's first value is number:
+            add it to last symbol
+        else
+            make new symbol
+    else:
+        make new symbol

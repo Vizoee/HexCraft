@@ -1,0 +1,89 @@
+{@str(.0123456789)}
+{
+    Flock's Disintegration
+    // stack: numbers_list | output_list, input_list
+    Gemini Decomposition
+    
+    Augur's Purification
+    {
+        Speaker's Decomposition
+        // stack: numbers_list | output_list, input_list-1, char
+        Numerical Reflection: 3
+        Fisherman's Gambit
+        // stack: output_list, input_list-1, char, numbers_list
+        Dioscuri Gambit
+        Jester's Gambit
+        // stack: output_list, input_list-1, char, numbers_list, numbers_list, char
+        Locator's Distillation
+        Numerical Reflection: -1
+        Equality Distillation
+        // stack: output_list, input_list-1, char, numbers_list
+        {
+            Bookkeeper's Gambit: v
+            Bubbling Gambit
+            Integration Distillation
+            Jester's Gambit
+        }
+        {
+            Numerical Reflection: 3
+            Fisherman's Gambit II
+            // stack: output_list, input_list-1, char, numbers_list, output_list
+            Speaker's Decomposition
+            Bookkeeper's Gambit: v-
+            // stack: output_list, input_list-1, char, numbers_list, output_char
+            Locator's Distillation
+            Numerical Reflection: -1
+            Equality Distillation
+            // stack: output_list, input_list-1, char
+            {
+                Bubbling Gambit
+                Integration Distillation
+                Jester's Gambit
+            }
+            {
+                Rotation Gambit
+                Speaker's Decomposition
+                // stack: input_list-1, char, output_list-1, output_char
+                Rotation Gambit
+                Additive Distillation
+                Integration Distillation
+                // stack: input_list-1, output_list
+                Jester's Gambit
+            }
+            Augur's Exaltation
+            Hermes' Gambit
+        }
+        Augur's Exaltation
+        Hermes' Gambit
+        
+        Numerical Reflection: 2
+        Flock's Gambit
+        Castor's Gambit
+        Sekhmet's Gambit: 0
+    }
+    {
+        Bookkeeper's Gambit: v-
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+}
+Rotation Gambit
+
+Blank Reflection
+Separation Distillation
+
+Numerical Reflection: 1
+Prospector's Gambit
+Length Purification
+Numerical Reflection: 2
+Subtractive Distillation
+Selection Exaltation
+
+Vacant Reflection
+Jester's Gambit
+Numerical Reflection: 2
+Flock's Gambit
+
+
+Single's Purification
+Thoth's Gambit
