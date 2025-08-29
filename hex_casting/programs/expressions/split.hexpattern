@@ -32,7 +32,7 @@ Flock's Disintegration
             Numerical Reflection: 3
             Fisherman's Gambit II
             // stack: output_list, input_list-1, char, numbers_list, output_list
-            Speaker's Decomposition
+            Derivation Decomposition
             Bookkeeper's Gambit: v-
             // stack: output_list, input_list-1, char, numbers_list, output_char
             $print
@@ -67,7 +67,8 @@ Flock's Disintegration
         Sekhmet's Gambit: 0
     }
     {
-        Bookkeeper's Gambit: v-
+        Bookkeeper's Gambit: v
+        Sekhmet's Gambit: 1
     }
     Augur's Exaltation
     $print
