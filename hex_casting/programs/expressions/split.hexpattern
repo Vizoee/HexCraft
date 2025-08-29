@@ -35,6 +35,9 @@ Flock's Disintegration
             Derivation Decomposition
             Bookkeeper's Gambit: v-
             // stack: output_list, input_list-1, char, numbers_list, output_char
+            Numerical Reflection: 0
+            Selection Distillation
+            // stack: output_list, input_list-1, char, numbers_list, output_char_first_char
             $print
             Locator's Distillation
             Numerical Reflection: -1
