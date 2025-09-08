@@ -26,6 +26,37 @@ Scout's Distillation
     Equality Distillation
     {// not shift
         Augur's Purification
+        {// right
+        // select block
+            Charmed Reflection
+            Augur's Purification
+            {}
+            {
+                {
+                    @null
+                    @num(0)
+                }
+                Charmed Gambit
+            }
+            Augur's Exaltation
+            Hermes' Gambit
+
+            Charmed Reflection
+            Numerical Reflection: 0
+
+            Mind's Reflection
+            Compass' Purification
+            Mind's Reflection
+            Alidade's Purification
+            Archer's Distillation
+            Detective's Purification
+
+            Reveal
+
+            Surgeon's Exaltation
+            
+            Charmed Gambit
+        }
         {// left
             // start vein mine
             Mind's Reflection
@@ -57,6 +88,8 @@ Scout's Distillation
             Equality Distillation
             {}
             {
+                Numerical Reflection: -1
+                Reveal
                 Janus' Gambit
             }
             Augur's Exaltation
@@ -229,48 +262,11 @@ Scout's Distillation
             $cassette_name
             Enqueue
         }
-        {// right
-        // select block
-            Charmed Reflection
-            Augur's Purification
-            {}
-            {
-                {
-                    @null
-                    @num(0)
-                }
-                Charmed Gambit
-            }
-            Augur's Exaltation
-            Hermes' Gambit
-
-            Charmed Reflection
-            Numerical Reflection: 0
-
-            Mind's Reflection
-            Compass' Purification
-            Mind's Reflection
-            Alidade's Purification
-            Archer's Distillation
-            Gemini Decomposition
-            Detective's Purification
-
-            Reveal
-
-            Surgeon's Exaltation
-            
-            Charmed Gambit
-        }
         Augur's Exaltation
         Hermes' Gambit
     }
     {// shift
         Augur's Purification
-        {// left
-            // terminate vein mine
-            $cassette_name
-            Dequeue
-        }
         {// right
             // select mode
             Charmed Reflection
@@ -302,6 +298,11 @@ Scout's Distillation
             Surgeon's Exaltation
             
             Charmed Gambit
+        }
+        {// left
+            // terminate vein mine
+            $cassette_name
+            Dequeue
         }
         Augur's Exaltation
         Hermes' Gambit
