@@ -1,0 +1,135 @@
+// quine:
+{
+    // {[quine, identifier, list]}
+    {
+        Bookkeeper's Gambit: -
+    }
+    Flock's Disintegration
+    Flock's Disintegration
+
+    // stack: quine, ident, list
+    Speaker's Decomposition
+    Bubbling Gambit
+    // stack: quine, list, ident, pos
+
+    Numerical Reflection: 2
+    Dioscuri Gambit II
+    Break Block
+
+    Numerical Reflection: 1
+    Zone Distillation: Item
+    Mind's Reflection
+    {
+        Jester's Gambit
+        @pattern(south_east,qwawqwaeqqq)
+        Sekhmet's Gambit: 0
+    }
+    Rotation Gambit
+    Thoth's Gambit
+
+    // stack: quine, list, ident, pos
+    {
+        Additive Distillation
+        Gemini Decomposition
+        Detective's Purification
+        // stack: quine, list, ident, pos, ident
+        Rotation Gambit
+        Equality Distillation
+        // stack: quine, list, pos
+        {
+            Sekhmet's Gambit: 1
+        }
+        {
+            Sekhmet's Gambit: 0
+        }
+        Augur's Exaltation
+        Hermes' Gambit
+    }
+    {
+        @vec(-1, -1, -1)
+        @vec(-1, -1,  0)
+        @vec(-1, -1,  1)
+        @vec( 0, -1, -1)
+        @vec( 0, -1,  0)
+        @vec( 0, -1,  1)
+        @vec( 1, -1, -1)
+        @vec( 1, -1,  0)
+        @vec( 1, -1,  1)
+        
+        @vec(-1,  0, -1)
+        @vec(-1,  0,  0)
+        @vec(-1,  0,  1)
+        @vec( 0,  0, -1)
+        // @vec( 0,  0,  0)
+        @vec( 0,  0,  1)
+        @vec( 1,  0, -1)
+        @vec( 1,  0,  0)
+        @vec( 1,  0,  1)
+
+        @vec(-1,  1, -1)
+        @vec(-1,  1,  0)
+        @vec(-1,  1,  1)
+        @vec( 0,  1, -1)
+        @vec( 0,  1,  0)
+        @vec( 0,  1,  1)
+        @vec( 1,  1, -1)
+        @vec( 1,  1,  0)
+        @vec( 1,  1,  1)
+    }
+    Thoth's Gambit
+    // stack: quine, list, ident, pos, new_list
+    Bookkeeper's Gambit: v-
+    Bubbling Gambit
+    // stack: quine, ident, list, new_list
+    Disjunction Distillation
+    // stack: quine, ident, list
+    Numerical Reflection: 2
+    Fisherman's Gambit II
+    Rotation Gambit II
+    Numerical Reflection: 3
+    Flock's Gambit
+    // stack: quine, [quine, ident, list]
+    Numerical Reflection: 1
+    Jester's Gambit
+    Surgeon's Exaltation
+
+    Numerical Reflection: 1
+    {@str(vein mine)}>>
+    @pattern(south_west,awaqeeeee) // to text
+    Enqueue
+}
+Numerical Reflection: 1
+Prospector's Gambit
+
+Mind's Reflection
+Compass' Purification
+Mind's Reflection
+Alidade's Purification
+Archer's Distillation
+
+Gemini Decomposition
+Detective's Purification
+Jester's Gambit
+Single's Purification
+
+Numerical Reflection: 3
+Flock's Gambit
+
+Surgeon's Exaltation
+
+Numerical Reflection: 1
+{@str(vein mine)}>>
+@pattern(south_west,awaqeeeee) // to text
+Enqueue
+
+
+// retreives list and quine
+// splat
+// quine in quine
+// jester
+// pops block
+// break and retreive
+// get list around
+// push to list
+// push list to quine
+// enqueue
