@@ -260,6 +260,7 @@ Scout's Distillation
 
             Numerical Reflection: 1
             $cassette_name
+            Reveal
             Enqueue
         }
         Augur's Exaltation
@@ -303,6 +304,8 @@ Scout's Distillation
             // terminate vein mine
             $cassette_name
             Dequeue
+            Numerical Reflection: 0
+            Reveal
         }
         Augur's Exaltation
         Hermes' Gambit
