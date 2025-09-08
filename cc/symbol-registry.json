@@ -9712,5 +9712,82 @@
         "args": null,
         "url": null,
         "description": null
+    },
+    "Reading Purification": {
+        "name": "to_text",
+        "modid": "moreiotas",
+        "modName": "MoreIotas",
+        "image": null,
+        "direction": "SOUTH_WEST",
+        "pattern": "awaqeeeee",
+        "args": null,
+        "url": null,
+        "description": null
+    },
+    "Hopper": {
+        "name": "hopper",
+        "modid": "moreiotas",
+        "modName": "MoreIotas",
+        "image": null,
+        "direction": "SOUTH_EAST",
+        "pattern": "qwawqwaeqqq",
+        "args": null,
+        "url": null,
+        "description": null
+    },
+    "Charm": {
+        "name": "charm",
+        "modid": "moreiotas",
+        "modName": "MoreIotas",
+        "image": null,
+        "direction": "SOUTH_EAST",
+        "pattern": "wwawdedwawdewwdwaqawdwwedwawdedwaww",
+        "args": null,
+        "url": null,
+        "description": null
+    },
+    "Charmed Gambit": {
+        "name": "charm/write",
+        "modid": "moreiotas",
+        "modName": "MoreIotas",
+        "image": null,
+        "direction": "NORTH_EAST",
+        "pattern": "waqqqqqedeqdqdqdqdqe",
+        "args": null,
+        "url": null,
+        "description": null
+    },
+    "Charmed Reflection": {
+        "name": "charm/read",
+        "modid": "moreiotas",
+        "modName": "MoreIotas",
+        "image": null,
+        "direction": "NORTH_EAST",
+        "pattern": "waqqqqqeaqeaeaeaeaeq",
+        "args": null,
+        "url": null,
+        "description": null
+    },
+    "Extract Block": {
+        "name": "break_block_fortune",
+        "modid": "moreiotas",
+        "modName": "MoreIotas",
+        "image": null,
+        "direction": "EAST",
+        "pattern": "qaqqqqqdeeeqeee",
+        "args": null,
+        "url": null,
+        "description": null
+    },
+    "Collect Block": {
+        "name": "break_block_silktouch",
+        "modid": "moreiotas",
+        "modName": "MoreIotas",
+        "image": null,
+        "direction": "EAST",
+        "pattern": "aqaeaqdeeweweedq",
+        "args": null,
+        "url": null,
+        "description": null
     }
 }
