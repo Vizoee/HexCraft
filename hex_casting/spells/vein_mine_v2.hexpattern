@@ -9,8 +9,6 @@ Mind's Reflection
 Alidade's Purification
 Scout's Distillation
 
-Numerical Reflection: 1
-
 // left click: start on block
 // right click: select block
 // shift left: terminate
@@ -22,288 +20,306 @@ Numerical Reflection: 1
 //      0 - default
 //      1 - fortune 3
 //      2 - silktouch
-
-{// not shift
-    Augur's Purification
-    {// left
-        // start vein mine
-        Mind's Reflection
-        Compass' Purification
-        Mind's Reflection
-        Alidade's Purification
-        Archer's Distillation
-        Gemini Decomposition
-        Detective's Purification
-
-        Charmed Reflection
+{
+    Stealthy Reflection
+    Numerical Reflection: -1
+    Equality Distillation
+    {// not shift
         Augur's Purification
-        {}
-        {
-            {
-                @null
-                @num(0)
-            }
-            Charmed Gambit
-        }
-        Augur's Exaltation
-        Hermes' Gambit
-
-        // stack: pos, ident
-        Gemini Decomposition
-        Charmed Reflection
-        Numerical Reflection: 0
-        Selection Distillation
-        Equality Distillation
-        {}
-        {
-            Janus' Gambit
-        }
-        Augur's Exaltation
-        Hermes' Gambit
-        
-        // stack: pos, ident
-
-        {
-            // {[quine, identifier, list]}
-            {
-                Bookkeeper's Gambit: -
-            }
-            Flock's Disintegration
-            Flock's Disintegration
-
-            // stack: quine, ident, list
-            Speaker's Decomposition
-            Bubbling Gambit
-            // stack: quine, list, ident, pos
-
-            Numerical Reflection: 3
-            Gemini Gambit
-            Bookkeeper's Gambit: -
-            Break Block
-
-            Numerical Reflection: 1
-            Zone Distillation: Item
+        {// left
+            // start vein mine
             Mind's Reflection
-            {
-                Jester's Gambit
-                Hopper
-                Sekhmet's Gambit: 0
-            }
-            Rotation Gambit
-            Thoth's Gambit
-            Bookkeeper's Gambit: vv
+            Compass' Purification
+            Mind's Reflection
+            Alidade's Purification
+            Archer's Distillation
+            Gemini Decomposition
+            Detective's Purification
 
-            // stack: quine, list, ident, pos
+            Charmed Reflection
+            Augur's Purification
+            {}
             {
-                Additive Distillation
-                Gemini Decomposition
-                Detective's Purification
-                // stack: quine, list, ident, pos, ident
-                Rotation Gambit
-                Equality Distillation
-                // stack: quine, list, pos
                 {
-                    Sekhmet's Gambit: 1
+                    @null
+                    @num(0)
                 }
+                Charmed Gambit
+            }
+            Augur's Exaltation
+            Hermes' Gambit
+
+            // stack: pos, ident
+            Gemini Decomposition
+            Charmed Reflection
+            Numerical Reflection: 0
+            Selection Distillation
+            Equality Distillation
+            {}
+            {
+                Janus' Gambit
+            }
+            Augur's Exaltation
+            Hermes' Gambit
+            
+            // stack: pos, ident
+
+            {
+                // {[quine, identifier, list]}
                 {
+                    Bookkeeper's Gambit: -
+                }
+                Flock's Disintegration
+                Flock's Disintegration
+
+                // stack: quine, ident, list
+                Speaker's Decomposition
+                Bubbling Gambit
+                // stack: quine, list, ident, pos
+
+                Numerical Reflection: 3
+                Gemini Gambit
+                Bookkeeper's Gambit: -
+                Break Block
+
+                Numerical Reflection: 1
+                Zone Distillation: Item
+                Mind's Reflection
+                {
+                    Jester's Gambit
+                    Hopper
                     Sekhmet's Gambit: 0
                 }
-                Augur's Exaltation
-                Hermes' Gambit
+                Rotation Gambit
+                Thoth's Gambit
+                Bookkeeper's Gambit: vv
+
+                // stack: quine, list, ident, pos
+                {
+                    Additive Distillation
+                    Gemini Decomposition
+                    Detective's Purification
+                    // stack: quine, list, ident, pos, ident
+                    Rotation Gambit
+                    Equality Distillation
+                    // stack: quine, list, pos
+                    {
+                        Sekhmet's Gambit: 1
+                    }
+                    {
+                        Sekhmet's Gambit: 0
+                    }
+                    Augur's Exaltation
+                    Hermes' Gambit
+                }
+                {
+                    @vec(-1, -1, -1)
+                    @vec(-1, -1,  0)
+                    @vec(-1, -1,  1)
+                    @vec( 0, -1, -1)
+                    @vec( 0, -1,  0)
+                    @vec( 0, -1,  1)
+                    @vec( 1, -1, -1)
+                    @vec( 1, -1,  0)
+                    @vec( 1, -1,  1)
+                    
+                    @vec(-1,  0, -1)
+                    @vec(-1,  0,  0)
+                    @vec(-1,  0,  1)
+                    @vec( 0,  0, -1)
+                    // @vec( 0,  0,  0)
+                    @vec( 0,  0,  1)
+                    @vec( 1,  0, -1)
+                    @vec( 1,  0,  0)
+                    @vec( 1,  0,  1)
+
+                    @vec(-1,  1, -1)
+                    @vec(-1,  1,  0)
+                    @vec(-1,  1,  1)
+                    @vec( 0,  1, -1)
+                    @vec( 0,  1,  0)
+                    @vec( 0,  1,  1)
+                    @vec( 1,  1, -1)
+                    @vec( 1,  1,  0)
+                    @vec( 1,  1,  1)
+                }
+                Thoth's Gambit
+                // stack: quine, list, ident, pos, new_list
+                Bookkeeper's Gambit: v-
+                Bubbling Gambit
+                // stack: quine, ident, list, new_list
+                Disjunction Distillation
+                // stack: quine, ident, list
+                Numerical Reflection: 2
+                Fisherman's Gambit II
+                Rotation Gambit II
+                Numerical Reflection: 3
+                Flock's Gambit
+                // stack: quine, [quine, ident, list]
+                Numerical Reflection: 1
+                Jester's Gambit
+                Surgeon's Exaltation
+
+                Numerical Reflection: 1
+                $cassette_name
+                Enqueue
+            }
+            // stack: pos, ident, quine
+
+            {
+                Tutu's Gambit
             }
             {
-                @vec(-1, -1, -1)
-                @vec(-1, -1,  0)
-                @vec(-1, -1,  1)
-                @vec( 0, -1, -1)
-                @vec( 0, -1,  0)
-                @vec( 0, -1,  1)
-                @vec( 1, -1, -1)
-                @vec( 1, -1,  0)
-                @vec( 1, -1,  1)
-                
-                @vec(-1,  0, -1)
-                @vec(-1,  0,  0)
-                @vec(-1,  0,  1)
-                @vec( 0,  0, -1)
-                // @vec( 0,  0,  0)
-                @vec( 0,  0,  1)
-                @vec( 1,  0, -1)
-                @vec( 1,  0,  0)
-                @vec( 1,  0,  1)
+                Gemini Decomposition
+                {Break Block}>>
+                Locator's Distillation
+                Undertaker's Gambit
+                // index, list, index
 
-                @vec(-1,  1, -1)
-                @vec(-1,  1,  0)
-                @vec(-1,  1,  1)
-                @vec( 0,  1, -1)
-                @vec( 0,  1,  0)
-                @vec( 0,  1,  1)
-                @vec( 1,  1, -1)
-                @vec( 1,  1,  0)
-                @vec( 1,  1,  1)
+                Numerical Reflection: 1
+                Subtractive Distillation
+                {
+                    Numerical Reflection: 2
+                }>>
+                Surgeon's Exaltation
+
+                Jester's Gambit
+                {
+                    Extract Block
+                }>>
+                Surgeon's Exaltation
             }
-            Thoth's Gambit
-            // stack: quine, list, ident, pos, new_list
-            Bookkeeper's Gambit: v-
-            Bubbling Gambit
-            // stack: quine, ident, list, new_list
-            Disjunction Distillation
-            // stack: quine, ident, list
-            Numerical Reflection: 2
-            Fisherman's Gambit II
-            Rotation Gambit II
+            {
+                Gemini Decomposition
+                {Break Block}>>
+                Locator's Distillation
+                // list, index
+
+                Jester's Gambit
+                {
+                    Collect Block
+                }>>
+                Surgeon's Exaltation
+            }
             Numerical Reflection: 3
             Flock's Gambit
-            // stack: quine, [quine, ident, list]
+
+            Charmed Reflection
+            Numerical Reflection: 1
+            Selection Distillation
+
+            Locator's Distillation
+            Hermes' Gambit
+            
+            // stack: pos, ident, quine
+            Numerical Reflection: -3
+            Fisherman's Gambit II
+            // stack: quine, pos, ident, quine
+            Reflecting Gambit
+            Single's Purification
+            Numerical Reflection: 3
+            Flock's Gambit
+            // stack: quine, [quine, ident, pos]
             Numerical Reflection: 1
             Jester's Gambit
+
             Surgeon's Exaltation
 
             Numerical Reflection: 1
             $cassette_name
             Enqueue
         }
-        // stack: pos, ident, quine
+        {// right
+        // select block
+            Charmed Reflection
+            Augur's Purification
+            {}
+            {
+                {
+                    @null
+                    @num(0)
+                }
+                Charmed Gambit
+            }
+            Augur's Exaltation
+            Hermes' Gambit
 
-        {
-            Tutu's Gambit
-        }
-        {
+            Charmed Reflection
+            Numerical Reflection: 0
+
+            Mind's Reflection
+            Compass' Purification
+            Mind's Reflection
+            Alidade's Purification
+            Archer's Distillation
             Gemini Decomposition
-            {Break Block}>>
-            Locator's Distillation
-            Undertaker's Gambit
-            // index, list, index
+            Detective's Purification
+
+            Reveal
+
+            Surgeon's Exaltation
+            
+            Charmed Gambit
+        }
+        Augur's Exaltation
+        Hermes' Gambit
+    }
+    {// shift
+        Augur's Purification
+        {// left
+            // terminate vein mine
+            $cassette_name
+            Dequeue
+        }
+        {// right
+            // select mode
+            Charmed Reflection
+            Augur's Purification
+            {}
+            {
+                {
+                    @null
+                    @num(0)
+                }
+                Charmed Gambit
+            }
+            Augur's Exaltation
+            Hermes' Gambit
+
+            Charmed Reflection
+            Numerical Reflection: 1
+            Dioscuri Gambit
+
+            Selection Distillation
 
             Numerical Reflection: 1
-            Subtractive Distillation
-            {
-                Numerical Reflection: 2
-            }>>
+            Additive Distillation
+            Numerical Reflection: 3
+            Modulus Distillation
+            
+            Reveal
+
             Surgeon's Exaltation
-
-            Jester's Gambit
-            {
-                Extract Block
-            }>>
-            Surgeon's Exaltation
-        }
-        {
-            Gemini Decomposition
-            {Break Block}>>
-            Locator's Distillation
-            // list, index
-
-            Jester's Gambit
-            {
-                Collect Block
-            }>>
-            Surgeon's Exaltation
-        }
-        Numerical Reflection: 3
-        Flock's Gambit
-        
-        Charmed Reflection
-        Numerical Reflection: 1
-        Selection Distillation
-
-        Locator's Distillation
-        Hermes' Gambit
-        
-        // stack: pos, ident, quine
-        Numerical Reflection: -3
-        Fisherman's Gambit II
-        // stack: quine, pos, ident, quine
-        Reflecting Gambit
-        Single's Purification
-        Numerical Reflection: 3
-        Flock's Gambit
-        // stack: quine, [quine, ident, pos]
-        Numerical Reflection: 1
-        Jester's Gambit
-
-        Surgeon's Exaltation
-
-        Numerical Reflection: 1
-        $cassette_name
-        Enqueue
-    }
-    {// right
-    // select block
-        Charmed Reflection
-        Augur's Purification
-        {}
-        {
-            {
-                @null
-                @num(0)
-            }
+            
             Charmed Gambit
         }
         Augur's Exaltation
         Hermes' Gambit
-
-        Charmed Reflection
-        Numerical Reflection: 0
-
-        Mind's Reflection
-        Compass' Purification
-        Mind's Reflection
-        Alidade's Purification
-        Archer's Distillation
-        Gemini Decomposition
-        Detective's Purification
-
-        Reveal
-
-        Surgeon's Exaltation
-        
-        Charmed Gambit
     }
     Augur's Exaltation
     Hermes' Gambit
+
 }
-{// shift
-    Augur's Purification
-    {// left
-        // terminate vein mine
-        $cassette_name
-        Dequeue
-    }
-    {// right
-        // select mode
-        Charmed Reflection
-        Augur's Purification
-        {}
-        {
-            {
-                @null
-                @num(0)
-            }
-            Charmed Gambit
-        }
-        Augur's Exaltation
-        Hermes' Gambit
 
-        Charmed Reflection
-        Numerical Reflection: 1
-        Dioscuri Gambit
+Numerical Reflection: 1
 
-        Selection Distillation
-
-        Numerical Reflection: 1
-        Additive Distillation
-        Numerical Reflection: 3
-        Modulus Distillation
-        
-        Reveal
-
-        Surgeon's Exaltation
-        
-        Charmed Gambit
-    }
-    Augur's Exaltation
-    Hermes' Gambit
+{
+    @num(0)
+    @num(1)
+}
+{
+    @num(0)
+    @num(1)
 }
 
 Charm
