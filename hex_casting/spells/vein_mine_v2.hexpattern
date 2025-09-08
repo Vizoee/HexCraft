@@ -165,41 +165,44 @@ Numerical Reflection: 1
         }
         // stack: pos, ident, quine
 
-        {// input: quine
-            []
-            [
-                Gemini Decomposition
-                {Break Block}>>
-                Locator's Distillation
-                Undertaker's Gambit
-                // index, list, index
-
-                Numerical Reflection: 1
-                Subtractive Distillation
-                {
-                    Numerical Reflection: 2
-                }>>
-                Surgeon's Exaltation
-
-                Jester's Gambit
-                {
-                    Extract Block
-                }>>
-                Surgeon's Exaltation
-            ]
-            [
-                Gemini Decomposition
-                {Break Block}>>
-                Locator's Distillation
-                // list, index
-
-                Jester's Gambit
-                {
-                    Collect Block
-                }>>
-                Surgeon's Exaltation
-            ]
+        {
+            Tutu's Gambit
         }
+        {
+            Gemini Decomposition
+            {Break Block}>>
+            Locator's Distillation
+            Undertaker's Gambit
+            // index, list, index
+
+            Numerical Reflection: 1
+            Subtractive Distillation
+            {
+                Numerical Reflection: 2
+            }>>
+            Surgeon's Exaltation
+
+            Jester's Gambit
+            {
+                Extract Block
+            }>>
+            Surgeon's Exaltation
+        }
+        {
+            Gemini Decomposition
+            {Break Block}>>
+            Locator's Distillation
+            // list, index
+
+            Jester's Gambit
+            {
+                Collect Block
+            }>>
+            Surgeon's Exaltation
+        }
+        Numerical Reflection: 3
+        Flock's Gambit
+        
         Charmed Reflection
         Numerical Reflection: 1
         Selection Distillation
