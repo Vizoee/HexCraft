@@ -275,14 +275,17 @@ storage:
             Selection Distillation
             // stack: pos, mat
             {
+                Additive Distillation
                 Break Block
                 Sekhmet's Gambit: 0
             }
             {
+                Additive Distillation
                 Annihilate Block
                 Sekhmet's Gambit: 0
             }
             {
+                Additive Distillation
                 Collect Block
                 Sekhmet's Gambit: 
             }
