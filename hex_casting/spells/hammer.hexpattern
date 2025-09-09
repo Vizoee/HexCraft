@@ -269,6 +269,7 @@ storage:
             $storage_area_id
             Selection Distillation
             Selection Distillation
+            
             // stack: pos, id_axis, list_mat
             Jester's Gambit
             Selection Distillation
@@ -290,6 +291,7 @@ storage:
 
             Charmed Reflection
             $storage_area_id
+            Selection Distillation
             Selection Distillation
             // stack: pos, mat
 
