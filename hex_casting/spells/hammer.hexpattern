@@ -1,6 +1,37 @@
 #def(cassette_name)(
-{@str(Vein Mine)}>>
-Reading Purification
+    {@str(Hammer)}>>
+    Reading Purification
+)
+
+#def(storage_mode_id)(Numerical Reflection: 1)
+#def(storage_mode_count)(Numerical Reflection: 3)
+#def(storage_mode_desc)({
+    @str(Mode: normal)
+    @str(Mode: void)
+    @str(Mode: silktouch)
+})
+
+#def(storage_area_id)(Numerical Reflection: 0)
+#def(storage_area_count)(Numerical Reflection: 3)
+#def(storage_area_desc)({
+    @str(Area: 1x1)
+    @str(Area: 3x3)
+    @str(Area: 5x5)
+})
+
+#def(init_storage)(
+    Charmed Reflection
+    Augur's Purification
+    {}
+    {
+        {
+            @num(0)
+            @num(0)
+        }
+        Charmed Gambit
+    }
+    Augur's Exaltation
+    Hermes' Gambit
 )
 
 Mind's Reflection
@@ -36,10 +67,41 @@ storage:
     {// not shift
         Augur's Purification
         {// right
+            // change size
+            $init_storage
 
+            Charmed Reflection
+            $storage_area_id
+            Dioscuri Gambit
+
+            Selection Distillation
+
+            Numerical Reflection: 1
+            Additive Distillation
+            $storage_area_count
+            Modulus Distillation
+            
+            $storage_area_desc
+            Prospector's Gambit
+            Selection Distillation
+            Reveal
+            Bookkeeper's Gambit: v
+
+            Surgeon's Exaltation
+            
+            Charmed Gambit
         }
         {// left
-
+            // mine
+            $init_storage
+            
+            Mind's Reflection
+            Compass' Purification
+            Mind's Reflection
+            Alidade's Purification
+            Dioscuri Gambit
+            
+            
         }
         Augur's Exaltation
         Hermes' Gambit
@@ -47,7 +109,29 @@ storage:
     {// shift
         Augur's Purification
         {// right
+            // change mode
+            $init_storage
 
+            Charmed Reflection
+            $storage_mode_id
+            Dioscuri Gambit
+
+            Selection Distillation
+
+            Numerical Reflection: 1
+            Additive Distillation
+            $storage_mode_count
+            Modulus Distillation
+            
+            $storage_mode_desc
+            Prospector's Gambit
+            Selection Distillation
+            Reveal
+            Bookkeeper's Gambit: v
+
+            Surgeon's Exaltation
+            
+            Charmed Gambit
         }
         {// left
 
