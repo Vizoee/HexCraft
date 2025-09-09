@@ -311,8 +311,19 @@ storage:
             }
             Augur's Exaltation
             Hermes' Gambit
+            // stack: pos, hex, list
 
-            Thoth's Gambit
+            Numerical Reflection: 3
+            Flock's Gambit
+            Bubbles' Purification
+            Single's Purification
+            {
+                Flock's Disintegration
+                Thoth's Gambit
+            }
+            Additive Distillation
+            Numerical Reflection: 1
+            Enqueue
         }
         Augur's Exaltation
         Hermes' Gambit
