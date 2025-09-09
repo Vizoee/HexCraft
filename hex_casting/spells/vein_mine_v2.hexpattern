@@ -244,7 +244,6 @@ Scout's Distillation
                 Locator's Distillation
                 // list, index
 
-                Jester's Gambit
                 {
                     Collect Block
                 }>>
@@ -338,7 +337,7 @@ Scout's Distillation
 
 }
 
-Numerical Reflection: 1
+Numerical Reflection: 64
 
 {
     @num(0)
