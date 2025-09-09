@@ -326,7 +326,29 @@ Scout's Distillation
             // terminate vein mine
             $cassette_name
             Dequeue
-            {@str(Manualy terminated vein miner)}>>
+
+            Charmed Reflection
+            Augur's Purification
+            {}
+            {
+                {
+                    @null
+                    @num(0)
+                }
+                Charmed Gambit
+            }
+            Augur's Exaltation
+            Hermes' Gambit
+
+            Charmed Reflection
+
+            Numerical Reflection: 0
+            Nullary Reflection
+            Surgeon's Exaltation
+
+            Charmed Gambit
+
+            {@str(Manualy terminated vein miner and cleared selected block.)}>>
             Reveal
         }
         Augur's Exaltation

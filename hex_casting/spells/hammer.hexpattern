@@ -1,0 +1,74 @@
+#def(cassette_name)(
+{@str(Vein Mine)}>>
+Reading Purification
+)
+
+Mind's Reflection
+Compass' Purification
+Mind's Reflection
+Alidade's Purification
+Scout's Distillation
+
+// left click: start on block
+// right click: select block
+// shift left: terminate
+// shift right: select mode
+
+// storage:
+//  mode:
+/*
+storage:
+    mine_area:
+        0 - 1x1
+        1 - 3x3
+        2 - 5x5
+    
+    mode:
+        0 - normal
+        1 - vacum
+        2 - annichilate
+*/
+//      
+{
+    Stealthy Reflection
+    Numerical Reflection: -1
+    Equality Distillation
+    {// not shift
+        Augur's Purification
+        {// right
+
+        }
+        {// left
+
+        }
+        Augur's Exaltation
+        Hermes' Gambit
+    }
+    {// shift
+        Augur's Purification
+        {// right
+
+        }
+        {// left
+
+        }
+        Augur's Exaltation
+        Hermes' Gambit
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+
+}
+
+Numerical Reflection: 64
+
+{
+    @num(0)
+    @num(1)
+}
+{
+    @num(0)
+    @num(1)
+}
+
+Charm
