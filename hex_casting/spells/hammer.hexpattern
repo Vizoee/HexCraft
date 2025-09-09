@@ -248,22 +248,23 @@ storage:
             Modulus Distillation
             // stack: pos, id_axis
             {
-                [
                     $mat_1_x
                     $mat_1_y
                     $mat_1_z
-                ]
-                [
+            }
+            {
                     $mat_3_x
                     $mat_3_y
                     $mat_3_z
-                ]
-                [
+            }
+            {
                     $mat_5_x
                     $mat_5_y
                     $mat_5_z
-                ]
             }
+            Numerical Reflection: 3
+            Flock's Gambit
+
             Charmed Reflection
             $storage_area_id
             Selection Distillation
@@ -273,19 +274,20 @@ storage:
             Selection Distillation
             // stack: pos, mat
             {
-                [
-                    Break Block
-                    Sekhmet's Gambit: 0
-                ]
-                [
-                    Annihilate Block
-                    Sekhmet's Gambit: 0
-                ]
-                [
-                    Collect Block
-                    Sekhmet's Gambit: 0
-                ]
+                Break Block
+                Sekhmet's Gambit: 0
             }
+            {
+                Annihilate Block
+                Sekhmet's Gambit: 0
+            }
+            {
+                Collect Block
+                Sekhmet's Gambit: 
+            }
+            Numerical Reflection: 3
+            Flock's Gambit
+
             Charmed Reflection
             $storage_area_id
             Selection Distillation
