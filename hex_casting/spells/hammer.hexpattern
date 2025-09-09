@@ -293,7 +293,7 @@ storage:
             Flock's Gambit
 
             Charmed Reflection
-            $storage_area_id
+            $storage_mode_id
             Selection Distillation
             Selection Distillation
             // stack: pos, mat
