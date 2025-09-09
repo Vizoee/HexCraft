@@ -140,7 +140,7 @@
      2,  0,  1,
      2,  0,  2
 >))
-#def(mat_3_z)(
+#def(mat_5_z)(
     @matrix(25, 3, <
     -2, -2,  0,
     -2, -1,  0,
@@ -246,7 +246,6 @@ storage:
             Locator's Distillation
             Numerical Reflection: 3
             Modulus Distillation
-            Reveal
             // stack: pos, id_axis
             {
                 $mat_1_x
