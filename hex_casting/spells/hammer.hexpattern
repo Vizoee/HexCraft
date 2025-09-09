@@ -269,7 +269,7 @@ storage:
             $storage_area_id
             Selection Distillation
             Selection Distillation
-            
+
             // stack: pos, id_axis, list_mat
             Jester's Gambit
             Selection Distillation
@@ -297,6 +297,18 @@ storage:
 
             Jester's Gambit
             Restoration Purification
+            {}
+            Modicum Purification
+            Prospector's Gambit
+            Modicum Purification
+            Equality Distillation
+            {}
+            {
+                Single's Purification
+            }
+            Augur's Exaltation
+            Hermes' Gambit
+
             Thoth's Gambit
         }
         Augur's Exaltation

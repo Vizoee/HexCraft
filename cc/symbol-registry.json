@@ -9800,5 +9800,16 @@
         "args": null,
         "url": null,
         "description": null
+    },
+    "Modicum Purification": {
+        "name": "type/iota",
+        "modid": "moreiotas",
+        "modName": "MoreIotas",
+        "image": null,
+        "direction": "WEST",
+        "pattern": "edqdeq",
+        "args": null,
+        "url": null,
+        "description": null
     }
 }
