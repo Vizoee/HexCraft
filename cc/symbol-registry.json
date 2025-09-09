@@ -9789,5 +9789,16 @@
         "args": null,
         "url": null,
         "description": null
+    },
+    "Annihilate Block": {
+        "name": "void_block",
+        "modid": "moreiotas",
+        "modName": "MoreIotas",
+        "image": null,
+        "direction": "NORTH_WEST",
+        "pattern": "dwaawaqdeewdd",
+        "args": null,
+        "url": null,
+        "description": null
     }
 }
