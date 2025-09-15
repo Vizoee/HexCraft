@@ -9866,5 +9866,126 @@
         "args": null,
         "url": null,
         "description": null
+    },
+    "Periphery Reflection": {
+        "name": "viewport_size",
+        "modid": "moreiotas",
+        "modName": "MoreIotas",
+        "image": null,
+        "direction": "NORTH_EAST",
+        "pattern": "aawawaa",
+        "args": null,
+        "url": null,
+        "description": null
+    },
+    "Icons Reflection": {
+        "name": "icons_list",
+        "modid": "moreiotas",
+        "modName": "MoreIotas",
+        "image": null,
+        "direction": "EAST",
+        "pattern": "dwdwd",
+        "args": null,
+        "url": null,
+        "description": null
+    },
+    "Clear Icon": {
+        "name": "clear_icon",
+        "modid": "moreiotas",
+        "modName": "MoreIotas",
+        "image": null,
+        "direction": "WEST",
+        "pattern": "awawa",
+        "args": null,
+        "url": null,
+        "description": null
+    },
+    "Draw Text": {
+        "name": "draw_text",
+        "modid": "moreiotas",
+        "modName": "MoreIotas",
+        "image": null,
+        "direction": "NORTH_EAST",
+        "pattern": "aaqdwdwd",
+        "args": null,
+        "url": null,
+        "description": null
+    },
+    "Rotate Icon": {
+        "name": "rotate_icon",
+        "modid": "moreiotas",
+        "modName": "MoreIotas",
+        "image": null,
+        "direction": "NORTH_EAST",
+        "pattern": "aaqdwdwdedd",
+        "args": null,
+        "url": null,
+        "description": null
+    },
+    "Scale Icon": {
+        "name": "rotate_icon",
+        "modid": "moreiotas",
+        "modName": "MoreIotas",
+        "image": null,
+        "direction": "NORTH_EAST",
+        "pattern": "aaqwdwwwdwwwdweede",
+        "args": null,
+        "url": null,
+        "description": null
+    },
+    "Draw Rectangle": {
+        "name": "draw_rect",
+        "modid": "moreiotas",
+        "modName": "MoreIotas",
+        "image": null,
+        "direction": "NORTH_EAST",
+        "pattern": "aaqdwdwdewaq",
+        "args": null,
+        "url": null,
+        "description": null
+    },
+    "Draw Line": {
+        "name": "draw_line",
+        "modid": "moreiotas",
+        "modName": "MoreIotas",
+        "image": null,
+        "direction": "NORTH_EAST",
+        "pattern": "aaqdwdwdeww",
+        "args": null,
+        "url": null,
+        "description": null
+    },
+    "Terminate Flight": {
+        "name": "stop_fly",
+        "modid": "moreiotas",
+        "modName": "MoreIotas",
+        "image": null,
+        "direction": "SOUTH_WEST",
+        "pattern": "awawaawe",
+        "args": null,
+        "url": null,
+        "description": null
+    },
+    "Aviator's Purification II": {
+        "name": "is_flying",
+        "modid": "moreiotas",
+        "modName": "MoreIotas",
+        "image": null,
+        "direction": "NORTH_EAST",
+        "pattern": "dwdwdewqded",
+        "args": null,
+        "url": null,
+        "description": null
+    },
+    "Aviator's Purification III": {
+        "name": "flying_border",
+        "modid": "moreiotas",
+        "modName": "MoreIotas",
+        "image": null,
+        "direction": "NORTH_EAST",
+        "pattern": "dwdwdewqdedd",
+        "args": null,
+        "url": null,
+        "description": null
     }
 }
