@@ -9735,6 +9735,17 @@
         "url": null,
         "description": null
     },
+    "Hopper Purification": {
+        "name": "hopper_list",
+        "modid": "moreiotas",
+        "modName": "MoreIotas",
+        "image": null,
+        "direction": "SOUTH_WEST",
+        "pattern": "qqqeawqwawq",
+        "args": null,
+        "url": null,
+        "description": null
+    },
     "Charm": {
         "name": "charm",
         "modid": "moreiotas",
@@ -9808,6 +9819,50 @@
         "image": null,
         "direction": "WEST",
         "pattern": "edqdeq",
+        "args": null,
+        "url": null,
+        "description": null
+    },
+    "Tachygrapher's Distilation": {
+        "name": "read_single",
+        "modid": "moreiotas",
+        "modName": "MoreIotas",
+        "image": null,
+        "direction": "WEST",
+        "pattern": "aqqqqqedwewewewdw",
+        "args": null,
+        "url": null,
+        "description": null
+    },
+    "Tachygrapher's Gambit": {
+        "name": "write_single",
+        "modid": "moreiotas",
+        "modName": "MoreIotas",
+        "image": null,
+        "direction": "WEST",
+        "pattern": "deeeeeqawqwaw",
+        "args": null,
+        "url": null,
+        "description": null
+    },
+    "Dispense": {
+        "name": "dispense",
+        "modid": "moreiotas",
+        "modName": "MoreIotas",
+        "image": null,
+        "direction": "SOUTH_WEST",
+        "pattern": "wqwawqwddaeeead",
+        "args": null,
+        "url": null,
+        "description": null
+    },
+    "Rotate Entity": {
+        "name": "rotate_entity",
+        "modid": "moreiotas",
+        "modName": "MoreIotas",
+        "image": null,
+        "direction": "EAST",
+        "pattern": "qqqdaqqqa",
         "args": null,
         "url": null,
         "description": null
