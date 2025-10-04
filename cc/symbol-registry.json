@@ -2595,9 +2595,8 @@
             "height": 114,
             "width": 152
         },
-        "direction": "NORTH_EAST",
+        "direction": "EAST",
         "pattern": "wwdeeeeeqeaqawwewewwaqawwewew",
-        "_pattern": "waaqeaqa",
         "args": " \u2192 boolean",
         "url": null,
         "description": "Pushes whether pure mental effort is being used to cast this pattern."
