@@ -9997,5 +9997,16 @@
         "args": null,
         "url": null,
         "description": null
+    },
+    "State Reflection": {
+        "name": "cassette_label",
+        "modid": "moreiotas",
+        "modName": "MoreIotas",
+        "image": null,
+        "direction": "EAST",
+        "pattern": "qeqwqwqwqwqeqaweqqqqqwweeweweew",
+        "args": null,
+        "url": null,
+        "description": null
     }
 }
